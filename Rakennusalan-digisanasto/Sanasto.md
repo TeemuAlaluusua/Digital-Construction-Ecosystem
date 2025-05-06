@@ -2,7 +2,7 @@
 
 Tämä sanasto on laadittu yhdenmukaistamaan yhteistä kieltä rakennusalan käyttötarkoituksia varten.
 
-***Päiväys:*** 2025-04-20
+***Päiväys:*** 2025-05-06
 
 ***Laatija:*** Teemu Alaluusua
 
