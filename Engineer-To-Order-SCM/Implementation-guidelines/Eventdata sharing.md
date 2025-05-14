@@ -1,5 +1,5 @@
 # 🇫🇮 Tapahtumatiedon jakaminen GS1 EPCIS toimitusketjuhallinta standardin mukaan 
-:articulated_lorry:
+:building_construction::articulated_lorry:
 Lähdeaineistot:
 1. [EPCIS Sandbox](https://epcis-sandbox.gs1.org/)
 2. [EPCIS Standard](https://ref.gs1.org/standards/epcis/)
