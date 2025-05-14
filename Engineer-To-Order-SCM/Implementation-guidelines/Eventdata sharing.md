@@ -6,3 +6,11 @@ Lähdeaineistot:
 3. [EPCIS and CBV Implementation Guideline](https://www.gs1.org/docs/epc/EPCIS_Guideline.pdf)
 4. [Core Business Vocabulary (CBV) Standard](https://ref.gs1.org/standards/cbv/)
 5. [Launch](https://www.gs1.org/docs/epcis/epcis_2-0_launch.pdf)
+
+
+CBV Statukset raksalle
+
+| Business step  | Disposition | moi            |
+| ------------- | ------------- | ----------    |
+| Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  |
