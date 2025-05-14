@@ -1,1 +1,1 @@
-
+#Tapahtumatiedon jakaminen GS1 EPCIS toimitusketjuhallinta standardinmukaan
