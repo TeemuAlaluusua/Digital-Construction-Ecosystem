@@ -1,6 +1,6 @@
 # Tapahtumatiedon jakaminen GS1 EPCIS toimitusketjuhallinta standardinmukaan
 
-`#000000`
+#000000
 
 Lähdeaineistot:
 1. [EPCIS Sandbox](https://epcis-sandbox.gs1.org/)
