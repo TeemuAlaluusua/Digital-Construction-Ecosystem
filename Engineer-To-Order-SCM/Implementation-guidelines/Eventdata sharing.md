@@ -10,54 +10,13 @@ Lähdeaineistot:
 
 CBV Statukset raksalle
 
-| Business step  |Käyttötarkoitus| Business step  | Disposition | moi            |
-| ------------- | ------------- | ----------    | ----------    | ----------    |
-| designing  | awaiting_information  | Content Cell  |
-| designing  | information_received  | Content Cell  |
+| Statustieto                 |Käyttötarkoitus| Business step  | Disposition | moi            |
+| --------------------------- | ------------- | ----------     | ----------  | ----------     |
+| Odottaa lähtötietoja  | awaiting_information  | Content Cell  |
+| Lähtötiedot vastaanotettu  | information_received  | Content Cell  |
+| Suunnittelu käynnissä | Content Cell  | Content Cell  |
 | designing  | Content Cell  | Content Cell  |
-| designing  | Content Cell  | Content Cell  |
-|               |               |               |                |                |
-|               |               |               |                |                |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
+| Odottaa lähtötietoja        |               | designing|                |                |
+| Lähtötiedot vastaanotettu   |               | designing|                |                |
+| Suunnittelu käynnissä       |               | designing|                |                |
+|             |               |               |                |                |
