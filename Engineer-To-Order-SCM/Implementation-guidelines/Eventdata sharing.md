@@ -16,7 +16,8 @@ CBV Statukset raksalle
 | designing  | information_received  | Content Cell  |
 | designing  | Content Cell  | Content Cell  |
 | designing  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
+|               |               |               |                |                |
+|               |               |               |                |                |
 | Content Cell  | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  | Content Cell  |
