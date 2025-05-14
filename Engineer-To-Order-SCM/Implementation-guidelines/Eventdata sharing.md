@@ -10,8 +10,8 @@ Lähdeaineistot:
 
 CBV Statukset raksalle
 
-| Business step  | Disposition | moi            |
-| ------------- | ------------- | ----------    |
+| Business step  |Käyttötarkoitus| Business step  | Disposition | moi            |
+| ------------- | ------------- | ----------    | ----------    | ----------    |
 | designing  | awaiting_information  | Content Cell  |
 | designing  | information_received  | Content Cell  |
 | designing  | Content Cell  | Content Cell  |
