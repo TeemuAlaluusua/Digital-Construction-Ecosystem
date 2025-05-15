@@ -20,3 +20,15 @@ CBV Statukset raksalle
 | Lähtötiedot vastaanotettu   |               | designing|                |                |
 | Suunnittelu käynnissä       |               | designing|                |                |
 |             |               |               |                |                |
+
+
+
+
+
+
+
+
+
+
+
+![20250515_Kuva1](https://github.com/user-attachments/assets/b700cd01-b8bd-4143-9abc-ecefd0af2573)
