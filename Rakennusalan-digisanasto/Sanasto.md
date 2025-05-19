@@ -231,52 +231,52 @@ GS1 standardijärjestelmä (engl. global standard one) perustuu tiedon (mm. asio
 
 [29]
 
-### CPID 
+#### CPID 
 Komponentti-/ osatunniste CPID (engl. Component/Part Identifier) on GTIN-koodia vastaava GS1:n tuoteyksilöintistandardi ostajalähtöisen yksilöinnin tarpeisiin rajoittumatta kuitenkaan GTIN-standardin tapaan tuotevalmistajien määrittämään tuoteyksilöintiin. CPID tunnistetta käytetään, kun valmistajat kokoavat eri yritysten valmistamia osia ja komponentteja lopputuotteiksi. CPID-tunnuksen käyttö on rajoitettu osapuolten keskinäisellä sopimuksella. Se ei ole avoin toimitusketjun standardi, koska tunnuksen todellinen rakenne riippuu valmistajien ja niiden toimittajien välisistä kauppasuhteista. 
 
 [30]
 
-### GDTI 
+#### GDTI 
 Dokumentin tunniste GDTI (engl. Global Document Type Identifier) on GS1:n yksilöinnin standardi, jota käytetään yksilöimään erilaisia dokumenttityyppejä, kuten laskuja tai kuljetusasiakirjoja. 
 
 [31]
 
-### GIAI 
+#### GIAI 
 Käyttöomaisuuden tunniste GIAI (engl. Global Individual Asset Identifier) on GS1:n yksilöinnin standardi, jota käytetään käyttöomaisuuden (esim. sähkömittareiden) yksilöintiin.
 
 [31]
 
-### GINC 
+#### GINC 
 Logistisen kuljetusvaiheen tunniste GINC (engl. Global Identification Number for Consignment) on GS1:n yksilöinnin standardi, jota käytetään (saman kuljetusasiakirjan alle kootun kuljetuksen tunnistamiseen) yksilöimään yhden tai useamman logistisen yksikön muodostaman lähetyksen, joka on tarkoitettu kuljetettavaksi yhdessä. 
 
 [31]
 
-### GLN 
+#### GLN 
 Sijainti- ja osapuolitunniste GLN (engl. Global Location Number) on GS1:n yksilöinnin standardi, jolla voidaan yksilöidä yritys, sen sisäisiä toimintoja tai toimipisteitä. Sähköisen kaupan sanomissa käytetään GLN:ää yksilöimään liiketapahtuman osapuolia esim. tilaamisen, toimittamisen, laskuttamisen ja sanomavälityksen tarpeisiin. GLN tunnuksen kautta varmistetaan, että verkkolaskut ja muut sähköiset asiakirjat saapuvat oikealle vastaanottajalle yritysverkoissa.
 
 [31]
 
-### GRAI 
+#### GRAI 
 Kiertävän kuormankantajan tunniste GRAI (engl. Global Returnable Asset Identifier) on GS1:n yksilöinnin standardi kiertävien kuormankantajien (palautettavat kuormalavat, laatikot, rullakot yms.) yksilöintiin.
 
 [31]
 
-### GSIN 
+#### GSIN 
 Logistisen toimituksen tunniste GSIN (engl. Global Shipment Identification Number) on GS1:n yksilöinnin standardi, jota käytetään tunnistamaan samaan toimitukseen kuuluvat logistiset yksiköt. Se tarkoittaa, että logististen yksiköiden muodostama toimitus dokumentoidaan samalle lähetysasiakirjalle ja/tai konossementille saman GSIN-yksilöintitunnuksen alle. GSIN-tunnisteen avulla on mahdollista seurata ja jäljittää logistiset yksiköt kuljetusketjussa rahdinlähettäjältä vastaanottajalle. Ketjun osapuolet voivat hyödyntää samaa GSIN-tunnistetta tiedonkulussa eri osapuolten välillä, kuten kuljetuksen ohjeistuksen tai tilanteen viestimisessä. Tunnistetta voidaan käyttää esimerkiksi EDI-sanomissa toimituksen viitenumerona. 
 
 [31]
 
-### GSRN
+#### GSRN
 Palvelusuhteen tunniste GSRN (engl. Global Service Relation Number) on GS1:n yksilöinnin standardi, jota käytetään antamaan palvelun asiakas-, liike- tai käyttäjäsuhteille yksilöllinen tunniste. Palvelusuhteen tunnisteen avulla voidaan tunnistaa sekä palvelun vastaanottaja sekä palvelun tarjoaja, ja usein nämä rekisteröidään samanaikaisesti, esimerkiksi kun tavarantoimittaja toimittaa asiakkaalle tuotteen. Palvelusuhteen osapuoli voi olla joko henkilö tai yritys. GSRN tunnus voidaan koodata viivakoodiin tai EPC/RFID-tunnisteeseen, esimerkiksi henkilökorttiin tai sähkömittariin.
 
 [31]
 
-### GMN 
+#### GMN 
 Tuotemallin tunniste GMN (engl. Global Model Number) on GS1:n yksilöinnin standardi, jonka käyttökohteena laskentaryhmän / tuotetyyppien / tuotteen mallin yksilöinti.
 
 [31]
 
-### GTIN 
+#### GTIN 
 Tuoteartikkelin yksilöintitunnus GTIN (engl. Global Trade Item Number) on GS1:n yksilöintitunnus, jolla voidaan yksilöidä myyntiartikkeleita (raaka-aineita, tuotteita tai pakkauksia) kauppanimiketasolla. Rakennusteollisuus käyttää GTIN-tunnusta yksilöllisten tuotteiden dokumentointiin ja tunnistamiseen sisäisissä ja ulkoisissa tietokannoissa.
 
 [31]
