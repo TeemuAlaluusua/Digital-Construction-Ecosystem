@@ -591,12 +591,13 @@ Tuotteen elinkaaren hallinta (engl. Product lifecycle management, PLM) on proses
 
 ### Pilvipalvelu 
 pilvipalvelu (engl. cloud Service) on yksi tai useampi toiminnallisuus, jota tarjotaan pilvilaskennan mukaisesti ja käytetään määritellyn rajapinnan kautta. Yksinkertaisesti sanottuna pilvipalvelut mahdollistavat tietojen tallentamisen ja käsittelemisen internetissä sijaitsevilla palvelimilla sen sijaan, että ne olisivat paikallisesti omassa tietokoneessa tai organisaatioiden omilla palvelimilla. Näitä palveluita voivat olla esimerkiksi tiedostojen tallennus, sähköposti, verkkosovellukset ja tietokantapalvelut. Pilvipalveluiden avulla käyttäjät voivat käyttää tietoja ja sovelluksia mistä tahansa, missä on internet-yhteys, mikä tekee niistä käteviä ja joustavia käyttää.
-[52]
+
+[ISO/IEC 22123-1:2023](https://www.iso.org/standard/82758.html)
 
 ### Pilvilaskenta 
 Pilvilaskenta (engl. cloud computing) on paradigma eli ajatusmalli, jossa mahdollistetaan verkkopohjainen pääsy skaalautuviin ja joustaviin fyysisiin tai virtuaalisiin jaettavissa oleviin resursseihin (palvelimet, käyttöjärjestelmät, verkot, ohjelmistot, sovellukset ja tallennusvälineet) ja jossa palvelun resurssien käyttöä kyetään hallitsemaan itse tarvepohjaisesti. 
 
-[52]
+[ISO/IEC 22123-1:2023](https://www.iso.org/standard/82758.html)
 
 ### PIR 
 Projektin informaatiovaatimukset PIR (engl. project Information requirements) tarkoittaa informaatiovaatimuksia suhteessa omaisuuskohteen toteuttamiseen. 
@@ -881,22 +882,22 @@ WIP-termi (engl. work in progress) kuvaa työn vaihetta tai tilaa, joka tarkoitt
 ### Yhteentoimivuus 
 Yhteentoimivuudella (engl. interoperability) tarkoitetaan kahden tai useamman järjestelmän tai sovelluksen kykyä vaihtaa tietoa ja käyttää vaihdettua tietoa yhdessä. Tietojärjestelmät ovat teknisesti ja tietosisällöllisesti yhteentoimivia muiden tietojärjestelmien kanssa silloin, kun ne pystyvät käyttämään samoja tietoja tai toimivat yhteen esim. rajapinnan kautta. 
 
-[52]
+[ISO/IEC 22123-1:2023](https://www.iso.org/standard/82758.html)
 
 #### Tiedonsiirron yhteentoimivuus
 Tiedonsiirron yhteentoimivuudella (engl. transport interoperability) tarkoitetaan yhteentoimivuutta, jossa osallisten järjestelmien välisessä tiedonsiirrossa käytetään sovittua viestintäinfrastruktuuria. 
 
-[52]
+[ISO/IEC 22123-1:2023](https://www.iso.org/standard/82758.html)
 
 #### Syntaktinen yhteentoimivuus 
 Syntaktisella yhteentoimivuudella (engl. syntactic interoperability) tarkoitetaan yhteentoimivuutta, jossa osalliset järjestelmät kykenevät ymmärtämään siirrettyjen tietojen muotoilut. 
 
-[52]
+[ISO/IEC 22123-1:2023](https://www.iso.org/standard/82758.html)
 
 #### Semanttinen yhteentoimivuus
 Semanttisella yhteentoimivuudella (engl. semantic data interoperability) tarkoitetaan yhteentoimivuutta, jossa osalliset järjestelmät ymmärtävät tietosisällön tarkoituksen aihealueen kontekstissa. 
 
-[52]
+[ISO/IEC 22123-1:2023](https://www.iso.org/standard/82758.html)
 
 ### Yhteentoimivuusalusta
 *Myös Y-alusta, kokoelma työkaluja yhteentoimivuuden ja tiedonhallinnan parantamiseen.*
