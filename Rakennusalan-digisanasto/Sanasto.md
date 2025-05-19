@@ -429,6 +429,13 @@ Koneluettavuus (engl. Machine readability) tarkoittaa, että tieto on rakenteist
 
 [6]
 
+### Koneluettava
+Tietosisällön esittäminen rakenteellisessa muodossa, esimerkiksi taulukoissa. Koneluettavuudella pyritään yksinkertaistamaan tulkinnanvaraisia asioita sekä yhtenäistämään tiedon muotoa. Tietojärjestelmissä konemuotoista tietoa voidaan yhdistellä olemassa olevaan tietosisältöön, jossa monisanaiset tai tulkinnanvaraiset tietokohteet on korvattu yksiselitteisillä merkinnöillä, koodeilla tai niihin verrattavilla ilmaisuilla. Koneluettavuus on tiedon rakenteellistamista taulukoihin tai muuten jaoteltuihin tiedostoihin, joista ohjelma on helpompi poimia samaan kohteeseen tai asiaan liittyvää tietoa. Oleellista konemuodossa on eri lähteistä tulevien tietojen yhdisteleminen ja yhtenäinen muoto.
+
+vrt. ihmisluettava
+
+[RYHTI, Sanasto](https://ryhti.syke.fi/ohjeet-ja-tuki/ryhti-sanasto/)
+
 ### Konenäkö 
 Konenäkö (engl. computer vision) tarkoittaa toiminnallisen yksikön kykyä hankkia, käsitellä ja tulkita dataa kuva- tai videomuodossa olevasta lähteestä Konenäkö sisältää sensoreiden käyttöä visuaalista tilannetta esittävän digitaalisen kuvan luomiseen. Konenäkö liittyy läheisesti kuvantunnistukseen, kuten digitaalisten kuvien käsittelyyn. Kuvamuodossa oleva data on yleensä peräisin digitaalisesta kamerasta, digitaalisesti skannatusta fyysisestä kuvasta tai jostain muusta kuvansyöttölaitteesta. Digitaaliset kuvat ovat olemassa numeromatriisina, joka edustaa kuvassa olevia harmaa-asteikon sävyjä tai värejä tai joissain tapauksissa vektorien kokoelmaa. Digitaaliset kuvat voivat sisältää metatietoa, joka kuvailee kuvaan liittyviä ominaispiirteitä ja attribuutteja. Digitaaliset kuvat voidaan pakata tallennustilan säästämiseksi ja niiden lähetysnopeuden parantamiseksi digitaalisissa verkoissa.
 
@@ -441,6 +448,11 @@ Tilaajan (usein työmaan) toimittajalle tekemä ilmoitus, jossa ennalta sovitust
 
 ### Kolli 
 Kollilla tarkoitetaan matka- tai rahtitavaran lähetyksen pienintä (tarkemmin määrittelemätöntä) kuljetusyksikköä. Jokainen kolli on varustettava niin sanotulla kolliosoitelapulla. Kolliosoitelapussa mainitaan muun muassa lähetyksen toimitusosoite, SSCC-koodi, kollin järjestysnumero ja paino sekä lähetyksen kokonaiskollimäärä ja kollien yhteispaino.
+
+### Koodisto
+Luettelo rakenteisen tiedon hallintaan laadituista merkintätavoista ja niiden selityksistä. Koodisto on tietomallipohjaisiin sovelluksiin tarkoitettu, tiedon tekninen esitystapa. Koodeilla esitetty tieto on samalla koneluettavaa (yksiselitteinen ja uniikki koodimerkintä) ja ihmisluettavaa (koodin selitys).
+
+[RYHTI, Sanasto](https://ryhti.syke.fi/ohjeet-ja-tuki/ryhti-sanasto/)
 
 ### Käänteinen logistiikka 
 Käänteisellä logistiikalla (engl. reverse logistics) tarkoitetaan tuotteiden liikkumista kulutuspisteistä kohti lähtöpisteitä. Käänteisen logistiikan viitataan usein kierrätykseen ja vastuulliseen jätehuoltoon. Sen voidaan kuitenkin katsoa liittyvän tuotantoprosessissa syntyneiden tuotteiden palauttamiseen (mm. asennusten ylijäämämateriaali sekä vialliset tai väärät tuotteet), uusiokäyttöön tai kierrättämiseen alkuperäisestä kulutuspisteestä takaisin tuotantoketjuun, sisältäen myös tuotteiden elinkaaren aikaiset huolto, korjaus ja kunnostustoimenpiteet sekä asianmukaisen hävittämisen.
@@ -490,6 +502,13 @@ Informaatiotarve (engl. Level of Information Need) tarkoittaa viitekehystä, jok
 
 [2] [45]
 
+### Loki-
+*Lokimerkintä, lokitiedosto, lokitus, engl. log, log file, digitaalinen merkintä tapahtumista ja tekijöistä.*
+
+Lokitus tarkoittaa digitaalisen jalanjäljen kirjaamista tiedostoon. Lokiin kirjataan ainakin ajankohta, käyttäjän tunniste ja mitä tietoa käyttö on koskenut. Loki voi tallentaa myös tiedon siitä, miten tietoa on käytetty (esim. lukeminen ja muutokset). Lokin kerääminen on osa järjestelmän tietoturvaa.
+
+[RYHTI, Sanasto](https://ryhti.syke.fi/ohjeet-ja-tuki/ryhti-sanasto/)
+
 ### Lokitieto 
 Lokitietoa (engl.log data) on tietojärjestelmän muistiin automaattisesti kirjautuva tapahtumatieto.
 
@@ -503,9 +522,12 @@ hankittua informaatiota.
 
 ## M
 ### Metatieto 
-Metatieto (engl. Metadata) on tietoa tiedosta. Metadata kuvaa aineiston kontekstia, sisältöä tai rakennetta sekä ohjaa ja dokumentoi sen käsittelyä ja hallintaa. 
+Metatieto (engl. Metadata) on digitaalisiin tiedostoihin tai kohteisiin liittyvä ominaisuustieto (tietoa tiedosta). Metadata kuvaa aineiston kontekstia, sisältöä tai rakennetta sekä ohjaa ja dokumentoi sen käsittelyä ja hallintaa. 
+
+Metatieto tunnetaan paremmin suomenkielisellä termillä ominaisuustieto. Metatietoa on kaikki digitaaliseen tiedostoon tai yksikköön (esim. karttakohde, rakennus) liitetty lisätieto. Myös sijaintitieto voi olla metatietoa, etenkin kun kohde on tallennettu järjestelmään, jossa sitä ei käsitellä paikkatietona. Yleisimmin metatietona on kohteen nimi, tunnus, päivämäärä.
 
 [47] [20]
+[RYHTI, Sanasto](https://ryhti.syke.fi/ohjeet-ja-tuki/ryhti-sanasto/)
 
 ### MRP 
 Materiaalitarvelaskenta MRP (engl. Manufacturing Resource Planning) on ohjelmistosovellus, joka ohjaa ja aikatauluttaa materiaalivirtoja tuotannon vaatimusten mukaisesti. 
@@ -594,6 +616,13 @@ Projektituotteilla tarkoitetaan yksittäistä projektia varten suunniteltuja ja 
 ### Relaatiotietokanta 
 Relaatiotietokanta (engl. relational database) on tietokantajärjestelmä, joka perustuu relaatiomalliin. Relaatiomalli kuvaa tietokannan tietorakenteen taulukoiden ja niiden välillä olevien suhteiden avulla. Jokainen tietokannan taulu sisältää rivejä, joista jokainen edustaa yhtä tietueetta, ja sarakkeita, jotka määrittävät tietueen ominaisuudet. Relaatiotietokannat käyttävät SQL-kieltä (engl. Structured Query Language) tietojen kyselyyn ja hallintaan. Yleisiä relaatiotietokantoja ovat esimerkiksi PostgreSQL, MySQL, Oracle Database ja Microsoft SQL Server.
 
+### Relaatiotietomalli
+*Tietomallimuoto, joka muodostuu tauluista, rivistä ja sarakkeista.*
+
+IBM:n kehittämä tietomallimuoto on nykyisin hyvin yleinen. Sen perusosia ovat tietokantataulut, jotka koostuvat riveistä ja sarakkeista. Jokaisessa taulussa on taulun sisäinen, uniikki pääavain (engl. primary key), joka erottaa taulun rivit toisistaan. Lisäksi taulussa on toiseen tauluun viittaava viiteavain (engl. foreign key). Taulujen sisältö voidaan linkittää toisiinsa viiteavaimilla. Nämä taulujen väliset suhteet ovat relaatiotietomallin keskeinen osa.
+
+[RYHTI, Sanasto](https://ryhti.syke.fi/ohjeet-ja-tuki/ryhti-sanasto/)
+
 ### REST Ohjelmistorajapinta 
 REST (engl. Representational state transfer application programming interface; REST API) on ohjelmointirajapintojen toteuttamiseen tarkoitettu arkkitehtuurimalli (tai tyyli), jota käytetään hajautettujen järjestelmien väliseen kommunikaatioon. REST-malli määrittelee sovellukset tietoa käsittelevien osien (komponentit), tietokohteiden (resurssit), sekä näiden yhteyksien kautta.
 
@@ -609,10 +638,22 @@ Strukturoitu data (engl. Structured data) tarkoittaa tietoa, joka on järjestett
 Strukturoimaton data (engl. Unstructured data) on aineiston laji, jossa kullakin tietoaineiston tapauksella voi olla oma sisäinen rakenteensa eli kunkin tapauksen rakenne ei välttämättä ole sama. Esimerkiksi tekstiaineistot ovat usein rakenteettomia ja kunkin tapauksen rakenteellisen esityksen eristäminen edellyttää toimintojen sarjan soveltamista. Rakennusalalla rakenteeton aineisto on paljon yleisempää kuin rakenteellinen. Esimerkiksi ihmisen tuottamat tiedot kuten sähköpostit, pdf tiedostot ja kuvat ovat rakenteetonta aineistoa koska aineiston osien rakenne muuntele voimakkaasti. Rakenteetonta aineistoa on vaikea analysoida raa'assa muodossa, mikä edellyttää ihmisen tulkitsemaan sekä välittämään tietoa toimitusketjussa.
 
 ## S
+### Sanasto
+*Tietyn aihealueen käsitteistä muodostettu kokonaisuus*
+Sanastot ovat luetteloita jossain kielessä tai ympäristössä sallituista sanoista tai termeistä luokitteluineen, määritelmineen, kuvauksineen ja esimerkkeineen. Sanastot laaditaan aihealueen ammattilaisten ja sanastotyön asiantuntijoiden yhteistyönä.
+
+[RYHTI, Sanasto](https://ryhti.syke.fi/ohjeet-ja-tuki/ryhti-sanasto/)
+
 ### Semanttinen yhteentoimivuus
 Semanttisella yhteentoimivuudella (engl. semantic interoperability) tarkoitetaan tiedon siirtämisen ja käsittelyn tapaa, jossa tiedon merkitys säilyy muuttumattomana ja ymmärrettävänä kaikille osapuolille. Semanttinen yhteentoimivuus mahdollistaa siis sen, että aineistot ovat koneellisesti löydettävissä ja luettavissa. 
 
 [Sanastot](https://sanastot.suomi.fi/)
+
+*Informaation sisältö ja merkitys säilyy muuttumattomana, kun tietoa siirretään eri organisaatioden välillä.*
+
+Semanttisella yhteentoimivuudella tarkoitetaan tilannetta, jossa tieto säilyy samanlaisena sen siirtyessä organisaatiosta toiseen ja että lähettäjä ja vastaanottaja ymmärtävät tiedon sisällön ja merkityksen samalla tavalla. Jotta tämä olisi mahdollista, tarvitaan yhteisesti sovittuja käytäntöjä, koodistoja ja termejä, joilla tietoa voidaan kuvata. Tavoitteena on, että termit ymmärretään ilman tarpeettomia muunnoksia, jotka voivat vahingoittaa tai vääristää tietosisältöä.
+
+[RYHTI, Sanasto](https://ryhti.syke.fi/ohjeet-ja-tuki/ryhti-sanasto/)
 
 ### Standardi 
 Standardi (engl. standard) on tekninen dokumentti, jota on tarkoitus käyttää sääntönä, ohjeena tai määritelmänä. Standardi laaditaan kaikille ymmärrettävässä muodossa ja se on mahdollista ottaa käyttöön dokumentin pohjalta. 
@@ -685,6 +726,13 @@ Tiedonhallinta (engl. data management) on kattotermi, joka sisältää datan hy�
 Tietoarkkitehtuurilla (engl. information architecture) tarkoitetaan keinoa järjestää ja merkitä datan hallintajärjestelmiin ja varastoihin tallennettua tietosisältöä ja dokumentteja haun, tietoturvan ja käytettävyyden helpottamiseksi. 
 
 [13]
+
+### Tietojärjestelmä
+*Yleiskäsite, joka sisältää digitaalisen aineiston käsittelyn toimenpiteet, laitteet ja ohjelmistot.*
+
+Tietojärjestelmä on laaja yleiskäsite, jolla tarkoitetaan digitaalisen aineiston käsittelyssä käytettäviä laitteita, menetelmiä ja ohjelmistoja. Tietojärjestelmä voi siis olla yksittäinen ohjelmiston ja laitteiston kokonaisuus. Sanaa käsitettä käytetään myös kuvaamaan kansallisia, monialaisia ja monien eri tahojen yhdessä käyttämiä kokonaisuuksia.
+
+[RYHTI, Sanasto](https://ryhti.syke.fi/ohjeet-ja-tuki/ryhti-sanasto/)
 
 ### Tietokanta 
 Tietokanta (engl. database) on koneellisesti luettavan tiedon kokoelma, joka sisältää sähköisesti tallennettuja kuvailevia tietueita tai sisältöyksiköitä, kuten tosiasioita, tekstejä, kuvia ja ääniä, ja joka on järjestetty siten, että sitä voidaan helposti käyttää, hallita ja päivittää yhteisen käyttöliittymän ja ohjelmiston avulla tietojen hakemista ja käsittelyä varten. 
@@ -781,6 +829,12 @@ URI (engl. Uniform Resource Identifier) on merkkijonosta muodostuva tunnus, joka
 
 [62] [20]
 
+*Uniform Resource Identifier, yhtenäinen resurssitunniste*
+
+URI on verkossa olevan sisällön yksilöllinen tunniste. URI:lle on määritetty muoto, joka toimii samalla tavalla kuin URL (Unified Resource Location). URI-muodossa määritellään sisällön muoto (esim. ”http:” verkkosivulle tai ”mailto:” sähköpostille) ja sisällön sijainti (esim. ”ym.fi” verkkosivulle tai ”ryhtimuutostuki@digifinland.fi” sähköpostille). URI-muodon tarkoituksena on ilmaista mistä ja missä muodossa haettu tieto löytyy. Tietomallin sisällöissä URI-muoto viittaa usein liitetiedostojen sijaintiin palvelimella.
+
+[RYHTI, Sanasto](https://ryhti.syke.fi/ohjeet-ja-tuki/ryhti-sanasto/)
+
 ## V
 ### Vakiointi 
 Vakioinnilla tarkoitetaan tiedonhallinnan ja toimintatapojen yhdenmukaistamista ja vakiinnuttamista.
@@ -829,20 +883,27 @@ Yhteentoimivuudella (engl. interoperability) tarkoitetaan kahden tai useamman j�
 
 [52]
 
-### Tiedonsiirron yhteentoimivuus
+#### Tiedonsiirron yhteentoimivuus
 Tiedonsiirron yhteentoimivuudella (engl. transport interoperability) tarkoitetaan yhteentoimivuutta, jossa osallisten järjestelmien välisessä tiedonsiirrossa käytetään sovittua viestintäinfrastruktuuria. 
 
 [52]
 
-### Syntaktinen yhteentoimivuus 
+#### Syntaktinen yhteentoimivuus 
 Syntaktisella yhteentoimivuudella (engl. syntactic interoperability) tarkoitetaan yhteentoimivuutta, jossa osalliset järjestelmät kykenevät ymmärtämään siirrettyjen tietojen muotoilut. 
 
 [52]
 
-### Semanttinen yhteentoimivuus
+#### Semanttinen yhteentoimivuus
 Semanttisella yhteentoimivuudella (engl. semantic data interoperability) tarkoitetaan yhteentoimivuutta, jossa osalliset järjestelmät ymmärtävät tietosisällön tarkoituksen aihealueen kontekstissa. 
 
 [52]
+
+### Yhteentoimivuusalusta
+*Myös Y-alusta, kokoelma työkaluja yhteentoimivuuden ja tiedonhallinnan parantamiseen.*
+
+Digi- ja väestötietoviraston (DVV) ylläpitämä yhteentoimivuusalusta on kokoelma työkaluja, joiden käyttö on vapaata ja avointa. Työkaluilla voidaan laatia sanastoja, koodistoja ja loogisia tietomalleja, joita voidaan jakaa eri toimijoiden kesken. Palvelu on tarkoitettu niin julkisille kuin yksityisille toimijoille. Palvelun tarkoitus on vähentää päällekäistä työtä, kun jo kertaalleen määriteltyjä kokonaisuuksia voi hyödyntää uusien projektikokonaisuuksien pohjalla.
+
+[RYHTI, Sanasto](https://ryhti.syke.fi/ohjeet-ja-tuki/ryhti-sanasto/)
 
 ### Ylläpitomalli 
 Ylläpitomalli (engl. Maintenance model) on rakenteen tai -järjestelmän tietomallin tietosisällön osajoukko (vaiheistus), joka kattaa ylläpidon näkökulman eli käytön ja ylläpidon aikaiset tehtävät, muutokset jne. 
@@ -884,3 +945,10 @@ Tässä esimerkissä ```<tuote>``` on pääelementti, joka sisältää alielemen
 elementti puolestaan sisältää alielementtejä ```<pituus>``` ja ```<halkaisija>```, jotka määrittelevät naulan mitat. 
 
 [35] [65] [20]
+
+### (0..)/(1..)/(0..n)/(0..1)
+*Kardinaliteetti eli kuinka monta kertaa tietoelementti voidaan tai pitää liittää toiseen tietoelementtiin.*
+
+Tietokannan perusteissa tietokokonaisuudet liittyvät toisiinsa eri tavoilla eli kardinaliteeteilla. Tässä numeroilla ilmaistaan miten moneen toiseen tietoelementtiin tarkasteltava tietoelementti voi liittyä. Numeroilla ilmaistuna yksi (1) tarkoittaa tasan yhtä vastaavaa kohdetta, (1..) tarkoittaa vähintään yhtä vastaavuutta. Numero nolla (0) tarkoittaa, että elementtiin ei ole pakko liittää toista, vastaavaa elementtiä. Jolloin (0..1) tarkoittaa yhtä tai ei yhtään ja (0..) tarkoittaa ei yhtään, yksi tai useampia. Tässä yhteydessä ”n” ja ”” merkinnät vastaavat toisiaan. Esimerkiksi kunta on yksi (1), toista kuntaa ei ole samoilla tiedoilla. Kunnalla voi olla monta kaava-aluetta tai rakennuslupaa ( tai n). Kaavakohteita () voi olla kaavassa (1) yksi tai useampi, jolloin merkintä on (1..). Kaavakohteeseen (1) voi kohdistua yksi tai useampi kaavamääräys (). Kaavasuosituksia voi olla yksi tai useampi () ja ne voivat kohdistua tai olla kohdistumatta kaavakohteeseen (0).
+
+[RYHTI, Sanasto](https://ryhti.syke.fi/ohjeet-ja-tuki/ryhti-sanasto/)
