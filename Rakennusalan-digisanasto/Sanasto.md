@@ -26,7 +26,9 @@ Omaisuuskohteen käyttövaiheeseen liittyvä informaatiomalli AIM (engl. Asset i
 käytetään päätöksenteossa rakennetun ympäristön kohteissa koko niiden elinkaaren aikana. Omaisuuskohteen informaatiomalli (AIM)
 voi sisältää esim, laiterekistereitä, kumulatiivisia kunnossapitokustannuksia, tallennettuja tietoja asennus- ja kunnossapitopäivämääristä,
 omaisuuden omistamisen yksityiskohtia ja muita yksityiskohtia, joiden toimeksiantaja katsoo olevan arvokkaita ja joita haluaa hallittavan
-järjestelmällisesti. [2]
+järjestelmällisesti.
+
+[ISO/IEC 19650:2018](https://www.iso.org/standard/68078.html)
 
 ### Alkuperäisformaatti 
 Mallinnusohjelman oma tallennusformaatti. Rakennusalan julkaisuissa käytetään tälle synonyyminä käsitteitä natiivimalli tai
