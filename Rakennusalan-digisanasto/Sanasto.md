@@ -679,7 +679,9 @@ Tietoarkkitehtuurilla (engl. information architecture) tarkoitetaan keinoa järj
 [13]
 
 ### Tietokanta 
-Tietokanta (engl. database) on koneellisesti luettavan tiedon kokoelma, joka sisältää sähköisesti tallennettuja kuvailevia tietueita tai sisältöyksiköitä, kuten tosiasioita, tekstejä, kuvia ja ääniä, ja joka on järjestetty siten, että sitä voidaan helposti käyttää, hallita ja päivittää yhteisen käyttöliittymän ja ohjelmiston avulla tietojen hakemista ja käsittelyä varten. [57]
+Tietokanta (engl. database) on koneellisesti luettavan tiedon kokoelma, joka sisältää sähköisesti tallennettuja kuvailevia tietueita tai sisältöyksiköitä, kuten tosiasioita, tekstejä, kuvia ja ääniä, ja joka on järjestetty siten, että sitä voidaan helposti käyttää, hallita ja päivittää yhteisen käyttöliittymän ja ohjelmiston avulla tietojen hakemista ja käsittelyä varten. 
+
+[57]
 
 ### Tunnistus- ja tiedonkeruutekniikat
 Tarkoittaa menetelmiä, joilla kohteet tunnistetaan automaattisesti, kerätään niitä koskevia tietoja ja syötetään nämä tiedot suoraan tietokonejärjestelmiin (eli ilman ihmisen osallistumista) - esimerkiksi viivakoodien, RFID:n jne. käyttö.
@@ -718,7 +720,9 @@ Tiedonlouhinta (engl. Data mining) on laskennallinen tiedonhakuprosessi, jossa t
 Tietoturvalla (engl. information security) tarkoitetaan fyysistä ja digitaalista tiedon suojaamista. Fyysinen suojaaminen voi pitää sisällään toimenpiteitä, jotka suojaavat tietokoneita varastavalta murtovarkaalta. Digitaalinen suojaaminen eli kyberturvallisuus (engl. cyber security) tarkoittaa suojautumista verkon kautta tulevilta hyökkäyksiltä ja tietomurroilta. Tietoturvalla on kolme päätavoitetta: Tiedon luottamuksellisuuden, eheyden ja saatavuuden varmistaminen.
 1 Luottamuksellisuus (engl. confidentially) tarkoittaa, ettei tieto saa vuotaa ulkopuolisille.
 2 Eheys (engl. integrity) tarkoittaa, että järjestelmät ovat luotettavia ja että tieto säilyy muuttumattomana ja on ajantasaisesti varmuuskopioitu.
-3 Saatavuus (engl. availability) tarkoittaa pääsyä tietoon silloin, kun sitä tarvitaan. [59]
+3 Saatavuus (engl. availability) tarkoittaa pääsyä tietoon silloin, kun sitä tarvitaan.
+
+[59]
 
 ### Tapahtumatieto 
 Tapahtumatiedot (engl. event data) ovat eräänlaisia tietoja, joita kerätään ja tallennetaan erilaisilla seurantatyökaluilla tai -menetelmillä,
@@ -747,8 +751,7 @@ Valmistavassa teollisuudessa, sekä erityisesti rakennusteollisuudessa tuotteide
 [9] [53]
 
 ### Transaktiodata 
-Transaktiodata (engl. Transactional Data) syntyy yritystoiminnassa ja sisältää liiketapahtumakohtaisia tietoja. Transaktiodataa on
-esimerkiksi ostoista ja tilauksista saatava data. 
+Transaktiodata (engl. Transactional Data) syntyy yritystoiminnassa ja sisältää liiketapahtumakohtaisia tietoja. Transaktiodataa on esimerkiksi ostoista ja tilauksista saatava data. 
 
 [Sanastot](https://sanastot.suomi.fi/)
 
@@ -764,23 +767,28 @@ UDA:lla (engl. User Defined Attribute) tarkoitetaan suunnitteluohjelmistoissa ma
 [3]
 
 ### URI 
-URI (engl. Uniform Resource Identifier) on merkkijonosta muodostuva tunnus, joka yksikäsitteisesti yksilöi tietyn verkkoresurssin
-noudattaen sovittua syntaksia. URI-tunnistetta käytetään tyypillisesti World Wide Webin verkkoresurssien yksilöimisessä. [62] [20]
+URI (engl. Uniform Resource Identifier) on merkkijonosta muodostuva tunnus, joka yksikäsitteisesti yksilöi tietyn verkkoresurssin noudattaen sovittua syntaksia. URI-tunnistetta käytetään tyypillisesti World Wide Webin verkkoresurssien yksilöimisessä.
+
+[62] [20]
 
 ## V
 ### Vakiointi 
 Vakioinnilla tarkoitetaan tiedonhallinnan ja toimintatapojen yhdenmukaistamista ja vakiinnuttamista.
 
 ### Vakiotuote 
-Vakiotuotteella tarkoitetaan valmistajan yleisesti saatavilla olevan tuotevalikoiman tuotteita, jotka on suunniteltu yleisiin tarpeisiin ja
-valmistettu ennalta määritettyjen ominaisuuksien, mittojen ja standardien mukaisesti. Vakiotuotteina on pidetty MTS-tuotantostrategian
-mukaisia standardoituja vakiokauppatuotteita, sekä MTO-tuotantostrategian mukaisia tilaustuotteita. [9] [53]
+Vakiotuotteella tarkoitetaan valmistajan yleisesti saatavilla olevan tuotevalikoiman tuotteita, jotka on suunniteltu yleisiin tarpeisiin ja valmistettu ennalta määritettyjen ominaisuuksien, mittojen ja standardien mukaisesti. Vakiotuotteina on pidetty MTS-tuotantostrategian mukaisia standardoituja vakiokauppatuotteita, sekä MTO-tuotantostrategian mukaisia tilaustuotteita.
+
+[9] [53]
 
 ### Validointi 
-Validointi (engl. validation) tarkoittaa objektiiviseen näyttöön perustuvaa varmistumista siitä, että tiettyä aiottua käyttö- tai sovellustarkoitusta koskevat vaatimukset on täytetty. [12]
+Validointi (engl. validation) tarkoittaa objektiiviseen näyttöön perustuvaa varmistumista siitä, että tiettyä aiottua käyttö- tai sovellustarkoitusta koskevat vaatimukset on täytetty. 
+
+[12]
 
 ### Valintalista 
-Valintalista (engl. pick list) on digitaalisen graafisen käyttöliittymän elementti, joka tarjoaa käyttäjälle mahdollisuuden valita vaihtoehtoja, kuten termejä valmiilta listalta. [13]
+Valintalista (engl. pick list) on digitaalisen graafisen käyttöliittymän elementti, joka tarjoaa käyttäjälle mahdollisuuden valita vaihtoehtoja, kuten termejä valmiilta listalta. 
+
+[13]
 
 ### Versio 
 Tietosisällöt, joilla on sama käyttötarkoitus, mutta eri voimassaoloaika ja joiden sisältö voi poiketa toisistaan. Versio on yksittäisen sanaston, koodiston tai tietomallin uusi tai vanha versio. Niiden voimassaolon alkamis- ja päättymispäivämäärät poikkeavat toisistaan. Tyypillisesti uusi versio korvaa vanhan version. 
@@ -789,40 +797,45 @@ Tietosisällöt, joilla on sama käyttötarkoitus, mutta eri voimassaoloaika ja 
 
 ### Vertailuanalysointi 
 Vertailuanalysointi (engl. benchmarking) tarkoittaa oman toiminnan vertaamista toisten toimintaan, usein parhaaseen vastaavaan käytäntöön. Vertailuanalysoinnin perusidea on toisilta oppiminen ja oman toiminnan kyseenalaistaminen. 
+
 [63]
 
 ### Viivakoodi 
 Viivakoodi (engl. Barcode tai DataBar) koostuu eri levyisistä mustista ja valkeista palkeista. Koodi voi olla rakenteeltaan numeerinen tai alfanumeerinen, riippuen käytetystä koodijärjestelmästä. Viivakoodit eivät yleensä sisällä tietoja itse tuotteesta, vaan vain yksilöintitunnuksen, jonka avulla tuote voidaan tunnistaa nopeasti ja virheettömästi. Se voi olla lineaarinen (1D) tai kaksiulotteinen (GS1 DataMatrix ja QR-koodit ovat 2D viivakoodeja). Informaatio luetaan yhdistelmästä optisesti, jolloin lukulaite (viivakoodinlukija tai älypuhelimen kamera) mittaa viivakoodin juovien leveyden ja/tai kombinaation. Lukulaitteen havaintotiedot muutetaan sähköisiksi digitaalimerkeiksi, joita voidaan käsitellä tietojärjestelmissä. 
+
 [9] 
 [EN 1556:1998](https://sales.sfs.fi/fi/index/tuotteet/SFS/CEN/ID2/1/246564.html.stx)
 
 ## W
 ### WIP 
 WIP-termi (engl. work in progress) kuvaa työn vaihetta tai tilaa, joka tarkoittaa, että toimenpiteet ovat alkaneet, mutta niitä ei ole vielä saatettu päätökseen. Käytetään yleisesti häiriöiden, ongelmien, muutosten jne. tilana. 
+
 [64]
 
 ## Y
 ### Yhteentoimivuus 
-Yhteentoimivuudella (engl. interoperability) tarkoitetaan kahden tai useamman järjestelmän tai sovelluksen kykyä vaihtaa tietoa ja
-käyttää vaihdettua tietoa yhdessä. Tietojärjestelmät ovat teknisesti ja tietosisällöllisesti yhteentoimivia muiden tietojärjestelmien kanssa
-silloin, kun ne pystyvät käyttämään samoja tietoja tai toimivat yhteen esim. rajapinnan kautta. 
+Yhteentoimivuudella (engl. interoperability) tarkoitetaan kahden tai useamman järjestelmän tai sovelluksen kykyä vaihtaa tietoa ja käyttää vaihdettua tietoa yhdessä. Tietojärjestelmät ovat teknisesti ja tietosisällöllisesti yhteentoimivia muiden tietojärjestelmien kanssa silloin, kun ne pystyvät käyttämään samoja tietoja tai toimivat yhteen esim. rajapinnan kautta. 
+
 [52]
 
 ### Tiedonsiirron yhteentoimivuus
-Tiedonsiirron yhteentoimivuudella (engl. transport interoperability) tarkoitetaan yhteentoimivuutta, jossa osallisten järjestelmien
-välisessä tiedonsiirrossa käytetään sovittua viestintäinfrastruktuuria. 
+Tiedonsiirron yhteentoimivuudella (engl. transport interoperability) tarkoitetaan yhteentoimivuutta, jossa osallisten järjestelmien välisessä tiedonsiirrossa käytetään sovittua viestintäinfrastruktuuria. 
+
 [52]
 
 ### Syntaktinen yhteentoimivuus 
 Syntaktisella yhteentoimivuudella (engl. syntactic interoperability) tarkoitetaan yhteentoimivuutta, jossa osalliset järjestelmät kykenevät ymmärtämään siirrettyjen tietojen muotoilut. 
+
 [52]
 
 ### Semanttinen yhteentoimivuus
 Semanttisella yhteentoimivuudella (engl. semantic data interoperability) tarkoitetaan yhteentoimivuutta, jossa osalliset järjestelmät ymmärtävät tietosisällön tarkoituksen aihealueen kontekstissa. 
+
 [52]
 
 ### Ylläpitomalli 
 Ylläpitomalli (engl. Maintenance model) on rakenteen tai -järjestelmän tietomallin tietosisällön osajoukko (vaiheistus), joka kattaa ylläpidon näkökulman eli käytön ja ylläpidon aikaiset tehtävät, muutokset jne. 
+
 [22]
 
 ### Yksilöinti 
