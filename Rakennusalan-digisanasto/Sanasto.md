@@ -338,6 +338,7 @@ voidaan sisällyttää objekteihin ja taulukoihin. JSON-notaatio määrittelee o
 ja niiden arvot. Lopulta olio päätetään sulkevaan aaltosulkuun }. Oliomuuttujien nimet ovat hipsuissa " sillä ne käsitellään merkkijonoina.
 Muuttujien arvot ovat arvon tyypistä riippuen hipsuissa.
 Esimerkiksi:
+```ruby
 {
  "tuote": {
  "nimi": "Ruuvi",
@@ -349,6 +350,7 @@ Esimerkiksi:
  "hinta": "0.05 euroa/kpl"
  }
 }
+```
 Tässä JSON-esimerkissä on objekti, joka kuvaa ruuvia. Objekti sisältää avain-arvo -pareja, kuten "nimi", "materiaali", "koko" ja "hinta".
 Ruuvin koko on esitetty toisessa objektissa, joka sisältää avain-arvo -pareja pituudelle ja halkaisijalle. [22] [35]
 ### Juurisyy 
@@ -697,14 +699,17 @@ osapuolten sovellusten välillä. XML formaattia käytetään esimerkiksi verkko
 varmuuskopioinnissa, tiedonsiirrossa ja konfiguraatiotiedostoina. XML:ssä tietoja kuvataan tagien avulla, jotka määrittelevät tietojen
 rakenteen ja hierarkian.
 Esimerkiksi:
+```ruby
 <tuote>
  <nimi>Naula</nimi>
  <materiaali>Teräs</materiaali>
  <koko>
- <pituus>5 cm</pituus>
- <halkaisija>3 mm</halkaisija>
+  <pituus>5 cm</pituus>
+  <halkaisija>3 mm</halkaisija>
  </koko>
  <hinta>0.10 euroa/kpl</hinta>
 </tuote>
-Tässä esimerkissä <tuote> on pääelementti, joka sisältää alielementtejä kuten <nimi>, <materiaali>, <koko> ja <hinta>. <koko>-
-elementti puolestaan sisältää alielementtejä <pituus> ja <halkaisija>, jotka määrittelevät naulan mitat. [35] [65] [20]
+```
+
+Tässä esimerkissä ```<tuote>``` on pääelementti, joka sisältää alielementtejä kuten ```<nimi>```, ```<materiaali>```, ```<koko>``` ja ```<hinta>```.```<koko>```-
+elementti puolestaan sisältää alielementtejä ```<pituus>``` ja ```<halkaisija>```, jotka määrittelevät naulan mitat. [35] [65] [20]
