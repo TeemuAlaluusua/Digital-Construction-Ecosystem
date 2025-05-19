@@ -823,7 +823,7 @@ Tuotetiedolla (engl. Product data) tarkoitetaan tuotetta koskevan tiedon esittä
 ### UDA 
 UDA:lla (engl. User Defined Attribute) tarkoitetaan suunnitteluohjelmistoissa mallin objekteille talletettavaa liitännäistietoa (metatieto).
 
-[3]
+[BEC:2023](https://www.elementtisuunnittelu.fi/Download/23982/BEC2012%20Elementtisuunnittelun%20mallinnusohje_v110.pdf)
 
 ### URI 
 URI (engl. Uniform Resource Identifier) on merkkijonosta muodostuva tunnus, joka yksikäsitteisesti yksilöi tietyn verkkoresurssin noudattaen sovittua syntaksia. URI-tunnistetta käytetään tyypillisesti World Wide Webin verkkoresurssien yksilöimisessä.
