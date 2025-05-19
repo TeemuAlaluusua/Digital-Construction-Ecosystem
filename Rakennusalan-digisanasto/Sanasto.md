@@ -11,14 +11,12 @@ Tämä sanasto on laadittu yhdenmukaistamaan yhteistä kieltä rakennusalan käy
 ### AI, Tekoäly
 Tekoäly (engl. Artificial intelligence, AI) on tietojenkäsittelytieteen osa-alue, jonka tarkoituksena on kehittää tietojenkäsittelyjärjestelmiä,
 jotka suorittavat normaalisti ihmisen älykkyyteen liittyviä toimintoja, kuten päättelyä, oppimista ja itsensä parantamista.
-
 [ISO/IEC 2382:2015](https://www.iso.org/standard/63598.html)
 
 ### AIR 
 omaisuuskohteen informaatiovaatimukset AIR (engl. asset information requirements) kuvaa informaatiovaatimukset suhteessa
 omaisuuskohteen käyttöön. Omaisuuskohteen informaatiovaatimuksissa (AIR) esitetään omaisuuskohteen informaation tuottamiseen
 tarvittavat liikkeenjohdolliset, kaupalliset ja tekniset näkökohdat.
-
 [ISO/IEC 19650:2018](https://www.iso.org/standard/68078.html)
 
 ### AIM 
@@ -27,7 +25,6 @@ käytetään päätöksenteossa rakennetun ympäristön kohteissa koko niiden el
 voi sisältää esim, laiterekistereitä, kumulatiivisia kunnossapitokustannuksia, tallennettuja tietoja asennus- ja kunnossapitopäivämääristä,
 omaisuuden omistamisen yksityiskohtia ja muita yksityiskohtia, joiden toimeksiantaja katsoo olevan arvokkaita ja joita haluaa hallittavan
 järjestelmällisesti.
-
 [ISO/IEC 19650:2018](https://www.iso.org/standard/68078.html)
 
 ### Alkuperäisformaatti 
