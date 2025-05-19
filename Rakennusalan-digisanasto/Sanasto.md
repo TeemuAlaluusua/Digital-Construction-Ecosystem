@@ -39,7 +39,10 @@ natiiviformaatti.
 
 ### Alfanumeerinen koodi 
 Alfanumeerinen (engl. alphanumeric) koodi (myös. Aakkosnmumeerinen koodi), tarkoittaa aakkosista (a-z) ja numeroista (o-9) koostuva
-koodi, jossa hyödynnetään välimerkkejä. [5] [6]
+koodi, jossa hyödynnetään välimerkkejä.
+
+[EN 1556:1998](https://sales.sfs.fi/fi/index/tuotteet/SFS/CEN/ID2/1/246564.html.stx)
+[ISO/IEC 19762:2025](https://www.iso.org/standard/84412.html)
 
 ### Anturi 
 Anturi on laite, joka reagoi fyysiseen ärsykkeeseen kuten lämpö, valo, ääni, paine, vetovoimaan tai liikkeeseen ja välittää sen arvon
