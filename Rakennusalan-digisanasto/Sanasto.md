@@ -51,8 +51,8 @@ Arvoketju (engl. value chain) tarkoittaa tuotteen tai palvelun vaiheittaista jal
 ### ATO 
 Asiakasohjautuva kokoonpano (engl. Assembly-to-order) on valmistusstrategia, jota käytetään usein teollisuudessa, jossa on paljon erilaisia vaihtoehtoja tai konfiguraatioita tuotteelle. Tässä valmistusstrategiassa tuotevalmistaja tuottaa varastoiduista vakiokomponenteista erilaisia tuotevariaatioita asiakastarpeiden mukaisesti. Nämä osat on tyypillisesti suunniteltu sopimaan yhteen erilaisissa kokoonpanoissa, jolloin yritys voi tarjota asiakkaille valikoiman tuotevaihtoehtoja ja samalla minimoida yksilöllisen valmistuksen tarpeen. Tyypillisiä ATO-tuotteita ovat esim. ikkunat sekä keittiökalusteet. Tässä tuotannonohjausmuodossa varastoon sitoutuu pääomaa, koska standardikomponentteja tarvitaan paljon. ATO:n ideana on tasapainottaa massatuotannon edut ja räätälöidyn tuotannon joustavuus. ATO- tuotteiden valmistusjärjestelmässä ei ole puskuria valmiille varastolle, ja toimitusaika riippuu varaston osakokoonpanovaraston saatavuudesta. 
 
-[Alaluusua 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
-[Peltokorpi 2020](https://www.aalto.fi/sites/default/files/2020-11/Loppuraportti_Tuotetiedon%20hallinta%20ja%20hyo%CC%88dynta%CC%88minen_2.11.2020_0.pdf)
+[Alaluusua, 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
+[Peltokorpi, 2020](https://www.aalto.fi/sites/default/files/2020-11/Loppuraportti_Tuotetiedon%20hallinta%20ja%20hyo%CC%88dynta%CC%88minen_2.11.2020_0.pdf)
 
 ### Attribuutti 
 Attribuutit (engl. Attribute) kuvaavat objektien ominaisuuksia. Tämä voi olla esimerkiksi tietomallissa rakenneosaan liittyvä yksittäinen tieto tai tätä kuvaava ominaisuus; esimerkiksi nimi, sijainti, materiaali, valmistaja, versionumero ja kustannus.
@@ -73,7 +73,7 @@ Avoin data (engl. open data) tarkoittaa dataa, joka on tarjolla ja näkyvissä m
 Sovellus, johon riippumattomat osapuolet voivat vapaasti osallistua ja jossa kahdenväliset järjestelyt eivät ole tarpeen. (kts. suljettu toimintaympäristö). 
 
 [EN 1556:1998](https://sales.sfs.fi/fi/index/tuotteet/SFS/CEN/ID2/1/246564.html.stx)
-[Alaluusua 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
+[Alaluusua, 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
 
 ## B
 ### BCF
@@ -206,8 +206,8 @@ ETIM (engl. European Technical Information Model) on kansainvälinen de facto te
 ### ETO 
 Asiakasohjautuva tuotesuunnittelu (engl. Engineer-to-order) -tuotantomenetelmän lähtökohtana ovat asiakaskohtaiset kustomoidut tuotteet, jotka suunnitellaan ja valmistetaan asiakasmääritelmien mukaan vastaamaan heidän erityistarpeitaan. ETO-toimitusketjussa asiakastilauksen kytkentäpiste sijaitsee tuotteen suunnitteluvaiheessa. Siksi kaikki prosessit liittyvät yksittäisten asiakkaiden vaatimuksiin. ETO-tuotantomenetelmän tuotteilla on tyypillisesti pitkät toimitusajat ja korkeat tuotantokustannukset. Lisäksi tuotteiden ja prosessien suuri vaihtelu, monimutkaisuus sekä pienet tuotantomäärät ovat ominaista ETO-tuotantoympäristölle, sillä jokaisessa uudessa tilauksessa on kyse asiakasmääritelmiin perustuvasta tuotesuunnittelusta. Tämän vuoksi ETO-tuotteet vaativat korkeatasoista insinööri-, suunnittelu- ja tuotanto-osaamista, sekä aktiivista tiedonvaihtoa eri osapuolten välillä.
 
-[Alaluusua 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
-[10]
+[Alaluusua, 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
+[Peltokorpi, 2020](https://www.aalto.fi/sites/default/files/2020-11/Loppuraportti_Tuotetiedon%20hallinta%20ja%20hyo%CC%88dynta%CC%88minen_2.11.2020_0.pdf)
 
 ## F
 ### Formaatti 
@@ -365,7 +365,7 @@ Yleiskäsite sille, mitä, milloin, miksi, miten ja kenelle tietoa tuotetaan.
 ### Instanssitieto 
 Instanssitiedoilla (engl. instance data) tarkoitetaan tietyn tuoteyksilön yksilöivää tunnistetta ja tämän yksilön tarkempaa yksilöllistä tuotetietoa. Esimerkiksi valaisimeen liittyvä instanssitieto auttaa yksilöimään mihin tilaan kyseinen valaisinyksilö on suunniteltu asennettavaksi. 
 
-[10]
+[Peltokorpi, 2020](https://www.aalto.fi/sites/default/files/2020-11/Loppuraportti_Tuotetiedon%20hallinta%20ja%20hyo%CC%88dynta%CC%88minen_2.11.2020_0.pdf)
 
 ### IoT 
 Esineiden internet (engl. Internet of Things) on koneiden ja laitteiden yhdistämistä Internetiin sekä koneista syntyneen datan yhdistämistä muuhun dataan. Se käsittää toisiinsa yhdistettyjen entiteettien eli kohdeyksiköiden, ihmisten, järjestelmien ja informaatioresurssien infrastruktuurin sekä palvelut, jotka käsittelevät fyysisestä ja virtuaalimaailmasta tulevaa informaatiota sekä reagoivat siihen.
@@ -445,7 +445,7 @@ Kollilla tarkoitetaan matka- tai rahtitavaran lähetyksen pienintä (tarkemmin m
 ### Käänteinen logistiikka 
 Käänteisellä logistiikalla (engl. reverse logistics) tarkoitetaan tuotteiden liikkumista kulutuspisteistä kohti lähtöpisteitä. Käänteisen logistiikan viitataan usein kierrätykseen ja vastuulliseen jätehuoltoon. Sen voidaan kuitenkin katsoa liittyvän tuotantoprosessissa syntyneiden tuotteiden palauttamiseen (mm. asennusten ylijäämämateriaali sekä vialliset tai väärät tuotteet), uusiokäyttöön tai kierrättämiseen alkuperäisestä kulutuspisteestä takaisin tuotantoketjuun, sisältäen myös tuotteiden elinkaaren aikaiset huolto, korjaus ja kunnostustoimenpiteet sekä asianmukaisen hävittämisen.
 
-[Alaluusua 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
+[Alaluusua, 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
 
 ### Komponentti 
 Komponentti (engl. component) on yleinen termi, jota käytetään tarkoittamaan yhtä kokonaisuuden osaa. Rakennuskohteen komponentit ovat joko rakennusosia tai tuoteosia. Rakennusosat valmistetaan (kootaan) pääosin työmaalla. Tuoteosat ovat pääosin valmiita ostettavia tuotteita, jotka asennetaan.
@@ -478,7 +478,7 @@ Suunnittelun kehitystasomäärittely LOD (engl. Level of Development) on tietoma
 ### Logistiikka 
 Logistiikka (engl. logistics) -käsite tarkoittaa yhteyksien luomista ja parhaan tavan löytämistä päämäärän saavuttamiseksi, jotta aineelliset esineet tai elävät olennot voidaan tuoda riittävässä määrin oikeaan paikkaan oikeaan aikaan. [20] Toimitusketjujen hallinta sekoitetaan usein logistiikka -käsitteeseen, jotka ovat osin samaa asiakokonaisuutta tarkoittavia termejä Toimitusketjun hallinta on toimitusketjun toimijoiden välisiä keskinäisiä riippuvuussuhteita strategisella tasolla kuvaava määritelmä, kun taas logistiikan hallinta keskittyy projektikohteeseen toimitettavien materiaalivirtojen hallintaan operatiivisella tasolla, jossa tarkastellaan yritysten hankintatoimitusprosessia (tulo-, sisä- ja lähtölogistiikkaa). 
 
-[Alaluusua 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
+[Alaluusua, 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
 
 ### Lohkoketju 
 Lohkoketjulla (engl. blockchain) tarkoitetaan teknologiaa, jonka avulla toisilleen vieraat toimijat voivat yhdessä tuottaa ja ylläpitää tietokantoja hajautetusti. Lohkoketju toteutetaan listana tai lokina transaktioista, joka jaetaan osallistujien kesken, jolloin sen voi todentaa monesta lähteestä ja koostaa sen perusteella tietokannan.
@@ -515,13 +515,14 @@ Materiaalitarvelaskenta MRP (engl. Manufacturing Resource Planning) on ohjelmist
 ### MTS 
 Varasto-ohjautuvaa tuotantomuotoa (engl. Make-to-stock) käytetään tyypillisesti tuotteissa (esim. kiinnikkeet), joiden kysyntä on ennustettavissa. Varasto-ohjautuvassa tuotannossa asiakastilauksen kytkentäpiste sijaitsee toimitusketjun lopputuotevarastossa. Tällöin tuotteita valmistetaan sisäisten tuotantotilausten perusteella lopputuotevarastoon, josta ne asiakkaan tilauksen perusteella toimitetaan asiakkaalle. Koska MTS-tuotteita tuotetaan tyypillisesti suuria määriä mittakaavaetujen saavuttamiseksi, MTS-tuotantomuoto sitoo pääomaa, minkä vuoksi valmistuksen oikea, kysynnänmukainen määrä riippuu kysyntäennusteiden tarkkuudesta.
 
-[9] [10]
+[Alaluusua, 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
+[Peltokorpi, 2020](https://www.aalto.fi/sites/default/files/2020-11/Loppuraportti_Tuotetiedon%20hallinta%20ja%20hyo%CC%88dynta%CC%88minen_2.11.2020_0.pdf)
 
 ### MTO 
 Tilausohjautuvassa tuotantomuodossa (engl. Make-to-order) tuotteet valmistetaan asiakaskohtaisten tilausten perusteella ennalta määriteltyjen tuotesuunnitelmien mukaisesti. MTO-tuotteet ovat usein pitkälti kustomoituja ja niiden tuotantoajat ovat MTS-tuotteita pidempiä, koska tuotanto aloitetaan tilauksesta. Tilausohjautuvaa tuotantoa käytetään, kun tuotevalikoima on laaja ja kunkin tuotteen kysyntä on vähäistä. Vähäisen kysynnän vuoksi MTO- tuotantomenetelmän tuotteet ovat tyypillisesti kalliimpia kuin MTStuotantomenetelmän tuotteet, mutta tarjoavat enemmän joustavuutta ja kustomointimahdollisuuksia mahdollistaen asiakkaiden erityisvaatimukset. Rakentamisessa tilausohjautuvat tuotteet voivat olla MTS-tuotantomenetelmän kaltaisia standardoituja kauppatuotteita, jossa erona voi olla asiakkaan tarve kustomoida perustuotetta esimerkiksi varastotuotteena pidetyn vakioväristä poikkeavan värisävyn kautta. Tällaiset asiakaskohtaiset värivaihtoehdot valmistetaan tyypillisesti vasta tilauksen jälkeen. 
 
-[Alaluusua 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
-[10]
+[Alaluusua, 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
+[Peltokorpi, 2020](https://www.aalto.fi/sites/default/files/2020-11/Loppuraportti_Tuotetiedon%20hallinta%20ja%20hyo%CC%88dynta%CC%88minen_2.11.2020_0.pdf)
 
 ## N
 ### Nimikkeistö (tai luokitus)
@@ -638,7 +639,7 @@ Rakenteellinen kyselykieli SQL (engl. SQL language) on tietokannan kyselyt mää
 Sovellus, joka on tarkoitettu suljetun käyttäjäryhmän käyttöön, yleensä yhden organisaation sisällä tai tietyn sopimuksen mukaisesti. (kts. avoin toimintaympäristö). 
 
 [5] 
-[Alaluusua 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
+[Alaluusua, 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
 
 ## T
 ### Tahtituotanto 
@@ -701,12 +702,12 @@ Statustieto (engl. status information) käsitteenä kuvaa rakennusosan valmiusas
 ### Toimitusketju 
 Rakentamisessa toimitusketju (engl. construction supply chain) käsittää kaikki ne toimet ja toimijat, jotka liittyvät lopputuotteen tuottamiseen raaka-aineista. 
 
-[9]
+[Alaluusua, 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
 
 ### Toimitusketjun hallinta 
 Rakennusalan näkökulmasta tehdyn määritelmän mukaan toimitusketjun hallinnalla (engl. construction supply chain management) tarkoitetaan rakennusalan tuotantoketjun alku- ja loppupäässä toimivien yritysten integrointia, joiden tavoitteena on luoda arvoa asiakkaalle sekä muille toimitusketjun sidosryhmille tuotteiden, palveluiden, tiedon ja valuutan muodossa. Toisin sanoen rakentamisen toimitusketjun hallinnan tavoitteena on integroida toimitusketjun materiaali- ja tietovirrat toimitusketjun suorituskyvyn edistämiseksi toiminnallisista tai organisaatiorajoista riippumatta.
 
-[9]
+[Alaluusua, 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
 
 ### Toteumamalli 
 Toteumamalli (engl. As-built model) on rakenteen tai -järjestelmän tietomallin tietosisällön osajoukko (vaiheistus), joka kattaa suunnitelmien ja toteutuksen lopullisen toteuman.
@@ -766,7 +767,8 @@ Transaktiodata (engl. Transactional Data) syntyy yritystoiminnassa ja sisältä�
 ### Tuotetieto 
 Tuotetiedolla (engl. Product data) tarkoitetaan tuotetta koskevan tiedon esittämistä muodollisella tavalla, joka soveltuu ihmisten tai tietokoneiden välitettäväksi, tulkittavaksi tai käsiteltäväksi. Tuotetiedolla tarkoitetaan rakennusalan kontekstissa lähes kaikkea tuotteisiin liittyvää tietoa. Rakennusalalla tuotteisiin liittyvää tuotetietoa on tyypillisesti mm. tuotteiden esitteet, tuotteiden tekniset ja toiminnalliset ominaisuudet, suunnitelmat, asennus-, käyttö- ja huolto-ohjeet, tuoterakenteet, osaluettelot, testaustulokset, ympäristövaikutukset sekä mahdolliset turvallisuusnäkökohdat. Tuotteisiin liittyvä tieto puolestaan voidaan jakaa a) vakiotietoihin, b) instanssitietoihin ja c) prosessitietoihin. 
 
-[10] [61]
+[Peltokorpi, 2020](https://www.aalto.fi/sites/default/files/2020-11/Loppuraportti_Tuotetiedon%20hallinta%20ja%20hyo%CC%88dynta%CC%88minen_2.11.2020_0.pdf)
+[61]
 
 ## U
 ### UDA 
@@ -812,7 +814,7 @@ Vertailuanalysointi (engl. benchmarking) tarkoittaa oman toiminnan vertaamista t
 ### Viivakoodi 
 Viivakoodi (engl. Barcode tai DataBar) koostuu eri levyisistä mustista ja valkeista palkeista. Koodi voi olla rakenteeltaan numeerinen tai alfanumeerinen, riippuen käytetystä koodijärjestelmästä. Viivakoodit eivät yleensä sisällä tietoja itse tuotteesta, vaan vain yksilöintitunnuksen, jonka avulla tuote voidaan tunnistaa nopeasti ja virheettömästi. Se voi olla lineaarinen (1D) tai kaksiulotteinen (GS1 DataMatrix ja QR-koodit ovat 2D viivakoodeja). Informaatio luetaan yhdistelmästä optisesti, jolloin lukulaite (viivakoodinlukija tai älypuhelimen kamera) mittaa viivakoodin juovien leveyden ja/tai kombinaation. Lukulaitteen havaintotiedot muutetaan sähköisiksi digitaalimerkeiksi, joita voidaan käsitellä tietojärjestelmissä. 
 
-[Alaluusua 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content) 
+[Alaluusua, 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content) 
 [EN 1556:1998](https://sales.sfs.fi/fi/index/tuotteet/SFS/CEN/ID2/1/246564.html.stx)
 
 ## W
