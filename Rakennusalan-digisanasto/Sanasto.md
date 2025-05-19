@@ -687,22 +687,22 @@ Sovellus, joka on tarkoitettu suljetun käyttäjäryhmän käyttöön, yleensä 
 
 Tahtituotanto (engl. takt production) on rakennushankkeiden johtamismenetelmä, joka pyrkii radikaalisti parempaan tuotantosysteemin rytmiin ja virtaukseen, tarkalla tuotannon suunnittelulla (tahtisuunnittelu), rytmitetyllä tuotannon ohjauksella (tahtiohjaus) sekä yli projektien tapahtuvalla jatkuvalla parantamisella. 
 
-[56]
+[RIL, Tahtituotanto:2024](https://view.taiqa.com/ril/tahtituotanto-opas-2-2024#/page=1)
 
 ### Tahtiaikataulu 
 Tahtiaikataulu (engl. takt schedule) on tahtisuunnittelun tuotoksena syntyvä ja tahtiohjauksen kautta ohjattava aikataulu, joka kertoo missä, miten ja millä resusseilla hankkeen ja tuotannon eri tehtäviä toteutetaan.
 
-[56]
+[RIL, Tahtituotanto:2024](https://view.taiqa.com/ril/tahtituotanto-opas-2-2024#/page=1)
 
 ### Tahtiaika 
 Tahtiaika (engl. takt time) kuvaa sitä aikaa, jossa tietty työtehtävä on tarkoitus suorittaa. 
 
-[56]
+[RIL, Tahtituotanto:2024](https://view.taiqa.com/ril/tahtituotanto-opas-2-2024#/page=1)
 
 ### Tahtialue 
 Tahtialue (engl. takt area) kuvaa tilaa, jossa tietty tehtäväkokonaisuus on tarkoitus suorittaa yhden tahtiajan aikana. 
 
-[56]
+[RIL, Tahtituotanto:2024](https://view.taiqa.com/ril/tahtituotanto-opas-2-2024#/page=1)
 
 ### Tahtivaunu (työpaketti) 
 ”Arvoa tuottava prosessi”. Kuvaa sitä tehtäväkokonaisuutta, jonka työryhmä suorittaa yhdellä tahtialueella yhden tahtiajan aikana.
