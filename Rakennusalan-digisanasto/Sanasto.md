@@ -32,7 +32,10 @@ järjestelmällisesti.
 
 ### Alkuperäisformaatti 
 Mallinnusohjelman oma tallennusformaatti. Rakennusalan julkaisuissa käytetään tälle synonyyminä käsitteitä natiivimalli tai
-natiiviformaatti. [3] [4]
+natiiviformaatti.
+
+[BEC:2023](https://www.elementtisuunnittelu.fi/Download/23982/BEC2012%20Elementtisuunnittelun%20mallinnusohje_v110.pdf)
+[YTV:2012](https://wiki.buildingsmart.fi/fi/04_Julkaisut_ja_Standardit/YTV)
 
 ### Alfanumeerinen koodi 
 Alfanumeerinen (engl. alphanumeric) koodi (myös. Aakkosnmumeerinen koodi), tarkoittaa aakkosista (a-z) ja numeroista (o-9) koostuva
