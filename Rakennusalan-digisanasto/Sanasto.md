@@ -38,7 +38,7 @@ natiiviformaatti.
 [YTV:2012](https://wiki.buildingsmart.fi/fi/04_Julkaisut_ja_Standardit/YTV)
 
 ### Alfanumeerinen koodi 
-Alfanumeerinen (engl. alphanumeric) koodi (myös. Aakkosnmumeerinen koodi), tarkoittaa aakkosista (a-z) ja numeroista (o-9) koostuva
+Alfanumeerinen (engl. alphanumeric) koodi (myös. Aakkosnumeerinen koodi), tarkoittaa aakkosista (a-z) ja numeroista (0-9) koostuva
 koodi, jossa hyödynnetään välimerkkejä.
 
 [EN 1556:1998](https://sales.sfs.fi/fi/index/tuotteet/SFS/CEN/ID2/1/246564.html.stx)
@@ -46,11 +46,12 @@ koodi, jossa hyödynnetään välimerkkejä.
 
 ### Anturi 
 Anturi on laite, joka reagoi fyysiseen ärsykkeeseen kuten lämpö, valo, ääni, paine, vetovoimaan tai liikkeeseen ja välittää sen arvon
-eteen päin. Antureita hyödynnetään esimerkiksi erilaisissa IoT- ratkaisuissa. [7]
+eteen päin. Antureita hyödynnetään esimerkiksi erilaisissa IoT- ratkaisuissa.
 
 ### Arvoketju 
 Arvoketju (engl. value chain) tarkoittaa tuotteen tai palvelun vaiheittaista jalostumista valmiiksi tuotteeksi niin, että jokainen vaihe nostaa
-lopputuotteen arvoa. [8]
+lopputuotteen arvoa.
+
 [ISO - PAS 24644-1:2023](https://standards.globalspec.com/std/14629302/pas-24644-1)
 
 ### ATO 
@@ -61,7 +62,10 @@ erilaisissa kokoonpanoissa, jolloin yritys voi tarjota asiakkaille valikoiman tu
 valmistuksen tarpeen. Tyypillisiä ATO-tuotteita ovat esim. ikkunat sekä keittiökalusteet. Tässä tuotannonohjausmuodossa varastoon
 sitoutuu pääomaa, koska standardikomponentteja tarvitaan paljon. ATO:n ideana on tasapainottaa massatuotannon edut ja
 räätälöidyn tuotannon joustavuus. ATO- tuotteiden valmistusjärjestelmässä ei ole puskuria valmiille varastolle, ja toimitusaika riippuu
-varaston osakokoonpanovaraston saatavuudesta. [9] [10]
+varaston osakokoonpanovaraston saatavuudesta. 
+
+[Alaluusua 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
+[Peltokorpi 2020](https://www.aalto.fi/sites/default/files/2020-11/Loppuraportti_Tuotetiedon%20hallinta%20ja%20hyo%CC%88dynta%CC%88minen_2.11.2020_0.pdf)
 
 ### Attribuutti 
 Attribuutit (engl. Attribute) kuvaavat objektien ominaisuuksia. Tämä voi olla esimerkiksi tietomallissa rakenneosaan liittyvä yksittäinen
