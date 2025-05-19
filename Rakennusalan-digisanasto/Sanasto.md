@@ -17,7 +17,9 @@ jotka suorittavat normaalisti ihmisen älykkyyteen liittyviä toimintoja, kuten 
 ### AIR 
 omaisuuskohteen informaatiovaatimukset AIR (engl. asset information requirements) kuvaa informaatiovaatimukset suhteessa
 omaisuuskohteen käyttöön. Omaisuuskohteen informaatiovaatimuksissa (AIR) esitetään omaisuuskohteen informaation tuottamiseen
-tarvittavat liikkeenjohdolliset, kaupalliset ja tekniset näkökohdat. [2]
+tarvittavat liikkeenjohdolliset, kaupalliset ja tekniset näkökohdat.
+
+[ISO/IEC 19650:2018](https://www.iso.org/standard/68078.html)
 
 ### AIM 
 Omaisuuskohteen käyttövaiheeseen liittyvä informaatiomalli AIM (engl. Asset information model) on jäsennelty tietoarkisto, jota
