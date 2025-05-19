@@ -94,12 +94,14 @@ Rakentamiskohteiden informaation mallinnuksella (engl. building Information mode
 ### Bitti 
 Bitti (engl. binary digit, bit) on informaatioteoriassa informaation määrän mitta ja tietotekniikassa tiedon tai tietovuon pienin käsiteltävä osa. Sähköisen tiedon pienin yksikkö on bitti (b), yksi merkki, joka voi saada arvon 1 tai 0.
 
-[5] [6]
+[EN 1556:1998](https://sales.sfs.fi/fi/index/tuotteet/SFS/CEN/ID2/1/246564.html.stx)
+[6]
 
 ### Bittitavu
 Tavu (engl. byte) on tietotekniikassa käytettävä mittayksikkö sellaiselle tallennuskapasiteetille, joka on riippumaton tallennetun datan tyypistä. Bitin jälkeen seuraavaksi pienin yksikkö on tavu (t), joka on kahdeksan bittiä, eli esimerkiksi merkkijono 00010101.
 
-[5] [6]
+[EN 1556:1998](https://sales.sfs.fi/fi/index/tuotteet/SFS/CEN/ID2/1/246564.html.stx)
+[6]
 
 ### BOM
 Tuoteosaluettelo (engl. Bill of Materials; BOM) tarkoittaa dokumentoitua muodollista ja hierarkkista taulukointia tuotteen valmistamiseen tarvittavista fyysisistä kokoonpanoista, osakokoonpanoista ja komponenteista.
@@ -680,7 +682,7 @@ Rakenteellinen kyselykieli SQL (engl. SQL language) on tietokannan kyselyt mää
 ### Suljettu toimintaympäristö 
 Sovellus, joka on tarkoitettu suljetun käyttäjäryhmän käyttöön, yleensä yhden organisaation sisällä tai tietyn sopimuksen mukaisesti. (kts. avoin toimintaympäristö). 
 
-[5] 
+[EN 1556:1998](https://sales.sfs.fi/fi/index/tuotteet/SFS/CEN/ID2/1/246564.html.stx) 
 [Alaluusua, 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
 
 ## T
