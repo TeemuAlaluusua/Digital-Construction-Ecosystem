@@ -171,7 +171,8 @@ Digitoinnilla (engl. digitization) tarkoitetaan prosessia, jossa muunnetaan anal
 ### DTO 
 Asiakasohjautuvan tuotekehityksen (engl. Design to Order) mukaisen tuotantomenetelmän tuotteet ovat ETO-tuotteiden tavoin asiakasräätälöityjä projektituotteita, jotka suunnitellaan ja valmistetaan projektikohtaisen tilauksen perusteella. Poikkeuksena ETOtuotteisiin DTO-tuotteiden toimitukseen sisältyy tuotekehitys, minkä vuoksi niiden toimitusajat ovat pitkiä. Rakennusalalla DTOtuotantomenetelmän mukaiset tuotteet ja toimitusketjut ovat harvinaisia, vaikka rakennusprosessia voidaankin pitää asiakasohjautuvana tuotekehityksenä.
 
-[9] [10]
+[Alaluusua 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
+[10]
 
 ## E
 ### EDI
@@ -205,7 +206,8 @@ ETIM (engl. European Technical Information Model) on kansainvälinen de facto te
 ### ETO 
 Asiakasohjautuva tuotesuunnittelu (engl. Engineer-to-order) -tuotantomenetelmän lähtökohtana ovat asiakaskohtaiset kustomoidut tuotteet, jotka suunnitellaan ja valmistetaan asiakasmääritelmien mukaan vastaamaan heidän erityistarpeitaan. ETO-toimitusketjussa asiakastilauksen kytkentäpiste sijaitsee tuotteen suunnitteluvaiheessa. Siksi kaikki prosessit liittyvät yksittäisten asiakkaiden vaatimuksiin. ETO-tuotantomenetelmän tuotteilla on tyypillisesti pitkät toimitusajat ja korkeat tuotantokustannukset. Lisäksi tuotteiden ja prosessien suuri vaihtelu, monimutkaisuus sekä pienet tuotantomäärät ovat ominaista ETO-tuotantoympäristölle, sillä jokaisessa uudessa tilauksessa on kyse asiakasmääritelmiin perustuvasta tuotesuunnittelusta. Tämän vuoksi ETO-tuotteet vaativat korkeatasoista insinööri-, suunnittelu- ja tuotanto-osaamista, sekä aktiivista tiedonvaihtoa eri osapuolten välillä.
 
-[9] [10]
+[Alaluusua 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
+[10]
 
 ## F
 ### Formaatti 
@@ -347,6 +349,7 @@ Informaatiomalli (engl. information model) on nimetty pysyvä joukko informaatio
 
 ### informaation vaihto 
 Informaation vaihto toimenpiteet informaatiovaatimuksen tai sen osan täyttämiseksi. 
+
 [ISO/IEC 19650:2018](https://www.iso.org/standard/68078.html)
 
 ### Informaatioteknologia (IT) 
@@ -355,7 +358,8 @@ Informaatioteknologia (engl. information technology) tarkoittaa teknologian käy
 [37]
 
 ### Informaatiovaatimus 
-Yleiskäsite sille, mitä, milloin, miksi, miten ja kenelle tietoa tuotetaan. 
+Yleiskäsite sille, mitä, milloin, miksi, miten ja kenelle tietoa tuotetaan.
+
 [ISO/IEC 19650:2018](https://www.iso.org/standard/68078.html)
 
 ### Instanssitieto 
@@ -441,7 +445,7 @@ Kollilla tarkoitetaan matka- tai rahtitavaran lähetyksen pienintä (tarkemmin m
 ### Käänteinen logistiikka 
 Käänteisellä logistiikalla (engl. reverse logistics) tarkoitetaan tuotteiden liikkumista kulutuspisteistä kohti lähtöpisteitä. Käänteisen logistiikan viitataan usein kierrätykseen ja vastuulliseen jätehuoltoon. Sen voidaan kuitenkin katsoa liittyvän tuotantoprosessissa syntyneiden tuotteiden palauttamiseen (mm. asennusten ylijäämämateriaali sekä vialliset tai väärät tuotteet), uusiokäyttöön tai kierrättämiseen alkuperäisestä kulutuspisteestä takaisin tuotantoketjuun, sisältäen myös tuotteiden elinkaaren aikaiset huolto, korjaus ja kunnostustoimenpiteet sekä asianmukaisen hävittämisen.
 
-[9]
+[Alaluusua 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
 
 ### Komponentti 
 Komponentti (engl. component) on yleinen termi, jota käytetään tarkoittamaan yhtä kokonaisuuden osaa. Rakennuskohteen komponentit ovat joko rakennusosia tai tuoteosia. Rakennusosat valmistetaan (kootaan) pääosin työmaalla. Tuoteosat ovat pääosin valmiita ostettavia tuotteita, jotka asennetaan.
@@ -474,7 +478,7 @@ Suunnittelun kehitystasomäärittely LOD (engl. Level of Development) on tietoma
 ### Logistiikka 
 Logistiikka (engl. logistics) -käsite tarkoittaa yhteyksien luomista ja parhaan tavan löytämistä päämäärän saavuttamiseksi, jotta aineelliset esineet tai elävät olennot voidaan tuoda riittävässä määrin oikeaan paikkaan oikeaan aikaan. [20] Toimitusketjujen hallinta sekoitetaan usein logistiikka -käsitteeseen, jotka ovat osin samaa asiakokonaisuutta tarkoittavia termejä Toimitusketjun hallinta on toimitusketjun toimijoiden välisiä keskinäisiä riippuvuussuhteita strategisella tasolla kuvaava määritelmä, kun taas logistiikan hallinta keskittyy projektikohteeseen toimitettavien materiaalivirtojen hallintaan operatiivisella tasolla, jossa tarkastellaan yritysten hankintatoimitusprosessia (tulo-, sisä- ja lähtölogistiikkaa). 
 
-[9]
+[Alaluusua 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
 
 ### Lohkoketju 
 Lohkoketjulla (engl. blockchain) tarkoitetaan teknologiaa, jonka avulla toisilleen vieraat toimijat voivat yhdessä tuottaa ja ylläpitää tietokantoja hajautetusti. Lohkoketju toteutetaan listana tai lokina transaktioista, joka jaetaan osallistujien kesken, jolloin sen voi todentaa monesta lähteestä ja koostaa sen perusteella tietokannan.
@@ -516,7 +520,8 @@ Varasto-ohjautuvaa tuotantomuotoa (engl. Make-to-stock) käytetään tyypillises
 ### MTO 
 Tilausohjautuvassa tuotantomuodossa (engl. Make-to-order) tuotteet valmistetaan asiakaskohtaisten tilausten perusteella ennalta määriteltyjen tuotesuunnitelmien mukaisesti. MTO-tuotteet ovat usein pitkälti kustomoituja ja niiden tuotantoajat ovat MTS-tuotteita pidempiä, koska tuotanto aloitetaan tilauksesta. Tilausohjautuvaa tuotantoa käytetään, kun tuotevalikoima on laaja ja kunkin tuotteen kysyntä on vähäistä. Vähäisen kysynnän vuoksi MTO- tuotantomenetelmän tuotteet ovat tyypillisesti kalliimpia kuin MTStuotantomenetelmän tuotteet, mutta tarjoavat enemmän joustavuutta ja kustomointimahdollisuuksia mahdollistaen asiakkaiden erityisvaatimukset. Rakentamisessa tilausohjautuvat tuotteet voivat olla MTS-tuotantomenetelmän kaltaisia standardoituja kauppatuotteita, jossa erona voi olla asiakkaan tarve kustomoida perustuotetta esimerkiksi varastotuotteena pidetyn vakioväristä poikkeavan värisävyn kautta. Tällaiset asiakaskohtaiset värivaihtoehdot valmistetaan tyypillisesti vasta tilauksen jälkeen. 
 
-[9] [10]
+[Alaluusua 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
+[10]
 
 ## N
 ### Nimikkeistö (tai luokitus)
@@ -581,7 +586,8 @@ Prosessitiedolla tarkoitetaan tuoteyksilön ja toimituserän käsittelyyn, jakel
 ### Projektituote 
 Projektituotteilla tarkoitetaan yksittäistä projektia varten suunniteltuja ja tuotettuja tuotteita, jotka poikkeavat sarjavalmisteisista vakiotuotteista tuotteen ominaisuuksien, kuten mittojen tai suorituskyvyn perusteella, sekä rajatumman saatavuuden myötä. Projektituotteiden tuotannon ohjaus edellyttää suunnittelijoiden, tuotetoimittajien ja urakoitsijoiden välistä yhteistyötä. Projektituotteina on pidetty ETO-tuotantostrategian mukaisia suunnittelutuotteita. Lisäksi jotkin kauppatuotteet voidaan nähdä projektikohtaisina kokoonpanoina erilaisista vakiotuotteista, jolla viitataan ATO-tuotantostrategiaan. 
 
-[9] [53]
+[Alaluusua 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
+[53]
 
 ## R
 ### Relaatiotietokanta 
@@ -631,7 +637,8 @@ Rakenteellinen kyselykieli SQL (engl. SQL language) on tietokannan kyselyt mää
 ### Suljettu toimintaympäristö 
 Sovellus, joka on tarkoitettu suljetun käyttäjäryhmän käyttöön, yleensä yhden organisaation sisällä tai tietyn sopimuksen mukaisesti. (kts. avoin toimintaympäristö). 
 
-[5] [9]
+[5] 
+[Alaluusua 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
 
 ## T
 ### Tahtituotanto 
@@ -748,7 +755,8 @@ Valmistavassa teollisuudessa, sekä erityisesti rakennusteollisuudessa tuotteide
 4 Asiakasohjautuva tuotesuunnittelu (ETO)
 5 Asiakasohjautuva tuotekehitys (DTO). 
 
-[9] [53]
+[Alaluusua 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
+[53]
 
 ### Transaktiodata 
 Transaktiodata (engl. Transactional Data) syntyy yritystoiminnassa ja sisältää liiketapahtumakohtaisia tietoja. Transaktiodataa on esimerkiksi ostoista ja tilauksista saatava data. 
@@ -778,7 +786,8 @@ Vakioinnilla tarkoitetaan tiedonhallinnan ja toimintatapojen yhdenmukaistamista 
 ### Vakiotuote 
 Vakiotuotteella tarkoitetaan valmistajan yleisesti saatavilla olevan tuotevalikoiman tuotteita, jotka on suunniteltu yleisiin tarpeisiin ja valmistettu ennalta määritettyjen ominaisuuksien, mittojen ja standardien mukaisesti. Vakiotuotteina on pidetty MTS-tuotantostrategian mukaisia standardoituja vakiokauppatuotteita, sekä MTO-tuotantostrategian mukaisia tilaustuotteita.
 
-[9] [53]
+[Alaluusua 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
+[53]
 
 ### Validointi 
 Validointi (engl. validation) tarkoittaa objektiiviseen näyttöön perustuvaa varmistumista siitä, että tiettyä aiottua käyttö- tai sovellustarkoitusta koskevat vaatimukset on täytetty. 
@@ -803,7 +812,7 @@ Vertailuanalysointi (engl. benchmarking) tarkoittaa oman toiminnan vertaamista t
 ### Viivakoodi 
 Viivakoodi (engl. Barcode tai DataBar) koostuu eri levyisistä mustista ja valkeista palkeista. Koodi voi olla rakenteeltaan numeerinen tai alfanumeerinen, riippuen käytetystä koodijärjestelmästä. Viivakoodit eivät yleensä sisällä tietoja itse tuotteesta, vaan vain yksilöintitunnuksen, jonka avulla tuote voidaan tunnistaa nopeasti ja virheettömästi. Se voi olla lineaarinen (1D) tai kaksiulotteinen (GS1 DataMatrix ja QR-koodit ovat 2D viivakoodeja). Informaatio luetaan yhdistelmästä optisesti, jolloin lukulaite (viivakoodinlukija tai älypuhelimen kamera) mittaa viivakoodin juovien leveyden ja/tai kombinaation. Lukulaitteen havaintotiedot muutetaan sähköisiksi digitaalimerkeiksi, joita voidaan käsitellä tietojärjestelmissä. 
 
-[9] 
+[Alaluusua 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content) 
 [EN 1556:1998](https://sales.sfs.fi/fi/index/tuotteet/SFS/CEN/ID2/1/246564.html.stx)
 
 ## W
