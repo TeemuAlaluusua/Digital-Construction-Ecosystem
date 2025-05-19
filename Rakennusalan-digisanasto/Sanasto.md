@@ -12,9 +12,7 @@ Tämä sanasto on laadittu yhdenmukaistamaan yhteistä kieltä rakennusalan käy
 Tekoäly (engl. Artificial intelligence, AI) on tietojenkäsittelytieteen osa-alue, jonka tarkoituksena on kehittää tietojenkäsittelyjärjestelmiä,
 jotka suorittavat normaalisti ihmisen älykkyyteen liittyviä toimintoja, kuten päättelyä, oppimista ja itsensä parantamista.
 
->[!NOTE]
->International Organization for Standardization [ISO], ”ISO/IEC 2382: Information technology - Vocabulary,” International Organization for
-Standardization [ISO], 2015.
+[ISO/IEC 2382:2015](https://www.iso.org/standard/63598.html)
 
 ### AIR 
 omaisuuskohteen informaatiovaatimukset AIR (engl. asset information requirements) kuvaa informaatiovaatimukset suhteessa
