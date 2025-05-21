@@ -341,6 +341,13 @@ STEP-muotoinen IFC-tietoaineisto.
 [buildingSmart Terminology](https://user.buildingsmart.org/knowledge-base/terminology/)
 [35]
 
+### Ihmisluettava
+*vrt. koneluettava*
+
+Ihmisten käyttötarkoituksiin luotua tietoa. Esimerkiksi kaksiulotteiset kartat, piirrokset ja sanalliset selostukset. Käytetään kuvaamaan tiedon muotoa, josta voi lukea suoraan ja ymmärrettävästi asioiden merkityksen.
+
+[RYHTI, Sanasto](https://ryhti.syke.fi/ohjeet-ja-tuki/ryhti-sanasto/)
+
 ### Informaatio 
 Termillä "informaatio" (engl. Information) on perinteisesti viitattu jonkin rakenteen, viestin, merkin tai koodin semanttiseen sisältöön, informaatiosisältöön, joka voidaan tulkita, purkaa tai tehdä jotenkin muuten ilmeneväksi, jos tähän käsittelyyn on saatavilla oikeanlainen
 menetelmä. Toisin sanoen informaatiolla tarkoitetaan uudelleen tulkittavissa olevaa sovitun muotoista esitystapaa, joka sopii tiedonsiirtoon, viestintään, tulkintaan tai käsittelyyn. Informaatiota voi käsitellä ihminen tai sitä voidaan käsitellä automaattisin menetelmin.
@@ -350,6 +357,7 @@ menetelmä. Toisin sanoen informaatiolla tarkoitetaan uudelleen tulkittavissa ol
 
 ### Informaatiomalli 
 Informaatiomalli (engl. information model) on nimetty pysyvä joukko informaatiota, joka on noudettavissa tiedoston, järjestelmän tai sovelluksen tallennushierarkiasta. 
+
 [ISO/IEC 19650:2018](https://www.iso.org/standard/68078.html)
 
 ### informaation vaihto 
