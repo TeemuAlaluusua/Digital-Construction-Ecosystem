@@ -79,12 +79,12 @@ Sovellus, johon riippumattomat osapuolet voivat vapaasti osallistua ja jossa kah
 ### BCF
 BCF (engl. BIM Collaboration Format) on standardi, jolla vaihdetaan tietoja IFC-tietokokonaisuuden sisällöstä. Tietoja voidaan vaihtaa ZIP-tiedostossa (xml) tai API:n kautta (JSON).
 
-[14]
+[buildingSmart Terminology](https://user.buildingsmart.org/knowledge-base/terminology/)
 
 ### Big Data 
 Big Data -käsitteellä (suom. suuraineisto tai massadata) tarkoitetaan laajoja tietokokonaisuuksia - ensisijaisesti datan määrän, monimuotoisuuden, nopeuden ja vaihtelevuuden osalta - jotka edellyttävät skaalautuvaa teknologiaa tehokasta varastointia, käsittelyä, hallintaa ja analysointia varten. Big Data on useimmiten rakenteetonta (strukturoimaton data, kuten teksti-, kuva-, video-, ja äänidata).
 
-[15]
+[ISO/IEC 30105-9:2023](https://www.iso.org/standard/82368.html)
 
 ### BIM, rakentamiskohteiden informaation mallinnus
 Rakentamiskohteiden informaation mallinnuksella (engl. building Information modelling) tarkoitetaan rakennetun ympäristön omaisuuskohteen yhteisen digitaalisen esityksen käyttöä suunnittelun, rakentamisen ja käytön helpottamiseksi, jotta päätöksenteolle saadaan luotettava perusta HUOM. Rakennettuja omaisuuskohteita ovat mm. rakennukset, sillat, tiet ja tuotantolaitokset. 
@@ -317,33 +317,36 @@ IFC (engl. Industry Foundation Classes) on rakennusalan kansainvälinen standard
 ### IfcQL 
 Standardikyselykieli IFC-tietueiden suodattamiseen (engl. Industry Foundation Classes Query Language). 
 
-[14]
+[buildingSmart Terminology](https://user.buildingsmart.org/knowledge-base/terminology/)
 
 ### ifcOWL 
 IFC:n OWL-ontologia.
 
-[14]
+[buildingSmart Terminology](https://user.buildingsmart.org/knowledge-base/terminology/)
 
 ### ifcXML 
 XML-muotoinen IFC-tietoaineisto.
 
-[14]
+[buildingSmart Terminology](https://user.buildingsmart.org/knowledge-base/terminology/)
 
 ### ifcJSON 
 JSON-muotoinen IFC-tietoaineisto. 
 
-[14] [35]
+[buildingSmart Terminology](https://user.buildingsmart.org/knowledge-base/terminology/)
+[35]
 
 ### ifcSPFF 
 STEP-muotoinen IFC-tietoaineisto.
 
-[14] [35]
+[buildingSmart Terminology](https://user.buildingsmart.org/knowledge-base/terminology/)
+[35]
 
 ### Informaatio 
 Termillä "informaatio" (engl. Information) on perinteisesti viitattu jonkin rakenteen, viestin, merkin tai koodin semanttiseen sisältöön, informaatiosisältöön, joka voidaan tulkita, purkaa tai tehdä jotenkin muuten ilmeneväksi, jos tähän käsittelyyn on saatavilla oikeanlainen
 menetelmä. Toisin sanoen informaatiolla tarkoitetaan uudelleen tulkittavissa olevaa sovitun muotoista esitystapaa, joka sopii tiedonsiirtoon, viestintään, tulkintaan tai käsittelyyn. Informaatiota voi käsitellä ihminen tai sitä voidaan käsitellä automaattisin menetelmin.
 
-[36] [2]
+[36] 
+[ISO/IEC 19650:2018](https://www.iso.org/standard/68078.html)
 
 ### Informaatiomalli 
 Informaatiomalli (engl. information model) on nimetty pysyvä joukko informaatiota, joka on noudettavissa tiedoston, järjestelmän tai sovelluksen tallennushierarkiasta. 
@@ -502,7 +505,8 @@ Lohkoketjulla (engl. blockchain) tarkoitetaan teknologiaa, jonka avulla toisille
 ### LOIN 
 Informaatiotarve (engl. Level of Information Need) tarkoittaa viitekehystä, joka määrittelee informaation laajuuden ja rakeisuuden. HUOM. Informaatiotarpeen määrittelyn yksi tarkoitus on estää liiallisen informaation toimittaminen. Rakennustietomallien osalta puhutaan usein kehitystasomäärittelystä (LOD) joka on suunniteltu erityisesti mallipohjaista työskentely varten, kun taas LOIN-termillä pyritään kuvaamaan koko projektin tietosisältöä mahdollisimman laajasti siirtämällä painopistettä entistä enemmän metatietoon, geometristen ominaisuuksien sijasta. 
 
-[2] [45]
+[ISO/IEC 19650:2018](https://www.iso.org/standard/68078.html)
+[45]
 
 ### Loki-
 *Lokimerkintä, lokitiedosto, lokitus, engl. log, log file, digitaalinen merkintä tapahtumista ja tekijöistä.*
@@ -579,12 +583,12 @@ PEPPOL (engl. Pan Pan European Public eProcurement On-Line) sähköisten sanomie
 ### PIM 
 Projektin toteutusvaiheeseen liittyvä informaatiomalli PIM (engl. project information model) on jäsennelty tietoarkisto, jota käytetään päätöksenteossa rakennetun ympäristön kohteissa koko niiden elinkaaren aikana. Projektin informaatiomalli (PIM) voi sisältää projektin toteuttamisen aikana esimerkiksi projektin geometrian yksityiskohtia, laitteistojen sijainteja, projektin suunnittelun aikaisia ominaisuusvaatimuksia, rakentamistavan ja aikatauluja, kustannuksia sekä yksityiskohtia asennetuista järjestelmistä, komponenteista ja laitteistoista, mukaan lukien näiden kunnossapitovaatimuksia.
 
-[2]
+[ISO/IEC 19650:2018](https://www.iso.org/standard/68078.html)
 
 ### Property Set 
 Dynaaminen, usein projektikohtaisesti määritelty ominaisuusjoukko tietylle objektille (tyypille).
 
-[14]
+[buildingSmart Terminology](https://user.buildingsmart.org/knowledge-base/terminology/)
 
 ### PLM 
 Tuotteen elinkaaren hallinta (engl. Product lifecycle management, PLM) on prosessi infrastruktuurin osien oikea-aikaisen uusimisen hallitsemiseksi ja tuotteiden elinkaarikustannusten tarkastelemiseksi. 
@@ -878,7 +882,7 @@ Viivakoodi (engl. Barcode tai DataBar) koostuu eri levyisistä mustista ja valke
 ### WIP 
 WIP-termi (engl. work in progress) kuvaa työn vaihetta tai tilaa, joka tarkoittaa, että toimenpiteet ovat alkaneet, mutta niitä ei ole vielä saatettu päätökseen. Käytetään yleisesti häiriöiden, ongelmien, muutosten jne. tilana. 
 
-[64]
+[ISO 22468:2020](https://www.iso.org/standard/73292.html)
 
 ## Y
 ### Yhteentoimivuus 
@@ -947,7 +951,8 @@ Esimerkiksi:
 Tässä esimerkissä ```<tuote>``` on pääelementti, joka sisältää alielementtejä kuten ```<nimi>```, ```<materiaali>```, ```<koko>``` ja ```<hinta>```.```<koko>```-
 elementti puolestaan sisältää alielementtejä ```<pituus>``` ja ```<halkaisija>```, jotka määrittelevät naulan mitat. 
 
-[35] [65] [20]
+[35]  [20]
+[ISO/IEC 15909-2:2011](https://www.iso.org/standard/43538.html#:~:text=ISO%2FIEC%2015909%2D2%3A2011%20defines%20an%20XML%2D,tools%20and%20among%20different%20parties.)
 
 ### (0..)/(1..)/(0..n)/(0..1)
 *Kardinaliteetti eli kuinka monta kertaa tietoelementti voidaan tai pitää liittää toiseen tietoelementtiin.*
