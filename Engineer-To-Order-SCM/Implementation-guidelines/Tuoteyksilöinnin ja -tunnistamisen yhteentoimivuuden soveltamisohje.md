@@ -1,7 +1,7 @@
 # Tuoteyksilöinnin ja -tunnistamisen yhteentoimivuuden soveltamisohje
 
 **Tilauksesta suunniteltavat rakennustuotteet**  
-Julkaisija: Rakennusteollisuus ry
+>Julkaisija: Rakennusteollisuus ry
 >Julkaistu: 9.1.2025  
 Versio: 1.2  
 Status: Julkaistu
