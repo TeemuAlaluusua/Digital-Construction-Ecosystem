@@ -63,13 +63,18 @@ Betonielementit ovat luonteeltaan tilauksesta valmistettavia (MTO) ja tilauksest
 |------|--------|----------|
 | 1 | Tuoteryhmä / Perustuote | GTIN |
 | 2 | Tuotevariaatio | GTIN + MTO Varianttinumero |
-| 3 | Tuoteyksilö | GTIN + (MTO Varianttinumero) + Sarjanumero (SGTIN) |
+| 3 | Tuoteyksilö | GTIN + (MTO Varianttinumero) + Sarjanumero (SGTIN) ||
+[Taulukko 1.]
 
 ### 3.1 GS1-sovellustunnusten käyttäminen ETO-tuotteiden yksilöintiin
 
 GS1-sovellustunnukset (AI = Application Identifiers) ovat numeerisia etuliitteitä, joita käytetään viivakoodeissa ja EPC/RFID-tunnisteissa määrittämään tietoelementtien merkitys ja muoto. GS1-sovellustunnusten käyttö mahdollistaa eri tietoelementtien erottamisen toisistaan viivakoodeissa tai EPC/RFID-tunnisteessa. GS1-standardi kattaa yli 100 sovellustunnusta. Jokainen sovellustunniste on oletusarvoisesti kaksi-, kolmi- tai nelinumeroinen luku. Listaus kaikista GS1-sovellustunnuksista on saatavilla GS1:n verkkosivuilla osoitteessa: https://ref.gs1.org/ai/.
 
-Betonielementin yksilöinnissä minimitietovaatimuksissa tarvittaviksi GS1-sovellustunnuksiksi on tunnistettu seuraavat: (01) GTIN, (242) Made-to-Order variation number ja (21) Serial number. GS1-standardissa ei ole kansalliselle Elementtitunnukselle, GUID:lle ja verkkotunnukselle omaa GS1-sovellustunnusta, joten niiden sisällyttämisessä tiedonkantajaan on BETK-projektissa päätetty käytettävän sovellustunnuksia (91) Company interal information, (92) Company internal information ja (99) Company internal information. Numerolla 9 alkavia GS1-sovellustunnuksia käytetään vain silloin, mikäli kyseiselle tiedolle ei ole (vielä) määritetty omaa GS1-sovellustunnustaan. Huom! Verkkotunnuksen käsittely RFID-tunnisteissa on tämän ohjeen julkaisuhetkellä käsiteltävänä GS1:n kansainvälisessä standardinkehityksessä. Tuleva standardi ei välttämättä vastaa tässä esitettyä ratkaisua, mutta ohjeistus tullaan päivittämään standardin valmistuessa sen mukaiseksi. Optisessa tunnistamisessa (esim. QR-koodi) tämän tiedon sisällyttämisessä käytetään GS1 Digital Link URI syntax 1.5.0 -standardin mukaista menettelyä.
+Betonielementin yksilöinnissä minimitietovaatimuksissa tarvittaviksi GS1-sovellustunnuksiksi on tunnistettu seuraavat: (01) GTIN, (242) Made-to-Order variation number ja (21) Serial number. 
+
+GS1-standardissa ei ole kansalliselle Elementtitunnukselle, GUID:lle ja verkkotunnukselle omaa GS1-sovellustunnusta, joten niiden sisällyttämisessä tiedonkantajaan on BETK-projektissa päätetty käytettävän sovellustunnuksia (91) Company interal information, (92) Company internal information ja (99) Company internal information. Numerolla 9 alkavia GS1-sovellustunnuksia käytetään vain silloin, mikäli kyseiselle tiedolle ei ole (vielä) määritetty omaa GS1-sovellustunnustaan. 
+
+Huom! Verkkotunnuksen käsittely RFID-tunnisteissa on tämän ohjeen julkaisuhetkellä käsiteltävänä GS1:n kansainvälisessä standardinkehityksessä. Tuleva standardi ei välttämättä vastaa tässä esitettyä ratkaisua, mutta ohjeistus tullaan päivittämään standardin valmistuessa sen mukaiseksi. Optisessa tunnistamisessa (esim. QR-koodi) tämän tiedon sisällyttämisessä käytetään GS1 Digital Link URI syntax 1.5.0 -standardin mukaista menettelyä.
 
 #### Minimitietovaatimukset tilauksesta suunniteltavien (ETO) rakennustuotteiden yksilöintiin
 | AI | Tieto | Esimerkki |
@@ -85,3 +90,6 @@ Valinnaiset lisätiedot:
 | (91) | Elementtitunnus | V1001 |
 | (92) | GUID | ba34cf17-0c4b-4c6f-9295-cae05aa74ad4 |
 | (99) | Verkkotunnus | id.rt.fi |
+
+
+
