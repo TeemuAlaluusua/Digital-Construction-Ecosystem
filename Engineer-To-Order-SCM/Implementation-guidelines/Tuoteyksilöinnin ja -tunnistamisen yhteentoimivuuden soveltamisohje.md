@@ -8,33 +8,37 @@ Status: Julkaistu
 
 ## Asiakirjan laatijat
 
-| Nimi | Organisaatio |
-|------|--------------|
-| Teemu Alaluusua | Aalto-yliopisto |
-| Juuso Autiosalo | Aalto-yliopisto |
-| Tom Partanen | Consolis Parma Oy |
-| Eetu Lahtinen | Consolis Parma Oy |
-| Janne Kihula | Rakennustuoteteollisuus RTT ry |
-| Veijo Artoma | Consolis Parma Oy |
-| Kari Turunen | Lujabetoni Oy |
-| Ville Retulainen | Lujabetoni Oy |
-| Markku Räisänen | Betset Oy |
-| Otto Alhava | Fira Oy |
-| Tuomas Kekki | Fira Oy |
-| Hannes Ilveskoski | Fira Oy |
-| Antti Pekkala | Fira Oy |
-| Ari Törrönen | NCC Suomi Oy |
-| Riku Laiho | NCC Suomi Oy |
-| Arto Nieminen | NCC Suomi Oy |
-| Janne Makkonen | Consti |
-| Ville Siikaoja | YIT |
-| Lassi Saari | YIT |
-| Klaus Turhanen | RFID Lab Finland ry |
-| Janne Raitaniemi | Riffid Oy |
-| Juha Porkka | Nordic ID Oyj |
-| Petri Leppänen | GS1 Finland Oy |
-| Sami Saari | Rakennustieto Oy |
-| Teemu Rantanen | Rakennustieto Oy |
+| **Nimi**            | **Organisaatio**     | **Contribution**               |
+|---------------------|----------------------|--------------------------------|
+| Teemu Alaluusua     | Aalto-yliopisto      |1st author                      |
+| Juuso Autiosalo     | Aalto-yliopisto      |tuotti & editoi tekstiä         |
+| Petri Leppänen      | GS1 Finland Oy       |tuotti & editoi tekstiä         | 
+| Tom Partanen        | Consolis Parma Oy    |tuotti & editoi tekstiä         |
+| Eetu Lahtinen       | Consolis Parma Oy    |tuotti elementtisuunnitelmakuvan|
+
+## Asiantuntija ryhmä
+| Nimi               | Organisaatio                   |
+|--------------------|--------------------------------|
+| Janne Kihula       | Rakennustuoteteollisuus RTT ry |
+| Veijo Artoma       | Consolis Parma Oy              |
+| Kari Turunen       | Lujabetoni Oy                  |
+| Ville Retulainen   | Lujabetoni Oy                  |
+| Markku Räisänen    | Betset Oy                      |
+| Otto Alhava        | Fira Oy                        |
+| Tuomas Kekki       | Fira Oy                        |
+| Hannes Ilveskoski  | Fira Oy                        |
+| Antti Pekkala      | Fira Oy                        |
+| Ari Törrönen       | NCC Suomi Oy                   |
+| Riku Laiho         | NCC Suomi Oy                   |
+| Arto Nieminen      | NCC Suomi Oy                   |
+| Janne Makkonen     | Consti                         |
+| Ville Siikaoja     | YIT                            |
+| Lassi Saari        | YIT                            |
+| Klaus Turhanen     | RFID Lab Finland ry            |
+| Janne Raitaniemi   | Riffid Oy                      |
+| Juha Porkka        | Nordic ID Oyj                  |
+| Sami Saari         | Rakennustieto Oy               |
+| Teemu Rantanen     | Rakennustieto Oy               |
 
 ## 1. Tausta
 Rakennustuotteiden yksilöinti ja tunnistaminen on merkittävimpiä osatekijöitä kiinteistö- ja rakennusalan digitalisaatiossa. Vakioidut, yhteentoimivat ja globaalisti käytetyt tuoteyksilöinnin ja -tunnistamisen menetelmät mahdollistavat eri toimijoiden välisen tiedonvaihdon yhtenäisellä tavalla, riippumatta toimitusketjun osapuolesta.
