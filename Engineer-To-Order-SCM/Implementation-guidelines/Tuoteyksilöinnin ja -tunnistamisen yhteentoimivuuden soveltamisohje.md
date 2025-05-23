@@ -2,6 +2,7 @@
 
 **Tilauksesta suunniteltavat rakennustuotteet**  
 Julkaisija: Rakennusteollisuus ry
+
 Julkaistu: 9.1.2025  
 Versio: 1.2  
 Status: Julkaistu
