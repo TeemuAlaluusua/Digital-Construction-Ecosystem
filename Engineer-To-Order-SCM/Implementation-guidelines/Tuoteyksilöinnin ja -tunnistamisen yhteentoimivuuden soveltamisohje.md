@@ -64,7 +64,7 @@ Betonielementit ovat luonteeltaan tilauksesta valmistettavia (MTO) ja tilauksest
 | 1 | Tuoteryhmä / Perustuote | GTIN |
 | 2 | Tuotevariaatio | GTIN + MTO Varianttinumero |
 | 3 | Tuoteyksilö | GTIN + (MTO Varianttinumero) + Sarjanumero (SGTIN) ||
-[Taulukko 1.]
+[Table title (Simple Markdown table)]
 
 ### 3.1 GS1-sovellustunnusten käyttäminen ETO-tuotteiden yksilöintiin
 
