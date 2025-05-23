@@ -1,5 +1,5 @@
 # Rakennusalan-digisanasto
-<code styles="color : aqua">TESTE</code>
+Aqua TESTE <code styles="color : aqua">TESTE</code>
 Tämä sanasto on laadittu yhdenmukaistamaan yhteistä kieltä rakennusalan käyttötarkoituksia varten.
 
 ***Päiväys:*** 2025-05-19
