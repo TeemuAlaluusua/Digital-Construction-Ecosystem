@@ -1,6 +1,6 @@
 # Rakennusalan-digisanasto
 
-Tämä sanasto on laadittu yhdenmukaistamaan yhteistä kieltä rakennusalan käyttötarkoituksia varten[^1].
+Tämä sanasto on laadittu yhdenmukaistamaan yhteistä kieltä rakennusalan käyttötarkoituksia varten.
 
 ***Päiväys:*** 2025-05-19
 
