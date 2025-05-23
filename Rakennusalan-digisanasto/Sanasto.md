@@ -1,5 +1,5 @@
 # Rakennusalan-digisanasto
-Aqua TESTE <code styles="color : aqua">TESTE</code>
+<span style="color:red;">Tämä teksti on punaista.</span>
 Tämä sanasto on laadittu yhdenmukaistamaan yhteistä kieltä rakennusalan käyttötarkoituksia varten.
 
 ***Päiväys:*** 2025-05-19
