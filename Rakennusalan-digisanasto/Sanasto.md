@@ -158,7 +158,7 @@ Identiteetti, joka muodostuu digitaalisista yksilöintitiedoista. Digitaalisen i
 ### Digitaalinen kaksonen 
 Digitaalinen kaksonen (engl. Digital twin) on fyysistä kokonaisuutta vastaava digitaalinen versio, joka sisältää käyttötapauksen puitteissa kaiken olennaisen tiedon fyysisestä paristaan (hyödyntäen Tekoälyä, koneoppimista, IoT teknologiaa dynaamiseen tiedonkeruuseen ja reaaliaikaiseen tiedonvaihtoon).
 
-[^22]
+pil[^22].
 
 ### Digitalisaatio 
 Digitalisaatiolla (engl. digital transformation) tarkoitetaan toimintakulttuurin systeemistä muutosta, jossa digitaaliteknologiat (mm. big data, lohkoketju, pilvilaskenta, esineiden internet, tekoäly, analytiikka, kognitiiviset ratkaisut jne.) lisääntyvät arjen kaikissa eri toiminnoissa tehostaen toimintaa, joka perustuu data analytiikkaan. 
