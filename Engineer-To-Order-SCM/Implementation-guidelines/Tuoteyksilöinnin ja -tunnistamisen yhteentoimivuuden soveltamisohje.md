@@ -1,5 +1,8 @@
 # Tuoteyksilöinnin ja -tunnistamisen yhteentoimivuuden soveltamisohje
 
+Here is a simple footnote[^1].
+[^1]: My reference.
+
 **Tilauksesta suunniteltavat rakennustuotteet**  
 >Julkaisija: Rakennusteollisuus ry\
 >Julkaistu: 9.1.2025  
@@ -64,7 +67,7 @@ Betonielementit ovat luonteeltaan tilauksesta valmistettavia (MTO) ja tilauksest
 | 1 | Tuoteryhmä / Perustuote | GTIN |
 | 2 | Tuotevariaatio | GTIN + MTO Varianttinumero |
 | 3 | Tuoteyksilö | GTIN + (MTO Varianttinumero) + Sarjanumero (SGTIN) ||
-[Table title (Simple Markdown table)]
+
 
 ### 3.1 GS1-sovellustunnusten käyttäminen ETO-tuotteiden yksilöintiin
 
@@ -76,7 +79,7 @@ GS1-standardissa ei ole kansalliselle Elementtitunnukselle, GUID:lle ja verkkotu
 
 Huom! Verkkotunnuksen käsittely RFID-tunnisteissa on tämän ohjeen julkaisuhetkellä käsiteltävänä GS1:n kansainvälisessä standardinkehityksessä. Tuleva standardi ei välttämättä vastaa tässä esitettyä ratkaisua, mutta ohjeistus tullaan päivittämään standardin valmistuessa sen mukaiseksi. Optisessa tunnistamisessa (esim. QR-koodi) tämän tiedon sisällyttämisessä käytetään GS1 Digital Link URI syntax 1.5.0 -standardin mukaista menettelyä.
 
-#### Minimitietovaatimukset tilauksesta suunniteltavien (ETO) rakennustuotteiden yksilöintiin
+###### Taulukko 1. Tiedonkantajaan (2D DataMatrix viivakoodi tai EPC/ RFID-tunniste) lisättävät minimitietovaatimukset. Minimitietovaatimukset tilauksesta suunniteltavien (ETO) rakennustuotteiden yksilöintiin
 | AI | Tieto | Esimerkki |
 |----|-------|-----------|
 | (01) | GTIN-koodi | 06400001000247 |
