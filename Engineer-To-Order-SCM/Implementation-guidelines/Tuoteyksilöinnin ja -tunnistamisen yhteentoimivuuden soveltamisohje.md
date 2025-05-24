@@ -9,6 +9,13 @@ Here is a simple footnote[^1].
 Versio: 1.2  
 Status: Julkaistu
 
+```mermaid
+flowchart LR
+    A[Suunnittelu] --> B[Hankinta]
+    B --> C[Tuotevalmistus]
+    C --> D[Työmaa]
+```
+
 ## Asiakirjan laatijat
 
 | **Nimi**            | **Organisaatio**     | **Contribution**               |
