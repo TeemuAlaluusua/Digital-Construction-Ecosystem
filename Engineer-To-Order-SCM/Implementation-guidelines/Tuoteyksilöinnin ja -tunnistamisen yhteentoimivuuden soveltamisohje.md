@@ -62,8 +62,9 @@ Perinteisesti GTIN-koodeilla on yksilöity ns. varasto-ohjautuvia-tuotteita (MTS
 
 Betonielementit ovat luonteeltaan tilauksesta valmistettavia (MTO) ja tilauksesta suunniteltavia (ETO) tuotteita,jolloin niiden yksilöiminen GTIN-koodeilla poikkeaa lähtökohtaisesti varasto-ohjautuvista tuotteista. On mahdollista luoda jokaiselle yksilölliselle betonielementille oma GTIN-koodinsa, mutta BETK-työryhmän osalta on päädytty hyödyntämään GS1-standardia ns. kolmella yksilöinnin tasolla (esitetty taulukossa 1). Tässä mallissa GTINkoodilla yksilöidään tietyn valmistajan tietyntyyppinen perustuote. Made-to-Order varianttinumeron avulla yksilöidään tämän perustuotteen tietty variantti ja lopulta sarjanumerolla yksilöidään perustuotteen saman variantin identtiset yksilöt. Tässä tapauksessa pelkkä GTIN ei siis yksilöi tiettyä tuotetta, vaan yleisen luokan mahdollisista tilauksen perusteella valmistettavista tuotteen variaatioista.
 
+###### Taulukko 1. Tuoteyksilöinnin hierarkia tasot tarkempaan yksilöintiin
 | Tuoteyksilöinnin tasot             | Tunniste                                             |
-|------------------------------------|------------------------------------------------------|
+|:-----------------------------------|:-----------------------------------------------------|
 | **Taso 1** Tuoteryhmä / Perustuote | GTIN                                                 |
 | **Taso 2** Tuotevariaatio          | GTIN + MTO Varianttinumero                           |
 | **Taso 3** Tuoteyksilö             | GTIN + (MTO Varianttinumero) + Sarjanumero (SGTIN)   |
@@ -79,20 +80,103 @@ GS1-standardissa ei ole kansalliselle Elementtitunnukselle, GUID:lle ja verkkotu
 
 Huom! Verkkotunnuksen käsittely RFID-tunnisteissa on tämän ohjeen julkaisuhetkellä käsiteltävänä GS1:n kansainvälisessä standardinkehityksessä. Tuleva standardi ei välttämättä vastaa tässä esitettyä ratkaisua, mutta ohjeistus tullaan päivittämään standardin valmistuessa sen mukaiseksi. Optisessa tunnistamisessa (esim. QR-koodi) tämän tiedon sisällyttämisessä käytetään GS1 Digital Link URI syntax 1.5.0 -standardin mukaista menettelyä.
 
-###### Taulukko 1. Tiedonkantajaan (2D DataMatrix viivakoodi tai EPC/ RFID-tunniste) lisättävät minimitietovaatimukset. Minimitietovaatimukset tilauksesta suunniteltavien (ETO) rakennustuotteiden yksilöintiin
+###### Taulukko 2. Tiedonkantajaan lisättävät tilauksesta suunniteltavien (ETO) rakennustuotteen minimitietovaatimukset.
 | AI | Tieto | Esimerkki |
 |----|-------|-----------|
 | (01) | GTIN-koodi | 06400001000247 |
 | (242) | MTO varianttinumero | 123456 |
 | (21) | Sarjanumero | 12345678910 |
 
-Valinnaiset lisätiedot:
+###### Taulukko 3.Tiedonkantajaan lisättävät valinnaiset lisätiedot. *Huom! Optisessa tunnistamisessa (esim. QR-koodi) verkkotunnuksen sisällyttämisessä käytetään GS1 Digital Link URI syntax 1.5.0 -standardin mukaista menettelyä
 
 | AI | Tieto | Esimerkki |
 |----|-------|-----------|
 | (91) | Elementtitunnus | V1001 |
 | (92) | GUID | ba34cf17-0c4b-4c6f-9295-cae05aa74ad4 |
 | (99) | Verkkotunnus | id.rt.fi |
+
+### 3.2 GS1- yritystunniste
+GS1-yritystunnus, eli GS1 Company Prefix, on yksilöllinen numerosarja, jonka GS1-organisaatio myöntää yrityksille maailmanlaajuisesti. Yritystunniste on asiakaskohtainen, eikä samaa tunnistetta tai sen pohjalta tehtyjä numerosarjoja voi olla minkään muun toimijan käytössä. GS1-yritystunnusta käytetään monissa standardoiduissa tunnistusmenetelmissä, kuten viivakoodeissa ja RFID-tunnisteissa, ja se on pohjana GTIN-, GLN- ja SSCC-koodien muodostamisessa.
+
+Suomessa GS1-yritystunnisteita myöntää GS1 Finland ja sellaisen voi tilata GS1 Finlandin verkkokaupasta. Oikean GS1-yritystunnisteen valinnassa tulee huomioida tarvittavien GTIN-koodien määrä, johon on tarvittaessa saatavilla apua GS1 Finlandin asiakaspalvelusta.
+
+### 3.3 GTIN-koodin muodostaminen
+GTIN-koodien muodostaminen edellyttää, että yrityksellä on käytettävissään GS1-yritystunniste (GS1 Company Prefix, GCP). GTIN-koodien muodostaminen taas mahdollistaa tuotteiden yksilöllisen tunnistamisen perustuotteen tasolla.
+GTIN-koodi alkaa GS1-yritystunnisteella, jonka pituus GS1 Finlandilta saatavilla olevilla vaihtoehdoilla voi olla 7–11 numeroa. Tämän jälkeen seuraavat 1–6 numeroa voi määrittää itse, ja näissä suositellaan käytettäväksi juoksevaa numerointia. Käytettävissä olevien numeroiden määrä riippuu yritystunnisteen pituudesta. Koodin viimeinen, eli 13. numero, on tarkistusnumero, joka lasketaan 12 ensimmäisen numeron perusteella Modulo 10 -algoritmilla. Tarkistusnumeron laskemiseen voi käyttää esimerkiksi GS1 Finlandin tarjoamaa tarkistusnumerolaskuria: https://gs1.fi/fi/tarkistusnumerolaskuri
+
+###### Taulukko 4. GTIN-koodin rakenne
+| GS1-sovellustunnus | GS1-yritystunniste ---> <--- tuotekohtainen numero |  Tarkistusnumero |
+|----|-------|-----------|
+| (01) |  0 N1 N2 N3 N4 N5 N6 N7 N8 N9 N10 N11 N12 | N13|
+ 
+Viivakoodeissa ja RFID-tunnisteissa GTIN-koodin ilmaisemiseen käytettävä sovellustunnus on (01). GS1:n kansainvälisessä standardikehityksessä käsitellään parhaillaan tilauksesta valmistettavien ja tilauksesta suunniteltavien tuotteiden yksilöintiä. Tämän standardinkehitystyön tuloksena voi tulla muutoksia tilauksesta valmistettavien/suunniteltavien tuotteiden GTIN-koodien ilmaisemiseen. Tämä ohje päivitetään standardin valmistuessa.
+
+Huom! GTIN-koodin pisin versio on 14-merkkiä pitkä ja tätä lyhyemmät GTIN-koodit täydennetään koodin eteen lisättävillä nollilla 14-merkkiä pitkiksi. GTIN-koodi ei voi olla tätä pidempi.
+
+GS1 Finland tarjoaa yritystunnisteasiakkailleen käyttöön GS1 Rekisteri -palvelun GTIN-koodien muodostamiseen. Muodostamalla GTIN-koodin GS1 Rekisteri -palvelussa, voi varmistua niiden oikeasta muodosta.
+
+### 3.4 Variaatioiden yksilöinti
+Betonielementtien variaatioiden yksilöinnissä GTIN-koodiin yhdistetään lisätunnisteena variaationumero (Madeto-Order variation number). Variaationumero mahdollistaa sen, että voidaan tietää joidenkin elementtien olevan keskenään samanlaisia. Toisin sanoen, kun monta elementtiä, joilla on samat tekniset tiedot, valmistetaan kerralla, niillä kaikilla on sama GTIN-koodin ja variaationumeron yhdistelmä.
+Viivakoodeissa ja RFID-tunnisteissa käytetään sovellustunnusta (242) ilmaisemaan variaationumero. GS1-standardin mukaan variaationumero on numeerinen ja vaihtuvapituinen, enintään kuusi numeroa pitkä.
+
+###### Taulukko 5. MTO-Varianttinumero-koodin rakenne
+
+| GS1-sovellustunnus | Made-to-Order variation number |
+|--------------------|--------------------------------|
+| (242)              | N1 ----vaihtuva pituus --->N6  |
+
+### 3.5 Sarjanumerointi
+Yhdistämällä GTIN-koodiin (tai GTIN-koodin ja variaationumeron yhdistelmään) sarjanumerointi, voidaan yksilöidä ja erottaa toisistaan keskenään identtiset elementit. GS1-sovellustunnus (21) osoittaa, että tietokenttä sisältää sarjanumeron. GS1-standardin mukaan sarjanumero on aakkosnumeerinen ja enintään 20 merkkiä pitkä.
+Huom! Valittu RFID-tunniste voi asettaa rajoituksia sarjanumeron pituudelle ja aakkosten käytölle, joten asia on hyvä tarkistaa RFID-ratkaisutoimittajalta.
+###### Taulukko 6. Sarjanumero-koodin rakenne
+
+| GS1-sovellustunnus | Serial number                  |
+|--------------------|--------------------------------|
+| (21)               | X1 ----vaihtuva pituus --->X20 |
+
+### 3.6 Elementtitunnus
+Elementille määritetty tunnus, joka on ihmisen helposti luettavissa, ja voi sisältää tietoa esimerkiksi elementin
+tyypistä tai asennuskerroksesta. Elementtitunnuksen ei tarvitse olla globaalisti yksilöllinen.
+###### Taulukko 7. Elementtitunnukset rakenne
+
+| GS1-sovellustunnus | Elementtitunnus                |
+|--------------------|--------------------------------|
+| (91)               | X1 ----vaihtuva pituus --->X20 |
+
+### 3.7 GUID
+GUID, toiselta nimeltään UUID, on globaalisti yksilöllinen tunnuste, joka voidaan määrittää mallinnusohjelman toimesta tai muulla yksilöllisyyden varmistavalla tavalla.
+
+###### Taulukko 8. GUID-koodin rakenne
+
+| GS1-sovellustunnus | GUID                                 |
+|--------------------|--------------------------------------|
+| (92)               | xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
