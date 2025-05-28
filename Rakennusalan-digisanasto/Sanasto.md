@@ -441,7 +441,7 @@ Koneoppiminen (engl. Machine learning) tarkoittaa tietojenkäsittelytieteen osa-
 ### Koneluettavuus 
 Koneluettavuus (engl. Machine readability) tarkoittaa, että tieto on rakenteistettu systemaattiseen muotoon siten, että kone pystyy tulkitsemaan, käsittelemään, ja siirtämään tietoa tietojenkäsittelyjärjestelmään ilman käyttäjän toimenpiteitä. Lineaariset (1D) viivakoodisymbolit sekä kaksiulotteiset symbolit, magneettijuovaiset älykortit, RFID, biometria ja optinen kirjaintunnistus ovat koneluettavia tekniikoita. Tiedot sisältyvät yleensä tietovirrassa oleviin ennalta määriteltyihin paikkoihin (kenttiin). Tietokoneohjelma voi tulkita nämä tiedot.
 
-[6]
+[ISO/IEC 19762-1:2025](https://www.iso.org/)
 
 ### Koneluettava
 Tietosisällön esittäminen rakenteellisessa muodossa, esimerkiksi taulukoissa. Koneluettavuudella pyritään yksinkertaistamaan tulkinnanvaraisia asioita sekä yhtenäistämään tiedon muotoa. Tietojärjestelmissä konemuotoista tietoa voidaan yhdistellä olemassa olevaan tietosisältöön, jossa monisanaiset tai tulkinnanvaraiset tietokohteet on korvattu yksiselitteisillä merkinnöillä, koodeilla tai niihin verrattavilla ilmaisuilla. Koneluettavuus on tiedon rakenteellistamista taulukoihin tai muuten jaoteltuihin tiedostoihin, joista ohjelma on helpompi poimia samaan kohteeseen tai asiaan liittyvää tietoa. Oleellista konemuodossa on eri lähteistä tulevien tietojen yhdisteleminen ja yhtenäinen muoto.
