@@ -111,12 +111,12 @@ Tuoteosaluettelo (engl. Bill of Materials; BOM) tarkoittaa dokumentoitua muodoll
 #### E-BOM 
 Valmistavan teollisuuden suunnittelunimikkeiden osaluettelo (engl. Engineering Bill of Materials).
 
-[17]
+[ISO/TR 3151-1:2023](https://www.iso.org/)
 
 #### M-BOM 
 Valmistavan teollisuuden ostonimikkeiden osaluettelo (engl. Manufacturing Bill of Materials).
 
-[17]
+[ISO/TR 3151-1:2023](https://www.iso.org/)
 
 ### BI
 liiketoimintatiedon hallinta (engl. Business Intelligence, BI) tarkoittaa prosessuaalista ja teknistä infrastruktuuria, joka kerää, tallentaa ja analysoi yrityksen toiminnan tuottamaa tietoa. Microsoft Power BI on yksi suosituista BI-ohjelmistoista, jota yritykset käyttävät tietojen analysointiin ja raportointiin. 
