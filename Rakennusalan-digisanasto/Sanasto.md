@@ -133,7 +133,7 @@ Rakennushankkeen yhteinen tietoympäristö CDE (engl. Common Data Environment) o
 ### Data 
 Datalla tarkoitetaan informaation uudelleen tulkittavissa olevaa esitystapaa virallistetulla tavalla, joka soveltuu viestintään, tulkintaan tai käsittelyyn. 
 
-[13]
+[ISO 5127:2017](https://www.iso.org/)
 
 ### Data analytiikka 
 Data analytiikka (engl. Data analytics) on prosessi, jossa analysoidaan, kerätään, järjestetään ja tallennetaan raakadataa liiketoiminnan kannalta merkityksellisten havaintojen saamiseksi. 
@@ -168,7 +168,7 @@ Digitalisaatiolla (engl. digital transformation) tarkoitetaan toimintakulttuurin
 ### Digitointi 
 Digitoinnilla (engl. digitization) tarkoitetaan prosessia, jossa muunnetaan analogisia materiaaleja digitaaliseen (tietoteknisesti käsiteltävään) muotoon.
 
-[13]
+[ISO 5127:2017](https://www.iso.org/)
 
 ### DTO 
 Asiakasohjautuvan tuotekehityksen (engl. Design to Order) mukaisen tuotantomenetelmän tuotteet ovat ETO-tuotteiden tavoin asiakasräätälöityjä projektituotteita, jotka suunnitellaan ja valmistetaan projektikohtaisen tilauksen perusteella. Poikkeuksena ETOtuotteisiin DTO-tuotteiden toimitukseen sisältyy tuotekehitys, minkä vuoksi niiden toimitusajat ovat pitkiä. Rakennusalalla DTOtuotantomenetelmän mukaiset tuotteet ja toimitusketjut ovat harvinaisia, vaikka rakennusprosessia voidaankin pitää asiakasohjautuvana tuotekehityksenä.
@@ -576,7 +576,7 @@ NoSQL-tietokanta (engl. NoSQL database) on tietokantajärjestelmä, joka eroaa p
 ### Ontologia 
 Ontologia (engl. ontology) tarkoittaa yhteiskäyttöisen käsitteistön muodollista ja selkeää määrittelyä. Ontologia sisältää tyypillisesti käsitteiden määritelmiä ja niiden välisiä määriteltyjä suhteita, jotka on tallennettu sellaisessa muodossa, että kone pystyy käyttämään niitä päättelyyn. 
 
-[13]
+[ISO 5127:2017](https://www.iso.org/)
 
 ### Ohjelmointirajapinta 
 Ohjelmointirajapinta (engl. Application programming interface, API) on määritelmä, jonka mukaan eri ohjelmat voivat tehdä pyyntöjä ja vaihtaa tietoja eli keskustella keskenään. Rajapinta voi olla pelkkä datarajapinta, jonka kautta saa luettua palvelun sisältämän datan toisiin järjestelmiin. 
@@ -871,7 +871,7 @@ Validointi (engl. validation) tarkoittaa objektiiviseen näyttöön perustuvaa v
 ### Valintalista 
 Valintalista (engl. pick list) on digitaalisen graafisen käyttöliittymän elementti, joka tarjoaa käyttäjälle mahdollisuuden valita vaihtoehtoja, kuten termejä valmiilta listalta. 
 
-[13]
+[ISO 5127:2017](https://www.iso.org/)
 
 ### Versio 
 Tietosisällöt, joilla on sama käyttötarkoitus, mutta eri voimassaoloaika ja joiden sisältö voi poiketa toisistaan. Versio on yksittäisen sanaston, koodiston tai tietomallin uusi tai vanha versio. Niiden voimassaolon alkamis- ja päättymispäivämäärät poikkeavat toisistaan. Tyypillisesti uusi versio korvaa vanhan version. 
