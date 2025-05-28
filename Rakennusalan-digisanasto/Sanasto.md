@@ -384,17 +384,17 @@ Instanssitiedoilla (engl. instance data) tarkoitetaan tietyn tuoteyksilön yksil
 ### IoT 
 Esineiden internet (engl. Internet of Things) on koneiden ja laitteiden yhdistämistä Internetiin sekä koneista syntyneen datan yhdistämistä muuhun dataan. Se käsittää toisiinsa yhdistettyjen entiteettien eli kohdeyksiköiden, ihmisten, järjestelmien ja informaatioresurssien infrastruktuurin sekä palvelut, jotka käsittelevät fyysisestä ja virtuaalimaailmasta tulevaa informaatiota sekä reagoivat siihen.
 
-[12]
+[ISO/IEC 22989:2023](https://www.iso.org)
 
 ### loT-laite 
 Termillä IoT-laite (engl. IoT device) tarkoitetaan loT-järjestelmän entiteettiä eli kohdeyksikköä, joka on vuorovaikutuksessa ja viestii fyysisen maailman kanssa havainnoimalla tai aktivoimalla. loT-laite voi olla sensori tai toimilaite.
 
-[12]
+[ISO/IEC 22989:2023](https://www.iso.org)
 
 ### loT-järjestelmä 
 Termillä IoT-järjestelmä (engl. IoT system) tarkoitetaan järjestelmää, joka tarjoaa esineiden internetin toiminnallisuuksia loT-järjestelmä voi sisältää mm. loT-laitteita, loT-yhdyskäytäviä, sensoreita ja toimilaitteita. 
 
-[12]
+[ISO/IEC 22989:2023](https://www.iso.org)
 
 ### IT 
 Informaatioteknologia/tietotekniikka (engl. information technology) tarkoittaa tietokoneiden ja digitaalisen tietoliikenteen käyttämistä tiedon säilyttämiseen, hakemiseen, siirtämiseen ja muokkaamiseen. 
@@ -436,7 +436,7 @@ Toiminto, joka tunnistaa häiriön tai ongelman perussyyn (engl. root cause anal
 ### Koneoppiminen 
 Koneoppiminen (engl. Machine learning) tarkoittaa tietojenkäsittelytieteen osa-aluetta, jossa ohjelmisto tai järjestelmä ”oppii” datan avulla ilman ohjelmointia. Koneoppiminen hyödyntää data-analytiikasta tuttuja laskennallisia menetelmiä ja tilastotiedettä parantamaan asteittain annetun tehtävän suorituskykyä. 
 
-[12]
+[ISO/IEC 22989:2023](https://www.iso.org)
 
 ### Koneluettavuus 
 Koneluettavuus (engl. Machine readability) tarkoittaa, että tieto on rakenteistettu systemaattiseen muotoon siten, että kone pystyy tulkitsemaan, käsittelemään, ja siirtämään tietoa tietojenkäsittelyjärjestelmään ilman käyttäjän toimenpiteitä. Lineaariset (1D) viivakoodisymbolit sekä kaksiulotteiset symbolit, magneettijuovaiset älykortit, RFID, biometria ja optinen kirjaintunnistus ovat koneluettavia tekniikoita. Tiedot sisältyvät yleensä tietovirrassa oleviin ennalta määriteltyihin paikkoihin (kenttiin). Tietokoneohjelma voi tulkita nämä tiedot.
@@ -453,7 +453,7 @@ vrt. ihmisluettava
 ### Konenäkö 
 Konenäkö (engl. computer vision) tarkoittaa toiminnallisen yksikön kykyä hankkia, käsitellä ja tulkita dataa kuva- tai videomuodossa olevasta lähteestä Konenäkö sisältää sensoreiden käyttöä visuaalista tilannetta esittävän digitaalisen kuvan luomiseen. Konenäkö liittyy läheisesti kuvantunnistukseen, kuten digitaalisten kuvien käsittelyyn. Kuvamuodossa oleva data on yleensä peräisin digitaalisesta kamerasta, digitaalisesti skannatusta fyysisestä kuvasta tai jostain muusta kuvansyöttölaitteesta. Digitaaliset kuvat ovat olemassa numeromatriisina, joka edustaa kuvassa olevia harmaa-asteikon sävyjä tai värejä tai joissain tapauksissa vektorien kokoelmaa. Digitaaliset kuvat voivat sisältää metatietoa, joka kuvailee kuvaan liittyviä ominaispiirteitä ja attribuutteja. Digitaaliset kuvat voidaan pakata tallennustilan säästämiseksi ja niiden lähetysnopeuden parantamiseksi digitaalisissa verkoissa.
 
-[12]
+[ISO/IEC 22989:2023](https://www.iso.org)
 
 ### Kotiinkutsu 
 Tilaajan (usein työmaan) toimittajalle tekemä ilmoitus, jossa ennalta sovitusta toimituksesta varmistetaan toimitussisältö ja toimitusajankohta. Kotiinkutsu voi koskea koko toimitusta tai sen koostuessa useasta erästä, ainoastaan yhtä toimituserää. 
@@ -786,7 +786,9 @@ Toteutusmalli (engl. As-planned model) on rakennustietomallin tietosisällön va
 ### Tiedon louhinta 
 Tiedonlouhinta (engl. Data mining) on laskennallinen tiedonhakuprosessi, jossa tunnistetaan piirteitä analysoimalla kvantitatiivista tietoa eri näkökulmista ja ulottuvuuksista, luokittelemalla se ja tekemällä yhteenveto mahdollisista suhteista ja vaikutuksista. Yksinkertaistettuna tiedon louhinnalla tarkoitetaan siis kaikesta tarjolla olevasta datasta kerättävää olennaista informaatiota.
 
-[12] [20]
+[ISO/IEC 22989:2023](https://www.iso.org)
+
+[20]
 
 ### Tietoturva 
 Tietoturvalla (engl. information security) tarkoitetaan fyysistä ja digitaalista tiedon suojaamista. Fyysinen suojaaminen voi pitää sisällään toimenpiteitä, jotka suojaavat tietokoneita varastavalta murtovarkaalta. Digitaalinen suojaaminen eli kyberturvallisuus (engl. cyber security) tarkoittaa suojautumista verkon kautta tulevilta hyökkäyksiltä ja tietomurroilta. Tietoturvalla on kolme päätavoitetta: Tiedon luottamuksellisuuden, eheyden ja saatavuuden varmistaminen.
