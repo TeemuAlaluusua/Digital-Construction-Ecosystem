@@ -95,18 +95,18 @@ Rakentamiskohteiden informaation mallinnuksella (engl. building Information mode
 Bitti (engl. binary digit, bit) on informaatioteoriassa informaation määrän mitta ja tietotekniikassa tiedon tai tietovuon pienin käsiteltävä osa. Sähköisen tiedon pienin yksikkö on bitti (b), yksi merkki, joka voi saada arvon 1 tai 0.
 
 [EN 1556:1998](https://sales.sfs.fi/fi/index/tuotteet/SFS/CEN/ID2/1/246564.html.stx)
-[6]
+[ISO/IEC 19762-1:2025](https://www.iso.org/)
 
 ### Bittitavu
 Tavu (engl. byte) on tietotekniikassa käytettävä mittayksikkö sellaiselle tallennuskapasiteetille, joka on riippumaton tallennetun datan tyypistä. Bitin jälkeen seuraavaksi pienin yksikkö on tavu (t), joka on kahdeksan bittiä, eli esimerkiksi merkkijono 00010101.
 
 [EN 1556:1998](https://sales.sfs.fi/fi/index/tuotteet/SFS/CEN/ID2/1/246564.html.stx)
-[6]
+[ISO/IEC 19762-1:2025](https://www.iso.org/)
 
 ### BOM
 Tuoteosaluettelo (engl. Bill of Materials; BOM) tarkoittaa dokumentoitua muodollista ja hierarkkista taulukointia tuotteen valmistamiseen tarvittavista fyysisistä kokoonpanoista, osakokoonpanoista ja komponenteista.
 
-[16]
+[ISO/IEC/IEEE 24765:2017](https://www.iso.org/)
 
 #### E-BOM 
 Valmistavan teollisuuden suunnittelunimikkeiden osaluettelo (engl. Engineering Bill of Materials).
@@ -180,7 +180,8 @@ Asiakasohjautuvan tuotekehityksen (engl. Design to Order) mukaisen tuotantomenet
 ### EDI
 EDI (engl. electronic data interchange) tarkoittaa standardoitua tekniikkaa, jota käytetään organisaatioiden välisten tietojärjestelmien kommunikointiin. EDI yhdistetään yleensä EDIFACT-sanomaformaattiin. Suurin osa esimerkiksi kaupan, tukkukaupan, teollisuuden ja kuljetusalan sanomista onkin EDIFACT-standardin mukaisia sanomia. 
 
-[21] [6]
+[21] 
+[ISO/IEC 19762-1:2025](https://www.iso.org/)
 
 ### EIR 
 Informaation vaihdon vaatimukset (engl. exchange Information requirements, EIR) tarkoittaa informaatiovaatimuksia suhteessa toimeksiantoon.
