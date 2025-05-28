@@ -866,7 +866,7 @@ Vakiotuotteella tarkoitetaan valmistajan yleisesti saatavilla olevan tuotevaliko
 ### Validointi 
 Validointi (engl. validation) tarkoittaa objektiiviseen näyttöön perustuvaa varmistumista siitä, että tiettyä aiottua käyttö- tai sovellustarkoitusta koskevat vaatimukset on täytetty. 
 
-[12]
+[ISO/IEC 22989:2023](https://www.iso.org)
 
 ### Valintalista 
 Valintalista (engl. pick list) on digitaalisen graafisen käyttöliittymän elementti, joka tarjoaa käyttäjälle mahdollisuuden valita vaihtoehtoja, kuten termejä valmiilta listalta. 
