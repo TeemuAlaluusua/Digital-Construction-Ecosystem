@@ -143,7 +143,7 @@ Data analytiikka (engl. Data analytics) on prosessi, jossa analysoidaan, kerät�
 ### Data-analyysi 
 Data-analyysillä (engl. Data analysis) tarkoitetaan datan elinkaaren vaihetta, joka käsittää tekniikat, joita käytetään analyytikon tavoitteiden saavuttamiseen eli informatiivisen tiedon tuottamiseen organisoidusta datasta.
 
-[20]
+[ISO 5127:2017](https://www.iso.org)
 
 ### De-facto standardi 
 Käytännön standardin aseman saavuttanut menetelmä tms., jota ei ole standardoitu virallisessa standardointiorganisaatiossa. 
@@ -494,7 +494,7 @@ Rakentamisen tuotannonohjauksen menetelmä.
 linkitetty data (engl. linked data) on rakenteista dataa, joka on yhdistetty useiden tietoaineistojen sisältämään dataan linkkien avulla.
 Linkitetty data voi olla avointa dataa, jolloin sitä kutsutaan avoimeksi linkitetyksi dataksi.
 
-[20]
+[ISO 5127:2017](https://www.iso.org)
 
 ### LOD 
 Suunnittelun kehitystasomäärittely LOD (engl. Level of Development) on tietomallintamisen teoreettinen vertailumenetelmä, jonka tarkoituksena on parantaa rakennustietomallien (BIM) käyttäjien välistä viestintää mallien elementtien ominaisuuksista niiden kehitysvaiheen mukaan. LOD-kehitystasot perustuvat suunnittelun eri loppukäyttötarkoitusten tietovaatimuksiin: lupaprosessi (LOD 100-300), hankinta (LOD 300-350), esivalmistus (LOD 350-400), asennus ja elinkaaren aikainen hallinta (LOD 400). LOD kehitystasomäärittely siis ilmaisee projektitietojen tarkkuutta tietomallissa.
@@ -645,7 +645,7 @@ REST (engl. Representational state transfer application programming interface; R
 ### RFID 
 RFID-tunnistus (engl. radio frequency identification) on automaattisen tunnistamisen ja seurannan tarkoituksiin käytettävä järjestelmä, jossa käytetään radiotaajuisia sähkömagneettisia kenttiä tiedonsiirtoon esineisiin kiinnitetyistä tunnisteista. RFID-tunniste on kohteeseen kiinnitettävä tarra, kortti, implantti tai vastaava merkintä, joka sisältää antennin ja pienen mikropiirin. Tunnisteen sisältö voidaan kirjoittaa ja lukea ilman kosketusta tai näköyhteyttä ja useampi tunniste voidaan lukea samanaikaisesti. Lukuetäisyydet riippuvat käytettävästä taajuudesta, tehosta, RFID-lukijan herkkyydestä ja antennin suuntakuviosta. 
 
-[20]
+[ISO 5127:2017](https://www.iso.org)
 
 ### Rakenteellinen aineisto /Strukturoitu data
 Strukturoitu data (engl. Structured data) tarkoittaa tietoa, joka on järjestetty määrättyyn muotoon tai skeemaan, tyypillisesti riveihin ja sarakkeisiin, kuten relaatiotietokannoissa tai taulukkolaskentaohjelmissa. Nämä tiedot noudattavat ennalta määriteltyä mallia, jossa on selkeät säännöt siitä, miten yksittäiset tiedot tallennetaan ja miten ne liittyvät toisiinsa. Strukturoitu tieto on hyvin järjestettyä ja sitä on helppo hakea, käyttää ja käsitellä tietokannan hallintajärjestelmien ja muiden työkalujen avulla. Esimerkkejä strukturoidusta datasta ovat tietokannat, taulukkolaskentaohjelmat ja tietyllä tavalla muotoillut tiedostot kuten XML ja JSON.
@@ -787,8 +787,7 @@ Toteutusmalli (engl. As-planned model) on rakennustietomallin tietosisällön va
 Tiedonlouhinta (engl. Data mining) on laskennallinen tiedonhakuprosessi, jossa tunnistetaan piirteitä analysoimalla kvantitatiivista tietoa eri näkökulmista ja ulottuvuuksista, luokittelemalla se ja tekemällä yhteenveto mahdollisista suhteista ja vaikutuksista. Yksinkertaistettuna tiedon louhinnalla tarkoitetaan siis kaikesta tarjolla olevasta datasta kerättävää olennaista informaatiota.
 
 [ISO/IEC 22989:2023](https://www.iso.org)
-
-[20]
+[ISO 5127:2017](https://www.iso.org)
 
 ### Tietoturva 
 Tietoturvalla (engl. information security) tarkoitetaan fyysistä ja digitaalista tiedon suojaamista. Fyysinen suojaaminen voi pitää sisällään toimenpiteitä, jotka suojaavat tietokoneita varastavalta murtovarkaalta. Digitaalinen suojaaminen eli kyberturvallisuus (engl. cyber security) tarkoittaa suojautumista verkon kautta tulevilta hyökkäyksiltä ja tietomurroilta. Tietoturvalla on kolme päätavoitetta: Tiedon luottamuksellisuuden, eheyden ja saatavuuden varmistaminen.
@@ -845,7 +844,8 @@ UDA:lla (engl. User Defined Attribute) tarkoitetaan suunnitteluohjelmistoissa ma
 ### URI 
 URI (engl. Uniform Resource Identifier) on merkkijonosta muodostuva tunnus, joka yksikäsitteisesti yksilöi tietyn verkkoresurssin noudattaen sovittua syntaksia. URI-tunnistetta käytetään tyypillisesti World Wide Webin verkkoresurssien yksilöimisessä.
 
-[62] [20]
+[62]
+[ISO 5127:2017](https://www.iso.org)
 
 *Uniform Resource Identifier, yhtenäinen resurssitunniste*
 
@@ -962,7 +962,8 @@ Esimerkiksi:
 Tässä esimerkissä ```<tuote>``` on pääelementti, joka sisältää alielementtejä kuten ```<nimi>```, ```<materiaali>```, ```<koko>``` ja ```<hinta>```.```<koko>```-
 elementti puolestaan sisältää alielementtejä ```<pituus>``` ja ```<halkaisija>```, jotka määrittelevät naulan mitat. 
 
-[35]  [20]
+[35]  
+[ISO 5127:2017](https://www.iso.org)
 [ISO/IEC 15909-2:2011](https://www.iso.org/standard/43538.html#:~:text=ISO%2FIEC%2015909%2D2%3A2011%20defines%20an%20XML%2D,tools%20and%20among%20different%20parties.)
 
 ### (0..)/(1..)/(0..n)/(0..1)
