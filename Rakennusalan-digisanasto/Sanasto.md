@@ -645,7 +645,7 @@ Prosessitiedolla tarkoitetaan tuoteyksilön ja toimituserän käsittelyyn, jakel
 Projektituotteilla tarkoitetaan yksittäistä projektia varten suunniteltuja ja tuotettuja tuotteita, jotka poikkeavat sarjavalmisteisista vakiotuotteista tuotteen ominaisuuksien, kuten mittojen tai suorituskyvyn perusteella, sekä rajatumman saatavuuden myötä. Projektituotteiden tuotannon ohjaus edellyttää suunnittelijoiden, tuotetoimittajien ja urakoitsijoiden välistä yhteistyötä. Projektituotteina on pidetty ETO-tuotantostrategian mukaisia suunnittelutuotteita. Lisäksi jotkin kauppatuotteet voidaan nähdä projektikohtaisina kokoonpanoina erilaisista vakiotuotteista, jolla viitataan ATO-tuotantostrategiaan. 
 
 [Alaluusua 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
-[53]
+[ISO 15489-1:2017](https://www.iso.org/)
 
 ## R
 ### Relaatiotietokanta 
@@ -841,7 +841,7 @@ Valmistavassa teollisuudessa, sekä erityisesti rakennusteollisuudessa tuotteide
 5 Asiakasohjautuva tuotekehitys (DTO). 
 
 [Alaluusua 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
-[53]
+[ISO 15489-1:2017](https://www.iso.org/)
 
 ### Transaktiodata 
 Transaktiodata (engl. Transactional Data) syntyy yritystoiminnassa ja sisältää liiketapahtumakohtaisia tietoja. Transaktiodataa on esimerkiksi ostoista ja tilauksista saatava data. 
