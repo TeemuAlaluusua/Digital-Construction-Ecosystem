@@ -349,13 +349,11 @@ XML-muotoinen IFC-tietoaineisto.
 JSON-muotoinen IFC-tietoaineisto. 
 
 [buildingSmart Terminology](https://user.buildingsmart.org/knowledge-base/terminology/)
-[35]
 
 ### ifcSPFF 
 STEP-muotoinen IFC-tietoaineisto.
 
 [buildingSmart Terminology](https://user.buildingsmart.org/knowledge-base/terminology/)
-[35]
 
 ### Ihmisluettava
 *vrt. koneluettava*
@@ -434,7 +432,7 @@ JSON (engl. JavaScript Object Notation) on yksinkertainen ja kevyt tietojen vaih
 ```
 Tässä JSON-esimerkissä on objekti, joka kuvaa ruuvia. Objekti sisältää avain-arvo -pareja, kuten "nimi", "materiaali", "koko" ja "hinta". Ruuvin koko on esitetty toisessa objektissa, joka sisältää avain-arvo -pareja pituudelle ja halkaisijalle. 
 
-[22] [35]
+[22]
 
 ### Juurisyy 
 Häiriön tai ongelman taustalla oleva alkuperäinen syy (engl. root cause). 
