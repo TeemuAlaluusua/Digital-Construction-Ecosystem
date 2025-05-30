@@ -175,8 +175,7 @@ Digitaalinen kaksonen (engl. Digital twin) on fyysistä kokonaisuutta vastaava d
 ### Digitalisaatio 
 Digitalisaatiolla (engl. digital transformation) tarkoitetaan toimintakulttuurin systeemistä muutosta, jossa digitaaliteknologiat (mm. big data, lohkoketju, pilvilaskenta, esineiden internet, tekoäly, analytiikka, kognitiiviset ratkaisut jne.) lisääntyvät arjen kaikissa eri toiminnoissa tehostaen toimintaa, joka perustuu data analytiikkaan. 
 
-[23]
-
+[ISO/IEC TS 30105-9:2023](https://www.iso.org/)
 ### Digitointi 
 Digitoinnilla (engl. digitization) tarkoitetaan prosessia, jossa muunnetaan analogisia materiaaleja digitaaliseen (tietoteknisesti käsiteltävään) muotoon.
 
