@@ -194,7 +194,7 @@ Asiakasohjautuvan tuotekehityksen (engl. Design to Order) mukaisen tuotantomenet
 ### EDI
 EDI (engl. electronic data interchange) tarkoittaa standardoitua tekniikkaa, jota käytetään organisaatioiden välisten tietojärjestelmien kommunikointiin. EDI yhdistetään yleensä EDIFACT-sanomaformaattiin. Suurin osa esimerkiksi kaupan, tukkukaupan, teollisuuden ja kuljetusalan sanomista onkin EDIFACT-standardin mukaisia sanomia. 
 
-[21] 
+[Sanastot](https://sanastot.suomi.fi/)
 [ISO/IEC 19762-1:2025](https://www.iso.org/)
 
 ### EIR 
