@@ -6,6 +6,10 @@ Tämä sanasto on laadittu yhdenmukaistamaan yhteistä kieltä rakennusalan käy
 
 ***Laatija:*** Teemu Alaluusua
 
+
+
+
+
 ![image](https://github.com/user-attachments/assets/6cc045c9-2cbc-409b-a6d0-6d237ea9fc0f)
 ## A
 ### AI, Tekoäly
@@ -22,6 +26,10 @@ omaisuuskohteen informaatiovaatimukset AIR (engl. asset information requirements
 Omaisuuskohteen käyttövaiheeseen liittyvä informaatiomalli AIM (engl. Asset information model) on jäsennelty tietoarkisto, jota käytetään päätöksenteossa rakennetun ympäristön kohteissa koko niiden elinkaaren aikana. Omaisuuskohteen informaatiomalli (AIM) voi sisältää esim, laiterekistereitä, kumulatiivisia kunnossapitokustannuksia, tallennettuja tietoja asennus- ja kunnossapitopäivämääristä, omaisuuden omistamisen yksityiskohtia ja muita yksityiskohtia, joiden toimeksiantaja katsoo olevan arvokkaita ja joita haluaa hallittavan järjestelmällisesti.
 
 [ISO/IEC 19650:2018](https://www.iso.org/standard/68078.html)
+
+### Alavirta
+
+
 
 ### Alkuperäisformaatti 
 Mallinnusohjelman oma tallennusformaatti. Rakennusalan julkaisuissa käytetään tälle synonyyminä käsitteitä natiivimalli tai natiiviformaatti.
@@ -458,7 +466,7 @@ Konenäkö (engl. computer vision) tarkoittaa toiminnallisen yksikön kykyä han
 ### Kotiinkutsu 
 Tilaajan (usein työmaan) toimittajalle tekemä ilmoitus, jossa ennalta sovitusta toimituksesta varmistetaan toimitussisältö ja toimitusajankohta. Kotiinkutsu voi koskea koko toimitusta tai sen koostuessa useasta erästä, ainoastaan yhtä toimituserää. 
 
-[40]
+[Logistiikan maailma -termisanasto:2025](https://www.logistiikanmaailma.fi/aineistot/sanastot/logistiikan-maailma-termisanasto/)
 
 ### Kolli 
 Kollilla tarkoitetaan matka- tai rahtitavaran lähetyksen pienintä (tarkemmin määrittelemätöntä) kuljetusyksikköä. Jokainen kolli on varustettava niin sanotulla kolliosoitelapulla. Kolliosoitelapussa mainitaan muun muassa lähetyksen toimitusosoite, SSCC-koodi, kollin järjestysnumero ja paino sekä lähetyksen kokonaiskollimäärä ja kollien yhteispaino.
@@ -577,6 +585,10 @@ NoSQL-tietokanta (engl. NoSQL database) on tietokantajärjestelmä, joka eroaa p
 Ontologia (engl. ontology) tarkoittaa yhteiskäyttöisen käsitteistön muodollista ja selkeää määrittelyä. Ontologia sisältää tyypillisesti käsitteiden määritelmiä ja niiden välisiä määriteltyjä suhteita, jotka on tallennettu sellaisessa muodossa, että kone pystyy käyttämään niitä päättelyyn. 
 
 [ISO 5127:2017](https://www.iso.org/)
+
+Koneen ja ihmisen tulkittavissa oleva, yhteisesti sovittu, täsmällinen kuvaus sovellusalueen käsitteistä ja näiden välisistä suhteista 
+
+!!! (Yhteentoimivuusalustan sanasto)
 
 ### Ohjelmointirajapinta 
 Ohjelmointirajapinta (engl. Application programming interface, API) on määritelmä, jonka mukaan eri ohjelmat voivat tehdä pyyntöjä ja vaihtaa tietoja eli keskustella keskenään. Rajapinta voi olla pelkkä datarajapinta, jonka kautta saa luettua palvelun sisältämän datan toisiin järjestelmiin. 
@@ -962,7 +974,6 @@ Esimerkiksi:
 Tässä esimerkissä ```<tuote>``` on pääelementti, joka sisältää alielementtejä kuten ```<nimi>```, ```<materiaali>```, ```<koko>``` ja ```<hinta>```.```<koko>```-
 elementti puolestaan sisältää alielementtejä ```<pituus>``` ja ```<halkaisija>```, jotka määrittelevät naulan mitat. 
 
-[35]  
 [ISO 5127:2017](https://www.iso.org)
 [ISO/IEC 15909-2:2011](https://www.iso.org/standard/43538.html#:~:text=ISO%2FIEC%2015909%2D2%3A2011%20defines%20an%20XML%2D,tools%20and%20among%20different%20parties.)
 
