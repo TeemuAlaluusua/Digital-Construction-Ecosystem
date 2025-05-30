@@ -28,8 +28,9 @@ Omaisuuskohteen käyttövaiheeseen liittyvä informaatiomalli AIM (engl. Asset i
 [ISO/IEC 19650:2018](https://www.iso.org/standard/68078.html)
 
 ### Alavirta
+Toimitusketjun väli raaka-ainetoimittajista kokoonpanevaan tai tuottavaan yksikköön. Kutsutaanmyös nimellä jakelumarkkinat.
 
-
+[Logistiikan maailma -termisanasto:2025](https://www.logistiikanmaailma.fi/aineistot/sanastot/logistiikan-maailma-termisanasto/)
 
 ### Alkuperäisformaatti 
 Mallinnusohjelman oma tallennusformaatti. Rakennusalan julkaisuissa käytetään tälle synonyyminä käsitteitä natiivimalli tai natiiviformaatti.
@@ -55,6 +56,11 @@ Rajapinta (engl. Application Programming Interface) tarkoittaa kahden järjestel
 Arvoketju (engl. value chain) tarkoittaa tuotteen tai palvelun vaiheittaista jalostumista valmiiksi tuotteeksi niin, että jokainen vaihe nostaa lopputuotteen arvoa.
 
 [ISO - PAS 24644-1:2023](https://standards.globalspec.com/std/14629302/pas-24644-1)
+
+### Asiakastilauksen kytkeytymiskohta
+Se toimitusketjun kohta, jossa tuote liitetään asiakkaan tekemään tilaukseen.
+
+[Logistiikan maailma -termisanasto:2025](https://www.logistiikanmaailma.fi/aineistot/sanastot/logistiikan-maailma-termisanasto/)
 
 ### ATO 
 Asiakasohjautuva kokoonpano (engl. Assembly-to-order) on valmistusstrategia, jota käytetään usein teollisuudessa, jossa on paljon erilaisia vaihtoehtoja tai konfiguraatioita tuotteelle. Tässä valmistusstrategiassa tuotevalmistaja tuottaa varastoiduista vakiokomponenteista erilaisia tuotevariaatioita asiakastarpeiden mukaisesti. Nämä osat on tyypillisesti suunniteltu sopimaan yhteen erilaisissa kokoonpanoissa, jolloin yritys voi tarjota asiakkaille valikoiman tuotevaihtoehtoja ja samalla minimoida yksilöllisen valmistuksen tarpeen. Tyypillisiä ATO-tuotteita ovat esim. ikkunat sekä keittiökalusteet. Tässä tuotannonohjausmuodossa varastoon sitoutuu pääomaa, koska standardikomponentteja tarvitaan paljon. ATO:n ideana on tasapainottaa massatuotannon edut ja räätälöidyn tuotannon joustavuus. ATO- tuotteiden valmistusjärjestelmässä ei ole puskuria valmiille varastolle, ja toimitusaika riippuu varaston osakokoonpanovaraston saatavuudesta. 
@@ -207,7 +213,8 @@ EPICS (engl. Electronic Product Code Information Services) on GS1-standardi, jok
 ### ERP 
 ERP-järjestelmä (engl. enterprise resource planning) eli toiminnanohjausjärjestelmä on yrityksen tietojärjestelmä, joka integroi eri toimintoja, esimerkiksi tuotantoa, jakelua, varastonhallintaa, laskutusta ja kirjanpitoa. 
 
-[26]
+[ISO 16100-1:2009](https://www.iso.org)
+[Logistiikan maailma -termisanasto:2025](https://www.logistiikanmaailma.fi/aineistot/sanastot/logistiikan-maailma-termisanasto/)
 
 ### ETIM-standardi 
 ETIM (engl. European Technical Information Model) on kansainvälinen de facto teollisuusstandardi, joka määrittelee sen, miten sähkö-, LVI- ja rakennusalan tuotteiden tekniset ominaisuudet tulee ilmoittaa ja välittää koko toimitusketjussa yhdenmukaisella tavalla. ETIM International hallinnoi ja kehittää jäsenistönsä kautta rakennus-, lvi- ja sähköalan teknisten tuotteiden yhtenäistä ja kielestä riippumatonta tuoteluokittelua. ETIM ei ole tuotetietokanta tai ohjelmisto vaan looginen malli tuotteiden jaottelemiseksi erilaisiin tuoteluokkiin sekä listaus eri tuoteluokkien tärkeimmistä teknisistä ominaisuuksista.
