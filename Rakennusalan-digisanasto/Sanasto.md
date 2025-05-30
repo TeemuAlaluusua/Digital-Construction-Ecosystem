@@ -742,6 +742,12 @@ Tahtialue (engl. takt area) kuvaa tilaa, jossa tietty tehtäväkokonaisuus on ta
 ### Tahtivaunu (työpaketti) 
 ”Arvoa tuottava prosessi”. Kuvaa sitä tehtäväkokonaisuutta, jonka työryhmä suorittaa yhdellä tahtialueella yhden tahtiajan aikana.
 
+### Tapahtumatieto 
+Tapahtumatiedot (engl. event data) ovat eräänlaisia tietoja, joita kerätään ja tallennetaan erilaisilla seurantatyökaluilla tai -menetelmillä,
+jotta saadaan tietoa toimitusketjun tapahtumista. 
+
+[ISO/IEC 14478-2:1998](https://www.iso.org)
+
 ### Tiedonvaihtovaatimus 
 Tiedonvaihtovaatimuksella (engl. Exchange Information Requirements, EIR) tarkoitetaan tietoja, jotka on vaihdettava tietyn liiketoimintavaatimuksen tukemiseksi tietyssä prosessivaiheessa tai tietyissä prosessivaiheissa konekielisenä tiedostona. 
 
@@ -815,12 +821,6 @@ Tietoturvalla (engl. information security) tarkoitetaan fyysistä ja digitaalist
 3 Saatavuus (engl. availability) tarkoittaa pääsyä tietoon silloin, kun sitä tarvitaan.
 
 [59]
-
-### Tapahtumatieto 
-Tapahtumatiedot (engl. event data) ovat eräänlaisia tietoja, joita kerätään ja tallennetaan erilaisilla seurantatyökaluilla tai -menetelmillä,
-jotta saadaan tietoa toimitusketjun tapahtumista. 
-
-[ISO/IEC 14478-2:1998](https://www.iso.org)
 
 ### Tunniste 
 Tunnistautumisen tai tunnistamisen mahdollistava tieto tai ominaisuus. 
