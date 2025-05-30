@@ -188,7 +188,7 @@ Digitoinnilla (engl. digitization) tarkoitetaan prosessia, jossa muunnetaan anal
 Asiakasohjautuvan tuotekehityksen (engl. Design to Order) mukaisen tuotantomenetelmän tuotteet ovat ETO-tuotteiden tavoin asiakasräätälöityjä projektituotteita, jotka suunnitellaan ja valmistetaan projektikohtaisen tilauksen perusteella. Poikkeuksena ETOtuotteisiin DTO-tuotteiden toimitukseen sisältyy tuotekehitys, minkä vuoksi niiden toimitusajat ovat pitkiä. Rakennusalalla DTOtuotantomenetelmän mukaiset tuotteet ja toimitusketjut ovat harvinaisia, vaikka rakennusprosessia voidaankin pitää asiakasohjautuvana tuotekehityksenä.
 
 [Alaluusua 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
-[10]
+[Peltokorpi, 2020](https://www.aalto.fi/sites/default/files/2020-11/Loppuraportti_Tuotetiedon%20hallinta%20ja%20hyo%CC%88dynta%CC%88minen_2.11.2020_0.pdf)
 
 ## E
 ### EDI
