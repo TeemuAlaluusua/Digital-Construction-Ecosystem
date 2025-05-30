@@ -135,7 +135,7 @@ Valmistavan teollisuuden ostonimikkeiden osaluettelo (engl. Manufacturing Bill o
 ### BI
 liiketoimintatiedon hallinta (engl. Business Intelligence, BI) tarkoittaa prosessuaalista ja teknistä infrastruktuuria, joka kerää, tallentaa ja analysoi yrityksen toiminnan tuottamaa tietoa. Microsoft Power BI on yksi suosituista BI-ohjelmistoista, jota yritykset käyttävät tietojen analysointiin ja raportointiin. 
 
-[18]
+[Itewiki:2025](https://www.itewiki.fi/opas/bi-business-intelligence-ja-raportointi/)
 
 ## C
 ### CDE
