@@ -201,12 +201,12 @@ Informaation vaihdon vaatimukset (engl. exchange Information requirements, EIR) 
 ### EPC 
 EPC (engl. Electronic Product Code) on GS1:n standardi RFID:lle. Sillä yksilöidään esimerkiksi logistiset yksiköt, sijainnit ja muut toimitusketjun tiedot RFID-teknologiaan soveltuviksi. EPC:tä voidaan käyttää eri yhteyksissä, esimerkiksi binäärimuodossa RFIDtunnisteisiin koodattuna tai tekstimuodossa tietojen jakamiseksi yritysten järjestelmien välillä. 
 
-[24]
+[GS1 Finland:2025](https://gs1.fi/fi/standardit/tunnistamisen-standardit/epcrfid)
 
 ### EPICS 
 EPICS (engl. Electronic Product Code Information Services) on GS1-standardi, joka on suunniteltu helpottamaan tapahtumatietojen luomista, tallentamista ja jakamista organisaatioiden välillä koko toimitusketjussa. EPCIS tarjoaa yhtenäisen tietorakenteen ja formaatin tapahtumien kuvaamiseen, mikä mahdollistaa tuotteiden ja omaisuuden tilan, sijainnin, liikkeiden ja alkuperän seuraamisen.
 
-[25]
+[GS1 Finland:2025](https://gs1.fi/fi/standardit/gs1n-tiedon-jakamisen-standardit)
 
 ### ERP 
 ERP-järjestelmä (engl. enterprise resource planning) eli toiminnanohjausjärjestelmä on yrityksen tietojärjestelmä, joka integroi eri toimintoja, esimerkiksi tuotantoa, jakelua, varastonhallintaa, laskutusta ja kirjanpitoa. 
