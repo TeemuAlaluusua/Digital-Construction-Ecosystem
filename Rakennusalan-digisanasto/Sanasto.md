@@ -152,8 +152,7 @@ Datalla tarkoitetaan informaation uudelleen tulkittavissa olevaa esitystapaa vir
 ### Data analytiikka 
 Data analytiikka (engl. Data analytics) on prosessi, jossa analysoidaan, kerätään, järjestetään ja tallennetaan raakadataa liiketoiminnan kannalta merkityksellisten havaintojen saamiseksi. 
 
-[19]
-
+[ISO/IEC 24668:2022](https://www.iso.org/)
 ### Data-analyysi 
 Data-analyysillä (engl. Data analysis) tarkoitetaan datan elinkaaren vaihetta, joka käsittää tekniikat, joita käytetään analyytikon tavoitteiden saavuttamiseen eli informatiivisen tiedon tuottamiseen organisoidusta datasta.
 
