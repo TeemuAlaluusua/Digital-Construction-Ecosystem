@@ -820,7 +820,7 @@ Tietoturvalla (engl. information security) tarkoitetaan fyysistä ja digitaalist
 Tapahtumatiedot (engl. event data) ovat eräänlaisia tietoja, joita kerätään ja tallennetaan erilaisilla seurantatyökaluilla tai -menetelmillä,
 jotta saadaan tietoa toimitusketjun tapahtumista. 
 
-[60]
+[ISO/IEC 14478-2:1998](https://www.iso.org)
 
 ### Tunniste 
 Tunnistautumisen tai tunnistamisen mahdollistava tieto tai ominaisuus. 
