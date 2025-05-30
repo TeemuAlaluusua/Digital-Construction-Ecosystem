@@ -162,8 +162,6 @@ Data-analyysillä (engl. Data analysis) tarkoitetaan datan elinkaaren vaihetta, 
 ### De-facto standardi 
 Käytännön standardin aseman saavuttanut menetelmä tms., jota ei ole standardoitu virallisessa standardointiorganisaatiossa. 
 
-[11]
-
 ### Digitaalinen identiteetti 
 Identiteetti, joka muodostuu digitaalisista yksilöintitiedoista. Digitaalisen identiteetin avulla yritys (tai muu toimija tai objekti) voidaan tunnistaa luotettavasti ja yritys voi toimia täysipainoisesti jakaen verkossa itseään koskevia vahvistettuja tietoja. 
 
