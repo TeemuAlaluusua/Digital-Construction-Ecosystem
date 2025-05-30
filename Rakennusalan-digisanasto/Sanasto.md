@@ -880,7 +880,7 @@ Vakioinnilla tarkoitetaan tiedonhallinnan ja toimintatapojen yhdenmukaistamista 
 Vakiotuotteella tarkoitetaan valmistajan yleisesti saatavilla olevan tuotevalikoiman tuotteita, jotka on suunniteltu yleisiin tarpeisiin ja valmistettu ennalta määritettyjen ominaisuuksien, mittojen ja standardien mukaisesti. Vakiotuotteina on pidetty MTS-tuotantostrategian mukaisia standardoituja vakiokauppatuotteita, sekä MTO-tuotantostrategian mukaisia tilaustuotteita.
 
 [Alaluusua 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)
-[53]
+[ISO 15489-1:2017](https://www.iso.org/standard/73292.html)
 
 ### Validointi 
 Validointi (engl. validation) tarkoittaa objektiiviseen näyttöön perustuvaa varmistumista siitä, että tiettyä aiottua käyttö- tai sovellustarkoitusta koskevat vaatimukset on täytetty. 
@@ -900,7 +900,7 @@ Tietosisällöt, joilla on sama käyttötarkoitus, mutta eri voimassaoloaika ja 
 ### Vertailuanalysointi 
 Vertailuanalysointi (engl. benchmarking) tarkoittaa oman toiminnan vertaamista toisten toimintaan, usein parhaaseen vastaavaan käytäntöön. Vertailuanalysoinnin perusidea on toisilta oppiminen ja oman toiminnan kyseenalaistaminen. 
 
-[63]
+[ISO/IEC 29155-1:2011](https://www.iso.org)
 
 ### Viivakoodi 
 Viivakoodi (engl. Barcode tai DataBar) koostuu eri levyisistä mustista ja valkeista palkeista. Koodi voi olla rakenteeltaan numeerinen tai alfanumeerinen, riippuen käytetystä koodijärjestelmästä. Viivakoodit eivät yleensä sisällä tietoja itse tuotteesta, vaan vain yksilöintitunnuksen, jonka avulla tuote voidaan tunnistaa nopeasti ja virheettömästi. Se voi olla lineaarinen (1D) tai kaksiulotteinen (GS1 DataMatrix ja QR-koodit ovat 2D viivakoodeja). Informaatio luetaan yhdistelmästä optisesti, jolloin lukulaite (viivakoodinlukija tai älypuhelimen kamera) mittaa viivakoodin juovien leveyden ja/tai kombinaation. Lukulaitteen havaintotiedot muutetaan sähköisiksi digitaalimerkeiksi, joita voidaan käsitellä tietojärjestelmissä. 
