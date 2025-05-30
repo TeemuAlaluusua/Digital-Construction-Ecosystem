@@ -830,7 +830,7 @@ Tunnistautumisen tai tunnistamisen mahdollistava tieto tai ominaisuus.
 ### Tunnistus; tunnistaminen 
 Tunnistamisella (engl. recognition; identification) tarkoitetaan menettelyä, jolla varmistetaan mm. henkilön identiteetti tai esineen tai asian tunniste.
 
-[21]
+[Sanastot](https://sanastot.suomi.fi/)
 
 ### Tuotantomuoto 
 Valmistavassa teollisuudessa, sekä erityisesti rakennusteollisuudessa tuotteiden ja materiaalien tuotantomuodot eroavat toisistaan imuja työntöohjaukseen perustuvan varasto- ja tilausohjautuvan tuotannon mukaan, mikä konkretisoituu tuotteiden saatavuuden kautta. Siinä missä varasto-ohjautuvia tuotteita voidaan noutaa suoraan rakennustarvikemyymälöiden hyllystä, tilausohjautuvat tuotteet valmistetaan asiakastilauksen kautta. Tuotantomuodot voidaan jakaa varasto- ja tilausohjautuvien tuotantoprosessien kautta tilauspisteen (OPP, Order Penetration Point) mukaisesti viiteen kategoriaan:
@@ -852,7 +852,7 @@ Transaktiodata (engl. Transactional Data) syntyy yritystoiminnassa ja sisältä�
 Tuotetiedolla (engl. Product data) tarkoitetaan tuotetta koskevan tiedon esittämistä muodollisella tavalla, joka soveltuu ihmisten tai tietokoneiden välitettäväksi, tulkittavaksi tai käsiteltäväksi. Tuotetiedolla tarkoitetaan rakennusalan kontekstissa lähes kaikkea tuotteisiin liittyvää tietoa. Rakennusalalla tuotteisiin liittyvää tuotetietoa on tyypillisesti mm. tuotteiden esitteet, tuotteiden tekniset ja toiminnalliset ominaisuudet, suunnitelmat, asennus-, käyttö- ja huolto-ohjeet, tuoterakenteet, osaluettelot, testaustulokset, ympäristövaikutukset sekä mahdolliset turvallisuusnäkökohdat. Tuotteisiin liittyvä tieto puolestaan voidaan jakaa a) vakiotietoihin, b) instanssitietoihin ja c) prosessitietoihin. 
 
 [Peltokorpi, 2020](https://www.aalto.fi/sites/default/files/2020-11/Loppuraportti_Tuotetiedon%20hallinta%20ja%20hyo%CC%88dynta%CC%88minen_2.11.2020_0.pdf)
-[61]
+[ISO 10303-1:1994](https://www.iso.org)
 
 ## U
 ### UDA 
@@ -863,7 +863,7 @@ UDA:lla (engl. User Defined Attribute) tarkoitetaan suunnitteluohjelmistoissa ma
 ### URI 
 URI (engl. Uniform Resource Identifier) on merkkijonosta muodostuva tunnus, joka yksikäsitteisesti yksilöi tietyn verkkoresurssin noudattaen sovittua syntaksia. URI-tunnistetta käytetään tyypillisesti World Wide Webin verkkoresurssien yksilöimisessä.
 
-[62]
+[ISO/IEC 19770-5:2015](https://www.iso.org)
 [ISO 5127:2017](https://www.iso.org)
 
 *Uniform Resource Identifier, yhtenäinen resurssitunniste*
@@ -944,8 +944,6 @@ Digi- ja väestötietoviraston (DVV) ylläpitämä yhteentoimivuusalusta on koko
 
 ### Ylläpitomalli 
 Ylläpitomalli (engl. Maintenance model) on rakenteen tai -järjestelmän tietomallin tietosisällön osajoukko (vaiheistus), joka kattaa ylläpidon näkökulman eli käytön ja ylläpidon aikaiset tehtävät, muutokset jne. 
-
-[22]
 
 ### Yksilöinti 
 Toimijan tai objektin yksilöllisyyteen perustuva erottaminen muista samaan tai samankaltaiseen joukkoon kuuluvista.
