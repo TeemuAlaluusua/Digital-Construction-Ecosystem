@@ -591,12 +591,12 @@ Ontologia (engl. ontology) tarkoittaa yhteiskäyttöisen käsitteistön muodolli
 
 Koneen ja ihmisen tulkittavissa oleva, yhteisesti sovittu, täsmällinen kuvaus sovellusalueen käsitteistä ja näiden välisistä suhteista 
 
-!!! (Yhteentoimivuusalustan sanasto)
+[Sanastot](https://sanastot.suomi.fi/)
 
 ### Ohjelmointirajapinta 
 Ohjelmointirajapinta (engl. Application programming interface, API) on määritelmä, jonka mukaan eri ohjelmat voivat tehdä pyyntöjä ja vaihtaa tietoja eli keskustella keskenään. Rajapinta voi olla pelkkä datarajapinta, jonka kautta saa luettua palvelun sisältämän datan toisiin järjestelmiin. 
 
-[Sanastot](https://sanastot.suomi.fi/)]
+[Sanastot](https://sanastot.suomi.fi/)
 
 ## P
 ### PEPPOL-verkosto 
