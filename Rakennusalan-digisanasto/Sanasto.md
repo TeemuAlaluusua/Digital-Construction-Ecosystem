@@ -237,11 +237,6 @@ EU:n tietosuoja-asetus eli GDPR (engl. General Data Protection Regulation) sää
 
 [28]
 
-### GS1 Digital Link 
-GS1 Digital Link määrittää, miten GS1:n viivakoodit ohjataan eri verkkolinkkeihin standardoidulla tavalla. Se on esimerkiksi GS1 2Dkoodin taustalla oleva standardi, joka mahdollistaa yhteydet sekä toimitusketjun tunnisteisiin että kuluttajaviestinnän sisältöihin. Kun tuotteessa on EAN-, QR-, NFC-koodi tai GS1 DataMatrix, ohjataan se GS1 Digital Linkin avulla eri url-osoitteisiin ja GS1:n toimitusketjun tunnisteisiin. Tuotemerkin omistaja määrittää, minne kyseinen koodi ohjaa. 
-
-[25]
-
 ### GS1-STANDARDIT
 GS1 standardijärjestelmä (engl. global standard one) perustuu tiedon (mm. asioiden, tavaroiden, paikkojen ja henkilöiden) -yksilöintiin, näiden fyysiseen tunnistamiseen, sekä -jakamiseen digitaalisessa muodossa toimitusketjun eri toimijoiden välillä.
 
@@ -276,6 +271,11 @@ Sijainti- ja osapuolitunniste GLN (engl. Global Location Number) on GS1:n yksil�
 Kiertävän kuormankantajan tunniste GRAI (engl. Global Returnable Asset Identifier) on GS1:n yksilöinnin standardi kiertävien kuormankantajien (palautettavat kuormalavat, laatikot, rullakot yms.) yksilöintiin.
 
 [GS1 yksilöinti standardit](https://www.gs1.org/standards/id-keys)
+
+#### GS1 Digital Link 
+GS1 Digital Link määrittää, miten GS1:n viivakoodit ohjataan eri verkkolinkkeihin standardoidulla tavalla. Se on esimerkiksi GS1 2Dkoodin taustalla oleva standardi, joka mahdollistaa yhteydet sekä toimitusketjun tunnisteisiin että kuluttajaviestinnän sisältöihin. Kun tuotteessa on EAN-, QR-, NFC-koodi tai GS1 DataMatrix, ohjataan se GS1 Digital Linkin avulla eri url-osoitteisiin ja GS1:n toimitusketjun tunnisteisiin. Tuotemerkin omistaja määrittää, minne kyseinen koodi ohjaa. 
+
+[GS1 Finland:2025](https://gs1.fi/fi/standardit/gs1n-tiedon-jakamisen-standardit)
 
 #### GSIN 
 Logistisen toimituksen tunniste GSIN (engl. Global Shipment Identification Number) on GS1:n yksilöinnin standardi, jota käytetään tunnistamaan samaan toimitukseen kuuluvat logistiset yksiköt. Se tarkoittaa, että logististen yksiköiden muodostama toimitus dokumentoidaan samalle lähetysasiakirjalle ja/tai konossementille saman GSIN-yksilöintitunnuksen alle. GSIN-tunnisteen avulla on mahdollista seurata ja jäljittää logistiset yksiköt kuljetusketjussa rahdinlähettäjältä vastaanottajalle. Ketjun osapuolet voivat hyödyntää samaa GSIN-tunnistetta tiedonkulussa eri osapuolten välillä, kuten kuljetuksen ohjeistuksen tai tilanteen viestimisessä. Tunnistetta voidaan käyttää esimerkiksi EDI-sanomissa toimituksen viitenumerona. 
