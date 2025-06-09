@@ -348,32 +348,26 @@ https://ref.gs1.org/standards/digital-link/uri-syntax/
 https://ref.gs1.org/standards/resolver/
 
 # Lyhenteet ja terminologia
-Aplikaattori Laite, joka tulostaa ja kiinnittää RFID-tunnisteen tuotteeseen
-EPC Sähköinen tuotekoodi (engl. Electronic Product Code). Kts EPC Tag Data Standard ISO/IEC 15962
-EPC-muisti RFID-tunnisteen muisti, johon sähköinen tuotekoodi kirjoitetaan, eli tunnisteen perusmuisti
-ETO ETO (Engineer-To-Order) tarkoittaa tilauksesta suunniteltavien tuotteiden valmistuslogiikkaa.
-GS1 DataMatrix GS1-standardin mukainen 2D-koodi, johon voidaan sisällyttää enemmän tietoa kuin perinteiseen
-EAN-viivakoodiin. ISO/IEC 16022
-GS1 AI GS1-sovellustunnukset (Application Identifier, AI) ovat 2–4 numeron pituisia tunnuksia, joita käytetään GS1-128-, GS1 DataMatrix- ja GS1 DataBar -viivakoodeissa sekä EPC/RFID-tunnisteissa.
-GTIN (Global Trade Item Number) on GS1:n tuotetunniste standardi (ISO/IEC 15459-6 & ISO/IEC 6523).
-GUID GUID (Globally Unique IDentifier) on mallinnusohjelman antama tai muulla tavalla luotu kullekin
-osalle yksilöllinen tunniste. Kulkee myös nimellä UUID (Universally Unique IDentifier). (määritelty
-ISO/IEC 11578:1996 Information technology - Open Systems Interconnection - Remote Procedure
-Call (RPC) -määrittelyssä ja sekä ITU-T Rec. X.667 | ISO/IEC 9834-8:2005)
-MTO MTO (Make-To-Order / Made-To-Order) tarkoittaa tilausohjautuvaa tuotantoa, jossa tuotteet valmistetaan asiakastilausten mukaisesti valmiiden tuotesuunnitelmien pohjalta.
-MTS MTS (Make-To-Stock) termillä tarkoitetaan varasto-ohjautuvien tuotteiden valmistuslogiikkaa.
-RFID RFID (Radio Frequency Identification) termillä tarkoitetaan radiotaajuisia etätunnisteita (sisältää antennin ja mikropiirin).
-SGTIN GTIN-koodin ja sarjanumeron yhdistelmä, jolla voidaan erottaa identtiset tuoteyksilöt toisistaan.
-Tag RFID-tunniste, joka sisältää sirun ja antennin. Käytetään objektien yksilölliseen tunnistamiseen.
-User memory RFID käyttäjämuisti tai lisämuisti
-UHF tunniste Korkeataajuinen (850–960 MHZ) RFID tunniste
-URI URI (Uniform Resource Identifier) on tietoverkossa sijaitsevan tiedon tunniste. URL on aina myös URI,
-mutta URI ei välttämättä ole URL. Esimerkiksi https://rt.fi tai urn:ISBN:952-9842-34-1
-URL URL (Uniform Resource Locator) sisältää tiedon hakemiseen tarvittavan tiedon, kuten protokollan
-(esim. https) ja palvelimen. Esimerkiksi https://rt.fi
-Verkkotunnus Verkkotunnus eli domain-nimi on merkkijono, joka ohjataan internetissä tiettyyn IP-osoitteeseen eli
-palvelimelle. Esimerkiksi www.iso.org
-Viittaukset
+Aplikaattori | Laite, joka tulostaa ja kiinnittää RFID-tunnisteen tuotteeseen
+EPC  | Sähköinen tuotekoodi (engl. Electronic Product Code). Kts EPC Tag Data Standard ISO/IEC 15962
+EPC-muisti  | RFID-tunnisteen muisti, johon sähköinen tuotekoodi kirjoitetaan, eli tunnisteen perusmuisti
+ETO  | ETO (Engineer-To-Order) tarkoittaa tilauksesta suunniteltavien tuotteiden valmistuslogiikkaa.
+GS1 DataMatrix  | GS1-standardin mukainen 2D-koodi, johon voidaan sisällyttää enemmän tietoa kuin perinteiseen EAN-viivakoodiin. ISO/IEC 16022
+GS1 AI  | GS1-sovellustunnukset (Application Identifier, AI) ovat 2–4 numeron pituisia tunnuksia, joita käytetään GS1-128-, GS1 DataMatrix- ja GS1 DataBar -viivakoodeissa sekä EPC/RFID-tunnisteissa.
+GTIN  | (Global Trade Item Number) on GS1:n tuotetunniste standardi (ISO/IEC 15459-6 & ISO/IEC 6523).
+GUID  | GUID (Globally Unique IDentifier) on mallinnusohjelman antama tai muulla tavalla luotu kullekin osalle yksilöllinen tunniste. Kulkee myös nimellä UUID (Universally Unique IDentifier). (määritelty ISO/IEC 11578:1996 Information technology - Open Systems Interconnection - Remote Procedure Call (RPC) -määrittelyssä ja sekä ITU-T Rec. X.667 | ISO/IEC 9834-8:2005)
+MTO | MTO (Make-To-Order / Made-To-Order) tarkoittaa tilausohjautuvaa tuotantoa, jossa tuotteet valmistetaan asiakastilausten mukaisesti valmiiden tuotesuunnitelmien pohjalta.
+MTS | MTS (Make-To-Stock) termillä tarkoitetaan varasto-ohjautuvien tuotteiden valmistuslogiikkaa.
+RFID  | RFID (Radio Frequency Identification) termillä tarkoitetaan radiotaajuisia etätunnisteita (sisältää antennin ja mikropiirin).
+SGTIN  | GTIN-koodin ja sarjanumeron yhdistelmä, jolla voidaan erottaa identtiset tuoteyksilöt toisistaan.
+Tag  | RFID-tunniste, joka sisältää sirun ja antennin. Käytetään objektien yksilölliseen tunnistamiseen.
+User memory  | RFID käyttäjämuisti tai lisämuisti
+UHF tunniste | Korkeataajuinen (850–960 MHZ) RFID tunniste
+URI  | URI (Uniform Resource Identifier) on tietoverkossa sijaitsevan tiedon tunniste. URL on aina myös URI, mutta URI ei välttämättä ole URL. Esimerkiksi https://rt.fi tai urn:ISBN:952-9842-34-1
+URL  | URL (Uniform Resource Locator) sisältää tiedon hakemiseen tarvittavan tiedon, kuten protokollan (esim. https) ja palvelimen. Esimerkiksi https://rt.fi
+Verkkotunnus | Verkkotunnus eli domain-nimi on merkkijono, joka ohjataan internetissä tiettyyn IP-osoitteeseen eli palvelimelle. Esimerkiksi www.iso.org
+
+## Viittaukset
 [1] GS1, ”Recommendation for the use of EPC and ISO RFID symbols,” 2022.
 [2] ISO/IEC, ”29160:2020. Information technology — Radio frequency identification,” 2020.
 [3] ISO, ”Online Browsing Platform (OBP): ISO 7000-3010,” 12 Maaliskuu 2010. [Online]. Available:
