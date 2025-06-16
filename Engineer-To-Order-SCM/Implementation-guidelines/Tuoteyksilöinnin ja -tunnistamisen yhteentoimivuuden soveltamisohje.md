@@ -369,7 +369,7 @@ Datamatrix barcode and tagging with EPC / RFID Gen 2 UHF RFID tags,” 2018.
 | Tom Partanen        | Consolis Parma Oy    |tuotti & editoi tekstiä         |
 | Eetu Lahtinen       | Consolis Parma Oy    |tuotti elementtisuunnitelmakuvan|
 
-##" Asiantuntija ryhmä
+## Asiantuntija ryhmä
 | Nimi               | Organisaatio                   |
 |--------------------|--------------------------------|
 | Janne Kihula       | Rakennustuoteteollisuus RTT ry |
