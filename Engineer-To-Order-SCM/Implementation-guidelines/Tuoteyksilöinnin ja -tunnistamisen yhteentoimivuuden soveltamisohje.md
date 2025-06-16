@@ -9,40 +9,6 @@ Here is a simple footnote[^1].
 Versio: 1.2  
 Status: Julkaistu
 
-## Asiakirjan laatijat
-
-| **Nimi**            | **Organisaatio**     | **Contribution**               |
-|---------------------|----------------------|--------------------------------|
-| Teemu Alaluusua     | Aalto-yliopisto      |1st author                      |
-| Juuso Autiosalo     | Aalto-yliopisto      |tuotti & editoi tekstiä         |
-| Petri Leppänen      | GS1 Finland Oy       |tuotti & editoi tekstiä         | 
-| Tom Partanen        | Consolis Parma Oy    |tuotti & editoi tekstiä         |
-| Eetu Lahtinen       | Consolis Parma Oy    |tuotti elementtisuunnitelmakuvan|
-
-## Asiantuntija ryhmä
-| Nimi               | Organisaatio                   |
-|--------------------|--------------------------------|
-| Janne Kihula       | Rakennustuoteteollisuus RTT ry |
-| Veijo Artoma       | Consolis Parma Oy              |
-| Kari Turunen       | Lujabetoni Oy                  |
-| Ville Retulainen   | Lujabetoni Oy                  |
-| Markku Räisänen    | Betset Oy                      |
-| Otto Alhava        | Fira Oy                        |
-| Tuomas Kekki       | Fira Oy                        |
-| Hannes Ilveskoski  | Fira Oy                        |
-| Antti Pekkala      | Fira Oy                        |
-| Ari Törrönen       | NCC Suomi Oy                   |
-| Riku Laiho         | NCC Suomi Oy                   |
-| Arto Nieminen      | NCC Suomi Oy                   |
-| Janne Makkonen     | Consti                         |
-| Ville Siikaoja     | YIT                            |
-| Lassi Saari        | YIT                            |
-| Klaus Turhanen     | RFID Lab Finland ry            |
-| Janne Raitaniemi   | Riffid Oy                      |
-| Juha Porkka        | Nordic ID Oyj                  |
-| Sami Saari         | Rakennustieto Oy               |
-| Teemu Rantanen     | Rakennustieto Oy               |
-
 ## 1. Tausta
 Rakennustuotteiden yksilöinti ja tunnistaminen on merkittävimpiä osatekijöitä kiinteistö- ja rakennusalan digitalisaatiossa. Vakioidut, yhteentoimivat ja globaalisti käytetyt tuoteyksilöinnin ja -tunnistamisen menetelmät mahdollistavat eri toimijoiden välisen tiedonvaihdon yhtenäisellä tavalla, riippumatta toimitusketjun osapuolesta.
 
@@ -347,7 +313,7 @@ GS1 Digital Link -standardin käyttöä on kuvattu tarkemmin seuraavissa GS1-sta
 https://ref.gs1.org/standards/digital-link/uri-syntax/
 https://ref.gs1.org/standards/resolver/
 
-# Lyhenteet ja terminologia
+## Lyhenteet ja terminologia
 Aplikaattori | Laite, joka tulostaa ja kiinnittää RFID-tunnisteen tuotteeseen
 EPC  | Sähköinen tuotekoodi (engl. Electronic Product Code). Kts EPC Tag Data Standard ISO/IEC 15962
 EPC-muisti  | RFID-tunnisteen muisti, johon sähköinen tuotekoodi kirjoitetaan, eli tunnisteen perusmuisti
@@ -379,12 +345,44 @@ GTIN-Management-Rule-examples-for-construction-products+2-2-Declared-formulation
 [6] G. Norway, ”Guideline for Unique identification of products with SGTIN (serialized GTIN). Labelling with GS1
 Datamatrix barcode and tagging with EPC / RFID Gen 2 UHF RFID tags,” 2018.
 
-# Liite 1
+## Liite 1
 
 
 
 
+## Asiakirjan laatijat
 
+| **Nimi**            | **Organisaatio**     | **Contribution**               |
+|---------------------|----------------------|--------------------------------|
+| Teemu Alaluusua     | Aalto-yliopisto      |1st author                      |
+| Juuso Autiosalo     | Aalto-yliopisto      |tuotti & editoi tekstiä         |
+| Petri Leppänen      | GS1 Finland Oy       |tuotti & editoi tekstiä         | 
+| Tom Partanen        | Consolis Parma Oy    |tuotti & editoi tekstiä         |
+| Eetu Lahtinen       | Consolis Parma Oy    |tuotti elementtisuunnitelmakuvan|
+
+## Asiantuntija ryhmä
+| Nimi               | Organisaatio                   |
+|--------------------|--------------------------------|
+| Janne Kihula       | Rakennustuoteteollisuus RTT ry |
+| Veijo Artoma       | Consolis Parma Oy              |
+| Kari Turunen       | Lujabetoni Oy                  |
+| Ville Retulainen   | Lujabetoni Oy                  |
+| Markku Räisänen    | Betset Oy                      |
+| Otto Alhava        | Fira Oy                        |
+| Tuomas Kekki       | Fira Oy                        |
+| Hannes Ilveskoski  | Fira Oy                        |
+| Antti Pekkala      | Fira Oy                        |
+| Ari Törrönen       | NCC Suomi Oy                   |
+| Riku Laiho         | NCC Suomi Oy                   |
+| Arto Nieminen      | NCC Suomi Oy                   |
+| Janne Makkonen     | Consti                         |
+| Ville Siikaoja     | YIT                            |
+| Lassi Saari        | YIT                            |
+| Klaus Turhanen     | RFID Lab Finland ry            |
+| Janne Raitaniemi   | Riffid Oy                      |
+| Juha Porkka        | Nordic ID Oyj                  |
+| Sami Saari         | Rakennustieto Oy               |
+| Teemu Rantanen     | Rakennustieto Oy               |
 
 
 
