@@ -314,7 +314,9 @@ https://ref.gs1.org/standards/digital-link/uri-syntax/
 https://ref.gs1.org/standards/resolver/
 
 ## Lyhenteet ja terminologia
-Aplikaattori | Laite, joka tulostaa ja kiinnittää RFID-tunnisteen tuotteeseen
+|**Nimike**|**Selite**|
+|-----------|---------------|
+|Aplikaattori | Laite, joka tulostaa ja kiinnittää RFID-tunnisteen tuotteeseen|
 EPC  | Sähköinen tuotekoodi (engl. Electronic Product Code). Kts EPC Tag Data Standard ISO/IEC 15962
 EPC-muisti  | RFID-tunnisteen muisti, johon sähköinen tuotekoodi kirjoitetaan, eli tunnisteen perusmuisti
 ETO  | ETO (Engineer-To-Order) tarkoittaa tilauksesta suunniteltavien tuotteiden valmistuslogiikkaa.
@@ -334,20 +336,16 @@ URL  | URL (Uniform Resource Locator) sisältää tiedon hakemiseen tarvittavan 
 Verkkotunnus | Verkkotunnus eli domain-nimi on merkkijono, joka ohjataan internetissä tiettyyn IP-osoitteeseen eli palvelimelle. Esimerkiksi www.iso.org
 
 ## Viittaukset
-[1] GS1, ”Recommendation for the use of EPC and ISO RFID symbols,” 2022.
-[2] ISO/IEC, ”29160:2020. Information technology — Radio frequency identification,” 2020.
-[3] ISO, ”Online Browsing Platform (OBP): ISO 7000-3010,” 12 Maaliskuu 2010. [Online]. Available:
-https://www.iso.org/obp/ui#iso:grs:7000:3010. [Haettu 28 Lokakuu 2024].
-[4] GS1, ”GTIN Management Guideline for Construction Products,” Tammikuu 2023. [Online]. Available:
-https://www.gs1.org/standards/gtin-management-guideline-construction-products/current-standard#2-
-GTIN-Management-Rule-examples-for-construction-products+2-2-Declared-formulation-or-functionality.
-[5] GS1, ”GS1 Application Identifiers,” 2024. [Online]. Available: https://ref.gs1.org/ai/. [Haettu Syyskuu 2024].
-[6] G. Norway, ”Guideline for Unique identification of products with SGTIN (serialized GTIN). Labelling with GS1
-Datamatrix barcode and tagging with EPC / RFID Gen 2 UHF RFID tags,” 2018.
+[1] GS1, ”Recommendation for the use of EPC and ISO RFID symbols,” 2022.  
+[2] ISO/IEC, ”29160:2020. Information technology — Radio frequency identification,” 2020.  
+[3] ISO, ”Online Browsing Platform (OBP): ISO 7000-3010,” 12 Maaliskuu 2010. [Online]. Available:https://www.iso.org/obp/ui#iso:grs:7000:3010. [Haettu 28 Lokakuu 2024].  
+[4] GS1, ”GTIN Management Guideline for Construction Products,” Tammikuu 2023. [Online]. Available:https://www.gs1.org/standards/gtin-management-guideline-construction-products/current-standard#2-GTIN-Management-Rule-examples-for-construction-products+2-2-Declared-formulation-or-functionality.  
+[5] GS1, ”GS1 Application Identifiers,” 2024. [Online]. Available: https://ref.gs1.org/ai/. [Haettu Syyskuu 2024].  
+[6] G. Norway, ”Guideline for Unique identification of products with SGTIN (serialized GTIN). Labelling with GS1Datamatrix barcode and tagging with EPC / RFID Gen 2 UHF RFID tags,” 2018.  
 
 ## Liite 1
 
-
+![20250109_BETK Soveltamisohje_Tuoteyksilöinti ja -tunnistaminen (1)_1](https://github.com/user-attachments/assets/a815804d-46ae-49bf-bf53-827eaab8e0c9)
 
 
 ## Asiakirjan tiedot
