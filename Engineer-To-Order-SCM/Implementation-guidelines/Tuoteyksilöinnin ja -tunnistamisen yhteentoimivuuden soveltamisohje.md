@@ -344,10 +344,7 @@ Verkkotunnus | Verkkotunnus eli domain-nimi on merkkijono, joka ohjataan interne
 [6] G. Norway, ”Guideline for Unique identification of products with SGTIN (serialized GTIN). Labelling with GS1Datamatrix barcode and tagging with EPC / RFID Gen 2 UHF RFID tags,” 2018.  
 
 ## Liite 1
-
 ![20250109_BETK Soveltamisohje_Tuoteyksilöinti ja -tunnistaminen (1)_1](https://github.com/user-attachments/assets/a815804d-46ae-49bf-bf53-827eaab8e0c9)
-
-
 ## Asiakirjan tiedot
 
 ### Asiakirjan versio
