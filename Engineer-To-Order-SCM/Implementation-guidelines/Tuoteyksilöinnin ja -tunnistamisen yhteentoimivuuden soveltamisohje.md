@@ -350,7 +350,16 @@ Datamatrix barcode and tagging with EPC / RFID Gen 2 UHF RFID tags,” 2018.
 
 
 
-## Asiakirjan laatijat
+## Asiakirjan tiedot
+
+### Asiakirjan versio
+| **Versio**| **Päivämäärä**| **Tekijä**  |**Muutoskuvaus**               |
+|-----------|---------------|-------------|-------------------------------|
+| 1.0       | 2024-12-10    |TAla         |Asiakirja julkaistu            |
+| 1.1       | 2024-12-16    |TAla         |Lisätty puuttuvia tietoja ja korjattu kirjoitusvirheitä |
+| 1.2       | 2025-01-09    |TAla         | Lisätty puuttuvia tietoja ja korjattu kirjoitusvirheitä |
+
+### Asiakirjan laatijat
 
 | **Nimi**            | **Organisaatio**     | **Contribution**               |
 |---------------------|----------------------|--------------------------------|
@@ -360,7 +369,7 @@ Datamatrix barcode and tagging with EPC / RFID Gen 2 UHF RFID tags,” 2018.
 | Tom Partanen        | Consolis Parma Oy    |tuotti & editoi tekstiä         |
 | Eetu Lahtinen       | Consolis Parma Oy    |tuotti elementtisuunnitelmakuvan|
 
-## Asiantuntija ryhmä
+##" Asiantuntija ryhmä
 | Nimi               | Organisaatio                   |
 |--------------------|--------------------------------|
 | Janne Kihula       | Rakennustuoteteollisuus RTT ry |
