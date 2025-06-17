@@ -287,30 +287,35 @@ AI 01 = GTIN 06400001000247
 AI 242 = MTO variation number 123456  
 AI 21 = Serial number 12345678910  
 
-Esimerkin tietosisältö</caption>
+<table>
+<caption>Table title (HTML table with merged cells)</caption>
     <thead>
         <tr>
-            <th>GS1-sovellustunnus (AI)</th>
-            <th>Arvo</th>
-             </tr>
+            <th colspan="2">Esimerkin tietosisältö</th>
+        </tr>
     </thead>
     <tbody>
         <tr>
-            <td>**AI 01** = GTIN</td>
+            <td>GS1-sovellustunnus (AI)</td>
+            <td>Arvo</td>
+        </tr>
+        <tr>
+            <td>AI 01 = GTIN</td>
             <td>06400001000247</td>
         </tr>
          <tr>
-            <td>AI 242</td>
-          <td>MTO variation number 123456</td>
+            <td>AI 242 = MTO variation number</td>
+          <td> 123456</td>
         </tr>
         <tr>
-            <td>AI 21</td>
-            <td>Serial number 12345678910</td>
+            <td>AI 21 = Serial number</td>
+            <td>12345678910</td>
         </tr>
     </tbody>
 </table>
 
-Kuva 4. Esimerkin QR-koodi sisältää taulukossa esitetyt tiedot GS1 Digital Link URI -muodossa:
+
+##### Kuva 4. Esimerkin QR-koodi sisältää taulukossa esitetyt tiedot GS1 Digital Link URI -muodossa:
 https://id.rt.fi/01/06400001000247/242/123456/21/12345678910
 
 **Esimerkki GS1 Digital Link QR-koodien käyttötarkoituksesta ja suosituksista**  
