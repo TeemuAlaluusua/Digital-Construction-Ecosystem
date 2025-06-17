@@ -40,7 +40,8 @@ Betonielementit ovat luonteeltaan tilauksesta valmistettavia (MTO) ja tilauksest
 
 GS1-sovellustunnukset (AI = Application Identifiers) ovat numeerisia etuliitteitä, joita käytetään viivakoodeissa ja EPC/RFID-tunnisteissa määrittämään tietoelementtien merkitys ja muoto. GS1-sovellustunnusten käyttö mahdollistaa eri tietoelementtien erottamisen toisistaan viivakoodeissa tai EPC/RFID-tunnisteessa. GS1-standardi kattaa yli 100 sovellustunnusta. Jokainen sovellustunniste on oletusarvoisesti kaksi-, kolmi- tai nelinumeroinen luku. Listaus kaikista GS1-sovellustunnuksista on saatavilla GS1:n verkkosivuilla osoitteessa: https://ref.gs1.org/ai/.
 
-Betonielementin yksilöinnissä minimitietovaatimuksissa tarvittaviksi GS1-sovellustunnuksiksi on tunnistettu seuraavat: (01) GTIN, (242) Made-to-Order variation number ja (21) Serial number. 
+Betonielementin yksilöinnissä minimitietovaatimuksissa tarvittaviksi GS1-sovellustunnuksiksi on tunnistettu seuraavat:  
+```(01) GTIN```, ```(242) Made-to-Order variation number``` ja ```(21) Serial number```. 
 
 GS1-standardissa ei ole kansalliselle Elementtitunnukselle, GUID:lle ja verkkotunnukselle omaa GS1-sovellustunnusta, joten niiden sisällyttämisessä tiedonkantajaan on BETK-projektissa päätetty käytettävän sovellustunnuksia (91) Company interal information, (92) Company internal information ja (99) Company internal information. Numerolla 9 alkavia GS1-sovellustunnuksia käytetään vain silloin, mikäli kyseiselle tiedolle ei ole (vielä) määritetty omaa GS1-sovellustunnustaan. 
 
@@ -49,9 +50,9 @@ Huom! Verkkotunnuksen käsittely RFID-tunnisteissa on tämän ohjeen julkaisuhet
 ###### Taulukko 2. Tiedonkantajaan lisättävät tilauksesta suunniteltavien (ETO) rakennustuotteen minimitietovaatimukset.
 | AI | Tieto | Esimerkki |
 |----|-------|-----------|
-| (01) | GTIN-koodi | 06400001000247 |
-| (242) | MTO varianttinumero | 123456 |
-| (21) | Sarjanumero | 12345678910 |
+|(01)| GTIN-koodi | 06400001000247 |
+|(242)| MTO varianttinumero | 123456 |
+|(21)| Sarjanumero | 12345678910 |
 
 ###### Taulukko 3.Tiedonkantajaan lisättävät valinnaiset lisätiedot. *Huom! Optisessa tunnistamisessa (esim. QR-koodi) verkkotunnuksen sisällyttämisessä käytetään GS1 Digital Link URI syntax 1.5.0 -standardin mukaista menettelyä
 
@@ -261,12 +262,49 @@ AI 242 = MTO variation number 123456
 AI 21 = Serial number 12345678910
 AI 91 = Internal (elementtitunnus) V1001
 AI 92 = Internal (GUID) ba34cf17-0c4b-4c6f-9295-cae05aa74ad4
+
+
+<html>
+<table>
+    <thead>
+        <tr>            
+            <th colspan="2">Esimerkin tietosisältö</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><b>GS1-sovellustunnus (AI)</b></td>
+            <td><b>Arvo</b></td>
+        </tr>
+        <tr>
+            <td>AI 01 = GTIN</td>
+            <td>06400001000247</td>
+        </tr>
+         <tr>
+            <td>AI 242 = MTO variation number</td>
+          <td> 123456</td>
+        </tr>
+        <tr>
+            <td>AI 21 = Serial number</td>
+            <td>12345678910</td>
+        </tr>
+       <tr>
+            <td>AI 91 = Internal (elementtitunnus)</td>
+            <td>V1001</td>
+        </tr>
+       <tr>
+            <td>AI 92 = Internal (GUID)</td>
+            <td>ba34cf17-0c4b-4c6f-9295-cae05aa74ad4</td>
+        </tr>
+    </tbody>
+</table>
+</html>
+
 Kuva 3. Esimerkki betonielementtien minimitietovaatimukset sisältävästä GS1 DataMatrix -koodista
-GS1 DataMatrix -tunnisteen koko ja laatu
-Viivakoodin fyysinen koko vaihtelee sen sisältämän tiedon määrän mukaan. Viivakoodin resoluution (X-dimensio) on oltava vähintään 0,38 mm ja enintään 0,45 mm. Merkinnöissä käytettävien GS1 2D-viivakoodien laadun
-tulee täyttää ISO / IEC 15415 -standardin vaatimukset. Näin voidaan varmistua niiden luettavuudesta.
-Merkintöjen tulostamista varten on hyvä olla yhteydessä tunnistamisen ratkaisuihin erikoistuneeseen yritykseen
-tai yrityksiin. Tunnistamisen ratkaisuja tarjoavia yrityksiä on koottu mm. GS1:n kumppanisivulle.
+
+**GS1 DataMatrix -tunnisteen koko ja laatu**  
+Viivakoodin fyysinen koko vaihtelee sen sisältämän tiedon määrän mukaan. Viivakoodin resoluution (X-dimensio) on oltava vähintään 0,38 mm ja enintään 0,45 mm. Merkinnöissä käytettävien GS1 2D-viivakoodien laadun tulee täyttää ISO / IEC 15415 -standardin vaatimukset. Näin voidaan varmistua niiden luettavuudesta. 
+Merkintöjen tulostamista varten on hyvä olla yhteydessä tunnistamisen ratkaisuihin erikoistuneeseen yritykseen tai yrityksiin. Tunnistamisen ratkaisuja tarjoavia yrityksiä on koottu mm. GS1:n kumppanisivulle.
 
 ## 4.3 Tuotetunnistus GS1 Digital Link -standardin mukaisella QR-koodilla
 Mikäli tunnisteen avulla halutaan yksilöinnin ja tunnistamisen lisäksi viestiä kuluttajalle/käyttäjälle älypuhelimen tai muun vastaavan laitteen kautta, voidaan tunnisteena käyttää GS1 Digital Link -standardin mukaista QR-koodia. Tavallisesta QR-koodista tämä eroaa siten, että sen tietosisältö on GS1-standardin määrittämä. Standardi varmistaa, että koodit ja niiden sisältämät tiedot ovat rakenteeltaan yhdenmukaisia ja siten liikuteltavia eri järjestelmien ja toimijoiden välillä sekä luettavissa ja tulkittavissa viivakoodinlukijoilla.
