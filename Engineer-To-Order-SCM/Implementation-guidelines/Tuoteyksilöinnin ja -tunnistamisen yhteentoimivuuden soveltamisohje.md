@@ -291,7 +291,7 @@ GS1 DataMatrix on GS1:n kehittämä kaksiulotteinen viivakoodi, joka voidaan tul
 </table>
 </html>
 
-Kuva 3. Esimerkki betonielementtien minimitietovaatimukset sisältävästä GS1 DataMatrix -koodista
+##### Kuva 3. Esimerkki betonielementtien minimitietovaatimukset sisältävästä GS1 DataMatrix -koodista
 
 **GS1 DataMatrix -tunnisteen koko ja laatu**  
 Viivakoodin fyysinen koko vaihtelee sen sisältämän tiedon määrän mukaan. Viivakoodin resoluution (X-dimensio) on oltava vähintään 0,38 mm ja enintään 0,45 mm. Merkinnöissä käytettävien GS1 2D-viivakoodien laadun tulee täyttää ISO / IEC 15415 -standardin vaatimukset. Näin voidaan varmistua niiden luettavuudesta.  
