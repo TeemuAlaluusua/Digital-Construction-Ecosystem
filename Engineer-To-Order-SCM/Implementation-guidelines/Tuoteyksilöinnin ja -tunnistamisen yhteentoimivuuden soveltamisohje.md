@@ -217,17 +217,42 @@ Kuvaus: Yhdistää ilmaisinluvun ja tuotetunnuksen.
 **6. Sarjanumero**  
 Arvo: ```12345678910```  
 Kuvaus: Yksilöi tuotteen jokaisen yksittäisen instanssin. Tämä mahdollistaa tuotekohtaisen seurannan.  
+
 **Lisäosat**  
-**• Jakoparametri**   
-Määrittää, mihin kohtaan erotinmerkki ( . ) asetetaan GS1-yritystunnuksen ja tuotetunnuksen välille. Jakoparametri riippuu GS1-yritystunnuksen pituudesta. Viimeinen erotinmerkki ( . ) URI:ssä erottaa GTINnumeron (Global Trade Item Number) sarjanumerosta.  
-**• Tarkistusnumero**  
+>**Jakoparametri**   
+Määrittää, mihin kohtaan erotinmerkki ```( . )``` asetetaan GS1-yritystunnuksen ja tuotetunnuksen välille. Jakoparametri riippuu GS1-yritystunnuksen pituudesta. Viimeinen erotinmerkki ```( . )``` URI:ssä erottaa GTINnumeron (Global Trade Item Number) sarjanumerosta.\
+>**Tarkistusnumero**  
 Käytetään virheentarkistukseen GTIN-tunnuksissa. Tarkistusnumeroa ei kuitenkaan sisällytetä EPC-koodiin RFID-tunnisteessa, sillä RFID-prosessoinnissa sitä ei tarvita.  
+
 **Käyttäjämuisti-osio**  
 Muu lisätieto sijoitetaan RFID-sirun käyttäjämuisti-osioon (User memory) seuraavalla tavalla:
-AI Arvo
-(91) Internal → Elementtitunnus V1001
-(92) Internal → GUID ba34cf17-0c4b-4c6f-9295-cae05aa74ad4
-(99) Internal → Verkkotunnus id.rt.fi  
+
+<html>
+<table>
+    <thead>
+        <tr>            
+            <th>GS1-sovellustunnus (AI)</th>
+            <th>Arvo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>91) Internal → Elementtitunnus</td>
+            <td>V1001</td>
+        </tr>
+         <tr>
+            <td>(92) Internal → GUID</td>
+          <td>ba34cf17-0c4b-4c6f-9295-cae05aa74ad4</td>
+        </tr>
+        <tr>
+            <td>(99) Internal → Verkkotunnus</td>
+            <td>id.rt.fi </td>
+        </tr>
+     </tbody>
+</table>
+</html>
+
+
 **RFID-tunnisteiden toteuttaminen**  
 RFID-tunnisteiden ohjelmointia varten on hyvä olla yhteydessä tunnistamisen ratkaisuihin erikoistuneeseen yritykseen tai yrityksiin. Tunnistamisen ratkaisuja tarjoavia yrityksiä on koottu mm. GS1:n kumppanisivulle ja RFID Lab Finlandin ry:n sivulle.  
 
