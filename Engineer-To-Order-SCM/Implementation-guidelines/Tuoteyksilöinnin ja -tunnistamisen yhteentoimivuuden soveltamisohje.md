@@ -255,15 +255,6 @@ Markkinoilla on erilaisia RFID-tunnisteita, jotka soveltuvat eri käyttötarkoit
 ### 4.2 Tuotetunnistus GS1 DataMatrix 2D-koodilla
 GS1 DataMatrix on GS1:n kehittämä kaksiulotteinen viivakoodi, joka voidaan tulostaa yksittäisistä pisteistä tai neliöistä koostuvana neliön tai suorakaiteen muotoisena symbolina. GS1 DataMatrix voi sisältää perinteistä lineaarista viivakoodia suuremman määrän tietoa. Siihen on mahdollista koodata jopa 3116 numeerista merkkiä tai 2335 alfanumeerista merkkiä. GS1 sovellustunnusten avulla GS1 DataMatrixiin voidaan sisällyttää useita erityyppisiä tietoja, kuten esimerkiksi määritetyt betonielementtien minimitietovaatimukset. GS1 DataMatrixin lukeminen vaatii kamerapohjaisen skannerin.
 
-Esimerkin tietosisältö
-GS1-sovellustunnus (AI) Arvo
-AI 01 = GTIN 06400001000247
-AI 242 = MTO variation number 123456
-AI 21 = Serial number 12345678910
-AI 91 = Internal (elementtitunnus) V1001
-AI 92 = Internal (GUID) ba34cf17-0c4b-4c6f-9295-cae05aa74ad4
-
-
 <html>
 <table>
     <thead>
