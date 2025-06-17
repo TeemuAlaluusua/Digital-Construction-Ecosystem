@@ -286,10 +286,35 @@ laitteen käyttäjä verkossa olevaan sisältöön. Erilaiset sovellukset voivat
 GS1 Digital Link URI:ssa käytetään GS1-sovellustunnuksia tietojen sisällyttämiseen. Alla olevassa esimerkissä on muodostettu taulukossa esitetyt minimitietovaatimukset sisältävä GS1 Digital Link URI.
 
 Example information content
-GS1-sovellustunnus (AI) Arvo
-AI 01 = GTIN 06400001000247
-AI 242 = MTO variation number 123456
-AI 21 = Serial number 12345678910
+GS1-sovellustunnus (AI) Arvo  
+AI 01 = GTIN 06400001000247  
+AI 242 = MTO variation number 123456  
+AI 21 = Serial number 12345678910  
+
+<table>
+<caption>Esimerkin tietosisältö</caption>
+    <thead>
+        <tr>
+            <th>GS1-sovellustunnus (AI)</th>
+            <th>Arvo</th>
+             </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>AI 01</td>
+            <td>GTIN 06400001000247</td>
+        </tr>
+         <tr>
+            <td>AI 242</td>
+          <td>MTO variation number 123456</td>
+        </tr>
+        <tr>
+            <td>AI 21</td>
+            <td>Serial number 12345678910</td>
+        </tr>
+    </tbody>
+</table>
+
 Kuva 4. Esimerkin QR-koodi sisältää taulukossa esitetyt tiedot GS1 Digital Link URI -muodossa:
 https://id.rt.fi/01/06400001000247/242/123456/21/12345678910
 
