@@ -5,8 +5,8 @@ Here is a simple footnote[^1].
 
 **Tilauksesta suunniteltavat rakennustuotteet**  
 >Julkaisija: Rakennusteollisuus ry\
->Julkaistu: 9.1.2025  
-Versio: 1.2  
+>Julkaistu: 17.6.2025  
+Versio: 1.3  
 Status: Julkaistu
 
 ## 1 Tausta
