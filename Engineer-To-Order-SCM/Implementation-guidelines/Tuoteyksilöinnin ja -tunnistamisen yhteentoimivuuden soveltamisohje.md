@@ -430,11 +430,12 @@ Verkkotunnus | Verkkotunnus eli domain-nimi on merkkijono, joka ohjataan interne
 ## Asiakirjan tiedot
 
 ### Asiakirjan versio
-| **Versio**| **Päivämäärä**| **Tekijä**  |**Muutoskuvaus**               |
-|-----------|---------------|-------------|-------------------------------|
-| 1.0       | 2024-12-10    |TAla         |Asiakirja julkaistu            |
-| 1.1       | 2024-12-16    |TAla         |Lisätty puuttuvia tietoja ja korjattu kirjoitusvirheitä |
+| **Versio**| **Päivämäärä**| **Tekijä**  |**Muutoskuvaus**                                         |
+|-----------|---------------|-------------|---------------------------------------------------------|
+| 1.0       | 2024-12-10    |TAla         | Asiakirja julkaistu                                     |
+| 1.1       | 2024-12-16    |TAla         | Lisätty puuttuvia tietoja ja korjattu kirjoitusvirheitä |
 | 1.2       | 2025-01-09    |TAla         | Lisätty puuttuvia tietoja ja korjattu kirjoitusvirheitä |
+| 1.3       | 2025-06-17    |TAla         | Lisätty puuttuvia tietoja ja korjattu kirjoitusvirheitä |
 
 ### Asiakirjan laatijat
 
