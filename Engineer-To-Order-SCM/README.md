@@ -50,3 +50,33 @@
         </tr>
     </tbody>
 </table>
+
+
+
+
+<table>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td rowspan="2">3</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td rowspan="3">5</td>
+  </tr>
+  <tr>
+    <td rowspan="3">6</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td rowspan="2">10</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>12</td>
+  </tr>
+</table>
