@@ -282,17 +282,10 @@ Sitä voidaan käyttää kuten mitä tahansa QR-koodia, eli ohjaamaan älypuheli
 GS1 Digital Link URI:ssa käytetään GS1-sovellustunnuksia tietojen sisällyttämiseen. Alla olevassa esimerkissä on muodostettu taulukossa esitetyt minimitietovaatimukset sisältävä GS1 Digital Link URI.
 
 <html>
-<caption>Table title (HTML table with merged cells)</caption>
-<table>
-    <thead>
-        <tr>            
-            <th colspan="3">Esimerkin tietosisältö</th>
-        </tr>
-    </thead>
  <td><img src=
 "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png" 
-                alt="GFG Logo" width="100" 
-                height="100">
+                alt="GFG Logo" width="500" 
+                height="500">
             </td>
         </tr>
 <table>
