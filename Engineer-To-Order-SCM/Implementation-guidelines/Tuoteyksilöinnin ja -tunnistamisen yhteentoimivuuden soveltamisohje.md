@@ -68,9 +68,11 @@ Suomessa GS1-yritystunnisteita myöntää GS1 Finland ja sellaisen voi tilata GS
 
 ### 3.3 GTIN-koodin muodostaminen
 GTIN-koodien muodostaminen edellyttää, että yrityksellä on käytettävissään GS1-yritystunniste (GS1 Company Prefix, GCP). GTIN-koodien muodostaminen taas mahdollistaa tuotteiden yksilöllisen tunnistamisen perustuotteen tasolla.
+
 GTIN-koodi alkaa GS1-yritystunnisteella, jonka pituus GS1 Finlandilta saatavilla olevilla vaihtoehdoilla voi olla 7–11 numeroa. Tämän jälkeen seuraavat 1–6 numeroa voi määrittää itse, ja näissä suositellaan käytettäväksi juoksevaa numerointia. Käytettävissä olevien numeroiden määrä riippuu yritystunnisteen pituudesta. Koodin viimeinen, eli 13. numero, on tarkistusnumero, joka lasketaan 12 ensimmäisen numeron perusteella Modulo 10 -algoritmilla. Tarkistusnumeron laskemiseen voi käyttää esimerkiksi GS1 Finlandin tarjoamaa tarkistusnumerolaskuria: https://gs1.fi/fi/tarkistusnumerolaskuri
 
 ###### Taulukko 4. GTIN-koodin rakenne
+
 | GS1-sovellustunnus | GS1-yritystunniste ---> <--- tuotekohtainen numero |  Tarkistusnumero |
 |----|-------|-----------|
 | (01) |  0 N1 N2 N3 N4 N5 N6 N7 N8 N9 N10 N11 N12 | N13|
@@ -83,6 +85,7 @@ GS1 Finland tarjoaa yritystunnisteasiakkailleen käyttöön GS1 Rekisteri -palve
 
 ### 3.4 Variaatioiden yksilöinti
 Betonielementtien variaatioiden yksilöinnissä GTIN-koodiin yhdistetään lisätunnisteena variaationumero (Madeto-Order variation number). Variaationumero mahdollistaa sen, että voidaan tietää joidenkin elementtien olevan keskenään samanlaisia. Toisin sanoen, kun monta elementtiä, joilla on samat tekniset tiedot, valmistetaan kerralla, niillä kaikilla on sama GTIN-koodin ja variaationumeron yhdistelmä.
+
 Viivakoodeissa ja RFID-tunnisteissa käytetään sovellustunnusta (242) ilmaisemaan variaationumero. GS1-standardin mukaan variaationumero on numeerinen ja vaihtuvapituinen, enintään kuusi numeroa pitkä.
 
 ###### Taulukko 5. MTO-Varianttinumero-koodin rakenne
