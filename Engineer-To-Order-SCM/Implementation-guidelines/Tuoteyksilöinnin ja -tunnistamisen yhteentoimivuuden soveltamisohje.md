@@ -9,19 +9,19 @@ Here is a simple footnote[^1].
 Versio: 1.2  
 Status: Julkaistu
 
-## 1. Tausta
+## 1 Tausta
 Rakennustuotteiden yksilöinti ja tunnistaminen on merkittävimpiä osatekijöitä kiinteistö- ja rakennusalan digitalisaatiossa. Vakioidut, yhteentoimivat ja globaalisti käytetyt tuoteyksilöinnin ja -tunnistamisen menetelmät mahdollistavat eri toimijoiden välisen tiedonvaihdon yhtenäisellä tavalla, riippumatta toimitusketjun osapuolesta.
 
 GS1:n kehittämät toimitusketjun hallinnan standardit, kuten tuoteyksilöintiin hyödynnettävä tuotetunnus GTIN yhdessä EAN-viivakoodin kanssa, mahdollistavat eri toimijoiden välisen tiedonvaihdon yhtenäisellä tavalla. GTIN tuotetunnuksen avulla voidaan siis tunnistaa mikä tahansa kauppatavara, joka voidaan hinnoitella, tilata tai laskuttaa missä tahansa toimitusketjun vaiheessa, josta on tarpeen hakea ennalta määritettyjä tietoja.
 
 Kaupan alalla tuotteet on yksilöity GTIN-koodien ja koneluettavien 1D EAN-viivakoodien kautta jo yli 50 vuotta, ja nyt tämä toimiva käytäntö on vakiintunut myös varasto-ohjautuvien (MTS) rakennustuotteiden osalta. Suomalaisessa rakennusteollisuudessa hyödynnetään kuitenkin tilauksesta suunniteltavia tuotteita, joiden osalta käytettävät yksilöinnin ja tunnistamisen menetelmät eivät ole vakiintuneet. Rakennustuotteiden yksilöinti on tiedonvaihdon näkökulmasta tärkeää, sillä rakennustuotteiden käyttöikä on yleensä pitkä, ja jotkut niistä ovat aktiivisessa käytössä jopa yli 100 vuotta. Uusien materiaalien nopea kehitys sekä kestävyyden ja kiertotalouden kasvava merkitys ovat lisänneet tarvetta hallita rakennetuissa kohteissa käytettyjä rakennustuotteita ja niiden ominaisuuksia elinkaaren ajan.
 
-## 2. Soveltamisohjeen tarkoitus
+## 2 Soveltamisohjeen tarkoitus
 Tämä soveltamisohje on tehty osana Rakennusteollisuus RT:n tuotetiedon ja toimitusketjun digitalisoinnin kehityshanketta, BETK-työryhmän toimesta. Kehityshankkeen ensisijainen tavoite on edistää rakennusalan tuotteiden toimitusketjun hallinnan menetelmien siirtymistä manuaalisesta ja rakenteettomasta tiedonvaihdosta täysin rakenteelliseen ja koneluettavaan tiedonvaihtoon. Asiakirja on jatkuvasti päivittyvä ja sitä kehitetään edelleen Rakennusteollisuus RT:n kehityshankkeen havaintojen perusteella.
 
 Soveltamisohje keskittyy toimitusketjun digitalisoinnissa tarvittavaan tuotteiden yksilöintiin ja koneelliseen tunnistamiseen. Soveltamisohjeessa kuvataan malli avointen GS1-standardien soveltamisesta tilauksesta suunniteltavien (ETO) rakennustuotteiden toimitusketjun hallintaan, käyttäen esimerkkinä betonielementtejä. GS1:llä on tilauksesta suunniteltavien ja valmistettavien tuotteiden yksilöintiin liittyen käynnissä kansainvälistä standardointityötä. Tämä soveltamisohje on tehty standardoinnin ollessa kesken, joten sitä tullaan tarvittaessa päivittämään myöhemmin.
 
-## 3. Rakennustuotteiden SGTIN-tuoteyksilöinti
+## 3 Rakennustuotteiden SGTIN-tuoteyksilöinti
 Tuoteyksilöinti on edellytys toimitusketjun digitalisoinnille tuotteiden valmistuslogiikasta riippumatta. Betonielementtien osalta tuoteyksilöinti on skaalautumisen mahdollistamiseksi päätetty toteuttaa tuoteryhmästä riippumattomaan, avoimeen ja kansainväliseen standardiin pohjautuen. GS1-standardin mukainen GTIN-koodi on laajasti käytetty ratkaisu tuotteiden yksilöintiin eri toimialoilla ja sen soveltaminen valikoitui hankkeessa lähtökohdaksi myös tilauksesta suunniteltavien tuotteiden (betonielementtien) yksilöinnille.
 
 Perinteisesti GTIN-koodeilla on yksilöity ns. varasto-ohjautuvia-tuotteita (MTS), jolloin kaikille identtisille tuotteille on määritetty sama GTIN. Yhdistämällä GTIN-koodiin sarjanumero, luodaan yksilöllinen tunniste, jonka avulla keskenään identtiset tuotteet voidaan erottaa toisistaan. Tätä yhdistelmää kutsutaan SGTIN-koodiksi.
@@ -142,7 +142,8 @@ GS1 Digital Link -standardista on kerrottu lisää tämän ohjeen kappaleessa 4.
 Lisäksi voidaan määrittää GUID-tunnisteeseen perustuva IEC 61406 Identification Link standardin mukainen URLosoite seuraavasti:
 https://<verkkotunnus>/<GUID>
 Jolloin esimerkiksi muodostuu: https://id.rt.fi/ba34cf17-0c4b-4c6f-9295-cae05aa74ad4
-## 4. Automaattinen tunnistaminen ja tiedonkantajat
+
+## 4 Automaattinen tunnistaminen ja tiedonkantajat
 Tuoteyksilöinnin lisäksi on valittava käytettävä tunnistusteknologia ja tiedonkantaja, jotka mahdollistavat niiden
 koneellisen luennan. Tunnistusteknologian valinnassa tulee huomioida käyttötarkoituksen ja olosuhteiden asettamat vaatimukset. Automaattiseen tunnistamiseen ja tiedonkeruuseen tarkoitettuihin GS1-tietokantajiin voidaan tallentaa erilaisia tietomääriä eri liiketoimintaprosesseja ja kaupankäynnin vaatimuksia varten. GS1-tietokantajiin koodatut tiedot eivät ainoastaan yksilöi tuotteita yksiselitteisesti kaikilla Tuoteyksilöinnin hierarkia tasoilla, vaan ne tarjoavat myös pääsyn tuotetietoihin ja näkyvyyden tuotteiden liikkeisiin toimitusketjussa.
 Betonielementtien tuotetunnistamisen minimitietovaatimusten välittämisessä soveltamisohje suosittelee vähintään optiseen tunnistamiseen perustuvan 2D-koodin lisäämistä elementin tuote-etikettiin valmistuksen yhteydessä. GS1-standardissa vaihtoehdot tähän ovat GS1 DataMatrix -koodi sekä QR-koodi GS1 Digital Link -standardin mukaisella tietosisällöllä. Elementin tuote-etiketissä käytettävän 2D-koodin rinnalla, voidaan käyttää myös 
@@ -153,24 +154,25 @@ mukainen QR-koodi ja sen hyödyntämisen mahdollisuuksista on tarvittaessa saata
 ###### Kuva 1. Koneellinen tuotetunnistaminen GS1-tiedonkatajien avulla
 Betonielementtien automaattisessa tunnistamisessa tehokkaimmaksi tiedonkantajaksi on havaittu EPC/RFID
 Gen-2 UHF -standardiin perustuva passiivinen etäluettava tunniste, josta elementin tunnistenumero voidaan lukea tehokkaasti myös useampien metrien päästä ilman suoraa näköyhteyttä itse tunnisteeseen.
-### 4.1 Tuotetunnistus passiivisella EPC/RFID Gen2 UHF -tunnisteella
-Tämä ohje perustuu EPC / RFID Gen2 Radio -protokollaan, joka määrittelee fyysisen tiedonsiirron RFID-sirun ja
-RFID-lukijan välillä käskyillä RFID-lukijan ohjaamiseksi suhteessa RFID-tunnisteisiin. EPC / RFID Gen2 on ISO-standardi ja kattaa erilaisia toiminnallisuuksia, kuten suojauksen ja laajennetun käyttäjämuistin.
-GS1 on julkaissut TDS:n (Tag Data Standard), joka määrittelee miten GS1-standardin mukaiset yksilöintiavaimet,
-kuten SGTIN sisällytetään etäluettaviin EPC Gen2 RFID -tunnisteisiin. TDS-standardi on avoimesti kaikkien käytettävissä ja se onkin jo nykyisin laajasti käytössä RFID-tunnistamisessa eri toimialoilla.
-Tuotetunnistuksessa vaadittavat tiedot sisällytetään EPC Gen2 RFID -tunnisteisiin TDS-standardin mukaisesti,
-tarvittavia GS1-sovellustunnuksia hyödyntäen. Tietojen koodaamiseen käytetään tunnisteen EPC-muistia (EPC
-memory) ja tarvittavilta osin käyttäjämuistia (User memory).
-EPC-muisti on suunniteltu sisältämään EPC-koodi, eli tunnistettavan asian yksilöivä GS1-standardin mukainen
-tunnistenumero. Betonielementtien yksilöinnissä EPC-muistiin koodataan elementin SGTIN-koodi. Tämä mahdollistaa elementin yksilöivän tunnistenumeron nopean lukemisen.
-Käyttäjämuistia käytetään, kun RFID-tunnisteelle on tarve saada enemmän tietoa kuin EPC-muistiin mahtuu.
-BETK-projektissa on tunnistettu, että tunnisteeseen on tarve sijoittaa lisätietoa kuten variaationumero (Madeto-Order Variation Number), elementtien luokittelussa käytettävä elementtitunnus ja suunnitteluohjelmiston
-luoma GUID-tunniste. GTIN:n ja SGTIN:n rakenne viivakoodeissa ja EPC/RFID Gen 2V2 RFID-tunnisteissa
 
-###### Taulukko 10.Käytössä olevat EPC-binäärikoodausjärjestelmät ja niiden rajoitukset. Sovellettava menetelmä määräytyy numeeristen tai
-alfanumeeristen merkkien määrätarpeen mukaan.
-###### Taulukko 11. Sovellettava menetelmä SGTIN-96. Standardissa TDS 2.1. (EPC Tag Data Standard) löytyy myös muita sovellusmenetelmiä
-mm. SGTIN-198, joita voidaan käyttää, mikäli on tarve esimerkiksi pidemmälle (tai numeroiden lisäksi myös kirjaimia sisältävälle) sarjanumerolle.
+### 4.1 Tuotetunnistus passiivisella EPC/RFID Gen2 UHF -tunnisteella
+Tämä ohje perustuu EPC / RFID Gen2 Radio -protokollaan, joka määrittelee fyysisen tiedonsiirron RFID-sirun ja RFID-lukijan välillä käskyillä RFID-lukijan ohjaamiseksi suhteessa RFID-tunnisteisiin. EPC / RFID Gen2 on ISO-standardi ja kattaa erilaisia toiminnallisuuksia, kuten suojauksen ja laajennetun käyttäjämuistin.
+
+GS1 on julkaissut TDS:n (Tag Data Standard), joka määrittelee miten GS1-standardin mukaiset yksilöintiavaimet, kuten SGTIN sisällytetään etäluettaviin EPC Gen2 RFID -tunnisteisiin. TDS-standardi on avoimesti kaikkien käytettävissä ja se onkin jo nykyisin laajasti käytössä RFID-tunnistamisessa eri toimialoilla.
+
+Tuotetunnistuksessa vaadittavat tiedot sisällytetään EPC Gen2 RFID -tunnisteisiin TDS-standardin mukaisesti, tarvittavia GS1-sovellustunnuksia hyödyntäen. Tietojen koodaamiseen käytetään tunnisteen EPC-muistia (EPC
+memory) ja tarvittavilta osin käyttäjämuistia (User memory).
+
+EPC-muisti on suunniteltu sisältämään EPC-koodi, eli tunnistettavan asian yksilöivä GS1-standardin mukainen tunnistenumero. Betonielementtien yksilöinnissä EPC-muistiin koodataan elementin SGTIN-koodi. Tämä mahdollistaa elementin yksilöivän tunnistenumeron nopean lukemisen.
+
+Käyttäjämuistia käytetään, kun RFID-tunnisteelle on tarve saada enemmän tietoa kuin EPC-muistiin mahtuu.  
+BETK-projektissa on tunnistettu, että tunnisteeseen on tarve sijoittaa lisätietoa kuten variaationumero (Madeto-Order Variation Number), elementtien luokittelussa käytettävä elementtitunnus ja suunnitteluohjelmiston luoma GUID-tunniste. GTIN:n ja SGTIN:n rakenne viivakoodeissa ja EPC/RFID Gen 2V2 RFID-tunnisteissa
+
+###### Taulukko 10.Käytössä olevat EPC-binäärikoodausjärjestelmät ja niiden rajoitukset. Sovellettava menetelmä määräytyy numeeristen tai alfanumeeristen merkkien määrätarpeen mukaan.
+
+
+###### Taulukko 11. Sovellettava menetelmä SGTIN-96. Standardissa TDS 2.1. (EPC Tag Data Standard) löytyy myös muita sovellusmenetelmiä mm. SGTIN-198, joita voidaan käyttää, mikäli on tarve esimerkiksi pidemmälle (tai numeroiden lisäksi myös kirjaimia sisältävälle) sarjanumerolle.
+
 SGTIN-96 tietosisältö
 EPC SGTIN-96 Arvo Kommentti
 Otsikko (Header) 48 Numero SGTIN-96:lle
@@ -186,47 +188,43 @@ Tuotenimikkeen numero N…7 Riippuen GS1-yritystunnisteen pituudesta 1–7 numer
 Sarjanumero N…12 Enintään 12 numeroa (suurin sallittu arvo = 274 877 906
 943) Sarjanumeron ei tarvitse olla tasan 12 numeroa.
 Etunolla ei ole sallittu.
-Esimerkki tietosisällöstä EPC / Gen2 RFID -tunnisteessa:
+
+**Esimerkki tietosisällöstä EPC / Gen2 RFID -tunnisteessa:**
 RFID Tag EPC Memory Bank Contents (hexadecimal): 301586A004000602DFDC1C3E
 EPC Tag URI: urn:epc:tag:sgtin-96:0.6400001.000024.12345678910
-Tietorakenteen osat
-1. URN-etuliite
-Arvo: urn:epc:id
-Kuvaus: Määrittää, että tunniste noudattaa EPC URI -standardia. Tämä etuliite on osa Uniform Resource
-Identifier (URI) -kehystä.
-2. EPC-järjestelmä
-Arvo: sgtin-96
 
-Kuvaus: Määrittää koodaustavan ja käytetyn GS1-tunnistusavaimen tyypin. Tässä tapauksessa kyseessä
-on Serialized Global Trade Item Number (SGTIN), joka on 96-bittisesti binäärikoodattu.
-3. Suodatusarvo
-Arvo: 0
-Kuvaus: Ilmoittaa suodatusasetuksen. Arvo 0 tarkoittaa, että tuotetta ei ole suodatettu myyntipisteellä
-tapahtuvan skannauksen perusteella, mikä viittaa yleiskäyttöön.
-4. GS1-yritystunniste
-Arvo: 6400001
-Kuvaus: Tunnistaa yrityksen, joka on julkaissut tuotteen. Tämä on GS1:n myöntämä maailmanlaajuisesti
-yksilöllinen tunniste.
-5. Ilmaisinluku ja tuotenimikkeen numero
-Arvo: 000024
+**Tietorakenteen osat**  
+**1. URN-etuliite**
+Arvo: urn:epc:id  
+Kuvaus: Määrittää, että tunniste noudattaa EPC URI -standardia. Tämä etuliite on osa Uniform Resource Identifier (URI) -kehystä.
+**2. EPC-järjestelmä**
+Arvo: sgtin-96  
+Kuvaus: Määrittää koodaustavan ja käytetyn GS1-tunnistusavaimen tyypin. Tässä tapauksessa kyseessä on Serialized Global Trade Item Number (SGTIN), joka on 96-bittisesti binäärikoodattu.
+**3. Suodatusarvo**
+Arvo: 0  
+Kuvaus: Ilmoittaa suodatusasetuksen. Arvo 0 tarkoittaa, että tuotetta ei ole suodatettu myyntipisteellä tapahtuvan skannauksen perusteella, mikä viittaa yleiskäyttöön.
+**4. GS1-yritystunniste**
+Arvo: 6400001  
+Kuvaus: Tunnistaa yrityksen, joka on julkaissut tuotteen. Tämä on GS1:n myöntämä maailmanlaajuisesti yksilöllinen tunniste.
+**5. Ilmaisinluku ja tuotenimikkeen numero**
+Arvo: 000024  
 Kuvaus: Yhdistää ilmaisinluvun ja tuotetunnuksen.
-6. Sarjanumero
-Arvo: 12345678910
-Kuvaus: Yksilöi tuotteen jokaisen yksittäisen instanssin. Tämä mahdollistaa tuotekohtaisen seurannan.
-Lisäosat
-• Jakoparametri
+**6. Sarjanumero**
+Arvo: 12345678910  
+Kuvaus: Yksilöi tuotteen jokaisen yksittäisen instanssin. Tämä mahdollistaa tuotekohtaisen seurannan.  
+**Lisäosat**  
+**• Jakoparametri**  
 Määrittää, mihin kohtaan erotinmerkki ( . ) asetetaan GS1-yritystunnuksen ja tuotetunnuksen välille. Jakoparametri riippuu GS1-yritystunnuksen pituudesta. Viimeinen erotinmerkki ( . ) URI:ssä erottaa GTINnumeron (Global Trade Item Number) sarjanumerosta.
-• Tarkistusnumero
+**• Tarkistusnumero**
 Käytetään virheentarkistukseen GTIN-tunnuksissa. Tarkistusnumeroa ei kuitenkaan sisällytetä EPC-koodiin RFID-tunnisteessa, sillä RFID-prosessoinnissa sitä ei tarvita.
-Käyttäjämuisti-osio
+**Käyttäjämuisti-osio**
 Muu lisätieto sijoitetaan RFID-sirun käyttäjämuisti-osioon (User memory) seuraavalla tavalla:
 AI Arvo
 (91) Internal → Elementtitunnus V1001
 (92) Internal → GUID ba34cf17-0c4b-4c6f-9295-cae05aa74ad4
 (99) Internal → Verkkotunnus id.rt.fi
-RFID-tunnisteiden toteuttaminen
-RFID-tunnisteiden ohjelmointia varten on hyvä olla yhteydessä tunnistamisen ratkaisuihin erikoistuneeseen yritykseen tai yrityksiin. Tunnistamisen ratkaisuja tarjoavia yrityksiä on koottu mm. GS1:n kumppanisivulle ja RFID
-Lab Finlandin ry:n sivulle.
+**RFID-tunnisteiden toteuttaminen**
+RFID-tunnisteiden ohjelmointia varten on hyvä olla yhteydessä tunnistamisen ratkaisuihin erikoistuneeseen yritykseen tai yrityksiin. Tunnistamisen ratkaisuja tarjoavia yrityksiä on koottu mm. GS1:n kumppanisivulle ja RFID Lab Finlandin ry:n sivulle.
 #### 4.1.1 RFID-tunniste symbolin käyttö
 RFID-teknologiaa käytettäessä tuotteiden automaattiseen tunnistamiseen on syytä varmistaa, että RFID-tunniste
 symboli sisällytetään tuote-etiketteihin sekä tuotantosuunnitelmiin. Symbolin tulee olla standardin mukainen,
