@@ -270,20 +270,23 @@ Viivakoodin fyysinen koko vaihtelee sen sisältämän tiedon määrän mukaan. V
 tulee täyttää ISO / IEC 15415 -standardin vaatimukset. Näin voidaan varmistua niiden luettavuudesta.
 Merkintöjen tulostamista varten on hyvä olla yhteydessä tunnistamisen ratkaisuihin erikoistuneeseen yritykseen
 tai yrityksiin. Tunnistamisen ratkaisuja tarjoavia yrityksiä on koottu mm. GS1:n kumppanisivulle.
-4.3 Tuotetunnistus GS1 Digital Link -standardin mukaisella QR-koodilla
+
+## 4.3 Tuotetunnistus GS1 Digital Link -standardin mukaisella QR-koodilla
 Mikäli tunnisteen avulla halutaan yksilöinnin ja tunnistamisen lisäksi viestiä kuluttajalle/käyttäjälle älypuhelimen
 tai muun vastaavan laitteen kautta, voidaan tunnisteena käyttää GS1 Digital Link -standardin mukaista QR-koodia. Tavallisesta QR-koodista tämä eroaa siten, että sen tietosisältö on GS1-standardin määrittämä. Standardi
 varmistaa, että koodit ja niiden sisältämät tiedot ovat rakenteeltaan yhdenmukaisia ja siten liikuteltavia eri järjestelmien ja toimijoiden välillä sekä luettavissa ja tulkittavissa viivakoodinlukijoilla.
+
 GS1 Digital Link URI:n sisältävä QR-koodi palvelee kahta käyttötarkoitusta:
-1. Tuotteen yksilöinti ja tunnistaminen offline-tilassa
+
+**1. Tuotteen yksilöinti ja tunnistaminen offline-tilassa**
 Sitä voidaan käyttää ilman verkkoyhteyttä tuotteen yksilöimiseen ja tunnistamiseen viivakoodinlukijoilla,
 aivan kuten perinteisiä EAN-viivakoodeja. Tuotteen yksilöinnissä käytetään QR-koodiin sisällytettävää
 GS1-standardin mukaista GTIN-koodia ja tarvittavia lisätietoja, kuten MTO varianttinumeroa ja sarjanumeroa.
-2. Verkossa jaettava tietosisältö
+**2. Verkossa jaettava tietosisältö**
 Sitä voidaan käyttää kuten mitä tahansa QR-koodia, eli ohjaamaan älypuhelimen tai muun vastaavan
 laitteen käyttäjä verkossa olevaan sisältöön. Erilaiset sovellukset voivat suorittaa saman QR-koodin lukemisen kautta myös muita toimintoja ja näyttää erilaista sisältöä.
-GS1 Digital Link URI:ssa käytetään GS1-sovellustunnuksia tietojen sisällyttämiseen. Alla olevassa esimerkissä on
-muodostettu taulukossa esitetyt minimitietovaatimukset sisältävä GS1 Digital Link URI.
+GS1 Digital Link URI:ssa käytetään GS1-sovellustunnuksia tietojen sisällyttämiseen. Alla olevassa esimerkissä on muodostettu taulukossa esitetyt minimitietovaatimukset sisältävä GS1 Digital Link URI.
+
 Example information content
 GS1-sovellustunnus (AI) Arvo
 AI 01 = GTIN 06400001000247
@@ -292,25 +295,27 @@ AI 21 = Serial number 12345678910
 Kuva 4. Esimerkin QR-koodi sisältää taulukossa esitetyt tiedot GS1 Digital Link URI -muodossa:
 https://id.rt.fi/01/06400001000247/242/123456/21/12345678910
 
-Esimerkki GS1 Digital Link QR-koodien käyttötarkoituksesta ja suosituksista
-Esimerkin tarkoitus on ainoastaan esitellä tietosisällön rakennetta. Siinä on käytetty kuvitteellista verkkotunnusta id.rt.fi, joten älypuhelimen kameralla luettaessa esimerkkikoodi ei ohjaudu mihinkään sisältöön.
-Lähtökohtaisesti suositellaan, että QR-koodiin sisällytetyn GS1 Digital Link URI:n ei tulisi olla minkään varsinaisen
-verkkosivun URL-osoite. Tästä osoitteesta suositellaan tekemään uudelleenohjaus siihen sisältöön, joka koodin
-kautta halutaan näyttää.
-GS1 Digital Link URI:ssa voidaan käyttää mitä tahansa verkkotunnusta, koska se ei vaikuta tuotteen yksilöintiin ja
-tunnistamiseen. Verkkotunnus määrittää, minne QR-koodin skannaava henkilö ohjataan verkossa. Koodissa on
-siten mahdollista käyttää myös palveluntarjoajan verkkotunnusta, mutta on hyvä tiedostaa, että tästä voi seurata ns. vendor lock-in -tilanne, jolloin palveluntarjoajan vaihtaminen vaatii verkkotunnuksen muutoksen myötä
-myös tuotteisiin painettujen koodien vaihtamisen. Siksi on suositeltavaa käyttää koodissa yrityksen omaa verkkotunnusta. Näin tehdessään yritys voi edelleen ohjata sen tarvittaessa uudelleen palveluntarjoajan verkkotunnuksen alla olevaan sisältöön, jos sille koetaan tarvetta.
-Suositeltu lähestymistapa: Tuotteen tunnistamiseen käytettävän aladomainin käyttö
-Suositeltu toimintapa on käyttää GS1 Digital Link -standardin mukaisessa QR-koodissa varsinaisen verkkotunnuksen alle luotavaa, tuotteiden yksilöintitarpeisiin varattua aliverkkotunnusta. Aliverkkotunnus (alidomain) on varsinaisesta verkkotunnuksesta irrallinen osio, jota käytetään varsinaisen verkkotunnuksen rinnalla johonkin tiettyyn käyttötarkoitukseen. Aliverkkotunnuksen käyttö QR-koodissa mahdollistaa tuoteyksilöinnissä käytettävien
-URL-osoitteiden pysyvyyden ja riippumattomuuden varsinaisten verkkosivujen rakenteesta. Tämä tuo joustavuutta yrityksen verkkosivujen ylläpitoon, koska päivitysten yhteydessä ei tarvitse huolehtia QR-koodissa olevasta linkistä, vaan koodista voidaan aina tehdä uudelleenohjaus päivitettyyn kohdesivustoon.
-Esimerkkejä aliverkkotunnuksen käytöstä
-Aliverkkotunnus voidaan tehdä joko yrityksen verkkotunnuksen tai sen eri brändien verkkotunnusten perusteella. Esimerkiksi:
-• yritys-x.fi -> id. yritys-x.fi
-• brand-x.fi -> id.brand-x.fi
-Mitä lyhyempi GS1 Digital Link URI on, sitä pienempään tilaan sen sisältävä QR-koodi mahtuu.
-GS1 Digital Link -standardin käyttöä on kuvattu tarkemmin seuraavissa GS1-standardeissa:
-https://ref.gs1.org/standards/digital-link/uri-syntax/
+**Esimerkki GS1 Digital Link QR-koodien käyttötarkoituksesta ja suosituksista**  
+Esimerkin tarkoitus on ainoastaan esitellä tietosisällön rakennetta. Siinä on käytetty kuvitteellista verkkotunnusta id.rt.fi, joten älypuhelimen kameralla luettaessa esimerkkikoodi ei ohjaudu mihinkään sisältöön.  
+
+Lähtökohtaisesti suositellaan, että QR-koodiin sisällytetyn GS1 Digital Link URI:n ei tulisi olla minkään varsinaisen verkkosivun URL-osoite. Tästä osoitteesta suositellaan tekemään uudelleenohjaus siihen sisältöön, joka koodin kautta halutaan näyttää.  
+
+GS1 Digital Link URI:ssa voidaan käyttää mitä tahansa verkkotunnusta, koska se ei vaikuta tuotteen yksilöintiin ja tunnistamiseen. Verkkotunnus määrittää, minne QR-koodin skannaava henkilö ohjataan verkossa. Koodissa on siten mahdollista käyttää myös palveluntarjoajan verkkotunnusta, mutta on hyvä tiedostaa, että tästä voi seurata ns. vendor lock-in -tilanne, jolloin palveluntarjoajan vaihtaminen vaatii verkkotunnuksen muutoksen myötä myös tuotteisiin painettujen koodien vaihtamisen. Siksi on suositeltavaa käyttää koodissa yrityksen omaa verkkotunnusta. Näin tehdessään yritys voi edelleen ohjata sen tarvittaessa uudelleen palveluntarjoajan verkkotunnuksen alla olevaan sisältöön, jos sille koetaan tarvetta.  
+
+**Suositeltu lähestymistapa: Tuotteen tunnistamiseen käytettävän aladomainin käyttö**  
+Suositeltu toimintapa on käyttää GS1 Digital Link -standardin mukaisessa QR-koodissa varsinaisen verkkotunnuksen alle luotavaa, tuotteiden yksilöintitarpeisiin varattua aliverkkotunnusta. Aliverkkotunnus (alidomain) on varsinaisesta verkkotunnuksesta irrallinen osio, jota käytetään varsinaisen verkkotunnuksen rinnalla johonkin tiettyyn käyttötarkoitukseen. Aliverkkotunnuksen käyttö QR-koodissa mahdollistaa tuoteyksilöinnissä käytettävien URL-osoitteiden pysyvyyden ja riippumattomuuden varsinaisten verkkosivujen rakenteesta. Tämä tuo joustavuutta yrityksen verkkosivujen ylläpitoon, koska päivitysten yhteydessä ei tarvitse huolehtia QR-koodissa olevasta linkistä, vaan koodista voidaan aina tehdä uudelleenohjaus päivitettyyn kohdesivustoon.  
+
+**Esimerkkejä aliverkkotunnuksen käytöstä**  
+Aliverkkotunnus voidaan tehdä joko yrityksen verkkotunnuksen tai sen eri brändien verkkotunnusten perusteella.  
+Esimerkiksi:  
+
+• yritys-x.fi -> id. yritys-x.fi  
+
+• brand-x.fi -> id.brand-x.fi  
+
+Mitä lyhyempi GS1 Digital Link URI on, sitä pienempään tilaan sen sisältävä QR-koodi mahtuu.  
+GS1 Digital Link -standardin käyttöä on kuvattu tarkemmin seuraavissa GS1-standardeissa:  
+https://ref.gs1.org/standards/digital-link/uri-syntax/  
 https://ref.gs1.org/standards/resolver/
 
 ## Lyhenteet ja terminologia
