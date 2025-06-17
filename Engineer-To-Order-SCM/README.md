@@ -31,4 +31,22 @@
 
 
 
-
+<table>
+<caption>Table title (HTML table with merged cells)</caption>
+    <thead>
+        <tr>
+            <th colspan="3">First Header</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Table cell</td>
+            <td colspan="2">Merged cell</td>
+        </tr>
+        <tr>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+        </tr>
+    </tbody>
+</table>
