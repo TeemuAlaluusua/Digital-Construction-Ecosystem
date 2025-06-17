@@ -123,12 +123,12 @@ GUID, toiselta nimeltään UUID, on globaalisti yksilöllinen tunnuste, joka voi
 Yhdistämällä verkkotunnus ja muita yksilöintitietoja voidaan hakea internetin välityksellä lisätietoja yksilöidystä
 tuotteesta URL-osoitteen avulla, mikäli tietojen toimittaja on toteuttanut ominaisuuden ja pitää sitä edelleen
 toiminnassa.
-###### Taulukko 9. Verkkotunnuksen rakenne. * Huom! Optisessa tunnistamisessa (esim. QR-koodi) tämän tiedon sisällyttämisessä käytetään
+###### Taulukko 9. Verkkotunnuksen rakenne. * Huom! Optisessa tunnistamisessa (esim. QR-koodi) tämän tiedon sisällyttämisessä käytetään  
 edellä esitetyn GS1 Digital Link URI syntax 1.5.0 -standardin mukaista menettelyä.
 GS1-sovellustunnus Verkkotunnus
 (99) <alitunnus.><tunnus.ylätunnus>, jossa <alitunnus.> toistuu 0…n kertaa)
 Tässä dokumentissa määritellään kaksi tapaa yhdistää verkkotunnus muihin yksilöintitietoihin URL-osoitteen
-muodostamiseksi. Tuloksena muodostuu GS1 Digital Link -standardin tai IEC 61406 -standardin mukainen URLosoite.
+muodostamiseksi. Tuloksena muodostuu GS1 Digital Link -standardin tai IEC 61406 -standardin mukainen URLosoite.  
 #### 3.8.1 GS1 Digital Link URL-osoitteen muodostaminen
 GS1 Digital Link on GS1:n määrittämä standardi miten verkkotunnuksen avulla voidaan määrittää tuotteelle URLosoite. GS1 ei kuitenkaan ole määritellyt miten verkkotunnuksen voisi kirjoittaa RFID-tunnisteeseen kun halutaan määrittää GS1 Digital Link yksilötasolla. (Määritys on GS1:ssä työn alla, mutta toistaiseksi BETK:ssa noudatetaan omaa tapaa.)
 BETK soveltamisohjeen mukaisesti GS1 Digital Link muodostetaan seuraavasti:
@@ -137,7 +137,7 @@ Yksilöinnin Taso 2: https://<verkkotunnus>/01/<GTIN>/242/<MTO varianttinumero>
 Yksilöinnin Taso 3: https://<verkkotunnus>/01/<GTIN>/242/<MTO varianttinumero>/21/<sarjanumero>
 Taso 3 kun ei varianttinumeroa määritetty: https://<verkkotunnus>/01/<GTIN>/21/<sarjanumero>
 Viimeiselle tapaukselle esimerkiksi muodostuu: https://id.rt.fi/01/06400001000247/21/12345678910
-GS1 Digital Link -standardista on kerrottu lisää tämän ohjeen kappaleessa 4.3.
+GS1 Digital Link -standardista on kerrottu lisää tämän ohjeen kappaleessa 4.3.  
 #### 3.8.2 IEC 61406 Identification Link muotoisen URL-osoitteen muodostaminen
 Lisäksi voidaan määrittää GUID-tunnisteeseen perustuva IEC 61406 Identification Link standardin mukainen URLosoite seuraavasti:
 https://<verkkotunnus>/<GUID>
@@ -194,41 +194,41 @@ RFID Tag EPC Memory Bank Contents (hexadecimal): 301586A004000602DFDC1C3E
 EPC Tag URI: urn:epc:tag:sgtin-96:0.6400001.000024.12345678910
 
 **Tietorakenteen osat**  
-**1. URN-etuliite**
+**1. URN-etuliite**  
 Arvo: urn:epc:id  
-Kuvaus: Määrittää, että tunniste noudattaa EPC URI -standardia. Tämä etuliite on osa Uniform Resource Identifier (URI) -kehystä.
-**2. EPC-järjestelmä**
+Kuvaus: Määrittää, että tunniste noudattaa EPC URI -standardia. Tämä etuliite on osa Uniform Resource Identifier (URI) -kehystä.  
+**2. EPC-järjestelmä**  
 Arvo: sgtin-96  
-Kuvaus: Määrittää koodaustavan ja käytetyn GS1-tunnistusavaimen tyypin. Tässä tapauksessa kyseessä on Serialized Global Trade Item Number (SGTIN), joka on 96-bittisesti binäärikoodattu.
-**3. Suodatusarvo**
+Kuvaus: Määrittää koodaustavan ja käytetyn GS1-tunnistusavaimen tyypin. Tässä tapauksessa kyseessä on Serialized Global Trade Item Number (SGTIN), joka on 96-bittisesti binäärikoodattu.  
+**3. Suodatusarvo**  
 Arvo: 0  
-Kuvaus: Ilmoittaa suodatusasetuksen. Arvo 0 tarkoittaa, että tuotetta ei ole suodatettu myyntipisteellä tapahtuvan skannauksen perusteella, mikä viittaa yleiskäyttöön.
-**4. GS1-yritystunniste**
+Kuvaus: Ilmoittaa suodatusasetuksen. Arvo 0 tarkoittaa, että tuotetta ei ole suodatettu myyntipisteellä tapahtuvan skannauksen perusteella, mikä viittaa yleiskäyttöön.  
+**4. GS1-yritystunniste**  
 Arvo: 6400001  
-Kuvaus: Tunnistaa yrityksen, joka on julkaissut tuotteen. Tämä on GS1:n myöntämä maailmanlaajuisesti yksilöllinen tunniste.
-**5. Ilmaisinluku ja tuotenimikkeen numero**
+Kuvaus: Tunnistaa yrityksen, joka on julkaissut tuotteen. Tämä on GS1:n myöntämä maailmanlaajuisesti yksilöllinen tunniste.  
+**5. Ilmaisinluku ja tuotenimikkeen numero**  
 Arvo: 000024  
-Kuvaus: Yhdistää ilmaisinluvun ja tuotetunnuksen.
-**6. Sarjanumero**
+Kuvaus: Yhdistää ilmaisinluvun ja tuotetunnuksen.  
+**6. Sarjanumero**  
 Arvo: 12345678910  
 Kuvaus: Yksilöi tuotteen jokaisen yksittäisen instanssin. Tämä mahdollistaa tuotekohtaisen seurannan.  
 **Lisäosat**  
-**• Jakoparametri**  
-Määrittää, mihin kohtaan erotinmerkki ( . ) asetetaan GS1-yritystunnuksen ja tuotetunnuksen välille. Jakoparametri riippuu GS1-yritystunnuksen pituudesta. Viimeinen erotinmerkki ( . ) URI:ssä erottaa GTINnumeron (Global Trade Item Number) sarjanumerosta.
-**• Tarkistusnumero**
-Käytetään virheentarkistukseen GTIN-tunnuksissa. Tarkistusnumeroa ei kuitenkaan sisällytetä EPC-koodiin RFID-tunnisteessa, sillä RFID-prosessoinnissa sitä ei tarvita.
-**Käyttäjämuisti-osio**
+**• Jakoparametri**   
+Määrittää, mihin kohtaan erotinmerkki ( . ) asetetaan GS1-yritystunnuksen ja tuotetunnuksen välille. Jakoparametri riippuu GS1-yritystunnuksen pituudesta. Viimeinen erotinmerkki ( . ) URI:ssä erottaa GTINnumeron (Global Trade Item Number) sarjanumerosta.  
+**• Tarkistusnumero**  
+Käytetään virheentarkistukseen GTIN-tunnuksissa. Tarkistusnumeroa ei kuitenkaan sisällytetä EPC-koodiin RFID-tunnisteessa, sillä RFID-prosessoinnissa sitä ei tarvita.  
+**Käyttäjämuisti-osio**  
 Muu lisätieto sijoitetaan RFID-sirun käyttäjämuisti-osioon (User memory) seuraavalla tavalla:
 AI Arvo
 (91) Internal → Elementtitunnus V1001
 (92) Internal → GUID ba34cf17-0c4b-4c6f-9295-cae05aa74ad4
-(99) Internal → Verkkotunnus id.rt.fi
-**RFID-tunnisteiden toteuttaminen**
-RFID-tunnisteiden ohjelmointia varten on hyvä olla yhteydessä tunnistamisen ratkaisuihin erikoistuneeseen yritykseen tai yrityksiin. Tunnistamisen ratkaisuja tarjoavia yrityksiä on koottu mm. GS1:n kumppanisivulle ja RFID Lab Finlandin ry:n sivulle.
-#### 4.1.1 RFID-tunniste symbolin käyttö
+(99) Internal → Verkkotunnus id.rt.fi  
+**RFID-tunnisteiden toteuttaminen**  
+RFID-tunnisteiden ohjelmointia varten on hyvä olla yhteydessä tunnistamisen ratkaisuihin erikoistuneeseen yritykseen tai yrityksiin. Tunnistamisen ratkaisuja tarjoavia yrityksiä on koottu mm. GS1:n kumppanisivulle ja RFID Lab Finlandin ry:n sivulle.  
+#### 4.1.1 RFID-tunniste symbolin käyttö  
 RFID-teknologiaa käytettäessä tuotteiden automaattiseen tunnistamiseen on syytä varmistaa, että RFID-tunniste
 symboli sisällytetään tuote-etiketteihin sekä tuotantosuunnitelmiin. Symbolin tulee olla standardin mukainen,
-helposti tunnistettavissa ja sijoitettu niin, että se osoittaa selkeästi RFID-tunnisteiden sijainnin ja käytön.
+helposti tunnistettavissa ja sijoitettu niin, että se osoittaa selkeästi RFID-tunnisteiden sijainnin ja käytön.  
 
 RFID-tunniste symboli
 RFID-tunnistesymbolina suositellaan käytettäväksi ISO 7000-3010 -standardin mukaista, vapaasti saatavilla olevaa yleistä RFID-symbolia. Symbolin käytön tulee täyttää ISO/IEC 29160:2020-standardin vaatimukset, erityisesti silloin kun symbolia
