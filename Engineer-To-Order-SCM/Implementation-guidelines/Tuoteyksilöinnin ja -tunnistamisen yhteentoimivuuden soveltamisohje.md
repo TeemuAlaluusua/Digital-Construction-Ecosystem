@@ -281,23 +281,30 @@ Sitä voidaan käyttää kuten mitä tahansa QR-koodia, eli ohjaamaan älypuheli
 
 GS1 Digital Link URI:ssa käytetään GS1-sovellustunnuksia tietojen sisällyttämiseen. Alla olevassa esimerkissä on muodostettu taulukossa esitetyt minimitietovaatimukset sisältävä GS1 Digital Link URI.
 
-Example information content
-GS1-sovellustunnus (AI) Arvo  
-AI 01 = GTIN 06400001000247  
-AI 242 = MTO variation number 123456  
-AI 21 = Serial number 12345678910  
-
-<table>
+<html>
 <caption>Table title (HTML table with merged cells)</caption>
+<table>
     <thead>
-        <tr>
+        <tr>            
+            <th colspan="3">Esimerkin tietosisältö</th>
+        </tr>
+    </thead>
+ <td><img src=
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png" 
+                alt="GFG Logo" width="100" 
+                height="100">
+            </td>
+        </tr>
+<table>
+    <thead>
+        <tr>            
             <th colspan="2">Esimerkin tietosisältö</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>GS1-sovellustunnus (AI)</td>
-            <td>Arvo</td>
+            <td><b>GS1-sovellustunnus (AI)</b></td>
+            <td><b>Arvo</b></td>
         </tr>
         <tr>
             <td>AI 01 = GTIN</td>
@@ -313,7 +320,7 @@ AI 21 = Serial number 12345678910
         </tr>
     </tbody>
 </table>
-
+</html>
 
 ##### Kuva 4. Esimerkin QR-koodi sisältää taulukossa esitetyt tiedot GS1 Digital Link URI -muodossa:
 https://id.rt.fi/01/06400001000247/242/123456/21/12345678910
