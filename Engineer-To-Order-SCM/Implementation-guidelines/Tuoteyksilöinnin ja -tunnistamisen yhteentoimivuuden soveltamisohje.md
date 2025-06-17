@@ -291,8 +291,7 @@ AI 01 = GTIN 06400001000247
 AI 242 = MTO variation number 123456  
 AI 21 = Serial number 12345678910  
 
-<table>
-<caption>Esimerkin tietosisältö</caption>
+Esimerkin tietosisältö</caption>
     <thead>
         <tr>
             <th>GS1-sovellustunnus (AI)</th>
@@ -301,8 +300,8 @@ AI 21 = Serial number 12345678910
     </thead>
     <tbody>
         <tr>
-            <td>AI 01</td>
-            <td>GTIN 06400001000247</td>
+            <td>**AI 01** = GTIN</td>
+            <td>06400001000247</td>
         </tr>
          <tr>
             <td>AI 242</td>
