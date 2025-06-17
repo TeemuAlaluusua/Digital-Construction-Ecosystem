@@ -392,7 +392,7 @@ Verkkotunnus | Verkkotunnus eli domain-nimi on merkkijono, joka ohjataan interne
 | Tom Partanen        | Consolis Parma Oy    |tuotti & editoi tekstiä         |
 | Eetu Lahtinen       | Consolis Parma Oy    |tuotti elementtisuunnitelmakuvan|
 
-## Asiantuntija ryhmä
+### Asiantuntija ryhmä
 | Nimi               | Organisaatio                   |
 |--------------------|--------------------------------|
 | Janne Kihula       | Rakennustuoteteollisuus RTT ry |
