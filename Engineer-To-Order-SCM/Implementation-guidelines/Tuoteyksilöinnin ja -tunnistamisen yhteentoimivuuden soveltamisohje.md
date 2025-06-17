@@ -196,22 +196,22 @@ EPC Tag URI: urn:epc:tag:sgtin-96:0.6400001.000024.12345678910
 
 **Tietorakenteen osat**  
 **1. URN-etuliite**  
-Arvo: ´´´urn:epc:id´´´  
+Arvo: ```urn:epc:id```  
 Kuvaus: Määrittää, että tunniste noudattaa EPC URI -standardia. Tämä etuliite on osa Uniform Resource Identifier (URI) -kehystä.  
 **2. EPC-järjestelmä**  
-Arvo: sgtin-96  
+Arvo: ```sgtin-96```  
 Kuvaus: Määrittää koodaustavan ja käytetyn GS1-tunnistusavaimen tyypin. Tässä tapauksessa kyseessä on Serialized Global Trade Item Number (SGTIN), joka on 96-bittisesti binäärikoodattu.  
 **3. Suodatusarvo**  
-Arvo: 0  
+Arvo: ```0```  
 Kuvaus: Ilmoittaa suodatusasetuksen. Arvo 0 tarkoittaa, että tuotetta ei ole suodatettu myyntipisteellä tapahtuvan skannauksen perusteella, mikä viittaa yleiskäyttöön.  
 **4. GS1-yritystunniste**  
-Arvo: 6400001  
+Arvo: ```6400001```  
 Kuvaus: Tunnistaa yrityksen, joka on julkaissut tuotteen. Tämä on GS1:n myöntämä maailmanlaajuisesti yksilöllinen tunniste.  
 **5. Ilmaisinluku ja tuotenimikkeen numero**  
-Arvo: 000024  
+Arvo: ```000024```  
 Kuvaus: Yhdistää ilmaisinluvun ja tuotetunnuksen.  
 **6. Sarjanumero**  
-Arvo: 12345678910  
+Arvo: ```12345678910```  
 Kuvaus: Yksilöi tuotteen jokaisen yksittäisen instanssin. Tämä mahdollistaa tuotekohtaisen seurannan.  
 **Lisäosat**  
 **• Jakoparametri**   
@@ -329,9 +329,9 @@ Suositeltu toimintapa on käyttää GS1 Digital Link -standardin mukaisessa QR-k
 Aliverkkotunnus voidaan tehdä joko yrityksen verkkotunnuksen tai sen eri brändien verkkotunnusten perusteella.  
 Esimerkiksi:  
 
-• yritys-x.fi -> id. yritys-x.fi  
+```yritys-x.fi``` -> ```id. yritys-x.fi```  
 
-• brand-x.fi -> id.brand-x.fi  
+```brand-x.fi``` -> ```id.brand-x.fi```  
 
 Mitä lyhyempi GS1 Digital Link URI on, sitä pienempään tilaan sen sisältävä QR-koodi mahtuu.  
 GS1 Digital Link -standardin käyttöä on kuvattu tarkemmin seuraavissa GS1-standardeissa:  
