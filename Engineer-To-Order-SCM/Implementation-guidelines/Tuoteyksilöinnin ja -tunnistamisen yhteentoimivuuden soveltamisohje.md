@@ -13,7 +13,7 @@ Status: Julkaistu
 [1 Tausta](https://github.com/TeemuAlaluusua/Digital-Construction-Ecosystem/edit/main/Engineer-To-Order-SCM/Implementation-guidelines/Tuoteyksil%C3%B6innin%20ja%20-tunnistamisen%20yhteentoimivuuden%20soveltamisohje.md#1-tausta)  
 [2 Soveltamisohjeen tarkoitus](https://github.com/TeemuAlaluusua/Digital-Construction-Ecosystem/edit/main/Engineer-To-Order-SCM/Implementation-guidelines/Tuoteyksil%C3%B6innin%20ja%20-tunnistamisen%20yhteentoimivuuden%20soveltamisohje.md#2-soveltamisohjeen-tarkoitus)  
 [3 Rakennustuotteiden SGTIN-tuoteyksilöinti](https://github.com/TeemuAlaluusua/Digital-Construction-Ecosystem/edit/main/Engineer-To-Order-SCM/Implementation-guidelines/Tuoteyksil%C3%B6innin%20ja%20-tunnistamisen%20yhteentoimivuuden%20soveltamisohje.md#3-rakennustuotteiden-sgtin-tuoteyksil%C3%B6inti)  
-  [3.1 GS1-sovellustunnusten käyttäminen ETO-tuotteiden yksilöintiin](### 3.1 GS1-sovellustunnusten käyttäminen ETO-tuotteiden yksilöintiin)
+  [3.1 GS1-sovellustunnusten käyttäminen ETO-tuotteiden yksilöintiin](https://github.com/TeemuAlaluusua/Digital-Construction-Ecosystem/edit/main/Engineer-To-Order-SCM/Implementation-guidelines/Tuoteyksil%C3%B6innin%20ja%20-tunnistamisen%20yhteentoimivuuden%20soveltamisohje.md#31-gs1-sovellustunnusten-k%C3%A4ytt%C3%A4minen-eto-tuotteiden-yksil%C3%B6intiin)
 
 ## 1 Tausta
 Rakennustuotteiden yksilöinti ja tunnistaminen on merkittävimpiä osatekijöitä kiinteistö- ja rakennusalan digitalisaatiossa. Vakioidut, yhteentoimivat ja globaalisti käytetyt tuoteyksilöinnin ja -tunnistamisen menetelmät mahdollistavat eri toimijoiden välisen tiedonvaihdon yhtenäisellä tavalla, riippumatta toimitusketjun osapuolesta.
