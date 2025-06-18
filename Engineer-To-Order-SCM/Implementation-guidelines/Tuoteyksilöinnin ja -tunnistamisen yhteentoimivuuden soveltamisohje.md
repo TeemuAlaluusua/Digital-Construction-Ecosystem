@@ -48,19 +48,19 @@ GS1-standardissa ei ole kansalliselle Elementtitunnukselle, GUID:lle ja verkkotu
 Huom! Verkkotunnuksen käsittely RFID-tunnisteissa on tämän ohjeen julkaisuhetkellä käsiteltävänä GS1:n kansainvälisessä standardinkehityksessä. Tuleva standardi ei välttämättä vastaa tässä esitettyä ratkaisua, mutta ohjeistus tullaan päivittämään standardin valmistuessa sen mukaiseksi. Optisessa tunnistamisessa (esim. QR-koodi) tämän tiedon sisällyttämisessä käytetään GS1 Digital Link URI syntax 1.5.0 -standardin mukaista menettelyä.
 
 ###### Taulukko 2. Tiedonkantajaan lisättävät tilauksesta suunniteltavien (ETO) rakennustuotteen minimitietovaatimukset.
-| Sovellustunnus (AI) | Tieto               | Esimerkki      |
-|---------------------|---------------------|----------------|
-|(01)                 | GTIN-koodi          | 06400001000247 |
-|(242)                | MTO varianttinumero | 123456         |
-|(21)                 | Sarjanumero         | 12345678910    |
+| Sovellustunnus (AI) | Tieto               | Esimerkki                  |
+|---------------------|---------------------|----------------------------|
+|(01)                 | GTIN-koodi          | <code>06400001000247</code>|
+|(242)                | MTO varianttinumero | <code>123456</code>        |
+|(21)                 | Sarjanumero         | <code>12345678910</code>   | 
 
 ###### Taulukko 3.Tiedonkantajaan lisättävät valinnaiset lisätiedot. *Huom! Optisessa tunnistamisessa (esim. QR-koodi) verkkotunnuksen sisällyttämisessä käytetään GS1 Digital Link URI syntax 1.5.0 -standardin mukaista menettelyä
 
-| Sovellustunnus (AI) | Tieto           | Esimerkki                            |
-|---------------------|-----------------|--------------------------------------|
-| (91)                | Elementtitunnus | V1001                                |
-| (92)                | GUID            | ba34cf17-0c4b-4c6f-9295-cae05aa74ad4 |
-| (99)                | Verkkotunnus    | id.rt.fi                             |
+| Sovellustunnus (AI) | Tieto           | Esimerkki                                         |
+|---------------------|-----------------|---------------------------------------------------|
+| (91)                | Elementtitunnus | <code>V1001</code>                                |
+| (92)                | GUID            | <code>ba34cf17-0c4b-4c6f-9295-cae05aa74ad4</code> |
+| (99)                | Verkkotunnus    | <code>id.rt.fi </code>                            |
 
 ### 3.2 GS1- yritystunniste
 GS1-yritystunnus, eli GS1 Company Prefix, on yksilöllinen numerosarja, jonka GS1-organisaatio myöntää yrityksille maailmanlaajuisesti. Yritystunniste on asiakaskohtainen, eikä samaa tunnistetta tai sen pohjalta tehtyjä numerosarjoja voi olla minkään muun toimijan käytössä. GS1-yritystunnusta käytetään monissa standardoiduissa tunnistusmenetelmissä, kuten viivakoodeissa ja RFID-tunnisteissa, ja se on pohjana GTIN-, GLN- ja SSCC-koodien muodostamisessa.
@@ -74,9 +74,9 @@ GTIN-koodi alkaa GS1-yritystunnisteella, jonka pituus GS1 Finlandilta saatavilla
 
 ###### Taulukko 4. GTIN-koodin rakenne
 
-| GS1-sovellustunnus | GS1-yritystunniste ---> <--- tuotekohtainen numero |  Tarkistusnumero |
-|--------------------|----------------------------------------------------|------------------|
-| (01)               |  <ins>0</ins> N1 N2 N3 N4 N5 N6 N7 N8 N9 N10 N11 N12          | N13              |
+| GS1-sovellustunnus | GS1-yritystunniste ---> <--- tuotekohtainen numero     |  Tarkistusnumero |
+|--------------------|--------------------------------------------------------|------------------|
+| (01)               |  <ins>0</ins> N1 N2 N3 N4 N5 N6 N7 N8 N9 N10 N11 N12   | N13              |
  
 Viivakoodeissa ja RFID-tunnisteissa GTIN-koodin ilmaisemiseen käytettävä sovellustunnus on (01). GS1:n kansainvälisessä standardikehityksessä käsitellään parhaillaan tilauksesta valmistettavien ja tilauksesta suunniteltavien tuotteiden yksilöintiä. Tämän standardinkehitystyön tuloksena voi tulla muutoksia tilauksesta valmistettavien/suunniteltavien tuotteiden GTIN-koodien ilmaisemiseen. Tämä ohje päivitetään standardin valmistuessa.
 
@@ -296,21 +296,21 @@ Muu lisätieto sijoitetaan RFID-sirun käyttäjämuisti-osioon (User memory) seu
     <thead>
         <tr>            
             <th>GS1-sovellustunnus (AI)</th>
-            <th>Arvo</th>
+            <th>Arvo (esimerkki)</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>91) Internal → Elementtitunnus</td>
-            <td>V1001</td>
+            <td><code>V1001</code></td>
         </tr>
          <tr>
             <td>(92) Internal → GUID</td>
-          <td>ba34cf17-0c4b-4c6f-9295-cae05aa74ad4</td>
+          <td><code>ba34cf17-0c4b-4c6f-9295-cae05aa74ad4</code></td>
         </tr>
         <tr>
             <td>(99) Internal → Verkkotunnus</td>
-            <td>id.rt.fi </td>
+            <td><code>id.rt.fi</code></td>
         </tr>
      </tbody>
 </table>
@@ -358,23 +358,23 @@ GS1 DataMatrix on GS1:n kehittämä kaksiulotteinen viivakoodi, joka voidaan tul
         </tr>
         <tr>
             <td>(01) = GTIN</td>
-            <td>06400001000247</td>
+            <td><code>06400001000247</code></td>
         </tr>
          <tr>
             <td>(242) = MTO variation number</td>
-          <td> 123456</td>
+          <td><code>123456</code></td>
         </tr>
         <tr>
             <td>(21) = Serial number</td>
-            <td>12345678910</td>
+            <td><code>12345678910</code></td>
         </tr>
        <tr>
             <td>(91) = Internal (elementtitunnus)</td>
-            <td>V1001</td>
+            <td><code>V1001</code></td>
         </tr>
        <tr>
             <td>(92) = Internal (GUID)</td>
-            <td>ba34cf17-0c4b-4c6f-9295-cae05aa74ad4</td>
+            <td><code>ba34cf17-0c4b-4c6f-9295-cae05aa74ad4</code></td>
         </tr>
     </tbody>
 </table>
@@ -415,19 +415,19 @@ GS1 Digital Link URI:ssa käytetään GS1-sovellustunnuksia tietojen sisällytt�
     <tbody>
         <tr>
             <td><b>GS1-sovellustunnukset (AI)</b></td>
-            <td><b>Arvo</b></td>
+            <td><b>Arvo (esimerkki)</b></td>
         </tr>
         <tr>
             <td>(01) = GTIN-koodi</td>
-            <td>06400001000247</td>
+            <td><code>06400001000247</code></td>
         </tr>
          <tr>
             <td>(242) = MTO variation number</td>
-          <td> 123456</td>
+          <td><code>123456</code></td>
         </tr>
         <tr>
             <td>(21) = Serial number</td>
-            <td>12345678910</td>
+            <td><code> 12345678910</code> </td>
         </tr>
     </tbody>
 </table>
