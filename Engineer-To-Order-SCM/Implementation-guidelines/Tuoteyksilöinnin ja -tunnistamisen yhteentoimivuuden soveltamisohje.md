@@ -414,11 +414,11 @@ GS1 Digital Link URI:ssa käytetään GS1-sovellustunnuksia tietojen sisällytt�
     </thead>
     <tbody>
         <tr>
-            <td><b>GS1-sovellustunnus (AI)</b></td>
+            <td><b>GS1-sovellustunnukset (AI)</b></td>
             <td><b>Arvo</b></td>
         </tr>
         <tr>
-            <td>(01) = GTIN</td>
+            <td>(01) = GTIN-koodi</td>
             <td>06400001000247</td>
         </tr>
          <tr>
