@@ -293,23 +293,23 @@ GS1 DataMatrix on GS1:n kehitt채m채 kaksiulotteinen viivakoodi, joka voidaan tul
             <td><b>Arvo</b></td>
         </tr>
         <tr>
-            <td>AI 01 = GTIN</td>
+            <td>(01) = GTIN</td>
             <td>06400001000247</td>
         </tr>
          <tr>
-            <td>AI 242 = MTO variation number</td>
+            <td>(242) = MTO variation number</td>
           <td> 123456</td>
         </tr>
         <tr>
-            <td>AI 21 = Serial number</td>
+            <td>(21) = Serial number</td>
             <td>12345678910</td>
         </tr>
        <tr>
-            <td>AI 91 = Internal (elementtitunnus)</td>
+            <td>(91) = Internal (elementtitunnus)</td>
             <td>V1001</td>
         </tr>
        <tr>
-            <td>AI 92 = Internal (GUID)</td>
+            <td>(92) = Internal (GUID)</td>
             <td>ba34cf17-0c4b-4c6f-9295-cae05aa74ad4</td>
         </tr>
     </tbody>
@@ -354,15 +354,15 @@ GS1 Digital Link URI:ssa k채ytet채채n GS1-sovellustunnuksia tietojen sis채llytt�
             <td><b>Arvo</b></td>
         </tr>
         <tr>
-            <td>AI 01 = GTIN</td>
+            <td>(01) = GTIN</td>
             <td>06400001000247</td>
         </tr>
          <tr>
-            <td>AI 242 = MTO variation number</td>
+            <td>(242) = MTO variation number</td>
           <td> 123456</td>
         </tr>
         <tr>
-            <td>AI 21 = Serial number</td>
+            <td>(21) = Serial number</td>
             <td>12345678910</td>
         </tr>
     </tbody>
