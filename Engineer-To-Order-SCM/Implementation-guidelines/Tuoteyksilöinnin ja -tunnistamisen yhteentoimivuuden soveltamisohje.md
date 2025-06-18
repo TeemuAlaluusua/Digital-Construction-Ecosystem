@@ -1,40 +1,5 @@
 # Tuoteyksilöinnin ja -tunnistamisen yhteentoimivuuden soveltamisohje
 
-<html>
-<head>
-    <title>HTML <td> bgcolor Attribute</title>
-</head>
-
-<body>
-    <h1>GeeksforGeeks</h1>
-
-    <h2>HTML td bgcolor Attribute</h2>
-
-    <table width="500" border="1">
-        <tr>
-            <th>NAME</th>
-            <th>AGE</th>
-            <th>BRANCH</th>
-        </tr>
-
-        <tr>
-            <td bgcolor="green">BITTU</td>
-            <td bgcolor="red">22</td>
-            <td bgcolor="yellow">CSE</td>
-        </tr>
-
-        <tr>
-            <td bgcolor="yellow">RAKESH</td>
-            <td bgcolor="green">25</td>
-            <td bgcolor="red">EC</td>
-        </tr>
-    </table>
-</body>
-
-</html>
-
-
-
 Here is a simple footnote[^1].
 [^1]: My reference.
 
