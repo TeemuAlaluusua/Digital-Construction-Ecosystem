@@ -175,6 +175,36 @@ BETK-projektissa on tunnistettu, että tunnisteeseen on tarve sijoittaa lisätie
 
 ###### Taulukko 10.Käytössä olevat EPC-binäärikoodausjärjestelmät ja niiden rajoitukset. Sovellettava menetelmä määräytyy numeeristen tai alfanumeeristen merkkien määrätarpeen mukaan.
 
+<html>
+<table>
+    <thead>
+        <tr>             
+           <th>EPC järjestelmä</th>
+           <th>EPC-binaarikoodausjär-jestelmä</th>
+           <th>EPC + suodatin-bittimäärä</th>
+           <th>Sisältää suodatinarvon</th>
+           <th>Sarjanumerorajoitus</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">sgtin</td>
+            <td>sgtin-96</td>
+            <td>96</td>
+            <td>Kyllä</td>
+            <td>Vain numerot; ei alkavia nollia, desi-maaliluvun arvo alle 2³⁸ (eli desimaali-luku enintään 274 877 906 943).</td>
+        </tr>
+        <tr>
+            <td>sgtin-198</td>
+            <td>198</td>
+            <td>Kyllä</td>
+            <td>Kaikki GS1 General Specifications -määritysten sallimat arvot (enintään 20 aakkosnumeerista merkkiä).</td>
+        </tr>
+    </tbody>
+</table>
+</html>
+
+
 
 ###### Taulukko 11. Sovellettava menetelmä SGTIN-96. Standardissa TDS 2.1. (EPC Tag Data Standard) löytyy myös muita sovellusmenetelmiä mm. SGTIN-198, joita voidaan käyttää, mikäli on tarve esimerkiksi pidemmälle (tai numeroiden lisäksi myös kirjaimia sisältävälle) sarjanumerolle.
 
