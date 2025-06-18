@@ -275,6 +275,8 @@ Käytetään virheentarkistukseen GTIN-tunnuksissa. Tarkistusnumeroa ei kuitenka
 **Käyttäjämuisti-osio**  
 Muu lisätieto sijoitetaan RFID-sirun käyttäjämuisti-osioon (User memory) seuraavalla tavalla:
 
+###### Taulukko 12.
+
 <html>
 <table>
     <thead>
@@ -307,6 +309,8 @@ RFID-tunnisteiden ohjelmointia varten on hyvä olla yhteydessä tunnistamisen ra
 #### 4.1.1 RFID-tunniste symbolin käyttö  
 RFID-teknologiaa käytettäessä tuotteiden automaattiseen tunnistamiseen on syytä varmistaa, että RFID-tunniste symboli sisällytetään tuote-etiketteihin sekä tuotantosuunnitelmiin. Symbolin tulee olla standardin mukainen, helposti tunnistettavissa ja sijoitettu niin, että se osoittaa selkeästi RFID-tunnisteiden sijainnin ja käytön.  
 
+###### Taulukko 13. Yleinen RFID-symboli (ISO 7000-3010). [3]
+
 <html>
     <tbody>
         <tr>
@@ -330,8 +334,6 @@ RFID-teknologiaa käytettäessä tuotteiden automaattiseen tunnistamiseen on syy
 </table>
 </html>
 
-###### Kuva 2. Yleinen RFID-symboli (ISO 7000-3010). [3]
-
 **Soveltaminen betonielementtien käyttöympäristössä**  
 RFID-merkintä symboli on sijoitettava siten, että se näkyy helposti niille, jotka yrittävät etsiä tai lukea varsinaista RFID-tunnistetta. RFID-tunnistesymbolin käyttöä suositellaan betonielementtien tuotantosuunnitelmissa osoittamaan RFID-tunnisteiden sijaintia (esimerkki kuvattu liitteessä 1). RFID-tunnisteen käyttö tulee merkitä RFID-tunniste symbolin avulla, ja käytettävä tunnistetyyppi sekä sijaintitiedot lisätään osaksi betonielementin tuoteosaluetteloa.
 
@@ -342,6 +344,8 @@ Markkinoilla on erilaisia RFID-tunnisteita, jotka soveltuvat eri käyttötarkoit
 
 ### 4.2 Tuotetunnistus GS1 DataMatrix 2D-koodilla
 GS1 DataMatrix on GS1:n kehittämä kaksiulotteinen viivakoodi, joka voidaan tulostaa yksittäisistä pisteistä tai neliöistä koostuvana neliön tai suorakaiteen muotoisena symbolina. GS1 DataMatrix voi sisältää perinteistä lineaarista viivakoodia suuremman määrän tietoa. Siihen on mahdollista koodata jopa 3116 numeerista merkkiä tai 2335 alfanumeerista merkkiä. GS1 sovellustunnusten avulla GS1 DataMatrixiin voidaan sisällyttää useita erityyppisiä tietoja, kuten esimerkiksi määritetyt betonielementtien minimitietovaatimukset. GS1 DataMatrixin lukeminen vaatii kamerapohjaisen skannerin.
+
+###### Taulukko 14. Esimerkki betonielementtien minimitietovaatimukset sisältävästä GS1 DataMatrix -koodista
 
 <html>
 <table>
@@ -379,8 +383,6 @@ GS1 DataMatrix on GS1:n kehittämä kaksiulotteinen viivakoodi, joka voidaan tul
 </table>
 </html>
 
-###### Kuva 3. Esimerkki betonielementtien minimitietovaatimukset sisältävästä GS1 DataMatrix -koodista
-
 **GS1 DataMatrix -tunnisteen koko ja laatu**  
 Viivakoodin fyysinen koko vaihtelee sen sisältämän tiedon määrän mukaan. Viivakoodin resoluution (X-dimensio) on oltava vähintään 0,38 mm ja enintään 0,45 mm. Merkinnöissä käytettävien GS1 2D-viivakoodien laadun tulee täyttää ISO / IEC 15415 -standardin vaatimukset. Näin voidaan varmistua niiden luettavuudesta.  
 Merkintöjen tulostamista varten on hyvä olla yhteydessä tunnistamisen ratkaisuihin erikoistuneeseen yritykseen tai yrityksiin. Tunnistamisen ratkaisuja tarjoavia yrityksiä on koottu mm. GS1:n kumppanisivulle.
@@ -397,6 +399,8 @@ Sitä voidaan käyttää ilman verkkoyhteyttä tuotteen yksilöimiseen ja tunnis
 Sitä voidaan käyttää kuten mitä tahansa QR-koodia, eli ohjaamaan älypuhelimen tai muun vastaavan laitteen käyttäjä verkossa olevaan sisältöön. Erilaiset sovellukset voivat suorittaa saman QR-koodin lukemisen kautta myös muita toimintoja ja näyttää erilaista sisältöä.
 
 GS1 Digital Link URI:ssa käytetään GS1-sovellustunnuksia tietojen sisällyttämiseen. Alla olevassa esimerkissä on muodostettu taulukossa esitetyt minimitietovaatimukset sisältävä GS1 Digital Link URI.
+
+###### Taulukko 15. Esimerkin QR-koodi sisältää taulukossa esitetyt tiedot GS1 Digital Link URI -muodossa: https://id.rt.fi/01/06400001000247/242/123456/21/12345678910
 
 <html>
 <table>
@@ -428,8 +432,6 @@ GS1 Digital Link URI:ssa käytetään GS1-sovellustunnuksia tietojen sisällytt�
     </tbody>
 </table>
 </html>
-
-###### Kuva 4. Esimerkin QR-koodi sisältää taulukossa esitetyt tiedot GS1 Digital Link URI -muodossa: https://id.rt.fi/01/06400001000247/242/123456/21/12345678910
 
 **Esimerkki GS1 Digital Link QR-koodien käyttötarkoituksesta ja suosituksista**  
 Esimerkin tarkoitus on ainoastaan esitellä tietosisällön rakennetta. Siinä on käytetty kuvitteellista verkkotunnusta id.rt.fi, joten älypuhelimen kameralla luettaessa esimerkkikoodi ei ohjaudu mihinkään sisältöön.  
