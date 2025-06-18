@@ -194,6 +194,53 @@ Sarjanumero N…12 Enintään 12 numeroa (suurin sallittu arvo = 274 877 906
 943) Sarjanumeron ei tarvitse olla tasan 12 numeroa.
 Etunolla ei ole sallittu.
 
+<html>
+<table>
+    <thead>
+        <tr>             
+         <th colspan="3">SGTIN-96 tietosisältö</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><b>EPC SGTIN-96</b></td>
+            <td><b>Arvo</b></td>
+            <td><b>Kommentti</b></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+      <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+         <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+       <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+       <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+</html>
+
 **Esimerkki tietosisällöstä EPC / Gen2 RFID -tunnisteessa:**
 RFID Tag EPC Memory Bank Contents (hexadecimal): 301586A004000602DFDC1C3E
 EPC Tag URI: urn:epc:tag:sgtin-96:0.6400001.000024.12345678910
