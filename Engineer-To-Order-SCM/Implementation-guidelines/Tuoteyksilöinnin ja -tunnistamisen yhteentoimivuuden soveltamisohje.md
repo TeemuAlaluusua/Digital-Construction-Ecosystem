@@ -236,9 +236,24 @@ Etunolla ei ole sallittu.
         <tr>
             <td>5 = 7-numeroinen GS1-yritystunniste ja 6 numeroa tuotenimikkeelle + laajennustunnukselle</td>
         </tr>
-     <tr>
+        <tr>
             <td> 6 = 6-numeroinen GS1-yritystunniste ja 7 numeroa tuotenimikkeelle + laajennustunnukselle </td>
-        </tr
+        </tr>
+         <tr>
+          <td>GS1-yritystunniste (GS1 GCP)</td>
+          <td>N…11</td>
+          <td>GS1-yritystunniste: 6,7,8,9,10 tai 11 numeroa</td>
+         </tr>
+        <tr>
+          <td>Tuotenimikkeen numero</td>
+          <td>N…7</td>
+          <td>Riippuen GS1-yritystunnisteen pituudesta 1–7 numeroa</td>
+        </tr>
+         <tr>
+          <td>Sarjanumero </td>
+          <td>N…12</td>
+          <td>Enintään 12 numeroa (suurin sallittu arvo = 274 877 906 943) Sarjanumeron ei tarvitse olla tasan 12 numeroa. Etunolla ei ole sallittu</td>
+        </tr>
     </tbody>
 </table>
 </html>
