@@ -178,22 +178,6 @@ BETK-projektissa on tunnistettu, että tunnisteeseen on tarve sijoittaa lisätie
 
 ###### Taulukko 11. Sovellettava menetelmä SGTIN-96. Standardissa TDS 2.1. (EPC Tag Data Standard) löytyy myös muita sovellusmenetelmiä mm. SGTIN-198, joita voidaan käyttää, mikäli on tarve esimerkiksi pidemmälle (tai numeroiden lisäksi myös kirjaimia sisältävälle) sarjanumerolle.
 
-SGTIN-96 tietosisältö  
-EPC SGTIN-96 Arvo Kommentti  
-Otsikko (Header) 48 Numero SGTIN-96:lle  
-Filter-arvo (Filter value) 0 0 = Soveltuva arvo tuotteelle, jota ei lueta kassapisteellä  
-Partition-arvo 1,2,3,4,5 tai 6 1 = 11-numeroinen GS1-yritystunniste ja 2 numeroa tuotenimikkeelle + laajennustunnukselle  
-2 = 10-numeroinen GS1-yritystunniste ja 3 numeroa tuotenimikkeelle + laajennustunnukselle  
-3 = 9-numeroinen GS1-yritystunniste ja 4 numeroa tuotenimikkeelle + laajennustunnukselle  
-4 = 8-numeroinen GS1-yritystunniste ja 5 numeroa tuotenimikkeelle + laajennustunnukselle  
-5 = 7-numeroinen GS1-yritystunniste ja 6 numeroa tuotenimikkeelle + laajennustunnukselle  
-6 = 6-numeroinen GS1-yritystunniste ja 7 numeroa tuotenimikkeelle + laajennustunnukselle  
-GS1-yritystunniste (GS1 GCP) N…11 GS1-yritystunniste: 6,7,8,9,10 tai 11 numeroa
-Tuotenimikkeen numero N…7 Riippuen GS1-yritystunnisteen pituudesta 1–7 numeroa
-Sarjanumero N…12 Enintään 12 numeroa (suurin sallittu arvo = 274 877 906
-943) Sarjanumeron ei tarvitse olla tasan 12 numeroa.
-Etunolla ei ole sallittu.
-
 <html>
 <table>
     <thead>
