@@ -208,19 +208,28 @@ Etunolla ei ole sallittu.
             <td><b>Kommentti</b></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Otsikko (Header)</td>
+            <td>48</td>
+            <td>Numero SGTIN-96:lle</td>
         </tr>
       <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Filter-arvo (Filter value)</td>
+            <td>0</td>
+            <td>0 = Soveltuva arvo tuotteelle, jota ei lueta kassapisteellä</td>
         </tr>
          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Partition-arvo</td>
+            <td>1,2,3,4,5 tai 6</td>
+            <td>
+             <p>
+              1 = 11-numeroinen GS1-yritystunniste ja 2 numeroa tuotenimikkeelle + laajennustunnukselle  
+              2 = 10-numeroinen GS1-yritystunniste ja 3 numeroa tuotenimikkeelle + laajennustunnukselle  
+              3 = 9-numeroinen GS1-yritystunniste ja 4 numeroa tuotenimikkeelle + laajennustunnukselle  
+              4 = 8-numeroinen GS1-yritystunniste ja 5 numeroa tuotenimikkeelle + laajennustunnukselle  
+              5 = 7-numeroinen GS1-yritystunniste ja 6 numeroa tuotenimikkeelle + laajennustunnukselle  
+              6 = 6-numeroinen GS1-yritystunniste ja 7 numeroa tuotenimikkeelle + laajennustunnukselle  
+            </p>
+            </td>
         </tr>
         <tr>
             <td></td>
