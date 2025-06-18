@@ -218,34 +218,27 @@ Etunolla ei ole sallittu.
             <td>0 = Soveltuva arvo tuotteelle, jota ei lueta kassapisteellä</td>
         </tr>
          <tr>
-            <td>Partition-arvo</td>
-            <td>1,2,3,4,5 tai 6</td>
+            <td rowspan="6">Partition-arvo</td>
+            <td rowspan="6">1,2,3,4,5 tai 6</td>
             <td>
-             <p>
-              1 = 11-numeroinen GS1-yritystunniste ja 2 numeroa tuotenimikkeelle + laajennustunnukselle  
-              2 = 10-numeroinen GS1-yritystunniste ja 3 numeroa tuotenimikkeelle + laajennustunnukselle  
-              3 = 9-numeroinen GS1-yritystunniste ja 4 numeroa tuotenimikkeelle + laajennustunnukselle  
-              4 = 8-numeroinen GS1-yritystunniste ja 5 numeroa tuotenimikkeelle + laajennustunnukselle  
-              5 = 7-numeroinen GS1-yritystunniste ja 6 numeroa tuotenimikkeelle + laajennustunnukselle  
-              6 = 6-numeroinen GS1-yritystunniste ja 7 numeroa tuotenimikkeelle + laajennustunnukselle  
-            </p>
+              1 = 11-numeroinen GS1-yritystunniste ja 2 numeroa tuotenimikkeelle + laajennustunnukselle                                        
             </td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>2 = 10-numeroinen GS1-yritystunniste ja 3 numeroa tuotenimikkeelle + laajennustunnukselle </td>
         </tr>
        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>3 = 9-numeroinen GS1-yritystunniste ja 4 numeroa tuotenimikkeelle + laajennustunnukselle</td>
         </tr>
        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>4 = 8-numeroinen GS1-yritystunniste ja 5 numeroa tuotenimikkeelle + laajennustunnukselle</td>
         </tr>
+        <tr>
+            <td>5 = 7-numeroinen GS1-yritystunniste ja 6 numeroa tuotenimikkeelle + laajennustunnukselle</td>
+        </tr>
+     <tr>
+            <td> 6 = 6-numeroinen GS1-yritystunniste ja 7 numeroa tuotenimikkeelle + laajennustunnukselle </td>
+        </tr
     </tbody>
 </table>
 </html>
