@@ -404,8 +404,8 @@ GS1 Digital Link URI:ssa käytetään GS1-sovellustunnuksia tietojen sisällytt�
         <tr>            
           <th rowspan="5"><img src=
 "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png" 
-                alt="GFG Logo" width="500" 
-                height="500">
+                alt="GFG Logo" width="300" 
+                height="300">
             </th>   
          <th colspan="2">Esimerkin tietosisältö</th>
         </tr>
