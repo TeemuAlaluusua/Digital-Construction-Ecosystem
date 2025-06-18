@@ -307,20 +307,35 @@ RFID-tunnisteiden ohjelmointia varten on hyvä olla yhteydessä tunnistamisen ra
 #### 4.1.1 RFID-tunniste symbolin käyttö  
 RFID-teknologiaa käytettäessä tuotteiden automaattiseen tunnistamiseen on syytä varmistaa, että RFID-tunniste symboli sisällytetään tuote-etiketteihin sekä tuotantosuunnitelmiin. Symbolin tulee olla standardin mukainen, helposti tunnistettavissa ja sijoitettu niin, että se osoittaa selkeästi RFID-tunnisteiden sijainnin ja käytön.  
 
-RFID-tunniste symboli
-RFID-tunnistesymbolina suositellaan käytettäväksi ISO 7000-3010 -standardin mukaista, vapaasti saatavilla olevaa yleistä RFID-symbolia. Symbolin käytön tulee täyttää ISO/IEC 29160:2020-standardin vaatimukset, erityisesti silloin kun symbolia
-hyödynnetään osoittamaan RFID-tunnisteiden sijaintia. [1] [2]
-
-Koko
-RFID-tunniste symbolin (ISO 7000-3010) tulisi olla vähintään (5 × 5) mm:n kokoinen, ja tämän ympärille tulisi jättää 1 mm:n vapaa alue. Kun RFID-tunniste symboli
-esitetään matalakontrastisena, sen on oltava riittävän suuri, jotta se on helposti tunnistettavissa tavanomaisissa käyttöolosuhteissa. [2]
+<html>
+    <tbody>
+        <tr>
+         <table>
+ <th rowspan="4"><img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png" 
+                alt="GFG Logo" width="600" 
+                height="200">
+            </th>
+         <th>RFID-tunniste symboli</th>
+        </tr>
+        <tr>
+            <td>RFID-tunnistesymbolina suositellaan käytettäväksi ISO 7000-3010 -standardin mukaista, vapaasti saatavilla olevaa yleistä RFID-symbolia. Symbolin käytön tulee täyttää ISO/IEC 29160:2020-standardin vaatimukset, erityisesti silloin kun symbolia hyödynnetään osoittamaan RFID-tunnisteiden sijaintia. [1] [2]</td>
+        </tr>
+        <tr>
+            <th>Koko</th>
+        </tr>
+         <tr>
+            <td>RFID-tunniste symbolin (ISO 7000-3010) tulisi olla vähintään (5 × 5) mm:n kokoinen, ja tämän ympärille tulisi jättää 1 mm:n vapaa alue. Kun RFID-tunniste symboli esitetään matalakontrastisena, sen on oltava riittävän suuri, jotta se on helposti tunnistettavissa tavanomaisissa käyttöolosuhteissa. [2]</td>
+        </tr>
+    </tbody>
+</table>
+</html>
 
 ###### Kuva 2. Yleinen RFID-symboli (ISO 7000-3010). [3]
 
-**Soveltaminen betonielementtien käyttöympäristössä**
+**Soveltaminen betonielementtien käyttöympäristössä**  
 RFID-merkintä symboli on sijoitettava siten, että se näkyy helposti niille, jotka yrittävät etsiä tai lukea varsinaista RFID-tunnistetta. RFID-tunnistesymbolin käyttöä suositellaan betonielementtien tuotantosuunnitelmissa osoittamaan RFID-tunnisteiden sijaintia (esimerkki kuvattu liitteessä 1). RFID-tunnisteen käyttö tulee merkitä RFID-tunniste symbolin avulla, ja käytettävä tunnistetyyppi sekä sijaintitiedot lisätään osaksi betonielementin tuoteosaluetteloa.
 
-**RFID-tunnisteen sijoittaminen fyysiseen tuotteeseen**
+**RFID-tunnisteen sijoittaminen fyysiseen tuotteeseen**  
 RFID-merkittyjen objektien luettavuuteen vaikuttavat useat tekijät, kuten RFID-siru, RFID-antenni ja kotelointi (koko RFID-tunniste). Lisäksi ympäristö, jossa RFID-tunniste luetaan, vaikuttaa olennaisesti luettavuuteen. Ympäristö, jossa on paljon metalliesineitä, voi esimerkiksi aiheuttaa ei-toivottuja heijastuksia radioaaltoihin, jolloin luenta vaikeutuu tai luetaan väärä kohde.
 
 Markkinoilla on erilaisia RFID-tunnisteita, jotka soveltuvat eri käyttötarkoituksiin. RFID-tunnisteita voidaan käyttää betonielementtien toimintaympäristössä betonielementtien sisään valettuna, elementtien pinnalla, tai osana betonielementteihin kiinnitettävää tuote-etikettiä. Betonielementtiin valettaessa, RFID-tunnisteen luettavuuteen vaikuttaa sen ympärillä oleva materiaali, joten valittavan RFID-tunnisteiden tulee olla sellainen, että se on luettavissa sitä ympäröivän betonin läpi riittävästä syvyydestä. Ulkoisessa aplikaattorilla muodostetussa tuoteetiketissä tulee olla merkintä RFID-tunnisteen käytöstä sekä tarkennus siitä, sijaitseeko tunniste itse lapussa vai valettuna elementin sisällä. RFID:n käytön hyödyt perustuvat automatisoituihin lukutapahtumiin ja niistä syntyvään tapahtumatietoon. Lukutapahtumalla tarkoitetaan yksinkertaistettuna sitä, että lukijalaite havaitsee tietyn RFID-tunnisteen.
@@ -384,19 +399,16 @@ Sitä voidaan käyttää kuten mitä tahansa QR-koodia, eli ohjaamaan älypuheli
 GS1 Digital Link URI:ssa käytetään GS1-sovellustunnuksia tietojen sisällyttämiseen. Alla olevassa esimerkissä on muodostettu taulukossa esitetyt minimitietovaatimukset sisältävä GS1 Digital Link URI.
 
 <html>
- <td><img src=
+<table>
+    <tbody>
+        <tr>            
+          <th rowspan="5"><img src=
 "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png" 
                 alt="GFG Logo" width="500" 
                 height="500">
-            </td>
+            </th>   
+         <th colspan="2">Esimerkin tietosisältö</th>
         </tr>
-<table>
-    <thead>
-        <tr>            
-            <th colspan="2">Esimerkin tietosisältö</th>
-        </tr>
-    </thead>
-    <tbody>
         <tr>
             <td><b>GS1-sovellustunnukset (AI)</b></td>
             <td><b>Arvo (esimerkki)</b></td>
