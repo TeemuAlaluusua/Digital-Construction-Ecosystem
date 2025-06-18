@@ -283,8 +283,8 @@ GS1 DataMatrix on GS1:n kehittämä kaksiulotteinen viivakoodi, joka voidaan tul
 <html>
 <table>
     <thead>
-        <tr>            
-            <th colspan="2">Esimerkin tietosisältö</th>
+        <tr>             
+         <th colspan="2" style="background-color: darkblue; color: white;">Esimerkin tietosisältö</th>
         </tr>
     </thead>
     <tbody>
