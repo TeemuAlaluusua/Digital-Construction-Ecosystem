@@ -29,11 +29,11 @@ Perinteisesti GTIN-koodeilla on yksilöity ns. varasto-ohjautuvia-tuotteita (MTS
 Betonielementit ovat luonteeltaan tilauksesta valmistettavia (MTO) ja tilauksesta suunniteltavia (ETO) tuotteita,jolloin niiden yksilöiminen GTIN-koodeilla poikkeaa lähtökohtaisesti varasto-ohjautuvista tuotteista. On mahdollista luoda jokaiselle yksilölliselle betonielementille oma GTIN-koodinsa, mutta BETK-työryhmän osalta on päädytty hyödyntämään GS1-standardia ns. kolmella yksilöinnin tasolla (esitetty taulukossa 1). Tässä mallissa GTINkoodilla yksilöidään tietyn valmistajan tietyntyyppinen perustuote. Made-to-Order varianttinumeron avulla yksilöidään tämän perustuotteen tietty variantti ja lopulta sarjanumerolla yksilöidään perustuotteen saman variantin identtiset yksilöt. Tässä tapauksessa pelkkä GTIN ei siis yksilöi tiettyä tuotetta, vaan yleisen luokan mahdollisista tilauksen perusteella valmistettavista tuotteen variaatioista.
 
 ###### Taulukko 1. Tuoteyksilöinnin hierarkia tasot tarkempaan yksilöintiin
-| Tuoteyksilöinnin tasot             | Tunniste                                             |
-|:-----------------------------------|:-----------------------------------------------------|
-| **Taso 1** Tuoteryhmä / Perustuote | GTIN                                                 |
-| **Taso 2** Tuotevariaatio          | GTIN + MTO Varianttinumero                           |
-| **Taso 3** Tuoteyksilö             | GTIN + (MTO Varianttinumero) + Sarjanumero (SGTIN)   |
+| Tuoteyksilöinnin tasot               | Tunniste                                             |
+|:-------------------------------------|:-----------------------------------------------------|
+| **Taso 1** (Tuoteryhmä / Perustuote) | GTIN                                                 |
+| **Taso 2** (Tuotevariaatio)          | GTIN + MTO Varianttinumero                           |
+| **Taso 3** (Tuoteyksilö)             | GTIN + (MTO Varianttinumero) + Sarjanumero (SGTIN)   |
 
 
 ### 3.1 GS1-sovellustunnusten käyttäminen ETO-tuotteiden yksilöintiin
