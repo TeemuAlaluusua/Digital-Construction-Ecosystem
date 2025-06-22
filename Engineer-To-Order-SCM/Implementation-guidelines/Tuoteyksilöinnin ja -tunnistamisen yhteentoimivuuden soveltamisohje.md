@@ -395,8 +395,7 @@ RFID-teknologiaa käytettäessä tuotteiden automaattiseen tunnistamiseen on syy
          <table>
  <th rowspan="4">
 <img width="110" alt="QR-koodi_Kuva1" src="https://github.com/user-attachments/assets/9f956a66-a458-473e-9219-f82de6713f90" />
-  
-            </th>
+              </th>
          <th>RFID-tunniste symboli</th>
         </tr>
         <tr>
