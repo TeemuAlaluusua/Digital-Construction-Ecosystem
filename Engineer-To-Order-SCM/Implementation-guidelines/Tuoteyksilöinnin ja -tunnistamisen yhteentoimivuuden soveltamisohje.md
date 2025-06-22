@@ -1,5 +1,8 @@
 # Tuoteyksilöinnin ja -tunnistamisen yhteentoimivuuden soveltamisohje
 
+
+
+
 Here is a simple footnote[^1].
 [^1]: My reference.
 
@@ -481,10 +484,7 @@ GS1 Digital Link URI:ssa käytetään GS1-sovellustunnuksia tietojen sisällytt�
 <table>
     <tbody>
         <tr>            
-          <th rowspan="5"><img src=
-"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png" 
-                alt="GFG Logo" width="300" 
-                height="300">
+          <th rowspan="5"><img width="110" alt="QR-koodi_Kuva1" src="https://github.com/user-attachments/assets/22a88262-4a5f-469a-bd88-95fa37559281" />
             </th>   
          <th colspan="2">Esimerkin tietosisältö</th>
         </tr>
