@@ -8,7 +8,7 @@ Here is a simple footnote[^1].
 
 **Tilauksesta suunniteltavat rakennustuotteet**  
 >Julkaisija: Rakennusteollisuus ry\
->Julkaistu: 17.6.2025  
+>Julkaistu: 23.6.2025  
 Versio: 1.3  
 Status: Julkaistu
 
