@@ -320,9 +320,9 @@ BETK-projektissa on tunnistettu, että tunnisteeseen on tarve sijoittaa lisätie
 </table>
 </html>
 
-**Esimerkki tietosisällöstä EPC / Gen2 RFID -tunnisteessa:**
-RFID Tag EPC Memory Bank Contents (hexadecimal): 301586A004000602DFDC1C3E
-EPC Tag URI: urn:epc:tag:sgtin-96:0.6400001.000024.12345678910
+**Esimerkki tietosisällöstä EPC / Gen2 RFID -tunnisteessa:**  
+RFID Tag EPC Memory Bank Contents (hexadecimal): ```301586A004000602DFDC1C3E```  
+EPC Tag URI: ```urn:epc:tag:sgtin-96:0.6400001.000024.12345678910```  
 
 **Tietorakenteen osat**  
 **1. URN-etuliite**  
