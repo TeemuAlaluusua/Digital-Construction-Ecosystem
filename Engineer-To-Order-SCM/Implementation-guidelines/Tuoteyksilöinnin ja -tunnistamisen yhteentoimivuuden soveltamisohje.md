@@ -9,6 +9,50 @@ Here is a simple footnote[^1].
 Versio: 1.3  
 Status: Julkaistu
 
+## Asiakirjan tiedot
+
+### Asiakirjan versio
+| **Versio**| **Päivämäärä**| **Tekijä**  |**Muutoskuvaus**                                         |
+|-----------|---------------|-------------|---------------------------------------------------------|
+| 1.0       | 2024-12-10    |TAla         | Asiakirja julkaistu                                     |
+| 1.1       | 2024-12-16    |TAla         | Lisätty puuttuvia tietoja ja korjattu kirjoitusvirheitä |
+| 1.2       | 2025-01-09    |TAla         | Lisätty puuttuvia tietoja ja korjattu kirjoitusvirheitä |
+| 1.3       | 2025-06-17    |TAla         | Lisätty puuttuvia tietoja ja korjattu kirjoitusvirheitä |
+
+### Asiakirjan laatijat
+
+| **Nimi**            | **Organisaatio**     | **Contribution**               |
+|---------------------|----------------------|--------------------------------|
+| Teemu Alaluusua     | Aalto-yliopisto      |1st author                      |
+| Juuso Autiosalo     | Aalto-yliopisto      |tuotti & editoi tekstiä         |
+| Petri Leppänen      | GS1 Finland Oy       |tuotti & editoi tekstiä         | 
+| Tom Partanen        | Consolis Parma Oy    |tuotti & editoi tekstiä         |
+| Eetu Lahtinen       | Consolis Parma Oy    |tuotti elementtisuunnitelmakuvan|
+
+### Asiantuntija ryhmä
+| Nimi               | Organisaatio                   |
+|--------------------|--------------------------------|
+| Janne Kihula       | Rakennustuoteteollisuus RTT ry |
+| Veijo Artoma       | Consolis Parma Oy              |
+| Kari Turunen       | Lujabetoni Oy                  |
+| Ville Retulainen   | Lujabetoni Oy                  |
+| Markku Räisänen    | Betset Oy                      |
+| Otto Alhava        | Fira Oy                        |
+| Tuomas Kekki       | Fira Oy                        |
+| Hannes Ilveskoski  | Fira Oy                        |
+| Antti Pekkala      | Fira Oy                        |
+| Ari Törrönen       | NCC Suomi Oy                   |
+| Riku Laiho         | NCC Suomi Oy                   |
+| Arto Nieminen      | NCC Suomi Oy                   |
+| Janne Makkonen     | Consti                         |
+| Ville Siikaoja     | YIT                            |
+| Lassi Saari        | YIT                            |
+| Klaus Turhanen     | RFID Lab Finland ry            |
+| Janne Raitaniemi   | Riffid Oy                      |
+| Juha Porkka        | Nordic ID Oyj                  |
+| Sami Saari         | Rakennustieto Oy               |
+| Teemu Rantanen     | Rakennustieto Oy               |
+
 ## 1 Tausta
 Rakennustuotteiden yksilöinti ja tunnistaminen on merkittävimpiä osatekijöitä kiinteistö- ja rakennusalan digitalisaatiossa. Vakioidut, yhteentoimivat ja globaalisti käytetyt tuoteyksilöinnin ja -tunnistamisen menetelmät mahdollistavat eri toimijoiden välisen tiedonvaihdon yhtenäisellä tavalla, riippumatta toimitusketjun osapuolesta.
 
@@ -122,17 +166,18 @@ GUID, toiselta nimeltään UUID, on globaalisti yksilöllinen tunnuste, joka voi
 |--------------------|--------------------------------------|
 | (92)               | xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx |
 
-
 ### 3.8 Verkkotunnus
 Yhdistämällä verkkotunnus ja muita yksilöintitietoja voidaan hakea internetin välityksellä lisätietoja yksilöidystä
 tuotteesta URL-osoitteen avulla, mikäli tietojen toimittaja on toteuttanut ominaisuuden ja pitää sitä edelleen
 toiminnassa.
-###### Taulukko 9. Verkkotunnuksen rakenne. * Huom! Optisessa tunnistamisessa (esim. QR-koodi) tämän tiedon sisällyttämisessä käytetään  
-edellä esitetyn GS1 Digital Link URI syntax 1.5.0 -standardin mukaista menettelyä.
-GS1-sovellustunnus Verkkotunnus
-(99) <alitunnus.><tunnus.ylätunnus>, jossa <alitunnus.> toistuu 0…n kertaa)
-Tässä dokumentissa määritellään kaksi tapaa yhdistää verkkotunnus muihin yksilöintitietoihin URL-osoitteen
-muodostamiseksi. Tuloksena muodostuu GS1 Digital Link -standardin tai IEC 61406 -standardin mukainen URLosoite.  
+
+###### Taulukko 9. Verkkotunnuksen rakenne. * Huom! Optisessa tunnistamisessa (esim. QR-koodi) tämän tiedon sisällyttämisessä käytetään edellä esitetyn GS1 Digital Link URI syntax 1.5.0 -standardin mukaista menettelyä.
+
+|GS1-sovellustunnus |Verkkotunnus                                                          |
+|-------------------|----------------------------------------------------------------------|
+|(99)               |<alitunnus.><tunnus.ylätunnus>, jossa <alitunnus.> toistuu 0…n kertaa)|
+
+Tässä dokumentissa määritellään kaksi tapaa yhdistää verkkotunnus muihin yksilöintitietoihin URL-osoitteen muodostamiseksi. Tuloksena muodostuu GS1 Digital Link -standardin tai IEC 61406 -standardin mukainen URLosoite.  
 
 #### 3.8.1 GS1 Digital Link URL-osoitteen muodostaminen
 GS1 Digital Link on GS1:n määrittämä standardi miten verkkotunnuksen avulla voidaan määrittää tuotteelle URLosoite. GS1 ei kuitenkaan ole määritellyt miten verkkotunnuksen voisi kirjoittaa RFID-tunnisteeseen kun halutaan määrittää GS1 Digital Link yksilötasolla. (Määritys on GS1:ssä työn alla, mutta toistaiseksi BETK:ssa noudatetaan omaa tapaa.)
@@ -173,7 +218,7 @@ EPC-muisti on suunniteltu sisältämään EPC-koodi, eli tunnistettavan asian yk
 Käyttäjämuistia käytetään, kun RFID-tunnisteelle on tarve saada enemmän tietoa kuin EPC-muistiin mahtuu.  
 BETK-projektissa on tunnistettu, että tunnisteeseen on tarve sijoittaa lisätietoa kuten variaationumero (Madeto-Order Variation Number), elementtien luokittelussa käytettävä elementtitunnus ja suunnitteluohjelmiston luoma GUID-tunniste. GTIN:n ja SGTIN:n rakenne viivakoodeissa ja EPC/RFID Gen 2V2 RFID-tunnisteissa
 
-###### Taulukko 10.Käytössä olevat EPC-binäärikoodausjärjestelmät ja niiden rajoitukset. Sovellettava menetelmä määräytyy numeeristen tai alfanumeeristen merkkien määrätarpeen mukaan.
+###### Taulukko 10. Käytössä olevat EPC-binäärikoodausjärjestelmät ja niiden rajoitukset. Sovellettava menetelmä määräytyy numeeristen tai alfanumeeristen merkkien määrätarpeen mukaan.
 
 <html>
 <table>
@@ -422,10 +467,10 @@ Mikäli tunnisteen avulla halutaan yksilöinnin ja tunnistamisen lisäksi viesti
 
 GS1 Digital Link URI:n sisältävä QR-koodi palvelee kahta käyttötarkoitusta:
 
-**1. Tuotteen yksilöinti ja tunnistaminen offline-tilassa**  
+>**1. Tuotteen yksilöinti ja tunnistaminen offline-tilassa**  
 Sitä voidaan käyttää ilman verkkoyhteyttä tuotteen yksilöimiseen ja tunnistamiseen viivakoodinlukijoilla, aivan kuten perinteisiä EAN-viivakoodeja. Tuotteen yksilöinnissä käytetään QR-koodiin sisällytettävää GS1-standardin mukaista GTIN-koodia ja tarvittavia lisätietoja, kuten MTO varianttinumeroa ja sarjanumeroa.
 
-**2. Verkossa jaettava tietosisältö**  
+>**2. Verkossa jaettava tietosisältö**  
 Sitä voidaan käyttää kuten mitä tahansa QR-koodia, eli ohjaamaan älypuhelimen tai muun vastaavan laitteen käyttäjä verkossa olevaan sisältöön. Erilaiset sovellukset voivat suorittaa saman QR-koodin lukemisen kautta myös muita toimintoja ja näyttää erilaista sisältöä.
 
 GS1 Digital Link URI:ssa käytetään GS1-sovellustunnuksia tietojen sisällyttämiseen. Alla olevassa esimerkissä on muodostettu taulukossa esitetyt minimitietovaatimukset sisältävä GS1 Digital Link URI.
@@ -518,54 +563,3 @@ Verkkotunnus | Verkkotunnus eli domain-nimi on merkkijono, joka ohjataan interne
 
 ## Liite 1
 ![20250109_BETK Soveltamisohje_Tuoteyksilöinti ja -tunnistaminen (1)_1](https://github.com/user-attachments/assets/a815804d-46ae-49bf-bf53-827eaab8e0c9)
-## Asiakirjan tiedot
-
-### Asiakirjan versio
-| **Versio**| **Päivämäärä**| **Tekijä**  |**Muutoskuvaus**                                         |
-|-----------|---------------|-------------|---------------------------------------------------------|
-| 1.0       | 2024-12-10    |TAla         | Asiakirja julkaistu                                     |
-| 1.1       | 2024-12-16    |TAla         | Lisätty puuttuvia tietoja ja korjattu kirjoitusvirheitä |
-| 1.2       | 2025-01-09    |TAla         | Lisätty puuttuvia tietoja ja korjattu kirjoitusvirheitä |
-| 1.3       | 2025-06-17    |TAla         | Lisätty puuttuvia tietoja ja korjattu kirjoitusvirheitä |
-
-### Asiakirjan laatijat
-
-| **Nimi**            | **Organisaatio**     | **Contribution**               |
-|---------------------|----------------------|--------------------------------|
-| Teemu Alaluusua     | Aalto-yliopisto      |1st author                      |
-| Juuso Autiosalo     | Aalto-yliopisto      |tuotti & editoi tekstiä         |
-| Petri Leppänen      | GS1 Finland Oy       |tuotti & editoi tekstiä         | 
-| Tom Partanen        | Consolis Parma Oy    |tuotti & editoi tekstiä         |
-| Eetu Lahtinen       | Consolis Parma Oy    |tuotti elementtisuunnitelmakuvan|
-
-### Asiantuntija ryhmä
-| Nimi               | Organisaatio                   |
-|--------------------|--------------------------------|
-| Janne Kihula       | Rakennustuoteteollisuus RTT ry |
-| Veijo Artoma       | Consolis Parma Oy              |
-| Kari Turunen       | Lujabetoni Oy                  |
-| Ville Retulainen   | Lujabetoni Oy                  |
-| Markku Räisänen    | Betset Oy                      |
-| Otto Alhava        | Fira Oy                        |
-| Tuomas Kekki       | Fira Oy                        |
-| Hannes Ilveskoski  | Fira Oy                        |
-| Antti Pekkala      | Fira Oy                        |
-| Ari Törrönen       | NCC Suomi Oy                   |
-| Riku Laiho         | NCC Suomi Oy                   |
-| Arto Nieminen      | NCC Suomi Oy                   |
-| Janne Makkonen     | Consti                         |
-| Ville Siikaoja     | YIT                            |
-| Lassi Saari        | YIT                            |
-| Klaus Turhanen     | RFID Lab Finland ry            |
-| Janne Raitaniemi   | Riffid Oy                      |
-| Juha Porkka        | Nordic ID Oyj                  |
-| Sami Saari         | Rakennustieto Oy               |
-| Teemu Rantanen     | Rakennustieto Oy               |
-
-
-
-
-
-
-
-
