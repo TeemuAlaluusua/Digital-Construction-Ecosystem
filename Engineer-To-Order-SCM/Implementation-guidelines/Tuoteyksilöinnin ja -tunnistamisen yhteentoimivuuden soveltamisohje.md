@@ -393,9 +393,8 @@ RFID-teknologiaa käytettäessä tuotteiden automaattiseen tunnistamiseen on syy
     <tbody>
         <tr>
          <table>
- <th rowspan="4"><img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png" 
-                alt="GFG Logo" width="600" 
-                height="200">
+ <th rowspan="4">
+<img width="110" alt="QR-koodi_Kuva1" src="https://github.com/user-attachments/assets/9f956a66-a458-473e-9219-f82de6713f90" />
             </th>
          <th>RFID-tunniste symboli</th>
         </tr>
@@ -427,13 +426,13 @@ GS1 DataMatrix on GS1:n kehittämä kaksiulotteinen viivakoodi, joka voidaan tul
 
 <html>
 <table>
-    <thead>
-        <tr>             
+   <tbody>
+         <tr>  
+         <th rowspan="7"><img width="110" alt="QR-koodi_Kuva1" src="https://github.com/user-attachments/assets/22a88262-4a5f-469a-bd88-95fa37559281" />
+            </th>   
          <th colspan="2">Esimerkin tietosisältö</th>
         </tr>
-    </thead>
-    <tbody>
-        <tr>
+         <tr>
             <td><b>GS1-sovellustunnus (AI)</b></td>
             <td><b>Arvo</b></td>
         </tr>
