@@ -430,7 +430,7 @@ GS1 DataMatrix on GS1:n kehittämä kaksiulotteinen viivakoodi, joka voidaan tul
         </tr>
          <tr>
             <td><b>GS1-sovellustunnus (AI)</b></td>
-            <td><b>Arvo</b></td>
+            <td><b>Arvo (esimerkki)</b></td>
         </tr>
         <tr>
             <td>(01) = GTIN</td>
