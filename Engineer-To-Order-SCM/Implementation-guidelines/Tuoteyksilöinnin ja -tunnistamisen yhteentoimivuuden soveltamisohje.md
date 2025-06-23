@@ -457,7 +457,7 @@ GS1 DataMatrix on GS1:n kehittämä kaksiulotteinen viivakoodi, joka voidaan tul
 </table>
 </html>
 
-**GS1 DataMatrix -tunnisteen koko ja laatu**  
+**GS1 DataMatrix -tunnisteen koko ja laatu**   
 Viivakoodin fyysinen koko vaihtelee sen sisältämän tiedon määrän mukaan. Viivakoodin resoluution (X-dimensio) on oltava vähintään 0,38 mm ja enintään 0,45 mm. Merkinnöissä käytettävien GS1 2D-viivakoodien laadun tulee täyttää ISO / IEC 15415 -standardin vaatimukset. Näin voidaan varmistua niiden luettavuudesta.  
 Merkintöjen tulostamista varten on hyvä olla yhteydessä tunnistamisen ratkaisuihin erikoistuneeseen yritykseen tai yrityksiin. Tunnistamisen ratkaisuja tarjoavia yrityksiä on koottu mm. GS1:n kumppanisivulle.
 
