@@ -199,7 +199,11 @@ Betonielementtien tuotetunnistamisen minimitietovaatimusten välittämisessä so
 
 Tässä soveltamisohjeessa on kuvattu tuotetunnistusta GS1 DataMatrix -koodin avulla, joka soveltuu BETK-työryhmässä määritettyyn käyttötarkoitukseen. Vaihtoehtona on esitelty lyhyesti myös GS1 Digital Link -standardin mukainen QR-koodi ja sen hyödyntämisen mahdollisuuksista on tarvittaessa saatavissa lisätietoa GS1 Finlandilta.  
 
+![2025-06-23_Kuva1](https://github.com/user-attachments/assets/f1e26ff8-63e8-48e5-8808-ce45a36583b8)
+
+
 ###### Kuva 1. Koneellinen tuotetunnistaminen GS1-tiedonkatajien avulla
+
 Betonielementtien automaattisessa tunnistamisessa tehokkaimmaksi tiedonkantajaksi on havaittu EPC/RFID
 Gen-2 UHF -standardiin perustuva passiivinen etäluettava tunniste, josta elementin tunnistenumero voidaan lukea tehokkaasti myös useampien metrien päästä ilman suoraa näköyhteyttä itse tunnisteeseen.
 
@@ -417,13 +421,16 @@ Markkinoilla on erilaisia RFID-tunnisteita, jotka soveltuvat eri käyttötarkoit
 ### 4.2 Tuotetunnistus GS1 DataMatrix 2D-koodilla
 GS1 DataMatrix on GS1:n kehittämä kaksiulotteinen viivakoodi, joka voidaan tulostaa yksittäisistä pisteistä tai neliöistä koostuvana neliön tai suorakaiteen muotoisena symbolina. GS1 DataMatrix voi sisältää perinteistä lineaarista viivakoodia suuremman määrän tietoa. Siihen on mahdollista koodata jopa 3116 numeerista merkkiä tai 2335 alfanumeerista merkkiä. GS1 sovellustunnusten avulla GS1 DataMatrixiin voidaan sisällyttää useita erityyppisiä tietoja, kuten esimerkiksi määritetyt betonielementtien minimitietovaatimukset. GS1 DataMatrixin lukeminen vaatii kamerapohjaisen skannerin.
 
+![2025-06-23_Kuva2](https://github.com/user-attachments/assets/ce285bc2-6cfd-4abf-80c2-090c914afd56)
+
+
 ###### Taulukko 14. Esimerkki betonielementtien minimitietovaatimukset sisältävästä GS1 DataMatrix -koodista
 
 <html>
 <table>
    <tbody>
          <tr>  
-         <th rowspan="7"><img width="110" alt="QR-koodi_Kuva1" src="https://github.com/user-attachments/assets/22a88262-4a5f-469a-bd88-95fa37559281" />
+         <th rowspan="7"><img width="110" alt="2025-06-23_Kuva2" src="https://github.com/user-attachments/assets/ce285bc2-6cfd-4abf-80c2-090c914afd56" />
          </th>   
          <th colspan="2">Esimerkin tietosisältö</th>
         </tr>
