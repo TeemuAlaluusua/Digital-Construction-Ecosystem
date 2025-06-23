@@ -78,14 +78,11 @@ Tuoteyksilöinti on edellytys toimitusketjun digitalisoinnille tuotteiden valmis
 
 Perinteisesti GTIN-koodeilla on yksilöity ns. varasto-ohjautuvia-tuotteita (MTS), jolloin kaikille identtisille tuotteille on määritetty sama GTIN. Yhdistämällä GTIN-koodiin sarjanumero, luodaan yksilöllinen tunniste, jonka avulla keskenään identtiset tuotteet voidaan erottaa toisistaan. Tätä yhdistelmää kutsutaan SGTIN-koodiksi.
 
-Betonielementit ovat luonteeltaan tilauksesta valmistettavia (MTO) ja tilauksesta suunniteltavia (ETO) tuotteita,jolloin niiden yksilöiminen GTIN-koodeilla poikkeaa lähtökohtaisesti varasto-ohjautuvista tuotteista. On mahdollista luoda jokaiselle yksilölliselle betonielementille oma GTIN-koodinsa, mutta BETK-työryhmän osalta on päädytty hyödyntämään GS1-standardia ns. kolmella yksilöinnin tasolla (esitetty taulukossa 1). Tässä mallissa GTINkoodilla yksilöidään tietyn valmistajan tietyntyyppinen perustuote. Made-to-Order varianttinumeron avulla yksilöidään tämän perustuotteen tietty variantti ja lopulta sarjanumerolla yksilöidään perustuotteen saman variantin identtiset yksilöt. Tässä tapauksessa pelkkä GTIN ei siis yksilöi tiettyä tuotetta, vaan yleisen luokan mahdollisista tilauksen perusteella valmistettavista tuotteen variaatioista.
+Betonielementit ovat luonteeltaan tilauksesta valmistettavia (MTO) ja tilauksesta suunniteltavia (ETO) tuotteita,jolloin niiden yksilöiminen GTIN-koodeilla poikkeaa lähtökohtaisesti varasto-ohjautuvista tuotteista. On mahdollista luoda jokaiselle yksilölliselle betonielementille oma GTIN-koodinsa, mutta BETK-työryhmän osalta on päädytty hyödyntämään GS1-standardia ns. kolmella yksilöinnin tasolla (esitetty taulukossa 1). Tässä mallissa GTIN-koodilla yksilöidään tietyn valmistajan tietyntyyppinen perustuote. Made-to-Order varianttinumeron avulla yksilöidään tämän perustuotteen tietty variantti ja lopulta sarjanumerolla yksilöidään perustuotteen saman variantin identtiset yksilöt. Tässä tapauksessa pelkkä GTIN ei siis yksilöi tiettyä tuotetta, vaan yleisen luokan mahdollisista tilauksen perusteella valmistettavista tuotteen variaatioista.
 
-###### Taulukko 1. Tuoteyksilöinnin hierarkia tasot tarkempaan yksilöintiin
-| Tuoteyksilöinnin tasot               | Tunniste                                             |
-|:-------------------------------------|:-----------------------------------------------------|
-| **Taso 1** (Tuoteryhmä / Perustuote) | GTIN                                                 |
-| **Taso 2** (Tuotevariaatio)          | GTIN + MTO Varianttinumero                           |
-| **Taso 3** (Tuoteyksilö)             | GTIN + (MTO Varianttinumero) + Sarjanumero (SGTIN)   |
+![2025-06-23_Kuva3](https://github.com/user-attachments/assets/9fa68e30-01da-458f-8cb4-9c80be84a9bb)
+
+###### Kuva 1. Tuoteyksilöinnin hierarkia tasot tarkempaan yksilöintiin
 
 ### 3.1 GS1-sovellustunnusten käyttäminen ETO-tuotteiden yksilöintiin  
 GS1-sovellustunnukset (AI = Application Identifiers) ovat numeerisia etuliitteitä, joita käytetään viivakoodeissa ja EPC/RFID-tunnisteissa määrittämään tietoelementtien merkitys ja muoto. GS1-sovellustunnusten käyttö mahdollistaa eri tietoelementtien erottamisen toisistaan viivakoodeissa tai EPC/RFID-tunnisteessa. GS1-standardi kattaa yli 100 sovellustunnusta. Jokainen sovellustunniste on oletusarvoisesti kaksi-, kolmi- tai nelinumeroinen luku. Listaus kaikista GS1-sovellustunnuksista on saatavilla GS1:n verkkosivuilla osoitteessa: https://ref.gs1.org/ai/.
@@ -97,14 +94,14 @@ GS1-standardissa ei ole kansalliselle Elementtitunnukselle, GUID:lle ja verkkotu
 
 Huom! Verkkotunnuksen käsittely RFID-tunnisteissa on tämän ohjeen julkaisuhetkellä käsiteltävänä GS1:n kansainvälisessä standardinkehityksessä. Tuleva standardi ei välttämättä vastaa tässä esitettyä ratkaisua, mutta ohjeistus tullaan päivittämään standardin valmistuessa sen mukaiseksi. Optisessa tunnistamisessa (esim. QR-koodi) tämän tiedon sisällyttämisessä käytetään GS1 Digital Link URI syntax 1.5.0 -standardin mukaista menettelyä.
 
-###### Taulukko 2. Tiedonkantajaan lisättävät tilauksesta suunniteltavien (ETO) rakennustuotteen minimitietovaatimukset.
+###### Taulukko 1. Tiedonkantajaan lisättävät tilauksesta suunniteltavien (ETO) rakennustuotteen minimitietovaatimukset.
 | Sovellustunnus (AI) | Tieto               | Esimerkki                  |
 |---------------------|---------------------|----------------------------|
 |(01)                 | GTIN-koodi          | <code>06400001000247</code>|
 |(242)                | MTO varianttinumero | <code>123456</code>        |
 |(21)                 | Sarjanumero         | <code>12345678910</code>   | 
 
-###### Taulukko 3.Tiedonkantajaan lisättävät valinnaiset lisätiedot. *Huom! Optisessa tunnistamisessa (esim. QR-koodi) verkkotunnuksen sisällyttämisessä käytetään GS1 Digital Link URI syntax 1.5.0 -standardin mukaista menettelyä
+###### Taulukko 2.Tiedonkantajaan lisättävät valinnaiset lisätiedot. *Huom! Optisessa tunnistamisessa (esim. QR-koodi) verkkotunnuksen sisällyttämisessä käytetään GS1 Digital Link URI syntax 1.5.0 -standardin mukaista menettelyä
 
 | Sovellustunnus (AI) | Tieto           | Esimerkki                                         |
 |---------------------|-----------------|---------------------------------------------------|
@@ -122,7 +119,7 @@ GTIN-koodien muodostaminen edellyttää, että yrityksellä on käytettävissä�
 
 GTIN-koodi alkaa GS1-yritystunnisteella, jonka pituus GS1 Finlandilta saatavilla olevilla vaihtoehdoilla voi olla 7–11 numeroa. Tämän jälkeen seuraavat 1–6 numeroa voi määrittää itse, ja näissä suositellaan käytettäväksi juoksevaa numerointia. Käytettävissä olevien numeroiden määrä riippuu yritystunnisteen pituudesta. Koodin viimeinen, eli 13. numero, on tarkistusnumero, joka lasketaan 12 ensimmäisen numeron perusteella Modulo 10 -algoritmilla. Tarkistusnumeron laskemiseen voi käyttää esimerkiksi GS1 Finlandin tarjoamaa tarkistusnumerolaskuria: https://gs1.fi/fi/tarkistusnumerolaskuri
 
-###### Taulukko 4. GTIN-koodin rakenne
+###### Taulukko 3. GTIN-koodin rakenne
 
 | GS1-sovellustunnus | GS1-yritystunniste ---> <--- tuotekohtainen numero     |  Tarkistusnumero |
 |--------------------|--------------------------------------------------------|------------------|
@@ -139,7 +136,7 @@ Betonielementtien variaatioiden yksilöinnissä GTIN-koodiin yhdistetään lisä
 
 Viivakoodeissa ja RFID-tunnisteissa käytetään sovellustunnusta <code>(242)</code> ilmaisemaan variaationumero. GS1-standardin mukaan variaationumero on numeerinen ja vaihtuvapituinen, enintään kuusi numeroa pitkä.
 
-###### Taulukko 5. MTO-Varianttinumero-koodin rakenne
+###### Taulukko 4. MTO-Varianttinumero-koodin rakenne
 
 | GS1-sovellustunnus | Made-to-Order variation number |
 |--------------------|--------------------------------|
@@ -148,7 +145,7 @@ Viivakoodeissa ja RFID-tunnisteissa käytetään sovellustunnusta <code>(242)</c
 ### 3.5 Sarjanumerointi
 Yhdistämällä GTIN-koodiin (tai GTIN-koodin ja variaationumeron yhdistelmään) sarjanumerointi, voidaan yksilöidä ja erottaa toisistaan keskenään identtiset elementit. GS1-sovellustunnus (21) osoittaa, että tietokenttä sisältää sarjanumeron. GS1-standardin mukaan sarjanumero on aakkosnumeerinen ja enintään 20 merkkiä pitkä.
 Huom! Valittu RFID-tunniste voi asettaa rajoituksia sarjanumeron pituudelle ja aakkosten käytölle, joten asia on hyvä tarkistaa RFID-ratkaisutoimittajalta.
-###### Taulukko 6. Sarjanumero-koodin rakenne
+###### Taulukko 5. Sarjanumero-koodin rakenne
 
 | GS1-sovellustunnus | Serial number                  |
 |--------------------|--------------------------------|
@@ -157,7 +154,8 @@ Huom! Valittu RFID-tunniste voi asettaa rajoituksia sarjanumeron pituudelle ja a
 ### 3.6 Elementtitunnus
 Elementille määritetty tunnus, joka on ihmisen helposti luettavissa, ja voi sisältää tietoa esimerkiksi elementin
 tyypistä tai asennuskerroksesta. Elementtitunnuksen ei tarvitse olla globaalisti yksilöllinen.
-###### Taulukko 7. Elementtitunnukset rakenne
+
+###### Taulukko 6. Elementtitunnukset rakenne
 
 | GS1-sovellustunnus | Elementtitunnus                |
 |--------------------|--------------------------------|
@@ -166,7 +164,7 @@ tyypistä tai asennuskerroksesta. Elementtitunnuksen ei tarvitse olla globaalist
 ### 3.7 GUID
 GUID, toiselta nimeltään UUID, on globaalisti yksilöllinen tunnuste, joka voidaan määrittää mallinnusohjelman toimesta tai muulla yksilöllisyyden varmistavalla tavalla.
 
-###### Taulukko 8. GUID-koodin rakenne
+###### Taulukko 7. GUID-koodin rakenne
 
 | GS1-sovellustunnus | GUID                                 |
 |--------------------|--------------------------------------|
@@ -177,7 +175,7 @@ Yhdistämällä verkkotunnus ja muita yksilöintitietoja voidaan hakea interneti
 tuotteesta URL-osoitteen avulla, mikäli tietojen toimittaja on toteuttanut ominaisuuden ja pitää sitä edelleen
 toiminnassa.
 
-###### Taulukko 9. Verkkotunnuksen rakenne. * Huom! Optisessa tunnistamisessa (esim. QR-koodi) tämän tiedon sisällyttämisessä käytetään edellä esitetyn GS1 Digital Link URI syntax 1.5.0 -standardin mukaista menettelyä.
+###### Taulukko 8. Verkkotunnuksen rakenne. * Huom! Optisessa tunnistamisessa (esim. QR-koodi) tämän tiedon sisällyttämisessä käytetään edellä esitetyn GS1 Digital Link URI syntax 1.5.0 -standardin mukaista menettelyä.
 
 |GS1-sovellustunnus |Verkkotunnus                                                          |
 |-------------------|----------------------------------------------------------------------|
@@ -212,7 +210,7 @@ Tässä soveltamisohjeessa on kuvattu tuotetunnistusta GS1 DataMatrix -koodin av
 
 ![2025-06-23_Kuva1](https://github.com/user-attachments/assets/f1e26ff8-63e8-48e5-8808-ce45a36583b8)
 
-###### Kuva 1. Koneellinen tuotetunnistaminen GS1-tiedonkatajien avulla
+###### Kuva 2. Koneellinen tuotetunnistaminen GS1-tiedonkatajien avulla
 
 Betonielementtien automaattisessa tunnistamisessa tehokkaimmaksi tiedonkantajaksi on havaittu EPC/RFID
 Gen-2 UHF -standardiin perustuva passiivinen etäluettava tunniste, josta elementin tunnistenumero voidaan lukea tehokkaasti myös useampien metrien päästä ilman suoraa näköyhteyttä itse tunnisteeseen.
@@ -229,7 +227,7 @@ EPC-muisti on suunniteltu sisältämään EPC-koodi, eli tunnistettavan asian yk
 Käyttäjämuistia käytetään, kun RFID-tunnisteelle on tarve saada enemmän tietoa kuin EPC-muistiin mahtuu.  
 BETK-projektissa on tunnistettu, että tunnisteeseen on tarve sijoittaa lisätietoa kuten variaationumero (Madeto-Order Variation Number), elementtien luokittelussa käytettävä elementtitunnus ja suunnitteluohjelmiston luoma GUID-tunniste. GTIN:n ja SGTIN:n rakenne viivakoodeissa ja EPC/RFID Gen 2V2 RFID-tunnisteissa
 
-###### Taulukko 10. Käytössä olevat EPC-binäärikoodausjärjestelmät ja niiden rajoitukset. Sovellettava menetelmä määräytyy numeeristen tai alfanumeeristen merkkien määrätarpeen mukaan.
+###### Taulukko 9. Käytössä olevat EPC-binäärikoodausjärjestelmät ja niiden rajoitukset. Sovellettava menetelmä määräytyy numeeristen tai alfanumeeristen merkkien määrätarpeen mukaan.
 
 <html>
 <table>
@@ -260,7 +258,7 @@ BETK-projektissa on tunnistettu, että tunnisteeseen on tarve sijoittaa lisätie
 </table>
 </html>
 
-###### Taulukko 11. Sovellettava menetelmä SGTIN-96. Standardissa TDS 2.1. (EPC Tag Data Standard) löytyy myös muita sovellusmenetelmiä mm. SGTIN-198, joita voidaan käyttää, mikäli on tarve esimerkiksi pidemmälle (tai numeroiden lisäksi myös kirjaimia sisältävälle) sarjanumerolle.
+###### Taulukko 10. Sovellettava menetelmä SGTIN-96. Standardissa TDS 2.1. (EPC Tag Data Standard) löytyy myös muita sovellusmenetelmiä mm. SGTIN-198, joita voidaan käyttää, mikäli on tarve esimerkiksi pidemmälle (tai numeroiden lisäksi myös kirjaimia sisältävälle) sarjanumerolle.
 
 <html>
 <table>
@@ -359,7 +357,7 @@ Käytetään virheentarkistukseen GTIN-tunnuksissa. Tarkistusnumeroa ei kuitenka
 **Käyttäjämuisti-osio**  
 Muu lisätieto sijoitetaan RFID-sirun käyttäjämuisti-osioon (User memory) seuraavalla tavalla:
 
-###### Taulukko 12. Mahdolliset lisätiedot betonielementtien käyttötapauksessa
+###### Taulukko 11. Mahdolliset lisätiedot betonielementtien käyttötapauksessa
 
 <html>
 <table>
@@ -398,7 +396,7 @@ RFID-tunnisteiden ohjelmointia varten on hyvä olla yhteydessä tunnistamisen ra
 RFID-teknologiaa käytettäessä tuotteiden automaattiseen tunnistamiseen on syytä varmistaa, että RFID-tunniste symboli sisällytetään tuote-etiketteihin sekä tuotantosuunnitelmiin. Symbolin tulee olla standardin mukainen, helposti tunnistettavissa ja sijoitettu niin, että se osoittaa selkeästi RFID-tunnisteiden sijainnin ja käytön.  
 
 
-###### Taulukko 13. Yleinen RFID-symboli (ISO 7000-3010). <sup>[1]</sup> <sup>[2]</sup> <sup>[3]</sup>
+###### Taulukko 12. Yleinen RFID-symboli (ISO 7000-3010). <sup>[1]</sup> <sup>[2]</sup> <sup>[3]</sup>
 
 <html>
     <tbody>
@@ -433,7 +431,7 @@ Markkinoilla on erilaisia RFID-tunnisteita, jotka soveltuvat eri käyttötarkoit
 ### 4.2 Tuotetunnistus GS1 DataMatrix 2D-koodilla
 GS1 DataMatrix on GS1:n kehittämä kaksiulotteinen viivakoodi, joka voidaan tulostaa yksittäisistä pisteistä tai neliöistä koostuvana neliön tai suorakaiteen muotoisena symbolina. GS1 DataMatrix voi sisältää perinteistä lineaarista viivakoodia suuremman määrän tietoa. Siihen on mahdollista koodata jopa 3116 numeerista merkkiä tai 2335 alfanumeerista merkkiä. GS1 sovellustunnusten avulla GS1 DataMatrixiin voidaan sisällyttää useita erityyppisiä tietoja, kuten esimerkiksi määritetyt betonielementtien minimitietovaatimukset. GS1 DataMatrixin lukeminen vaatii kamerapohjaisen skannerin.
 
-###### Taulukko 14. Esimerkki betonielementtien minimitietovaatimukset sisältävästä GS1 DataMatrix -koodista
+###### Taulukko 13. Esimerkki betonielementtien minimitietovaatimukset sisältävästä GS1 DataMatrix -koodista
 
 <html>
 <table>
@@ -488,7 +486,7 @@ Sitä voidaan käyttää kuten mitä tahansa QR-koodia, eli ohjaamaan älypuheli
 
 GS1 Digital Link URI:ssa käytetään GS1-sovellustunnuksia tietojen sisällyttämiseen. Alla olevassa esimerkissä on muodostettu taulukossa esitetyt minimitietovaatimukset sisältävä GS1 Digital Link URI.
 
-###### Taulukko 15. Esimerkin QR-koodi sisältää taulukossa esitetyt tiedot GS1 Digital Link URI -muodossa: https://id.rt.fi/01/06400001000247/242/123456/21/12345678910
+###### Taulukko 14. Esimerkin QR-koodi sisältää taulukossa esitetyt tiedot GS1 Digital Link URI -muodossa: https://id.rt.fi/01/06400001000247/242/123456/21/12345678910
 
 <html>
 <table>
