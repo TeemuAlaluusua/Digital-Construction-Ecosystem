@@ -553,7 +553,7 @@ URL  | URL (Uniform Resource Locator) sisältää tiedon hakemiseen tarvittavan 
 Verkkotunnus | Verkkotunnus eli domain-nimi on merkkijono, joka ohjataan internetissä tiettyyn IP-osoitteeseen eli palvelimelle. Esimerkiksi www.iso.org
 
 ## Viittaukset
-[^1] GS1, ”Recommendation for the use of EPC and ISO RFID symbols,” 2022.  
+[1] GS1, ”Recommendation for the use of EPC and ISO RFID symbols,” 2022.  
 [2] ISO/IEC, ”29160:2020. Information technology — Radio frequency identification,” 2020.  
 [3] ISO, ”Online Browsing Platform (OBP): ISO 7000-3010,” 12 Maaliskuu 2010. [Online]. Available:https://www.iso.org/obp/ui#iso:grs:7000:3010. [Haettu 28 Lokakuu 2024].  
 [4] GS1, ”GTIN Management Guideline for Construction Products,” Tammikuu 2023. [Online]. Available:https://www.gs1.org/standards/gtin-management-guideline-construction-products/current-standard#2-GTIN-Management-Rule-examples-for-construction-products+2-2-Declared-formulation-or-functionality.  
