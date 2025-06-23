@@ -137,7 +137,7 @@ GS1 Finland tarjoaa yritystunnisteasiakkailleen käyttöön GS1 Rekisteri -palve
 ### 3.4 Variaatioiden yksilöinti
 Betonielementtien variaatioiden yksilöinnissä GTIN-koodiin yhdistetään lisätunnisteena variaationumero (Madeto-Order variation number). Variaationumero mahdollistaa sen, että voidaan tietää joidenkin elementtien olevan keskenään samanlaisia. Toisin sanoen, kun monta elementtiä, joilla on samat tekniset tiedot, valmistetaan kerralla, niillä kaikilla on sama GTIN-koodin ja variaationumeron yhdistelmä.
 
-Viivakoodeissa ja RFID-tunnisteissa käytetään sovellustunnusta (242) ilmaisemaan variaationumero. GS1-standardin mukaan variaationumero on numeerinen ja vaihtuvapituinen, enintään kuusi numeroa pitkä.
+Viivakoodeissa ja RFID-tunnisteissa käytetään sovellustunnusta <code>(242)</code> ilmaisemaan variaationumero. GS1-standardin mukaan variaationumero on numeerinen ja vaihtuvapituinen, enintään kuusi numeroa pitkä.
 
 ###### Taulukko 5. MTO-Varianttinumero-koodin rakenne
 
@@ -557,9 +557,9 @@ SGTIN  | GTIN-koodin ja sarjanumeron yhdistelmä, jolla voidaan erottaa identtis
 Tag  | RFID-tunniste, joka sisältää sirun ja antennin. Käytetään objektien yksilölliseen tunnistamiseen.
 User memory  | RFID käyttäjämuisti tai lisämuisti
 UHF tunniste | Korkeataajuinen (850–960 MHZ) RFID tunniste
-URI  | URI (Uniform Resource Identifier) on tietoverkossa sijaitsevan tiedon tunniste. URL on aina myös URI, mutta URI ei välttämättä ole URL. Esimerkiksi https://rt.fi tai urn:ISBN:952-9842-34-1
-URL  | URL (Uniform Resource Locator) sisältää tiedon hakemiseen tarvittavan tiedon, kuten protokollan (esim. https) ja palvelimen. Esimerkiksi https://rt.fi
-Verkkotunnus | Verkkotunnus eli domain-nimi on merkkijono, joka ohjataan internetissä tiettyyn IP-osoitteeseen eli palvelimelle. Esimerkiksi www.iso.org
+URI  | URI (Uniform Resource Identifier) on tietoverkossa sijaitsevan tiedon tunniste. URL on aina myös URI, mutta URI ei välttämättä ole URL. Esimerkiksi <code>https://rt.fi</code> tai <code>urn:ISBN:952-9842-34-1</code>
+URL  | URL (Uniform Resource Locator) sisältää tiedon hakemiseen tarvittavan tiedon, kuten protokollan (esim. https) ja palvelimen. Esimerkiksi <code>https://rt.fi</code>
+Verkkotunnus | Verkkotunnus eli domain-nimi on merkkijono, joka ohjataan internetissä tiettyyn IP-osoitteeseen eli palvelimelle. Esimerkiksi <code>www.iso.org</code>
 
 ## Viittaukset
 [1] GS1, ”Recommendation for the use of EPC and ISO RFID symbols,” 2022.  
