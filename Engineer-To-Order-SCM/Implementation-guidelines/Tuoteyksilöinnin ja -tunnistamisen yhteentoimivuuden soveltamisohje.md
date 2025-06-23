@@ -271,12 +271,12 @@ BETK-projektissa on tunnistettu, että tunnisteeseen on tarve sijoittaa lisätie
         </tr>
         <tr>
             <td>Otsikko (Header)</td>
-            <td><code>48</code>code></td>
+            <td><code>48</code></td>
             <td>Numero SGTIN-96:lle</td>
         </tr>
       <tr>
             <td>Filter-arvo (Filter value)</td>
-            <td><code>0</code>code></td>
+            <td><code>0</code></td>
             <td>0 = Soveltuva arvo tuotteelle, jota ei lueta kassapisteellä</td>
         </tr>
          <tr>
@@ -303,17 +303,17 @@ BETK-projektissa on tunnistettu, että tunnisteeseen on tarve sijoittaa lisätie
         </tr>
          <tr>
           <td>GS1-yritystunniste (GS1 GCP)</td>
-          <td><code>N…11</code>code></td>
+          <td><code>N…11</code></td>
           <td>GS1-yritystunniste: 6,7,8,9,10 tai 11 numeroa</td>
          </tr>
         <tr>
           <td>Tuotenimikkeen numero</td>
-          <td><code>N…7</code>code></td>
+          <td><code>N…7</code></td>
           <td>Riippuen GS1-yritystunnisteen pituudesta 1–7 numeroa</td>
         </tr>
          <tr>
           <td>Sarjanumero </td>
-          <td><code>N…12</code>code></td>
+          <td><code>N…12</code></td>
           <td>Enintään 12 numeroa (suurin sallittu arvo = 274 877 906 943) Sarjanumeron ei tarvitse olla tasan 12 numeroa. Etunolla ei ole sallittu</td>
         </tr>
     </tbody>
