@@ -201,7 +201,6 @@ Tässä soveltamisohjeessa on kuvattu tuotetunnistusta GS1 DataMatrix -koodin av
 
 ![2025-06-23_Kuva1](https://github.com/user-attachments/assets/f1e26ff8-63e8-48e5-8808-ce45a36583b8)
 
-
 ###### Kuva 1. Koneellinen tuotetunnistaminen GS1-tiedonkatajien avulla
 
 Betonielementtien automaattisessa tunnistamisessa tehokkaimmaksi tiedonkantajaksi on havaittu EPC/RFID
@@ -249,8 +248,6 @@ BETK-projektissa on tunnistettu, että tunnisteeseen on tarve sijoittaa lisätie
     </tbody>
 </table>
 </html>
-
-
 
 ###### Taulukko 11. Sovellettava menetelmä SGTIN-96. Standardissa TDS 2.1. (EPC Tag Data Standard) löytyy myös muita sovellusmenetelmiä mm. SGTIN-198, joita voidaan käyttää, mikäli on tarve esimerkiksi pidemmälle (tai numeroiden lisäksi myös kirjaimia sisältävälle) sarjanumerolle.
 
@@ -420,9 +417,6 @@ Markkinoilla on erilaisia RFID-tunnisteita, jotka soveltuvat eri käyttötarkoit
 
 ### 4.2 Tuotetunnistus GS1 DataMatrix 2D-koodilla
 GS1 DataMatrix on GS1:n kehittämä kaksiulotteinen viivakoodi, joka voidaan tulostaa yksittäisistä pisteistä tai neliöistä koostuvana neliön tai suorakaiteen muotoisena symbolina. GS1 DataMatrix voi sisältää perinteistä lineaarista viivakoodia suuremman määrän tietoa. Siihen on mahdollista koodata jopa 3116 numeerista merkkiä tai 2335 alfanumeerista merkkiä. GS1 sovellustunnusten avulla GS1 DataMatrixiin voidaan sisällyttää useita erityyppisiä tietoja, kuten esimerkiksi määritetyt betonielementtien minimitietovaatimukset. GS1 DataMatrixin lukeminen vaatii kamerapohjaisen skannerin.
-
-![2025-06-23_Kuva2](https://github.com/user-attachments/assets/ce285bc2-6cfd-4abf-80c2-090c914afd56)
-
 
 ###### Taulukko 14. Esimerkki betonielementtien minimitietovaatimukset sisältävästä GS1 DataMatrix -koodista
 
