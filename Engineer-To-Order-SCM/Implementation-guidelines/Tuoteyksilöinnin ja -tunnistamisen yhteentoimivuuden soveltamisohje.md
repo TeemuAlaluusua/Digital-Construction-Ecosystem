@@ -281,7 +281,7 @@ BETK-projektissa on tunnistettu, että tunnisteeseen on tarve sijoittaa lisätie
         </tr>
          <tr>
             <td rowspan="6">Partition-arvo</td>
-            <td rowspan="6">1,2,3,4,5 tai 6</td>
+            <td rowspan="6"><code>1</code>,<code>2</code>,<code>3</code>,<code>4</code>,<code>5</code>tai <code>6</code></td>
             <td>
               1 = 11-numeroinen GS1-yritystunniste ja 2 numeroa tuotenimikkeelle + laajennustunnukselle                                        
             </td>
