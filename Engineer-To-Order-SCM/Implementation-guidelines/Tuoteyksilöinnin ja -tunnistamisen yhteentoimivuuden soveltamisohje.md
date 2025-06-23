@@ -1,11 +1,5 @@
 # Tuoteyksilöinnin ja -tunnistamisen yhteentoimivuuden soveltamisohje
 
-
-
-
-Here is a simple footnote[^1].
-[^1]: My reference.
-
 **Tilauksesta suunniteltavat rakennustuotteet**  
 >Julkaisija: Rakennusteollisuus ry\
 >Julkaistu: 23.6.2025  
@@ -387,7 +381,7 @@ RFID-tunnisteiden ohjelmointia varten on hyvä olla yhteydessä tunnistamisen ra
 #### 4.1.1 RFID-tunniste symbolin käyttö  
 RFID-teknologiaa käytettäessä tuotteiden automaattiseen tunnistamiseen on syytä varmistaa, että RFID-tunniste symboli sisällytetään tuote-etiketteihin sekä tuotantosuunnitelmiin. Symbolin tulee olla standardin mukainen, helposti tunnistettavissa ja sijoitettu niin, että se osoittaa selkeästi RFID-tunnisteiden sijainnin ja käytön.  
 
-###### Taulukko 13. Yleinen RFID-symboli (ISO 7000-3010). [3]
+###### Taulukko 13. Yleinen RFID-symboli (ISO 7000-3010). <sup>[3]</sup>
 
 <html>
     <tbody>
