@@ -197,9 +197,11 @@ Viimeiselle tapaukselle esimerkiksi muodostuu: https://id.rt.fi/01/0640000100024
 GS1 Digital Link -standardista on kerrottu lisää tämän ohjeen kappaleessa 4.3.  
 
 #### 3.8.2 IEC 61406 Identification Link muotoisen URL-osoitteen muodostaminen
-Lisäksi voidaan määrittää GUID-tunnisteeseen perustuva IEC 61406 Identification Link standardin mukainen URLosoite seuraavasti:  
-```https://<verkkotunnus>/<GUID>```
-Jolloin esimerkiksi muodostuu: https://id.rt.fi/ba34cf17-0c4b-4c6f-9295-cae05aa74ad4
+Lisäksi voidaan määrittää GUID-tunnisteeseen perustuva IEC 61406 Identification Link standardin mukainen URL-osoite seuraavasti:  
+
+```https://<verkkotunnus>/<GUID>```  
+
+Jolloin esimerkiksi muodostuu: <code>https://id.rt.fi/ba34cf17-0c4b-4c6f-9295-cae05aa74ad4</code>
 
 ## 4 Automaattinen tunnistaminen ja tiedonkantajat
 Tuoteyksilöinnin lisäksi on valittava käytettävä tunnistusteknologia ja tiedonkantaja, jotka mahdollistavat niiden koneellisen luennan. Tunnistusteknologian valinnassa tulee huomioida käyttötarkoituksen ja olosuhteiden asettamat vaatimukset. Automaattiseen tunnistamiseen ja tiedonkeruuseen tarkoitettuihin GS1-tietokantajiin voidaan tallentaa erilaisia tietomääriä eri liiketoimintaprosesseja ja kaupankäynnin vaatimuksia varten. GS1-tietokantajiin koodatut tiedot eivät ainoastaan yksilöi tuotteita yksiselitteisesti kaikilla Tuoteyksilöinnin hierarkia tasoilla, vaan ne tarjoavat myös pääsyn tuotetietoihin ja näkyvyyden tuotteiden liikkeisiin toimitusketjussa.  
@@ -396,7 +398,7 @@ RFID-tunnisteiden ohjelmointia varten on hyvä olla yhteydessä tunnistamisen ra
 RFID-teknologiaa käytettäessä tuotteiden automaattiseen tunnistamiseen on syytä varmistaa, että RFID-tunniste symboli sisällytetään tuote-etiketteihin sekä tuotantosuunnitelmiin. Symbolin tulee olla standardin mukainen, helposti tunnistettavissa ja sijoitettu niin, että se osoittaa selkeästi RFID-tunnisteiden sijainnin ja käytön.  
 
 
-###### Taulukko 13. Yleinen RFID-symboli (ISO 7000-3010). <sup>[3]</sup>
+###### Taulukko 13. Yleinen RFID-symboli (ISO 7000-3010). <sup>[1]</sup> <sup>[2]</sup> <sup>[3]</sup>
 
 <html>
     <tbody>
@@ -408,13 +410,13 @@ RFID-teknologiaa käytettäessä tuotteiden automaattiseen tunnistamiseen on syy
          <th>RFID-tunniste symboli</th>
         </tr>
         <tr>
-            <td>RFID-tunnistesymbolina suositellaan käytettäväksi ISO 7000-3010 -standardin mukaista, vapaasti saatavilla olevaa yleistä RFID-symbolia. Symbolin käytön tulee täyttää ISO/IEC 29160:2020-standardin vaatimukset, erityisesti silloin kun symbolia hyödynnetään osoittamaan RFID-tunnisteiden sijaintia. <sup>[1] [2]</sup></td>
+            <td>RFID-tunnistesymbolina suositellaan käytettäväksi ISO 7000-3010 -standardin mukaista, vapaasti saatavilla olevaa yleistä RFID-symbolia. Symbolin käytön tulee täyttää ISO/IEC 29160:2020-standardin vaatimukset, erityisesti silloin kun symbolia hyödynnetään osoittamaan RFID-tunnisteiden sijaintia. </td>
         </tr>
         <tr>
             <th>Koko</th>
         </tr>
          <tr>
-            <td>RFID-tunniste symbolin (ISO 7000-3010) tulisi olla vähintään (5 × 5) mm:n kokoinen, ja tämän ympärille tulisi jättää 1 mm:n vapaa alue. Kun RFID-tunniste symboli esitetään matalakontrastisena, sen on oltava riittävän suuri, jotta se on helposti tunnistettavissa tavanomaisissa käyttöolosuhteissa. <sup>[2]</sup></td>
+            <td>RFID-tunniste symbolin (ISO 7000-3010) tulisi olla vähintään (5 × 5) mm:n kokoinen, ja tämän ympärille tulisi jättää 1 mm:n vapaa alue. Kun RFID-tunniste symboli esitetään matalakontrastisena, sen on oltava riittävän suuri, jotta se on helposti tunnistettavissa tavanomaisissa käyttöolosuhteissa. </td>
         </tr>
     </tbody>
 </table>
@@ -562,12 +564,17 @@ URL  | URL (Uniform Resource Locator) sisältää tiedon hakemiseen tarvittavan 
 Verkkotunnus | Verkkotunnus eli domain-nimi on merkkijono, joka ohjataan internetissä tiettyyn IP-osoitteeseen eli palvelimelle. Esimerkiksi <code>www.iso.org</code>
 
 ## Viittaukset
-[1] GS1, ”Recommendation for the use of EPC and ISO RFID symbols,” 2022.  
-[2] ISO/IEC, ”29160:2020. Information technology — Radio frequency identification,” 2020.  
-[3] ISO, ”Online Browsing Platform (OBP): ISO 7000-3010,” 12 Maaliskuu 2010. [Online]. Available:https://www.iso.org/obp/ui#iso:grs:7000:3010. [Haettu 28 Lokakuu 2024].  
-[4] GS1, ”GTIN Management Guideline for Construction Products,” Tammikuu 2023. [Online]. Available:https://www.gs1.org/standards/gtin-management-guideline-construction-products/current-standard#2-GTIN-Management-Rule-examples-for-construction-products+2-2-Declared-formulation-or-functionality.  
-[5] GS1, ”GS1 Application Identifiers,” 2024. [Online]. Available: https://ref.gs1.org/ai/. [Haettu Syyskuu 2024].  
-[6] G. Norway, ”Guideline for Unique identification of products with SGTIN (serialized GTIN). Labelling with GS1Datamatrix barcode and tagging with EPC / RFID Gen 2 UHF RFID tags,” 2018.  
+**[1]** GS1 (2022), Recommendation for the use of EPC and ISO RFID symbols   
+
+**[2]** ISO/IEC 29160:2020, Information technology — Radio frequency identification. Saatavilla:https://www.iso.org  
+
+**[3]** ISO 7000-3010:2020, RFID-tag. Saatavilla:https://www.iso.org/obp/ui#iso:grs:7000:3010 
+
+**[4]** GS1 (2023), GTIN Management Guideline for Construction Products. Saatavilla:https://www.gs1.org/standards/gtin-management-guideline-construction-products/current-standard#2-GTIN-Management-Rule-examples-for-construction-products+2-2-Declared-formulation-or-functionality.  
+
+**[5]** GS1 (2024), GS1 Application Identifiers. Saatavilla: https://ref.gs1.org/ai/. 
+
+**[6]** GS1 Norway (2018), Guideline for Unique identification of products with SGTIN (serialized GTIN). Labelling with GS1Datamatrix barcode and tagging with EPC / RFID Gen 2 UHF RFID tags. 
 
 ## Liite 1
 ![20250109_BETK Soveltamisohje_Tuoteyksilöinti ja -tunnistaminen (1)_1](https://github.com/user-attachments/assets/a815804d-46ae-49bf-bf53-827eaab8e0c9)
