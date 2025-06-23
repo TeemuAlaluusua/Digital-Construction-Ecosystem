@@ -381,8 +381,6 @@ RFID-tunnisteiden ohjelmointia varten on hyvä olla yhteydessä tunnistamisen ra
 #### 4.1.1 RFID-tunniste symbolin käyttö  
 RFID-teknologiaa käytettäessä tuotteiden automaattiseen tunnistamiseen on syytä varmistaa, että RFID-tunniste symboli sisällytetään tuote-etiketteihin sekä tuotantosuunnitelmiin. Symbolin tulee olla standardin mukainen, helposti tunnistettavissa ja sijoitettu niin, että se osoittaa selkeästi RFID-tunnisteiden sijainnin ja käytön.  
 
- ![RFID-symbol](https://github.com/user-attachments/assets/5c9d4d49-e5d6-4bac-a66f-c77a9731fce9)
-
 
 ###### Taulukko 13. Yleinen RFID-symboli (ISO 7000-3010). <sup>[3]</sup>
 
@@ -391,7 +389,7 @@ RFID-teknologiaa käytettäessä tuotteiden automaattiseen tunnistamiseen on syy
         <tr>
          <table>
  <th rowspan="4">
-<img width="110" alt="full-m2H7N4N4H7i8m2G6" src=!(https://github.com/user-attachments/assets/1bc7bc7d-01ff-409d-8b28-fd18effe557e)" />
+<img width="300" alt="RFID-symbol" src="https://github.com/user-attachments/assets/5c9d4d49-e5d6-4bac-a66f-c77a9731fce9"/>
                </th>
          <th>RFID-tunniste symboli</th>
         </tr>
