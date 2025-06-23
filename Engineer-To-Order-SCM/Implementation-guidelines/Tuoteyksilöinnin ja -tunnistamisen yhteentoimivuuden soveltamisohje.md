@@ -357,27 +357,31 @@ Käytetään virheentarkistukseen GTIN-tunnuksissa. Tarkistusnumeroa ei kuitenka
 **Käyttäjämuisti-osio**  
 Muu lisätieto sijoitetaan RFID-sirun käyttäjämuisti-osioon (User memory) seuraavalla tavalla:
 
-###### Taulukko 12.
+###### Taulukko 12. Mahdolliset lisätiedot betonielementtien käyttötapauksessa
 
 <html>
 <table>
     <thead>
         <tr>            
             <th>GS1-sovellustunnus (AI)</th>
+            <th>Selite</th>
             <th>Arvo (esimerkki)</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>91) Internal → Elementtitunnus</td>
+            <td>(91) Internal</td>
+            <td>Elementtitunnus</td>
             <td><code>V1001</code></td>
         </tr>
          <tr>
-            <td>(92) Internal → GUID</td>
-          <td><code>ba34cf17-0c4b-4c6f-9295-cae05aa74ad4</code></td>
+            <td>(92) Internal</td>
+            <td>GUID</td>
+            <td><code>ba34cf17-0c4b-4c6f-9295-cae05aa74ad4</code></td>
         </tr>
         <tr>
-            <td>(99) Internal → Verkkotunnus</td>
+            <td>(99) Internal</td>
+            <td>Verkkotunnus</td>
             <td><code>id.rt.fi</code></td>
         </tr>
      </tbody>
