@@ -6,27 +6,35 @@
 Versio: 1.3  
 Status: Julkaistu
 
-## Asiakirjan tiedot
 
-### Asiakirjan versio
+
+## Asiakirjan tiedot
+<details> 
+<Summary>Asiakirjan versio</Summary>
+ 
 | **Versio**| **Päivämäärä**| **Tekijä**  |**Muutoskuvaus**                                         |
 |-----------|---------------|-------------|---------------------------------------------------------|
 | 1.0       | 2024-12-10    |TAla         | Asiakirja julkaistu                                     |
 | 1.1       | 2024-12-16    |TAla         | Lisätty puuttuvia tietoja ja korjattu kirjoitusvirheitä |
 | 1.2       | 2025-01-09    |TAla         | Lisätty puuttuvia tietoja ja korjattu kirjoitusvirheitä |
 | 1.3       | 2025-06-17    |TAla         | Lisätty puuttuvia tietoja ja korjattu kirjoitusvirheitä |
+</details>
 
-### Asiakirjan laatijat
+<details> 
+<Summary>Asiakirjan laatijat</Summary>
 
-| **Nimi**            | **Organisaatio**     | **Contribution**               |
+| **Nimi**            | **Organisaatio**     | **Kontribuutio**               |
 |---------------------|----------------------|--------------------------------|
 | Teemu Alaluusua     | Aalto-yliopisto      |1st author                      |
 | Juuso Autiosalo     | Aalto-yliopisto      |tuotti & editoi tekstiä         |
 | Petri Leppänen      | GS1 Finland Oy       |tuotti & editoi tekstiä         | 
 | Tom Partanen        | Consolis Parma Oy    |tuotti & editoi tekstiä         |
 | Eetu Lahtinen       | Consolis Parma Oy    |tuotti elementtisuunnitelmakuvan|
+</details>
 
-### Asiantuntija ryhmä
+<details> 
+<Summary>Asiantuntija ryhmä</Summary>
+
 | Nimi               | Organisaatio                   |
 |--------------------|--------------------------------|
 | Janne Kihula       | Rakennustuoteteollisuus RTT ry |
@@ -49,6 +57,7 @@ Status: Julkaistu
 | Juha Porkka        | Nordic ID Oyj                  |
 | Sami Saari         | Rakennustieto Oy               |
 | Teemu Rantanen     | Rakennustieto Oy               |
+</details>
 
 ## 1 Tausta
 Rakennustuotteiden yksilöinti ja tunnistaminen on merkittävimpiä osatekijöitä kiinteistö- ja rakennusalan digitalisaatiossa. Vakioidut, yhteentoimivat ja globaalisti käytetyt tuoteyksilöinnin ja -tunnistamisen menetelmät mahdollistavat eri toimijoiden välisen tiedonvaihdon yhtenäisellä tavalla, riippumatta toimitusketjun osapuolesta.
