@@ -545,22 +545,22 @@ https://ref.gs1.org/standards/resolver/
 |**Nimike**|**Selite**|
 |-----------|---------------|
 |Aplikaattori | Laite, joka tulostaa ja kiinnittää RFID-tunnisteen tuotteeseen|
-EPC  | Sähköinen tuotekoodi (engl. Electronic Product Code). Kts EPC Tag Data Standard ISO/IEC 15962
+Electronic Product Code, EPC | Sähköinen tuotekoodi. <sup>[7]</sup>
 EPC-muisti  | RFID-tunnisteen muisti, johon sähköinen tuotekoodi kirjoitetaan, eli tunnisteen perusmuisti
-ETO  | ETO (Engineer-To-Order) tarkoittaa tilauksesta suunniteltavien tuotteiden valmistuslogiikkaa.
+Engineer-To-Order, ETO  | Termillä tarkoitetaan tilauksesta suunniteltavien tuotteiden valmistuslogiikkaa.
 GS1 DataMatrix  | GS1-standardin mukainen 2D-koodi, johon voidaan sisällyttää enemmän tietoa kuin perinteiseen EAN-viivakoodiin. ISO/IEC 16022
-GS1 AI  | GS1-sovellustunnukset (Application Identifier, AI) ovat 2–4 numeron pituisia tunnuksia, joita käytetään GS1-128-, GS1 DataMatrix- ja GS1 DataBar -viivakoodeissa sekä EPC/RFID-tunnisteissa.
-GTIN  | (Global Trade Item Number) on GS1:n tuotetunniste standardi (ISO/IEC 15459-6 & ISO/IEC 6523).
-GUID  | GUID (Globally Unique IDentifier) on mallinnusohjelman antama tai muulla tavalla luotu kullekin osalle yksilöllinen tunniste. Kulkee myös nimellä UUID (Universally Unique IDentifier). (määritelty ISO/IEC 11578:1996 Information technology - Open Systems Interconnection - Remote Procedure Call (RPC) -määrittelyssä ja sekä ITU-T Rec. X.667 | ISO/IEC 9834-8:2005)
-MTO | MTO (Make-To-Order / Made-To-Order) tarkoittaa tilausohjautuvaa tuotantoa, jossa tuotteet valmistetaan asiakastilausten mukaisesti valmiiden tuotesuunnitelmien pohjalta.
-MTS | MTS (Make-To-Stock) termillä tarkoitetaan varasto-ohjautuvien tuotteiden valmistuslogiikkaa.
-RFID  | RFID (Radio Frequency Identification) termillä tarkoitetaan radiotaajuisia etätunnisteita (sisältää antennin ja mikropiirin).
-SGTIN  | GTIN-koodin ja sarjanumeron yhdistelmä, jolla voidaan erottaa identtiset tuoteyksilöt toisistaan.
-Tag  | RFID-tunniste, joka sisältää sirun ja antennin. Käytetään objektien yksilölliseen tunnistamiseen.
+GS1 Application Identifier, AI  | GS1-sovellustunnukset ovat 2–4 numeron pituisia tunnuksia, joita käytetään GS1-128-, GS1 DataMatrix- ja GS1 DataBar -viivakoodeissa sekä EPC/RFID-tunnisteissa.
+Global Trade Item Number, GTIN  | Termillä tarkoitetaan GS1:n tuotetunniste standardia. <sup>[8]</sup> <sup>[9]</sup>
+GUID  | GUID (Globally Unique IDentifier) on mallinnusohjelman antama tai muulla tavalla luotu kullekin osalle yksilöllinen tunniste. Kulkee myös nimellä UUID (Universally Unique IDentifier). <sup>[10]</sup> <sup>[11]</sup>
+Make-To-Order, MTO | Termi tarkoittaa tilausohjautuvaa tuotantoa, jossa tuotteet valmistetaan asiakastilausten mukaisesti valmiiden tuotesuunnitelmien pohjalta.
+Make-To-Stock, MTS | Termillä tarkoitetaan varasto-ohjautuvien tuotteiden valmistuslogiikkaa.
+Radio Frequency Identificatio, RFID  | Termillä tarkoitetaan radiotaajuisia etätunnisteita (sisältää antennin ja mikropiirin).
+Serial Global Trade Item Number, SGTIN  | GTIN-koodin ja sarjanumeron yhdistelmä, jolla voidaan erottaa identtiset tuoteyksilöt toisistaan.
+Tag | RFID-tunniste, joka sisältää sirun ja antennin. Käytetään objektien yksilölliseen tunnistamiseen.
 User memory  | RFID käyttäjämuisti tai lisämuisti
 UHF tunniste | Korkeataajuinen (850–960 MHZ) RFID tunniste
-URI  | URI (Uniform Resource Identifier) on tietoverkossa sijaitsevan tiedon tunniste. URL on aina myös URI, mutta URI ei välttämättä ole URL. Esimerkiksi <code>https://rt.fi</code> tai <code>urn:ISBN:952-9842-34-1</code>
-URL  | URL (Uniform Resource Locator) sisältää tiedon hakemiseen tarvittavan tiedon, kuten protokollan (esim. https) ja palvelimen. Esimerkiksi <code>https://rt.fi</code>
+Uniform Resource Identifier, URI  | URI on tietoverkossa sijaitsevan tiedon tunniste. URL on aina myös URI, mutta URI ei välttämättä ole URL. Esimerkiksi <code>https://rt.fi</code> tai <code>urn:ISBN:952-9842-34-1</code>
+Uniform Resource Locator, URL  | URL sisältää tiedon hakemiseen tarvittavan tiedon, kuten protokollan (esim. https) ja palvelimen. Esimerkiksi <code>https://rt.fi</code>
 Verkkotunnus | Verkkotunnus eli domain-nimi on merkkijono, joka ohjataan internetissä tiettyyn IP-osoitteeseen eli palvelimelle. Esimerkiksi <code>www.iso.org</code>
 
 ## Viittaukset
@@ -575,6 +575,16 @@ Verkkotunnus | Verkkotunnus eli domain-nimi on merkkijono, joka ohjataan interne
 **[5]** GS1 (2024), GS1 Application Identifiers. Saatavilla: https://ref.gs1.org/ai/. 
 
 **[6]** GS1 Norway (2018), Guideline for Unique identification of products with SGTIN (serialized GTIN). Labelling with GS1Datamatrix barcode and tagging with EPC / RFID Gen 2 UHF RFID tags. 
+
+**[7]** ISO/IEC 15962:2022, EPC Tag Data Standard. Saatavilla: https://ref.gs1.org/ai/. 
+
+**[8]** ISO/IEC 15459-6:2014 - Unique identification
+
+**[9]** ISO/IEC 6523-1:2023: - Information technology – Structure for the identification of organizations and organization parts
+
+**[10]** ISO/IEC 11578:1996 Information technology - Open Systems Interconnection - Remote Procedure Call (RPC)
+
+**[11]** ISO/IEC 9834-8:2014 - Information technology
 
 ## Liite 1
 ![20250109_BETK Soveltamisohje_Tuoteyksilöinti ja -tunnistaminen (1)_1](https://github.com/user-attachments/assets/a815804d-46ae-49bf-bf53-827eaab8e0c9)
