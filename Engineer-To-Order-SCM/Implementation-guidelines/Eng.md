@@ -73,26 +73,26 @@ Unique Product Identification (UPID) is a prerequisite for the digitalization of
 
 Traditionally, GTIN codes have been used to identify Make-To-Stock (MTS) products, where all identical items are assigned the same GTIN. By combining a GTIN code with a serial number, a unique identifier is created that allows identical products to be distinguished from one another. This combination is known as the SGTIN (Serialized Global Trade Item Number).
 
-Precast concrete elements are inherently Make-To-Order (MTO) and Engineer-To-Order (ETO) products, meaning their identification using GTIN codes differs fundamentally from that of Make-To-Stock (MTS) products. While it is possible to assign a unique GTIN code to each individual precast element, the BETK working group has opted to use the GS1 standard with a three-level identification model (as shown in Table 1). In this model the GTIN code identifies a specific base product type from a specific manufacturer. The Made-To-Order (MTO) variant number distinguishes a particular variant of the base product. The serial number uniquely identifies identical units of the same variant.
+Precast concrete elements are inherently Make-To-Order (MTO) and Engineer-To-Order (ETO) products, meaning their identification using GTIN codes differs fundamentally from that of Make-To-Stock (MTS) products. While it is possible to assign a unique GTIN code to each individual precast element, the BETK working group has opted to use the GS1 standard with a three-level identification model (as shown in Figure 1). In this model the GTIN code identifies a specific base product type from a specific manufacturer. The Made-To-Order (MTO) variant number distinguishes a particular variant of the base product. The serial number uniquely identifies identical units of the same variant.
 
 Thus, a GTIN alone does not uniquely identify a specific product but rather represents a general category of possible product variations that may be manufactured based on the order.
 
 ![2025-06-23_Kuva3](https://github.com/user-attachments/assets/9fa68e30-01da-458f-8cb4-9c80be84a9bb)
 
-###### Figure 1.  Hierarchical Levels of Product Identification for More Precise Identification
+###### Figure 1.  Hierarchical levels of product identification for more precise identification
 
 ### 3.1 Using GS1 application identifiers to identify ETO products  
 GS1 Application Identifiers (AI) are numeric prefixes used in barcodes and EPC/RFID tags to define the meaning and format of data elements. The use of AIs enables the differentiation of various data elements within barcodes or EPC/RFID tags. The GS1 standard includes over 100 application identifiers. Each AI is typically a two-, three-, or four-digit number. A comprehensive list of all GS1 Application Identifiers is available on the GS1 website:https://ref.gs1.org/ai/.
 
-he following GS1 Application Identifiers (AIs) have been identified as necessary to meet the minimum data requirements for the identification of precast concrete elements:
-• ```(01) GTIN```: Global Trade Item Number – identifies the base product type.
-• ```(242) Made-to-Order Variation Number```: Distinguishes a specific variant of the base product.
-• ```(21) Serial Number```: Uniquely identifies individual units of the same variant.
+The following GS1 Application Identifiers (AIs) have been identified as necessary to meet the minimum data requirements for the identification of precast concrete elements:  
+• ```(01) GTIN```: Global Trade Item Number – identifies the base product type.  
+• ```(242) Made-to-Order Variation Number```: Distinguishes a specific variant of the base product.  
+• ```(21) Serial Number```: Uniquely identifies individual units of the same variant.  
 
-The GS1 standard does not currently provide specific GS1 Application Identifiers (AIs) for the National Element Classification number, GUID, or Domain Name. Therefore, the BETK project has decided to use the following application identifiers for including this data in information carriers:
-• ```(91) Company Internal Information```
-• ```(92) Company Internal Information```
-• ```(99) Company Internal Information```
+The GS1 standard does not currently provide specific GS1 Application Identifiers (AIs) for the National Element Classification number, GUID, or Domain Name. Therefore, the BETK project has decided to use the following application identifiers for including this data in information carriers:  
+• ```(91) Company Internal Information```  
+• ```(92) Company Internal Information```  
+• ```(99) Company Internal Information```  
 
 GS1 AIs starting with the digit 9 are reserved for company-specific or internal use and should only be applied when there is no official GS1 Application Identifier defined for the particular data element. This approach ensures flexibility while adhering to GS1 standards for data structuring.
 
@@ -103,7 +103,7 @@ For optical recognition (e.g., QR codes), the inclusion of this information foll
 ###### Table 1. Minimum data requirements to be included in the information carrier (2D DataMatrix Barcode or EPC/RFID Tag)
 
 | GS1 Application Identifier (AI) | Example                      |
-|------------------------- -------|------------------------------|
+|---------------------------------|------------------------------|
 |(01) GTIN-koodi                  | <code>06400001000247</code>  |
 |(242) MTO varianttinumero        | <code>123456</code>          |
 |(21) Sarjanumero                 | <code>12345678910</code>     | 
@@ -549,39 +549,38 @@ https://ref.gs1.org/standards/resolver/
 ## Lyhenteet ja terminologia
 |**Nimike**|**Selite**|
 |-----------|---------------|
-|Aplikaattori | Laite, joka tulostaa ja kiinnittää RFID-tunnisteen tuotteeseen|
-Electronic Product Code, EPC | Sähköinen tuotekoodi. <sup>[7]</sup>
-EPC-muisti  | RFID-tunnisteen muisti, johon sähköinen tuotekoodi kirjoitetaan, eli tunnisteen perusmuisti
-Engineer-To-Order, ETO  | Termillä tarkoitetaan tilauksesta suunniteltavien tuotteiden valmistuslogiikkaa.
-GS1 DataMatrix  | GS1-standardin mukainen 2D-koodi, johon voidaan sisällyttää enemmän tietoa kuin perinteiseen EAN-viivakoodiin. ISO/IEC 16022
-GS1 Application Identifier, AI  | GS1-sovellustunnukset ovat 2–4 numeron pituisia tunnuksia, joita käytetään GS1-128-, GS1 DataMatrix- ja GS1 DataBar -viivakoodeissa sekä EPC/RFID-tunnisteissa.
-Global Trade Item Number, GTIN  | Termillä tarkoitetaan GS1:n tuotetunniste standardia. <sup>[8]</sup> <sup>[9]</sup>
-GUID  | GUID (Globally Unique IDentifier) on mallinnusohjelman antama tai muulla tavalla luotu kullekin osalle yksilöllinen tunniste. Kulkee myös nimellä UUID (Universally Unique IDentifier). <sup>[10]</sup> <sup>[11]</sup>
-Make-To-Order, MTO | Termi tarkoittaa tilausohjautuvaa tuotantoa, jossa tuotteet valmistetaan asiakastilausten mukaisesti valmiiden tuotesuunnitelmien pohjalta.
-Make-To-Stock, MTS | Termillä tarkoitetaan varasto-ohjautuvien tuotteiden valmistuslogiikkaa.
-Radio Frequency Identificatio, RFID  | Termillä tarkoitetaan radiotaajuisia etätunnisteita (sisältää antennin ja mikropiirin).
-Serial Global Trade Item Number, SGTIN  | GTIN-koodin ja sarjanumeron yhdistelmä, jolla voidaan erottaa identtiset tuoteyksilöt toisistaan.
-Tag | RFID-tunniste, joka sisältää sirun ja antennin. Käytetään objektien yksilölliseen tunnistamiseen.
-User memory  | RFID käyttäjämuisti tai lisämuisti
-UHF tunniste | Korkeataajuinen (850–960 MHZ) RFID tunniste
-Uniform Resource Identifier, URI  | URI on tietoverkossa sijaitsevan tiedon tunniste. URL on aina myös URI, mutta URI ei välttämättä ole URL. Esimerkiksi <code>https://rt.fi</code> tai <code>urn:ISBN:952-9842-34-1</code>
-Uniform Resource Locator, URL  | URL sisältää tiedon hakemiseen tarvittavan tiedon, kuten protokollan (esim. https) ja palvelimen. Esimerkiksi <code>https://rt.fi</code>
-Verkkotunnus | Verkkotunnus eli domain-nimi on merkkijono, joka ohjataan internetissä tiettyyn IP-osoitteeseen eli palvelimelle. Esimerkiksi <code>www.iso.org</code>
+|Applicator |  A device that prints and applies an RFID tag to a product.|
+Electronic Product Code, EPC | See EPC Tag Data Standard ISO/IEC 15962 <sup>[7]</sup>
+EPC-memory  | The memory of an RFID tag where the EPC is written, serving as the tag's primary memory.
+Engineer-To-Order, ETO  | Engineer-To-Order (ETO) refers to a manufacturing logic where products are designed and engineered to meet specific customer orders.
+GS1 DataMatrix  | A GS1-compliant 2D code that can encode more information than a traditional EAN barcode. Complies with ISO/IEC 16022
+GS1 Application Identifier, AI  | GS1 Application Identifiers (AI) are 2- to 4-digit codes used in GS1-128, GS1 DataMatrix, and GS1 DataBar barcodes, as well as in EPC/RFID tags.
+Global Trade Item Number, GTIN  | Global Trade Item Number (GTIN) is a GS1 product identification standard. <sup>[8]</sup> <sup>[9]</sup>
+GUID  | Globally Unique Identifier (GUID) is a unique identifier assigned to each part by a modeling program or generated by other means. It is also known as a Universally Unique Identifier (UUID). <sup>[10]</sup> <sup>[11]</sup>
+Make-To-Order, MTO | Make-To-Order or Made-To-Order (MTO) refers to demand-driven production where products are manufactured based on customer orders, using predefined product designs.
+Make-To-Stock, MTS | Make-To-Stock (MTS) refers to a production logic of stock-based products.
+Radio Frequency Identificatio, RFID  | Automatic Identification and Data Capture (AIDC) carrier that consists of a microchip, which stores and processes data, and an antenna, which transmits and receives signals.
+Serial Global Trade Item Number, SGTIN  | A combination of a GTIN code and a serial number that allows identical product units to be distinguished from one another
+User memory  | A section of an RFID tag's memory that can be used to store additional, user-defined data beyond the standard identification information. This memory is typically writable and customizable to meet specific application needs.
+UHF Tag | Ultra-high-frequency RFID tag operating within the 850–960 MHz range, commonly used for longrange and high-speed data transfer applications.
+Uniform Resource Identifier, URI  |  is an identifier for information located on a network. A URL is always a URI, but a URI is not necessarily a URL. For example: <code>https://rt.fi</code> tai <code>urn:ISBN:952-9842-34-1</code>
+Uniform Resource Locator, URL  | URL  includes the necessary information for retrieving the resource, such as the protocol (e.g., HTTPS) and the server. For example: <code>https://rt.fi</code>
+Domain Name | A domain name is a string of characters that is mapped to a specific IP address or server on the internet. For example: <code>www.iso.org</code>
 
-## Viittaukset
+## References
 **[1]** GS1 (2022), Recommendation for the use of EPC and ISO RFID symbols   
 
-**[2]** ISO/IEC 29160:2020, Information technology — Radio frequency identification. Saatavilla:https://www.iso.org  
+**[2]** ISO/IEC 29160:2020, Information technology — Radio frequency identification. Available:https://www.iso.org  
 
-**[3]** ISO 7000-3010:2020, RFID-tag. Saatavilla:https://www.iso.org/obp/ui#iso:grs:7000:3010 
+**[3]** ISO 7000-3010:2020, RFID-tag. Available:https://www.iso.org/obp/ui#iso:grs:7000:3010 
 
-**[4]** GS1 (2023), GTIN Management Guideline for Construction Products. Saatavilla:https://www.gs1.org/standards/gtin-management-guideline-construction-products/current-standard#2-GTIN-Management-Rule-examples-for-construction-products+2-2-Declared-formulation-or-functionality.  
+**[4]** GS1 (2023), GTIN Management Guideline for Construction Products. Available:https://www.gs1.org/standards/gtin-management-guideline-construction-products/current-standard#2-GTIN-Management-Rule-examples-for-construction-products+2-2-Declared-formulation-or-functionality.  
 
-**[5]** GS1 (2024), GS1 Application Identifiers. Saatavilla: https://ref.gs1.org/ai/. 
+**[5]** GS1 (2024), GS1 Application Identifiers. Available: https://ref.gs1.org/ai/. 
 
 **[6]** GS1 Norway (2018), Guideline for Unique identification of products with SGTIN (serialized GTIN). Labelling with GS1Datamatrix barcode and tagging with EPC / RFID Gen 2 UHF RFID tags. 
 
-**[7]** ISO/IEC 15962:2022, EPC Tag Data Standard. Saatavilla: https://ref.gs1.org/ai/. 
+**[7]** ISO/IEC 15962:2022, EPC Tag Data Standard. Available: https://ref.gs1.org/ai/. 
 
 **[8]** ISO/IEC 15459-6:2014 - Unique identification
 
@@ -591,5 +590,5 @@ Verkkotunnus | Verkkotunnus eli domain-nimi on merkkijono, joka ohjataan interne
 
 **[11]** ISO/IEC 9834-8:2014 - Information technology
 
-## Liite 1
+## Annex 1
 ![20250109_BETK Soveltamisohje_Tuoteyksilöinti ja -tunnistaminen (1)_1](https://github.com/user-attachments/assets/a815804d-46ae-49bf-bf53-827eaab8e0c9)
