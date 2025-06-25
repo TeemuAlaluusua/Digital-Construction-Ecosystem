@@ -265,120 +265,123 @@ BETK-projektissa on tunnistettu, että tunnisteeseen on tarve sijoittaa lisätie
 </table>
 </html>
 
-###### Taulukko 10. Sovellettava menetelmä SGTIN-96. Standardissa TDS 2.1. (EPC Tag Data Standard) löytyy myös muita sovellusmenetelmiä mm. SGTIN-198, joita voidaan käyttää, mikäli on tarve esimerkiksi pidemmälle (tai numeroiden lisäksi myös kirjaimia sisältävälle) sarjanumerolle.
+###### Table 10. Applicable Method: SGTIN-96. The SGTIN-96 encoding method is commonly used. However, the TDS 2.1 (EPC Tag Data Standard) also includes other encoding methods, such as SGTIN-198, which can be utilized if there is a need for longer serial numbers or serial numbers that include both letters and numbers.
 
 <html>
 <table>
     <thead>
         <tr>             
-         <th colspan="3">SGTIN-96 tietosisältö</th>
+         <th colspan="3">Data structure SGTIN-96</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td><b>EPC SGTIN-96</b></td>
-            <td><b>Arvo</b></td>
-            <td><b>Kommentti</b></td>
+            <td><b>Value</b></td>
+            <td><b>Comment</b></td>
         </tr>
         <tr>
-            <td>Otsikko (Header)</td>
+            <td>Header</td>
             <td><code>48</code></td>
-            <td>Numero SGTIN-96:lle</td>
+            <td>Number for SGTIN-96</td>
         </tr>
       <tr>
-            <td>Filter-arvo (Filter value)</td>
+            <td>Filter value</td>
             <td><code>0</code></td>
-            <td>0 = Soveltuva arvo tuotteelle, jota ei lueta kassapisteellä</td>
+            <td>0 = Applicable Value for a Product Not Scanned at Point-of-Sale</td>
         </tr>
          <tr>
-            <td rowspan="6">Partition-arvo</td>
-            <td rowspan="6"><code>1</code>,<code>2</code>,<code>3</code>,<code>4</code>,<code>5</code>tai <code>6</code></td>
+            <td rowspan="6">Partition</td>
+            <td rowspan="6"><code>1</code>,<code>2</code>,<code>3</code>,<code>4</code>,<code>5</code>or<code>6</code></td>
             <td>
-              1 = 11-numeroinen GS1-yritystunniste ja 2 numeroa tuotenimikkeelle + laajennustunnukselle                                        
+              1 = GS1 GCP of 11 digits and 2 digits in item number + indicator                                        
             </td>
         </tr>
         <tr>
-            <td>2 = 10-numeroinen GS1-yritystunniste ja 3 numeroa tuotenimikkeelle + laajennustunnukselle </td>
+            <td>2 = GS1 GCP of 10 digits and 3 digits in item number + indicator </td>
         </tr>
        <tr>
-            <td>3 = 9-numeroinen GS1-yritystunniste ja 4 numeroa tuotenimikkeelle + laajennustunnukselle</td>
+            <td>3 = GS1 GCP of 9 digits and 4 digits in item number + indicator</td>
         </tr>
        <tr>
-            <td>4 = 8-numeroinen GS1-yritystunniste ja 5 numeroa tuotenimikkeelle + laajennustunnukselle</td>
+            <td>4 = GS1 GCP of 8 digits and 5 digits in item number + indicator</td>
         </tr>
         <tr>
-            <td>5 = 7-numeroinen GS1-yritystunniste ja 6 numeroa tuotenimikkeelle + laajennustunnukselle</td>
+            <td>5 = GS1 GCP of 7 digits and 6 digits in item number + indicator</td>
         </tr>
         <tr>
-            <td> 6 = 6-numeroinen GS1-yritystunniste ja 7 numeroa tuotenimikkeelle + laajennustunnukselle </td>
+            <td> 6 = GS1 GCP of 6 digits and 7 digits in item number + indicator</td>
         </tr>
          <tr>
-          <td>GS1-yritystunniste (GS1 GCP)</td>
+          <td>GS1 Company Prefix (GS1 GCP)</td>
           <td><code>N…11</code></td>
-          <td>GS1-yritystunniste: 6,7,8,9,10 tai 11 numeroa</td>
+          <td>GS1 GCP: 6,7,8,9,10 or 11 digits</td>
          </tr>
         <tr>
-          <td>Tuotenimikkeen numero</td>
+          <td>Item number</td>
           <td><code>N…7</code></td>
-          <td>Riippuen GS1-yritystunnisteen pituudesta 1–7 numeroa</td>
+          <td>Depending on the number of digits in GS1 GCP. 1–7 digits</td>
         </tr>
          <tr>
-          <td>Sarjanumero </td>
+          <td>Serial number </td>
           <td><code>N…12</code></td>
-          <td>Enintään 12 numeroa (suurin sallittu arvo = 274 877 906 943) Sarjanumeron ei tarvitse olla tasan 12 numeroa. Etunolla ei ole sallittu</td>
+          <td>Up to 12 digits (hiqhest allowable value = 274 877 906 943) A fixed number of digits is chosen for serial number, it must not be 12 digits. You choose as many as needed. Leading zero is not allowed</td>
         </tr>
     </tbody>
 </table>
 </html>
 
-**Esimerkki tietosisällöstä EPC / Gen2 RFID -tunnisteessa:**  
+**Example of data string in an EPC / Gen2 RFID chip**  
 RFID Tag EPC Memory Bank Contents (hexadecimal): ```301586A004000602DFDC1C3E```  
 EPC Tag URI: ```urn:epc:tag:sgtin-96:0.6400001.000024.12345678910```  
 
-**Tietorakenteen osat**  
-**1. URN-etuliite**  
-Arvo: ```urn:epc:id```  
-Kuvaus: Määrittää, että tunniste noudattaa EPC URI -standardia. Tämä etuliite on osa Uniform Resource Identifier (URI) -kehystä.  
-**2. EPC-järjestelmä**  
-Arvo: ```sgtin-96```  
-Kuvaus: Määrittää koodaustavan ja käytetyn GS1-tunnistusavaimen tyypin. Tässä tapauksessa kyseessä on Serialized Global Trade Item Number (SGTIN), joka on 96-bittisesti binäärikoodattu.  
-**3. Suodatusarvo**  
-Arvo: ```0```  
-Kuvaus: Ilmoittaa suodatusasetuksen. Arvo 0 tarkoittaa, että tuotetta ei ole suodatettu myyntipisteellä tapahtuvan skannauksen perusteella, mikä viittaa yleiskäyttöön.  
-**4. GS1-yritystunniste**  
-Arvo: ```6400001```  
-Kuvaus: Tunnistaa yrityksen, joka on julkaissut tuotteen. Tämä on GS1:n myöntämä maailmanlaajuisesti yksilöllinen tunniste.  
-**5. Ilmaisinluku ja tuotenimikkeen numero**  
-Arvo: ```000024```  
-Kuvaus: Yhdistää ilmaisinluvun ja tuotetunnuksen.  
-**6. Sarjanumero**  
-Arvo: ```12345678910```  
-Kuvaus: Yksilöi tuotteen jokaisen yksittäisen instanssin. Tämä mahdollistaa tuotekohtaisen seurannan.  
+**Data Structure Breakdown**  
+**1. URN Prefix**  
+Value: ```urn:epc:id```  
+Description: Specifies that this is a Uniform Resource Identifier (URI).  
+**2. EPC Scheme**  
+Value: ```sgtin-96```  
+Description: Indicates the GS1 Identification Key used in this case (Serialized Global Trade Item Number with 96-bit encoding).  
+**3. Filter Value**  
+Value: ```0```  
+Description: Filter value indicating "product not scanned at the point-of-sale."  
+**4. GS1 Company Prefix**  
+Value: ```6400001```  
+Description: Identifies the company issuing the product. 
+**5. Indicator and Item Reference Number**  
+Value: ```000024```  
+Description: Combines the indicator digit and the item reference number for the specific product.  
+**6. Serial Number**  
+Value: ```12345678910```  
+Description: Uniquely identifies the specific instance of the product.  
 
-**Lisäosat**  
->**Jakoparametri**   
-Määrittää, mihin kohtaan erotinmerkki ```( . )``` asetetaan GS1-yritystunnuksen ja tuotetunnuksen välille. Jakoparametri riippuu GS1-yritystunnuksen pituudesta. Viimeinen erotinmerkki ```( . )``` URI:ssä erottaa GTINnumeron (Global Trade Item Number) sarjanumerosta.\
->**Tarkistusnumero**  
-Käytetään virheentarkistukseen GTIN-tunnuksissa. Tarkistusnumeroa ei kuitenkaan sisällytetä EPC-koodiin RFID-tunnisteessa, sillä RFID-prosessoinnissa sitä ei tarvita.  
+**Additional Notes**  
+>**Partition Value**   
+Determines where the separator ```( . )``` is placed to divide the GS1 Company Prefix and the Item Reference
+Number. The last separator ```( . )``` in the URI distinguishes the GTIN (Global Trade Item Number) from the
+serial number.\  
 
-**Käyttäjämuisti-osio**  
-Muu lisätieto sijoitetaan RFID-sirun käyttäjämuisti-osioon (User memory) seuraavalla tavalla:
+>**Check Digit**  
+Not included in the EPC code stored in the RFID tag.\  
 
-###### Taulukko 11. Mahdolliset lisätiedot betonielementtien käyttötapauksessa
+**User Memory Section**
+Additional information can be stored in the User Memory of the RFID chip as Application Identifiers (AIs):
+
+###### Table 11. Additional information on the use of concrete elements
 
 <html>
 <table>
     <thead>
         <tr>            
-            <th>GS1-sovellustunnus (AI)</th>
-            <th>Selite</th>
-            <th>Arvo (esimerkki)</th>
+            <th>GS1 Application Identifier (AI)</th>
+            <th>Definition</th>
+            <th>Value (example)</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>(91) Internal</td>
-            <td>Elementtitunnus</td>
+            <td>Element classification</td>
             <td><code>V1001</code></td>
         </tr>
          <tr>
@@ -388,22 +391,20 @@ Muu lisätieto sijoitetaan RFID-sirun käyttäjämuisti-osioon (User memory) seu
         </tr>
         <tr>
             <td>(99) Internal</td>
-            <td>Verkkotunnus</td>
+            <td>Domain name</td>
             <td><code>id.rt.fi</code></td>
         </tr>
      </tbody>
 </table>
 </html>
 
+**Implementing RFID Tags**
+For programming RFID tags, it is recommended to collaborate with companies specializing in identification solutions. A list of such solution providers can be found on the GS1 Partner Page and the RFID Lab Finland Association website.
 
-**RFID-tunnisteiden toteuttaminen**  
-RFID-tunnisteiden ohjelmointia varten on hyvä olla yhteydessä tunnistamisen ratkaisuihin erikoistuneeseen yritykseen tai yrityksiin. Tunnistamisen ratkaisuja tarjoavia yrityksiä on koottu mm. GS1:n kumppanisivulle ja RFID Lab Finlandin ry:n sivulle.  
+#### 4.1.1 Use of RFID symbol
+When using RFID technology for automatic product identification, it is essential to ensure that the RFID tag symbol is included on product labels and production plans. The symbol must comply with standards, be easily recognizable, and be positioned in a way that clearly indicates the location and use of RFID tags.
 
-#### 4.1.1 RFID-tunniste symbolin käyttö  
-RFID-teknologiaa käytettäessä tuotteiden automaattiseen tunnistamiseen on syytä varmistaa, että RFID-tunniste symboli sisällytetään tuote-etiketteihin sekä tuotantosuunnitelmiin. Symbolin tulee olla standardin mukainen, helposti tunnistettavissa ja sijoitettu niin, että se osoittaa selkeästi RFID-tunnisteiden sijainnin ja käytön.  
-
-
-###### Taulukko 12. Yleinen RFID-symboli (ISO 7000-3010). <sup>[1]</sup> <sup>[2]</sup> <sup>[3]</sup>
+###### Table 12. General RFID symbol (ISO 7000-3010). <sup>[1]</sup> <sup>[2]</sup> <sup>[3]</sup>
 
 <html>
     <tbody>
@@ -412,33 +413,34 @@ RFID-teknologiaa käytettäessä tuotteiden automaattiseen tunnistamiseen on syy
  <th rowspan="4">
 <img width="300" alt="RFID-symbol" src="https://github.com/user-attachments/assets/5c9d4d49-e5d6-4bac-a66f-c77a9731fce9"/>
                </th>
-         <th>RFID-tunniste symboli</th>
+         <th>RFID symbol</th>
         </tr>
         <tr>
-            <td>RFID-tunnistesymbolina suositellaan käytettäväksi ISO 7000-3010 -standardin mukaista, vapaasti saatavilla olevaa yleistä RFID-symbolia. Symbolin käytön tulee täyttää ISO/IEC 29160:2020-standardin vaatimukset, erityisesti silloin kun symbolia hyödynnetään osoittamaan RFID-tunnisteiden sijaintia. </td>
+            <td>The ISO 7000-3010 standard's freely available general RFID symbol is recommended for use as the RFID tag symbol. The use of this symbol must comply with the requirements of the ISO/IEC 29160:2020 standard, especially when the symbol is used to indicate the location of RFID tags.  </td>
         </tr>
         <tr>
-            <th>Koko</th>
+            <th>Size</th>
         </tr>
          <tr>
-            <td>RFID-tunniste symbolin (ISO 7000-3010) tulisi olla vähintään (5 × 5) mm:n kokoinen, ja tämän ympärille tulisi jättää 1 mm:n vapaa alue. Kun RFID-tunniste symboli esitetään matalakontrastisena, sen on oltava riittävän suuri, jotta se on helposti tunnistettavissa tavanomaisissa käyttöolosuhteissa. </td>
+            <td>The RFID tag symbol (ISO 7000-3010) should have a minimum size of 5 × 5 mm, with a 1 mm clear zone surrounding it. When the RFID tag symbol is presented in low contrast, it must be sufficiently large to ensure it is easily recognizable under typical operating conditions. </td>
         </tr>
     </tbody>
 </table>
 </html>
 
-**Soveltaminen betonielementtien käyttöympäristössä**  
-RFID-merkintä symboli on sijoitettava siten, että se näkyy helposti niille, jotka yrittävät etsiä tai lukea varsinaista RFID-tunnistetta. RFID-tunnistesymbolin käyttöä suositellaan betonielementtien tuotantosuunnitelmissa osoittamaan RFID-tunnisteiden sijaintia (esimerkki kuvattu liitteessä 1). RFID-tunnisteen käyttö tulee merkitä RFID-tunniste symbolin avulla, ja käytettävä tunnistetyyppi sekä sijaintitiedot lisätään osaksi betonielementin tuoteosaluetteloa.
+**Utilizing RFID Symbols on Precast Concrete Elements**  
+The RFID symbol must be positioned so that it is easily visible to those trying to locate or read the actual RFID tag. The use of an RFID symbol is recommended in precast concrete production drawings to indicate the location of RFID tags (example illustrated in Annex 1). The use of the RFID tag shall be indicated by the RFID tag symbol and the type of tag used and the location information shall be included in the product catalogue of the precast concrete element.
 
-**RFID-tunnisteen sijoittaminen fyysiseen tuotteeseen**  
-RFID-merkittyjen objektien luettavuuteen vaikuttavat useat tekijät, kuten RFID-siru, RFID-antenni ja kotelointi (koko RFID-tunniste). Lisäksi ympäristö, jossa RFID-tunniste luetaan, vaikuttaa olennaisesti luettavuuteen. Ympäristö, jossa on paljon metalliesineitä, voi esimerkiksi aiheuttaa ei-toivottuja heijastuksia radioaaltoihin, jolloin luenta vaikeutuu tai luetaan väärä kohde.
+**Placing the RFID Tag to the Physical Product**
+The readability of RFID tagged objects is affected by several factors, such as the RFID chip, the RFID antenna and the encapsulation (the whole RFID tag). The environment in which the RFID tag is read has a significant impact on readability. For example, an environment with many metal objects can detune and reflect RFID signals, while liquids tend to absorb them, both of which can interfere with the performance of RFID systems.
 
-Markkinoilla on erilaisia RFID-tunnisteita, jotka soveltuvat eri käyttötarkoituksiin. RFID-tunnisteita voidaan käyttää betonielementtien toimintaympäristössä betonielementtien sisään valettuna, elementtien pinnalla, tai osana betonielementteihin kiinnitettävää tuote-etikettiä. Betonielementtiin valettaessa, RFID-tunnisteen luettavuuteen vaikuttaa sen ympärillä oleva materiaali, joten valittavan RFID-tunnisteiden tulee olla sellainen, että se on luettavissa sitä ympäröivän betonin läpi riittävästä syvyydestä. Ulkoisessa aplikaattorilla muodostetussa tuoteetiketissä tulee olla merkintä RFID-tunnisteen käytöstä sekä tarkennus siitä, sijaitseeko tunniste itse lapussa vai valettuna elementin sisällä. RFID:n käytön hyödyt perustuvat automatisoituihin lukutapahtumiin ja niistä syntyvään tapahtumatietoon. Lukutapahtumalla tarkoitetaan yksinkertaistettuna sitä, että lukijalaite havaitsee tietyn RFID-tunnisteen.
+There are different types of RFID tags on the market, suitable for different uses. RFID tags can be used in a precast concrete environment, embedded in the precast concrete, on the surface of the precast concrete, or as part of a product label to be attached to precast concrete. When cast into a precast concrete element, the readability of the RFID tag is affected by the material surrounding it, so the RFID tag chosen should be such that it can be read through the surrounding concrete to a sufficient depth. The product label formed by the external applicator should include a note on the use of the RFID tag and a specification as to whether the tag is located on the tab itself or cast inside the element. The benefits of using RFID are based on automated reading events and the resulting transaction path. In simple terms, a read event is when a reader detects a specific RFID tag.
 
-### 4.2 Tuotetunnistus GS1 DataMatrix 2D-koodilla
-GS1 DataMatrix on GS1:n kehittämä kaksiulotteinen viivakoodi, joka voidaan tulostaa yksittäisistä pisteistä tai neliöistä koostuvana neliön tai suorakaiteen muotoisena symbolina. GS1 DataMatrix voi sisältää perinteistä lineaarista viivakoodia suuremman määrän tietoa. Siihen on mahdollista koodata jopa 3116 numeerista merkkiä tai 2335 alfanumeerista merkkiä. GS1 sovellustunnusten avulla GS1 DataMatrixiin voidaan sisällyttää useita erityyppisiä tietoja, kuten esimerkiksi määritetyt betonielementtien minimitietovaatimukset. GS1 DataMatrixin lukeminen vaatii kamerapohjaisen skannerin.
 
-###### Taulukko 13. Esimerkki betonielementtien minimitietovaatimukset sisältävästä GS1 DataMatrix -koodista
+### 4.2 GS1 DataMatrix barcode
+GS1 DataMatrix is a two-dimensional barcode developed by GS1 that can be printed as a square or rectangular symbol consisting of individual dots or squares. The GS1 DataMatrix can contain a larger amount of data than a traditional linear barcode. Up to 3116 numeric characters or 2335 alphanumeric characters can be encoded. GS1 application codes allow the GS1 DataMatrix to include many different types of data, such as minimum data requirements for specified concrete elements. A camera-based scanner is required to read the GS1 DataMatrix.
+
+###### Table 13. Example of a GS1 DataMatrix code containing information requirements for precast concrete elements
 
 <html>
 <table>
@@ -446,11 +448,11 @@ GS1 DataMatrix on GS1:n kehittämä kaksiulotteinen viivakoodi, joka voidaan tul
          <tr>  
          <th rowspan="7"><img width="110" alt="2025-06-23_Kuva2" src="https://github.com/user-attachments/assets/ce285bc2-6cfd-4abf-80c2-090c914afd56" />
          </th>   
-         <th colspan="2">Esimerkin tietosisältö</th>
+         <th colspan="2">Example information content</th>
         </tr>
          <tr>
-            <td><b>GS1-sovellustunnus (AI)</b></td>
-            <td><b>Arvo (esimerkki)</b></td>
+            <td><b>GS1 Application Identifier (AI)</b></td>
+            <td><b>Value (example)</b></td>
         </tr>
         <tr>
             <td>(01) = GTIN</td>
@@ -465,7 +467,7 @@ GS1 DataMatrix on GS1:n kehittämä kaksiulotteinen viivakoodi, joka voidaan tul
             <td><code>12345678910</code></td>
         </tr>
        <tr>
-            <td>(91) = Internal (elementtitunnus)</td>
+            <td>(91) = Internal (element classification)</td>
             <td><code>V1001</code></td>
         </tr>
        <tr>
@@ -477,23 +479,26 @@ GS1 DataMatrix on GS1:n kehittämä kaksiulotteinen viivakoodi, joka voidaan tul
 </html>
 
 **GS1 DataMatrix -tunnisteen koko ja laatu**   
-Viivakoodin fyysinen koko vaihtelee sen sisältämän tiedon määrän mukaan. Viivakoodin resoluution (X-dimensio) on oltava vähintään 0,38 mm ja enintään 0,45 mm. Merkinnöissä käytettävien GS1 2D-viivakoodien laadun tulee täyttää ISO / IEC 15415 -standardin vaatimukset. Näin voidaan varmistua niiden luettavuudesta.  
-Merkintöjen tulostamista varten on hyvä olla yhteydessä tunnistamisen ratkaisuihin erikoistuneeseen yritykseen tai yrityksiin. Tunnistamisen ratkaisuja tarjoavia yrityksiä on koottu mm. GS1:n kumppanisivulle.
+The physical size of a barcode varies according to the amount of data it contains. The resolution (X-dimension) of the barcode shall be a minimum of 0,38 mm and a maximum of 0,45 mm. The quality of the GS1 2D barcodes used for marking shall meet the requirements of ISO/IEC 15415. This will ensure their legibility.
 
-## 4.3 Tuotetunnistus GS1 Digital Link -standardin mukaisella QR-koodilla
-Mikäli tunnisteen avulla halutaan yksilöinnin ja tunnistamisen lisäksi viestiä kuluttajalle/käyttäjälle älypuhelimen tai muun vastaavan laitteen kautta, voidaan tunnisteena käyttää GS1 Digital Link -standardin mukaista QR-koodia. Tavallisesta QR-koodista tämä eroaa siten, että sen tietosisältö on GS1-standardin määrittämä. Standardi varmistaa, että koodit ja niiden sisältämät tiedot ovat rakenteeltaan yhdenmukaisia ja siten liikuteltavia eri järjestelmien ja toimijoiden välillä sekä luettavissa ja tulkittavissa viivakoodinlukijoilla.
+It is advisable to contact a company or companies specialising in identification solutions for the printing of the markings. Companies offering identification solutions are listed on the GS1 partner page.
 
-GS1 Digital Link URI:n sisältävä QR-koodi palvelee kahta käyttötarkoitusta:
+### 4.3 GS1 Digital Link QR code  
+If the tag is intended to not only enable identification and carry data but also communicate with the consumer/user via a smartphone or similar device, a QR code compliant with the GS1 Digital Link standard can be used. Unlike a regular QR code, the data content of this code is defined by the GS1 standard. The standard ensures that the codes and the information they contain are structurally consistent, making them interoperable across different systems and stakeholders, as well as readable and interpretable by barcode scanners.
 
->**1. Tuotteen yksilöinti ja tunnistaminen offline-tilassa**  
-Sitä voidaan käyttää ilman verkkoyhteyttä tuotteen yksilöimiseen ja tunnistamiseen viivakoodinlukijoilla, aivan kuten perinteisiä EAN-viivakoodeja. Tuotteen yksilöinnissä käytetään QR-koodiin sisällytettävää GS1-standardin mukaista GTIN-koodia ja tarvittavia lisätietoja, kuten MTO varianttinumeroa ja sarjanumeroa.
+A QR code containing a GS1 Digital Link URI serves two purposes: 
 
->**2. Verkossa jaettava tietosisältö**  
-Sitä voidaan käyttää kuten mitä tahansa QR-koodia, eli ohjaamaan älypuhelimen tai muun vastaavan laitteen käyttäjä verkossa olevaan sisältöön. Erilaiset sovellukset voivat suorittaa saman QR-koodin lukemisen kautta myös muita toimintoja ja näyttää erilaista sisältöä.
+>**1. Offline Product Identification and data capture**
+It can be used without an internet connection to identify and data capture the product via barcode scanners, just like traditional EAN barcodes. The product is identified using the GTIN code included in the QR code, as specified by the GS1 standard, along with additional required information such as the MTO variation number and serial number.
 
-GS1 Digital Link URI:ssa käytetään GS1-sovellustunnuksia tietojen sisällyttämiseen. Alla olevassa esimerkissä on muodostettu taulukossa esitetyt minimitietovaatimukset sisältävä GS1 Digital Link URI.
+>**2. Online Interaction**
+It can be used like any other QR code to direct the user of a smartphone or similar device to online content. Various applications can also perform other actions and display different content based on the same QR code scan.
 
-###### Taulukko 14. Esimerkin QR-koodi sisältää taulukossa esitetyt tiedot GS1 Digital Link URI -muodossa: https://id.rt.fi/01/06400001000247/242/123456/21/12345678910
+The GS1 Digital Link URI incorporates GS1 Application Identifiers for embedding data. The example below shows
+a GS1 Digital Link URI formed to include the minimum data requirements presented in the table
+
+###### Table 14. The QR code in the example contains the information shown in the table in GS1 Digital Link URI format:
+: https://id.rt.fi/01/06400001000247/242/123456/21/12345678910
 
 <html>
 <table>
@@ -501,14 +506,14 @@ GS1 Digital Link URI:ssa käytetään GS1-sovellustunnuksia tietojen sisällytt�
         <tr>            
           <th rowspan="5"><img width="110" alt="QR-koodi_Kuva1" src="https://github.com/user-attachments/assets/22a88262-4a5f-469a-bd88-95fa37559281" />
             </th>   
-         <th colspan="2">Esimerkin tietosisältö</th>
+         <th colspan="2">Example information content</th>
         </tr>
         <tr>
-            <td><b>GS1-sovellustunnukset (AI)</b></td>
-            <td><b>Arvo (esimerkki)</b></td>
+            <td><b>GS1 Application Identifier (AI)</b></td>
+            <td><b>Value (example)</b></td>
         </tr>
         <tr>
-            <td>(01) = GTIN-koodi</td>
+            <td>(01) = GTIN</td>
             <td><code>06400001000247</code></td>
         </tr>
          <tr>
@@ -523,26 +528,30 @@ GS1 Digital Link URI:ssa käytetään GS1-sovellustunnuksia tietojen sisällytt�
 </table>
 </html>
 
-**Esimerkki GS1 Digital Link QR-koodien käyttötarkoituksesta ja suosituksista**  
-Esimerkin tarkoitus on ainoastaan esitellä tietosisällön rakennetta. Siinä on käytetty kuvitteellista verkkotunnusta id.rt.fi, joten älypuhelimen kameralla luettaessa esimerkkikoodi ei ohjaudu mihinkään sisältöön.  
+**Example Purpose and Recommendations for GS1 Digital Link QR Codes**
+The purpose of the example is solely to demonstrate the structure of the data content. It uses a fictional Domain Name <code>id.rt.fi</code>, so when scanned with a smartphone camera, the example code does not direct to any actual content. 
 
-Lähtökohtaisesti suositellaan, että QR-koodiin sisällytetyn GS1 Digital Link URI:n ei tulisi olla minkään varsinaisen verkkosivun URL-osoite. Tästä osoitteesta suositellaan tekemään uudelleenohjaus siihen sisältöön, joka koodin kautta halutaan näyttää.  
+As a general recommendation, the GS1 Digital Link URI included in the QR code should not point directly to a live webpage's URL. Instead, it is recommended to set up a redirection from this address to the desired content to be displayed through the code.
 
-GS1 Digital Link URI:ssa voidaan käyttää mitä tahansa verkkotunnusta, koska se ei vaikuta tuotteen yksilöintiin ja tunnistamiseen. Verkkotunnus määrittää, minne QR-koodin skannaava henkilö ohjataan verkossa. Koodissa on siten mahdollista käyttää myös palveluntarjoajan verkkotunnusta, mutta on hyvä tiedostaa, että tästä voi seurata ns. vendor lock-in -tilanne, jolloin palveluntarjoajan vaihtaminen vaatii verkkotunnuksen muutoksen myötä myös tuotteisiin painettujen koodien vaihtamisen. Siksi on suositeltavaa käyttää koodissa yrityksen omaa verkkotunnusta. Näin tehdessään yritys voi edelleen ohjata sen tarvittaessa uudelleen palveluntarjoajan verkkotunnuksen alla olevaan sisältöön, jos sille koetaan tarvetta.  
+The Domain Name in a GS1 Digital Link URI can be any Domain Name, as it does not affect the product's identification or recognition. The Domain Name determines where the person scanning the QR code will be directed online. Therefore, it is possible to use the Domain Name of a service provider in the code. However, it is important to be aware that this may lead to a vendor lock-in situation, where changing the service provider would require replacing the codes printed on the products due to the change in the Domain Name.
 
-**Suositeltu lähestymistapa: Tuotteen tunnistamiseen käytettävän aladomainin käyttö**  
-Suositeltu toimintapa on käyttää GS1 Digital Link -standardin mukaisessa QR-koodissa varsinaisen verkkotunnuksen alle luotavaa, tuotteiden yksilöintitarpeisiin varattua aliverkkotunnusta. Aliverkkotunnus (alidomain) on varsinaisesta verkkotunnuksesta irrallinen osio, jota käytetään varsinaisen verkkotunnuksen rinnalla johonkin tiettyyn käyttötarkoitukseen. Aliverkkotunnuksen käyttö QR-koodissa mahdollistaa tuoteyksilöinnissä käytettävien URL-osoitteiden pysyvyyden ja riippumattomuuden varsinaisten verkkosivujen rakenteesta. Tämä tuo joustavuutta yrityksen verkkosivujen ylläpitoon, koska päivitysten yhteydessä ei tarvitse huolehtia QR-koodissa olevasta linkistä, vaan koodista voidaan aina tehdä uudelleenohjaus päivitettyyn kohdesivustoon.  
+**Recommended Approach: Using a Subdomain for Product Identification**
+It is recommended to use the company's own Domain Name in the QR code. This allows the company to redirect it, if needed, to content hosted under the service provider's Domain Name. A preferred practice is to create a dedicated Subdomain under the main Domain Name for product identification purposes.
 
-**Esimerkkejä aliverkkotunnuksen käytöstä**  
-Aliverkkotunnus voidaan tehdä joko yrityksen verkkotunnuksen tai sen eri brändien verkkotunnusten perusteella.  
-Esimerkiksi:  
+A Subdomain is a separate section of the main Domain Name, used alongside the main domain for specific purposes. Using a Subdomain in QR codes ensures the permanence and independence of the URLs used for product identification from the structure of the main website. This approach adds flexibility to the maintenance of the company's website, as updates to the main website do not require changes to the links embedded in the QR codes. The codes can always be redirected to the updated target pages.
 
-```yritys-x.fi``` -> ```id. yritys-x.fi```  
+**Examples of Subdomain Usage**
+The Subdomain can be based on the company's main domain or its various brand domains.  
+For example:
+
+```company-x.fi``` -> ```id.company-x.fi```  
 
 ```brand-x.fi``` -> ```id.brand-x.fi```  
 
-Mitä lyhyempi GS1 Digital Link URI on, sitä pienempään tilaan sen sisältävä QR-koodi mahtuu.  
-GS1 Digital Link -standardin käyttöä on kuvattu tarkemmin seuraavissa GS1-standardeissa:  
+The shorter the GS1 Digital Link URI, the smaller the QR code containing it can be.
+
+**Further Information**
+The use of the GS1 Digital Link standard is described in greater detail in the following GS1 standards:  
 https://ref.gs1.org/standards/digital-link/uri-syntax/  
 https://ref.gs1.org/standards/resolver/
 
