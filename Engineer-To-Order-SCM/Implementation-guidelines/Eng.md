@@ -347,7 +347,7 @@ Value: ```0```
 Description: Filter value indicating "product not scanned at the point-of-sale."  
 **4. GS1 Company Prefix**  
 Value: ```6400001```  
-Description: Identifies the company issuing the product. 
+Description: Identifies the company issuing the product.  
 **5. Indicator and Item Reference Number**  
 Value: ```000024```  
 Description: Combines the indicator digit and the item reference number for the specific product.  
@@ -398,7 +398,7 @@ Additional information can be stored in the User Memory of the RFID chip as Appl
 </table>
 </html>
 
-**Implementing RFID Tags**
+**Implementing RFID Tags**  
 For programming RFID tags, it is recommended to collaborate with companies specializing in identification solutions. A list of such solution providers can be found on the GS1 Partner Page and the RFID Lab Finland Association website.
 
 #### 4.1.1 Use of RFID symbol
@@ -431,7 +431,7 @@ When using RFID technology for automatic product identification, it is essential
 **Utilizing RFID Symbols on Precast Concrete Elements**  
 The RFID symbol must be positioned so that it is easily visible to those trying to locate or read the actual RFID tag. The use of an RFID symbol is recommended in precast concrete production drawings to indicate the location of RFID tags (example illustrated in Annex 1). The use of the RFID tag shall be indicated by the RFID tag symbol and the type of tag used and the location information shall be included in the product catalogue of the precast concrete element.
 
-**Placing the RFID Tag to the Physical Product**
+**Placing the RFID Tag to the Physical Product**  
 The readability of RFID tagged objects is affected by several factors, such as the RFID chip, the RFID antenna and the encapsulation (the whole RFID tag). The environment in which the RFID tag is read has a significant impact on readability. For example, an environment with many metal objects can detune and reflect RFID signals, while liquids tend to absorb them, both of which can interfere with the performance of RFID systems.
 
 There are different types of RFID tags on the market, suitable for different uses. RFID tags can be used in a precast concrete environment, embedded in the precast concrete, on the surface of the precast concrete, or as part of a product label to be attached to precast concrete. When cast into a precast concrete element, the readability of the RFID tag is affected by the material surrounding it, so the RFID tag chosen should be such that it can be read through the surrounding concrete to a sufficient depth. The product label formed by the external applicator should include a note on the use of the RFID tag and a specification as to whether the tag is located on the tab itself or cast inside the element. The benefits of using RFID are based on automated reading events and the resulting transaction path. In simple terms, a read event is when a reader detects a specific RFID tag.
@@ -497,8 +497,7 @@ It can be used like any other QR code to direct the user of a smartphone or simi
 The GS1 Digital Link URI incorporates GS1 Application Identifiers for embedding data. The example below shows
 a GS1 Digital Link URI formed to include the minimum data requirements presented in the table
 
-###### Table 14. The QR code in the example contains the information shown in the table in GS1 Digital Link URI format:
-: https://id.rt.fi/01/06400001000247/242/123456/21/12345678910
+###### Table 14. The QR code in the example contains the information shown in the table in GS1 Digital Link URI format: https://id.rt.fi/01/06400001000247/242/123456/21/12345678910
 
 <html>
 <table>
@@ -528,14 +527,14 @@ a GS1 Digital Link URI formed to include the minimum data requirements presented
 </table>
 </html>
 
-**Example Purpose and Recommendations for GS1 Digital Link QR Codes**
+**Example Purpose and Recommendations for GS1 Digital Link QR Codes**  
 The purpose of the example is solely to demonstrate the structure of the data content. It uses a fictional Domain Name <code>id.rt.fi</code>, so when scanned with a smartphone camera, the example code does not direct to any actual content. 
 
 As a general recommendation, the GS1 Digital Link URI included in the QR code should not point directly to a live webpage's URL. Instead, it is recommended to set up a redirection from this address to the desired content to be displayed through the code.
 
 The Domain Name in a GS1 Digital Link URI can be any Domain Name, as it does not affect the product's identification or recognition. The Domain Name determines where the person scanning the QR code will be directed online. Therefore, it is possible to use the Domain Name of a service provider in the code. However, it is important to be aware that this may lead to a vendor lock-in situation, where changing the service provider would require replacing the codes printed on the products due to the change in the Domain Name.
 
-**Recommended Approach: Using a Subdomain for Product Identification**
+**Recommended Approach: Using a Subdomain for Product Identification**  
 It is recommended to use the company's own Domain Name in the QR code. This allows the company to redirect it, if needed, to content hosted under the service provider's Domain Name. A preferred practice is to create a dedicated Subdomain under the main Domain Name for product identification purposes.
 
 A Subdomain is a separate section of the main Domain Name, used alongside the main domain for specific purposes. Using a Subdomain in QR codes ensures the permanence and independence of the URLs used for product identification from the structure of the main website. This approach adds flexibility to the maintenance of the company's website, as updates to the main website do not require changes to the links embedded in the QR codes. The codes can always be redirected to the updated target pages.
@@ -550,7 +549,7 @@ For example:
 
 The shorter the GS1 Digital Link URI, the smaller the QR code containing it can be.
 
-**Further Information**
+**Further Information**  
 The use of the GS1 Digital Link standard is described in greater detail in the following GS1 standards:  
 https://ref.gs1.org/standards/digital-link/uri-syntax/  
 https://ref.gs1.org/standards/resolver/
