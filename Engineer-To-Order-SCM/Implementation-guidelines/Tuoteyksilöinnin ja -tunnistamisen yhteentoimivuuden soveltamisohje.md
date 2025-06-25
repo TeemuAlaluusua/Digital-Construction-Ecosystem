@@ -233,10 +233,10 @@ BETK-projektissa on tunnistettu, että tunnisteeseen on tarve sijoittaa lisätie
     <thead>
         <tr>             
            <th>EPC järjestelmä</th>
-           <th>EPC-binaarikoodausjär-jestelmä</th>
+           <th>EPC-binaarikoodausjärjestelmä</th>
            <th>EPC + suodatin-bittimäärä</th>
            <th>Sisältää suodatinarvon</th>
-           <th>Sarjanumerorajoitus</th>
+           <th>Sarjanumero rajoitus</th>
         </tr>
     </thead>
     <tbody>
