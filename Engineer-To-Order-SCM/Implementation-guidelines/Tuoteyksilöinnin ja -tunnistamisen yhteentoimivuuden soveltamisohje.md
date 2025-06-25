@@ -152,8 +152,7 @@ Huom! Valittu RFID-tunniste voi asettaa rajoituksia sarjanumeron pituudelle ja a
 | (21)               | X1 ----vaihtuva pituus --->X20 |
 
 ### 3.6 Elementtitunnus
-Elementille määritetty tunnus, joka on ihmisen helposti luettavissa, ja voi sisältää tietoa esimerkiksi elementin
-tyypistä tai asennuskerroksesta. Elementtitunnuksen ei tarvitse olla globaalisti yksilöllinen.
+Elementille määritetty tunnus, joka on ihmisen helposti luettavissa, ja voi sisältää tietoa esimerkiksi elementin tyypistä tai asennuskerroksesta. Elementtitunnuksen ei tarvitse olla globaalisti yksilöllinen.
 
 ###### Taulukko 6. Elementtitunnukset rakenne
 
@@ -171,9 +170,7 @@ GUID, toiselta nimeltään UUID, on globaalisti yksilöllinen tunnuste, joka voi
 | (92)               | xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx |
 
 ### 3.8 Verkkotunnus
-Yhdistämällä verkkotunnus ja muita yksilöintitietoja voidaan hakea internetin välityksellä lisätietoja yksilöidystä
-tuotteesta URL-osoitteen avulla, mikäli tietojen toimittaja on toteuttanut ominaisuuden ja pitää sitä edelleen
-toiminnassa.
+Yhdistämällä verkkotunnus ja muita yksilöintitietoja voidaan hakea internetin välityksellä lisätietoja yksilöidystä tuotteesta URL-osoitteen avulla, mikäli tietojen toimittaja on toteuttanut ominaisuuden ja pitää sitä edelleen toiminnassa.
 
 ###### Taulukko 8. Verkkotunnuksen rakenne. * Huom! Optisessa tunnistamisessa (esim. QR-koodi) tämän tiedon sisällyttämisessä käytetään edellä esitetyn GS1 Digital Link URI syntax 1.5.0 -standardin mukaista menettelyä.
 
