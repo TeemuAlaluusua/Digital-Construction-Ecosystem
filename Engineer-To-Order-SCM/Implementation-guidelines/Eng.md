@@ -217,34 +217,33 @@ Tässä soveltamisohjeessa on kuvattu tuotetunnistusta GS1 DataMatrix -koodin av
 
 ![2025-06-23_Kuva1](https://github.com/user-attachments/assets/f1e26ff8-63e8-48e5-8808-ce45a36583b8)
 
-###### Kuva 2. Koneellinen tuotetunnistaminen GS1-tiedonkatajien avulla
+###### Figure 2. Automatic identification and data capture via GS1 Data Carriers
+The most efficient AIDC carrier for precast concrete elements has been found to be a passive EPC/RFID Gen-2 UHF tag, which enables the identification number of the element to be read effectively from several meters away without a direct line of sight to the tag itself.
 
-Betonielementtien automaattisessa tunnistamisessa tehokkaimmaksi tiedonkantajaksi on havaittu EPC/RFID
-Gen-2 UHF -standardiin perustuva passiivinen etäluettava tunniste, josta elementin tunnistenumero voidaan lukea tehokkaasti myös useampien metrien päästä ilman suoraa näköyhteyttä itse tunnisteeseen.
+### 4.1 EPC/RFID Gen2 UHF -tag
+This implementation guideline is based on the EPC/RFID Gen2 Radio Protocol, which defines the physical data transmission between an RFID chip and an RFID reader, using commands to control the RFID reader's interaction with RFID tags. The EPC/RFID Gen2 protocol is an ISO standard and includes various functionalities, such as security features and extended user memory.
 
-### 4.1 Tuotetunnistus passiivisella EPC/RFID Gen2 UHF -tunnisteella
-Tämä ohje perustuu EPC / RFID Gen2 Radio -protokollaan, joka määrittelee fyysisen tiedonsiirron RFID-sirun ja RFID-lukijan välillä käskyillä RFID-lukijan ohjaamiseksi suhteessa RFID-tunnisteisiin. EPC / RFID Gen2 on ISO-standardi ja kattaa erilaisia toiminnallisuuksia, kuten suojauksen ja laajennetun käyttäjämuistin.
+GS1 has published the TDS (Tag Data Standard), which specifies how GS1 identification keys, such as SGTIN, are
+incorporated into EPC Gen2 RFID tags for remote reading. The TDS standard is openly available to everyone and
+is already widely used for RFID identification across various industries.
 
-GS1 on julkaissut TDS:n (Tag Data Standard), joka määrittelee miten GS1-standardin mukaiset yksilöintiavaimet, kuten SGTIN sisällytetään etäluettaviin EPC Gen2 RFID -tunnisteisiin. TDS-standardi on avoimesti kaikkien käytettävissä ja se onkin jo nykyisin laajasti käytössä RFID-tunnistamisessa eri toimialoilla.
+In product identification, the required data is embedded into EPC Gen2 RFID tags in accordance with the TDS standard, using the necessary GS1 Application Identifiers (AIs). Data encoding utilizes the tag's EPC memory and, as needed, the User memory.
 
-Tuotetunnistuksessa vaadittavat tiedot sisällytetään EPC Gen2 RFID -tunnisteisiin TDS-standardin mukaisesti, tarvittavia GS1-sovellustunnuksia hyödyntäen. Tietojen koodaamiseen käytetään tunnisteen EPC-muistia (EPC memory) ja tarvittavilta osin käyttäjämuistia (User memory).
+The EPC memory is designed to store the EPC code, which is a unique identifier for the item based on the GS1 standard. In the identification of precast concrete elements, the SGTIN code of the element is encoded in the EPC memory. This enables the quick reading of the element's unique identification number.
 
-EPC-muisti on suunniteltu sisältämään EPC-koodi, eli tunnistettavan asian yksilöivä GS1-standardin mukainen tunnistenumero. Betonielementtien yksilöinnissä EPC-muistiin koodataan elementin SGTIN-koodi. Tämä mahdollistaa elementin yksilöivän tunnistenumeron nopean lukemisen.
+User memory is used when additional information is required on the RFID tag beyond what the EPC memory can accommodate. In the BETK project, it has been identified that additional data, such as the Made-to-Order Variation Number, the element identifier used for classifying elements, and the GUID created by the design software, needs to be included in the tag. The following tables describes Structure of GTIN and SGTIN in 2D Barcodes and EPC/RFID Gen 2V2 RFID Tags
 
-Käyttäjämuistia käytetään, kun RFID-tunnisteelle on tarve saada enemmän tietoa kuin EPC-muistiin mahtuu.  
-BETK-projektissa on tunnistettu, että tunnisteeseen on tarve sijoittaa lisätietoa kuten variaationumero (Madeto-Order Variation Number), elementtien luokittelussa käytettävä elementtitunnus ja suunnitteluohjelmiston luoma GUID-tunniste. GTIN:n ja SGTIN:n rakenne viivakoodeissa ja EPC/RFID Gen 2V2 RFID-tunnisteissa
-
-###### Taulukko 9. Käytössä olevat EPC-binäärikoodausjärjestelmät ja niiden rajoitukset. Sovellettava menetelmä määräytyy numeeristen tai alfanumeeristen merkkien määrätarpeen mukaan.
+###### Table 9. EPC Binary Encoding Schemes Use and Their Restrictions. The applicable method is determined by the required number of numeric or alphanumeric characters.
 
 <html>
 <table>
     <thead>
         <tr>             
-           <th>EPC järjestelmä</th>
-           <th>EPC-binaarikoodausjär-jestelmä</th>
-           <th>EPC + suodatin-bittimäärä</th>
-           <th>Sisältää suodatinarvon</th>
-           <th>Sarjanumerorajoitus</th>
+           <th>EPC Scheme</th>
+           <th>EPC-binary Coding Scheme</th>
+           <th>EPC + Filter Bit Count</th>
+           <th>Inclues Filter Value</th>
+           <th>Serial number limitation</th>
         </tr>
     </thead>
     <tbody>
@@ -252,14 +251,14 @@ BETK-projektissa on tunnistettu, että tunnisteeseen on tarve sijoittaa lisätie
             <td rowspan="2">sgtin</td>
             <td>sgtin-96</td>
             <td>96</td>
-            <td>Kyllä</td>
-            <td>Vain numerot; ei alkavia nollia, desi-maaliluvun arvo alle 2³⁸ (eli desimaali-luku enintään 274 877 906 943).</td>
+            <td>Yes</td>
+            <td>Numeric-only, no leading zeros, decimal value must be less than 2³⁸ (i.e., decimal value less than or equal to 274,877,906,943)..</td>
         </tr>
         <tr>
             <td>sgtin-198</td>
             <td>198</td>
-            <td>Kyllä</td>
-            <td>Kaikki GS1 General Specifications -määritysten sallimat arvot (enintään 20 aakkosnumeerista merkkiä).</td>
+            <td>Yes</td>
+            <td>All values permitted by GS1 General Specifications (up to 20 alphanumeric characters).</td>
         </tr>
     </tbody>
 </table>
