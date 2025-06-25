@@ -1,7 +1,7 @@
 # Implementation guideline for unique product identification and data carrier interoperability
 
 **Engineer-To-Order Construction products**  
->Julkaisija: Rakennusteollisuus ry\
+>Publisher: Rakennusteollisuus ry\
 >Release: 23.6.2025  
 Versio: 1.3  
 Status: Released
@@ -102,118 +102,119 @@ For optical recognition (e.g., QR codes), the inclusion of this information foll
 
 ###### Table 1. Minimum data requirements to be included in the information carrier (2D DataMatrix Barcode or EPC/RFID Tag)
 
-| GS1 Application Identifier (AI) | Example                      |
-|---------------------------------|------------------------------|
-|(01) GTIN-koodi                  | <code>06400001000247</code>  |
-|(242) MTO varianttinumero        | <code>123456</code>          |
-|(21) Sarjanumero                 | <code>12345678910</code>     | 
+| GS1 Application Identifier (AI)     | Example                      |
+|-------------------------------------|------------------------------|
+|(01) GTIN                            | <code>06400001000247</code>  |
+|(242) Made-To-Order variation number | <code>123456</code>          |
+|(21) Serial number                   | <code>12345678910</code>     | 
 
-###### Taulukko 2.Tiedonkantajaan lisättävät valinnaiset lisätiedot. *Huom! Optisessa tunnistamisessa (esim. QR-koodi) verkkotunnuksen sisällyttämisessä käytetään GS1 Digital Link URI syntax 1.5.0 -standardin mukaista menettelyä
+###### Table 2. Identification Data to be Included in the Data Carrier (2D DataMatrix Barcode or EPC/RFID Tag). Note: For optical recognition
+(e.g., QR codes), the inclusion of the domain name follows the procedure outlined in the GS1 Digital Link URI Syntax 1.5.0 standard.
 
-| Sovellustunnus (AI) | Tieto           | Esimerkki                                         |
-|---------------------|-----------------|---------------------------------------------------|
-| (91)                | Elementtitunnus | <code>V1001</code>                                |
-| (92)                | GUID            | <code>ba34cf17-0c4b-4c6f-9295-cae05aa74ad4</code> |
-| (99)                | Verkkotunnus    | <code>id.rt.fi </code>                            |
+| GS1 Application Identifier (AI) | Definition      | Example                                          |
+|---------------------------------|-----------------|---------------------------------------------------|
+| (91)                            | Elementtitunnus | <code>V1001</code>                                |
+| (92)                            | GUID            | <code>ba34cf17-0c4b-4c6f-9295-cae05aa74ad4</code> |
+| (99)                            | Domain Name     | <code>id.rt.fi </code>                            |
 
-### 3.2 GS1- yritystunniste
-GS1-yritystunnus, eli GS1 Company Prefix, on yksilöllinen numerosarja, jonka GS1-organisaatio myöntää yrityksille maailmanlaajuisesti. Yritystunniste on asiakaskohtainen, eikä samaa tunnistetta tai sen pohjalta tehtyjä numerosarjoja voi olla minkään muun toimijan käytössä. GS1-yritystunnusta käytetään monissa standardoiduissa tunnistusmenetelmissä, kuten viivakoodeissa ja RFID-tunnisteissa, ja se on pohjana GTIN-, GLN- ja SSCC-koodien muodostamisessa.
+### 3.2 GS1 Company Prefix
+The GS1 Company Prefix is a unique numeric sequence assigned to companies globally by the GS1 organization. This prefix is specific to each company and cannot be used by any other entity or for generating other numeric sequences. The GS1 Company Prefix is utilized in many standardized identification methods, such as barcodes and RFID tags, and serves as the basis for creating GTIN, GLN, and SSCC codes.
 
-Suomessa GS1-yritystunnisteita myöntää GS1 Finland ja sellaisen voi tilata GS1 Finlandin verkkokaupasta. Oikean GS1-yritystunnisteen valinnassa tulee huomioida tarvittavien GTIN-koodien määrä, johon on tarvittaessa saatavilla apua GS1 Finlandin asiakaspalvelusta.
+In Finland, GS1 Company Prefixes are issued by GS1 Finland, and they can be ordered from the GS1 Finland online store. When selecting the appropriate GS1 Company Prefix, it is important to consider the number of GTIN codes needed. Assistance in determining this can be obtained from GS1 Finland's customer service.
 
-### 3.3 GTIN-koodin muodostaminen
-GTIN-koodien muodostaminen edellyttää, että yrityksellä on käytettävissään GS1-yritystunniste (GS1 Company Prefix, GCP). GTIN-koodien muodostaminen taas mahdollistaa tuotteiden yksilöllisen tunnistamisen perustuotteen tasolla.
+### 3.3 GTIN code generation
+Creating GTIN codes requires a company to have a GS1 Company Prefix (GCP). GTIN codes enable the unique identification of products at the base product level.
 
-GTIN-koodi alkaa GS1-yritystunnisteella, jonka pituus GS1 Finlandilta saatavilla olevilla vaihtoehdoilla voi olla 7–11 numeroa. Tämän jälkeen seuraavat 1–6 numeroa voi määrittää itse, ja näissä suositellaan käytettäväksi juoksevaa numerointia. Käytettävissä olevien numeroiden määrä riippuu yritystunnisteen pituudesta. Koodin viimeinen, eli 13. numero, on tarkistusnumero, joka lasketaan 12 ensimmäisen numeron perusteella Modulo 10 -algoritmilla. Tarkistusnumeron laskemiseen voi käyttää esimerkiksi GS1 Finlandin tarjoamaa tarkistusnumerolaskuria: https://gs1.fi/fi/tarkistusnumerolaskuri
+A GTIN code begins with the GS1 Company Prefix, which can range from 7 to 11 digits in length for prefixes issued by GS1 Finland. Following the company prefix, 1 to 6 digits can be defined by the company, where the use of sequential numbering is recommended. The number of digits available for customization depends on the length of the company prefix. The last digit, the 13th digit, is a check digit calculated using the first 12 digits with the Modulo 10 algorithm. To calculate the check digit, tools such as the GS1 Finland Check Digit Calculator can be used: https://gs1.fi/fi/tarkistusnumerolaskuri
 
-###### Taulukko 3. GTIN-koodin rakenne
+###### Table 3. Structure of a GTIN Code
 
-| GS1-sovellustunnus | GS1-yritystunniste ---> <--- tuotekohtainen numero     |  Tarkistusnumero |
-|--------------------|--------------------------------------------------------|------------------|
-| (01)               |  <ins>0</ins> N1 N2 N3 N4 N5 N6 N7 N8 N9 N10 N11 N12   | N13              |
+| GS1 Application Identifier (AI) | GS1 Company Prefix ---> <--- Item number  | Check digit   |
+|--------------------|--------------------------------------------------------|---------------|
+| (01)               |  <ins>0</ins> N1 N2 N3 N4 N5 N6 N7 N8 N9 N10 N11 N12   | N13           |
  
-Viivakoodeissa ja RFID-tunnisteissa GTIN-koodin ilmaisemiseen käytettävä sovellustunnus on (01). GS1:n kansainvälisessä standardikehityksessä käsitellään parhaillaan tilauksesta valmistettavien ja tilauksesta suunniteltavien tuotteiden yksilöintiä. Tämän standardinkehitystyön tuloksena voi tulla muutoksia tilauksesta valmistettavien/suunniteltavien tuotteiden GTIN-koodien ilmaisemiseen. Tämä ohje päivitetään standardin valmistuessa.
+In barcodes and RFID tags, the Application Identifier (AI) used to express the GTIN is <code>(01)</code>. GS1's international standard development is currently addressing the identification of Make-To-Order (MTO) and Engineer-To-Order (ETO) products. This standardization effort may result in changes to how GTINs are expressed for such products. This guideline will be updated accordingly once the standard is finalized.
 
-Huom! GTIN-koodin pisin versio on 14-merkkiä pitkä ja tätä lyhyemmät GTIN-koodit täydennetään koodin eteen lisättävillä nollilla 14-merkkiä pitkiksi. GTIN-koodi ei voi olla tätä pidempi.
+Note: The longest version of a GTIN is 14 characters. GTINs shorter than 14 characters are padded with leading zeros to reach the 14-character length. A GTIN cannot exceed 14 characters.
 
-GS1 Finland tarjoaa yritystunnisteasiakkailleen käyttöön GS1 Rekisteri -palvelun GTIN-koodien muodostamiseen. Muodostamalla GTIN-koodin GS1 Rekisteri -palvelussa, voi varmistua niiden oikeasta muodosta.
+GS1 Finland provides its company prefix customers with access to the GS1 Registry service for generating GTIN codes. By creating GTIN codes through the GS1 Registry service, companies can ensure that the codes are formatted correctly.
 
-### 3.4 Variaatioiden yksilöinti
-Betonielementtien variaatioiden yksilöinnissä GTIN-koodiin yhdistetään lisätunnisteena variaationumero (Madeto-Order variation number). Variaationumero mahdollistaa sen, että voidaan tietää joidenkin elementtien olevan keskenään samanlaisia. Toisin sanoen, kun monta elementtiä, joilla on samat tekniset tiedot, valmistetaan kerralla, niillä kaikilla on sama GTIN-koodin ja variaationumeron yhdistelmä.
+### 3.4 Identification of product variations
+In the identification of variations in precast concrete elements, a variation number (Made-to-Order variation number) is combined with the GTIN code as an additional identifier. The variation number allows for identifying elements that are identical to one another. In other words, when multiple elements with the same technical specifications are manufactured at once, they all share the same combination of GTIN code and variation number.
 
-Viivakoodeissa ja RFID-tunnisteissa käytetään sovellustunnusta <code>(242)</code> ilmaisemaan variaationumero. GS1-standardin mukaan variaationumero on numeerinen ja vaihtuvapituinen, enintään kuusi numeroa pitkä.
+In barcodes and RFID tags, the Application Identifier (242) is used to express the variation number. According to the GS1 standard, the variation number is numeric, variable in length, and up to six digits long.
 
-###### Taulukko 4. MTO-Varianttinumero-koodin rakenne
+###### Table 4. Structure of the MTO Variation Number
 
-| GS1-sovellustunnus | Made-to-Order variation number |
-|--------------------|--------------------------------|
-| (242)              | N1 ----vaihtuva pituus --->N6  |
+| GS1 Application Identifier (AI) | Made-to-Order variation number |
+|---------------------------------|--------------------------------|
+| (242)                           | N1 ----variable length--->N6  |
 
-### 3.5 Sarjanumerointi
-Yhdistämällä GTIN-koodiin (tai GTIN-koodin ja variaationumeron yhdistelmään) sarjanumerointi, voidaan yksilöidä ja erottaa toisistaan keskenään identtiset elementit. GS1-sovellustunnus (21) osoittaa, että tietokenttä sisältää sarjanumeron. GS1-standardin mukaan sarjanumero on aakkosnumeerinen ja enintään 20 merkkiä pitkä.
-Huom! Valittu RFID-tunniste voi asettaa rajoituksia sarjanumeron pituudelle ja aakkosten käytölle, joten asia on hyvä tarkistaa RFID-ratkaisutoimittajalta.
-###### Taulukko 5. Sarjanumero-koodin rakenne
+### 3.5 Serial number
+By combining a GTIN code (or a combination of a GTIN code and a variation number) with serial numbering, it is possible to uniquely identify and distinguish identical elements from one another. The GS1 Application Identifier <code>(21)</code> indicates that the data field contains the serial number.
 
-| GS1-sovellustunnus | Serial number                  |
-|--------------------|--------------------------------|
-| (21)               | X1 ----vaihtuva pituus --->X20 |
+According to the GS1 standard, the serial number is alphanumeric and up to 20 characters long. Note: The selected RFID tag may impose restrictions on the length of the serial number and the use of alphabetic characters, so it is advisable to verify these limitations with the RFID solution provider.
+###### Table 5. Structure of the Serial number
 
-### 3.6 Elementtitunnus
-Elementille määritetty tunnus, joka on ihmisen helposti luettavissa, ja voi sisältää tietoa esimerkiksi elementin
-tyypistä tai asennuskerroksesta. Elementtitunnuksen ei tarvitse olla globaalisti yksilöllinen.
+| GS1 Application Identifier (AI) | Serial number                  |
+|---------------------------------|--------------------------------|
+| (21)                            | X1 ----variable length--->X20 |
 
-###### Taulukko 6. Elementtitunnukset rakenne
+### 3.6 National element classification number
+Manufacturers' Unique Product Identification (UPID) designated for a precast concrete element, which is easily readable by humans and may include information such as the element type or installation level. The national element classification number does not need to be globally unique.
 
-| GS1-sovellustunnus | Elementtitunnus                |
-|--------------------|--------------------------------|
-| (91)               | X1 ----vaihtuva pituus --->X20 |
+###### Table 6. National element classification number structure
+
+| GS1 Application Identifier (AI) | National element classification number structure|
+|---------------------------------|-------------------------------------------------|
+| (91)                            | X1 ----variable length--->X20                   |
 
 ### 3.7 GUID
-GUID, toiselta nimeltään UUID, on globaalisti yksilöllinen tunnuste, joka voidaan määrittää mallinnusohjelman toimesta tai muulla yksilöllisyyden varmistavalla tavalla.
+Globally Unique Identifier (GUID), also known as Universally Unique Identifier (UUID), is a globally unique alphanumeric code combination that can be assigned by modeling software or other means to ensure uniqueness.
 
-###### Taulukko 7. GUID-koodin rakenne
+###### Table 7. GUID code structure
 
-| GS1-sovellustunnus | GUID                                 |
-|--------------------|--------------------------------------|
-| (92)               | xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx |
+| GS1 Application Identifier (AI) | GUID                                 |
+|---------------------------------|--------------------------------------|
+| (92)                            | xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx |
 
-### 3.8 Verkkotunnus
-Yhdistämällä verkkotunnus ja muita yksilöintitietoja voidaan hakea internetin välityksellä lisätietoja yksilöidystä
-tuotteesta URL-osoitteen avulla, mikäli tietojen toimittaja on toteuttanut ominaisuuden ja pitää sitä edelleen
-toiminnassa.
+### 3.8 Domain Name
+By combining a Domain Name with other identification information, additional details about a specific product can be retrieved over the internet using a URL, provided the information supplier has implemented this feature and continues to maintain its availability.
 
-###### Taulukko 8. Verkkotunnuksen rakenne. * Huom! Optisessa tunnistamisessa (esim. QR-koodi) tämän tiedon sisällyttämisessä käytetään edellä esitetyn GS1 Digital Link URI syntax 1.5.0 -standardin mukaista menettelyä.
 
-|GS1-sovellustunnus |Verkkotunnus                                                          |
-|-------------------|----------------------------------------------------------------------|
-|(99)               |<alitunnus.><tunnus.ylätunnus>, jossa <alitunnus.> toistuu 0…n kertaa)|
+###### Table 8. Structure of a Domain Name. * Note: In optical recognition (e.g., QR codes), the inclusion of this information follows the procedure outlined in the GS1 Digital Link URI Syntax 1.5.0 standard.
 
-Tässä dokumentissa määritellään kaksi tapaa yhdistää verkkotunnus muihin yksilöintitietoihin URL-osoitteen muodostamiseksi. Tuloksena muodostuu GS1 Digital Link -standardin tai IEC 61406 -standardin mukainen URLosoite.  
+| GS1 Application Identifier (AI) | Domain Name                                                                    |
+|---------------------------------|--------------------------------------------------------------------------------|
+|(99)                             |<subdomain.><domain.toplevel-domain> Where <subdomain.> can appear 0 to n times.|
+
+This document defines two methods for combining a Domain Name with other identification information to form a URL. The resulting URL conforms to the GS1 Digital Link standard or the IEC 61406 standard. 
 
 #### 3.8.1 GS1 Digital Link URL-osoitteen muodostaminen
-GS1 Digital Link on GS1:n määrittämä standardi miten verkkotunnuksen avulla voidaan määrittää tuotteelle URLosoite. GS1 ei kuitenkaan ole määritellyt miten verkkotunnuksen voisi kirjoittaa RFID-tunnisteeseen kun halutaan määrittää GS1 Digital Link yksilötasolla. (Määritys on GS1:ssä työn alla, mutta toistaiseksi BETK:ssa noudatetaan omaa tapaa.)
+**GS1 Digital Link** is a GS1 standard for automatic identification and data capture (AIDC) that specifies how a domain name can be used to assign a URL to a product. However, GS1 has not yet defined how a domain name can be written into an RFID tag to specify GS1 Digital Link at an individual level. (This specification is under development at GS1, but for now, BETK follows its own method.)
 
-BETK soveltamisohjeen mukaisesti GS1 Digital Link muodostetaan seuraavasti:  
-**Yksilöinnin Taso 1:** ```https://<verkkotunnus>/01/<GTIN>```  
-**Yksilöinnin Taso 2:** ```https://<verkkotunnus>/01/<GTIN>/242/<MTO varianttinumero>```  
-**Yksilöinnin Taso 3:** ```https://<verkkotunnus>/01/<GTIN>/242/<MTO varianttinumero>/21/<sarjanumero>```  
-**Taso 3 kun ei varianttinumeroa määritetty:** ```https://<verkkotunnus>/01/<GTIN>/21/<sarjanumero>```  
-Viimeiselle tapaukselle esimerkiksi muodostuu: https://id.rt.fi/01/06400001000247/21/12345678910  
-GS1 Digital Link -standardista on kerrottu lisää tämän ohjeen kappaleessa 4.3.  
 
-#### 3.8.2 IEC 61406 Identification Link muotoisen URL-osoitteen muodostaminen
-Lisäksi voidaan määrittää GUID-tunnisteeseen perustuva IEC 61406 Identification Link standardin mukainen URL-osoite seuraavasti:  
+According to the BETK application guideline, GS1 Digital Link is formed as follows:  
+**Identification Level 1:** ```https://<Domain Name>/01/<GTIN>```  
+**Identification Level 2:** ```https://<Domain Name>/01/<GTIN>/242/<MTO variant number>```  
+**Identification Level 3:** ```https://<Domain Name>/01/<GTIN>/242/<MTO variant number>/21/<serial number>```  
+**Level 3 without a variant number:** ```https://<Domain Name>/01/<GTIN>/21/<serial number>```  
+For the last case, an example URL is: https://id.rt.fi/01/06400001000247/21/12345678910  
+More details about the GS1 Digital Link standard can be found in Section 4.3 of this guideline.
 
-```https://<verkkotunnus>/<GUID>```  
+#### 3.8.2 Generation of the IEC 61406 Identification Link URL
+Additionally, a URL based on a GUID identifier can be defined in accordance with the IEC 61406 Identification Link standard as follows:
 
-Jolloin esimerkiksi muodostuu: <code>https://id.rt.fi/ba34cf17-0c4b-4c6f-9295-cae05aa74ad4</code>
+```https://<Domain Name>/<GUID>```  
 
-## 4 Automaattinen tunnistaminen ja tiedonkantajat
-Tuoteyksilöinnin lisäksi on valittava käytettävä tunnistusteknologia ja tiedonkantaja, jotka mahdollistavat niiden koneellisen luennan. Tunnistusteknologian valinnassa tulee huomioida käyttötarkoituksen ja olosuhteiden asettamat vaatimukset. Automaattiseen tunnistamiseen ja tiedonkeruuseen tarkoitettuihin GS1-tietokantajiin voidaan tallentaa erilaisia tietomääriä eri liiketoimintaprosesseja ja kaupankäynnin vaatimuksia varten. GS1-tietokantajiin koodatut tiedot eivät ainoastaan yksilöi tuotteita yksiselitteisesti kaikilla Tuoteyksilöinnin hierarkia tasoilla, vaan ne tarjoavat myös pääsyn tuotetietoihin ja näkyvyyden tuotteiden liikkeisiin toimitusketjussa.  
+For example, this results in: <code>https://id.rt.fi/ba34cf17-0c4b-4c6f-9295-cae05aa74ad4</code>
 
-Betonielementtien tuotetunnistamisen minimitietovaatimusten välittämisessä soveltamisohje suosittelee vähintään optiseen tunnistamiseen perustuvan 2D-koodin lisäämistä elementin tuote-etikettiin valmistuksen yhteydessä. GS1-standardissa vaihtoehdot tähän ovat GS1 DataMatrix -koodi sekä QR-koodi GS1 Digital Link -standardin mukaisella tietosisällöllä. Elementin tuote-etiketissä käytettävän 2D-koodin rinnalla, voidaan käyttää myös RFID-teknologiaan perustuvaa koneluettavaa tiedonkantajaa, joko elementin tuote-etiketissä tai betonielementtiin valettuna. Kuvassa 1 on esitetty tiedonkantajien käyttöä ja merkintää betonielementtien osalta.
+## 4 Automatic identification and data capture
+In addition to Unique Product Identification (UPID), suitable Automatic Identification and Data Capture (AIDC) technology must be selected to enable machine readability and facilitate the digitalization of supply chain management. When selecting AIDC technology, the requirements set by the intended use and environmental conditions must be considered. GS1 Data Carriers for automatic identification and data capture (AIDC) can store varying amounts of information to meet the needs of different business processes and trade requirements. The data encoded into GS1 data carriers not only uniquely identify products at all levels of the Product Identification Hierarchy but also provide access to product information and visibility into product movements within the supplychain.  
 
-Tässä soveltamisohjeessa on kuvattu tuotetunnistusta GS1 DataMatrix -koodin avulla, joka soveltuu BETK-työryhmässä määritettyyn käyttötarkoitukseen. Vaihtoehtona on esitelty lyhyesti myös GS1 Digital Link -standardin mukainen QR-koodi ja sen hyödyntämisen mahdollisuuksista on tarvittaessa saatavissa lisätietoa GS1 Finlandilta.  
+To convey the minimum data requirements for the product identification of precast concrete elements, the implementation guideline recommends at least adding a 2D code based on optical recognition to the product label during manufacturing. According to the GS1 standard, the options for this are a GS1 DataMatrix code or a QR code with data content compliant with the GS1 Digital Link standard. Alongside the 2D code used on the product label, machine-readable data carriers based on RFID technology can also be utilized, either on the product label or embedded into the precast concrete element. Figure 1 illustrates the use and marking of data carriers for precast concrete elements.
+
+This implementation guideline describes product identification using the GS1 DataMatrix code, which is suitable for the use cases defined by the BETK working group. As an alternative, the QR code compliant with the GS1 Digital Link standard is also briefly introduced, and additional information about its potential applications can be obtained from GS1 Finland, if needed.  
 
 ![2025-06-23_Kuva1](https://github.com/user-attachments/assets/f1e26ff8-63e8-48e5-8808-ce45a36583b8)
 
