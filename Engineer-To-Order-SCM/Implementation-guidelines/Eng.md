@@ -77,7 +77,7 @@ Precast concrete elements are inherently Make-To-Order (MTO) and Engineer-To-Ord
 
 Thus, a GTIN alone does not uniquely identify a specific product but rather represents a general category of possible product variations that may be manufactured based on the order.
 
-![2025-06-23_Kuva3](https://github.com/user-attachments/assets/9fa68e30-01da-458f-8cb4-9c80be84a9bb)
+![2025-06-25_ENG_Kuva2](https://github.com/user-attachments/assets/a455ff89-249d-478b-839a-35d94ed953db)
 
 ###### Figure 1.  Hierarchical levels of product identification for more precise identification
 
@@ -190,7 +190,7 @@ By combining a Domain Name with other identification information, additional det
 
 This document defines two methods for combining a Domain Name with other identification information to form a URL. The resulting URL conforms to the GS1 Digital Link standard or the IEC 61406 standard. 
 
-#### 3.8.1 GS1 Digital Link URL-osoitteen muodostaminen
+#### 3.8.1 Generating a GS1 Digital Link URL
 **GS1 Digital Link** is a GS1 standard for automatic identification and data capture (AIDC) that specifies how a domain name can be used to assign a URL to a product. However, GS1 has not yet defined how a domain name can be written into an RFID tag to specify GS1 Digital Link at an individual level. (This specification is under development at GS1, but for now, BETK follows its own method.)
 
 
@@ -216,7 +216,7 @@ To convey the minimum data requirements for the product identification of precas
 
 This implementation guideline describes product identification using the GS1 DataMatrix code, which is suitable for the use cases defined by the BETK working group. As an alternative, the QR code compliant with the GS1 Digital Link standard is also briefly introduced, and additional information about its potential applications can be obtained from GS1 Finland, if needed.  
 
-![2025-06-23_Kuva1](https://github.com/user-attachments/assets/f1e26ff8-63e8-48e5-8808-ce45a36583b8)
+![2025-06-25_eng_Kuva1](https://github.com/user-attachments/assets/ae613273-30f1-420a-a237-4efdf57d800e)
 
 ###### Figure 2. Automatic identification and data capture via GS1 Data Carriers
 The most efficient AIDC carrier for precast concrete elements has been found to be a passive EPC/RFID Gen-2 UHF tag, which enables the identification number of the element to be read effectively from several meters away without a direct line of sight to the tag itself.
