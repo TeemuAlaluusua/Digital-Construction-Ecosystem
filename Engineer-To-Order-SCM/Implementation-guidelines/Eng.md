@@ -2,7 +2,7 @@
 
 **Engineer-To-Order Construction products**  
 >Publisher: Rakennusteollisuus ry\
->Release: 23.6.2025  
+>Release: 27.6.2025  
 Versio: 1.3  
 Status: Released
 
