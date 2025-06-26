@@ -654,4 +654,6 @@ https://ref.gs1.org/standards/resolver/
 **[11]** ISO/IEC 9834-8:2014 - Information technology
 
 ## Annex 1
-![20250109_BETK Soveltamisohje_Tuoteyksilöinti ja -tunnistaminen (1)_1](https://github.com/user-attachments/assets/a815804d-46ae-49bf-bf53-827eaab8e0c9)
+![RFID asemointi eng_2](https://github.com/user-attachments/assets/bf11d63b-38e4-407b-9a6e-29cfe5014db4)
+
+
