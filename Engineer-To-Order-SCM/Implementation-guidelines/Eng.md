@@ -12,12 +12,12 @@ Status: Released
 <details> 
 <Summary>Log of changes</Summary>
  
-| **Release**| **Date of change**| **Changed by**  |**Summary of change**                              |
-|------------|-------------------|-----------------|---------------------------------------------------|
-| 1.0        | 2024-12-10        |TAla             | Asiakirja julkaistu                               |
-| 1.1        | 2024-12-16        |TAla             | Added missing information and corrected typos     |
-| 1.2        | 2025-01-09        |TAla             | Added missing information and corrected typos     |
-| 1.3        | 2025-06-17        |TAla             | Added missing information and corrected typos     |
+| **Release**| **Date of change**| **Changed by**  |**Summary of change**                           |
+|------------|-------------------|-----------------|------------------------------------------------|
+| 1.0        | 2024-12-10        |TAla             | Document released                              |
+| 1.1        | 2024-12-16        |TAla             | Added missing information and corrected typos  |
+| 1.2        | 2025-01-09        |TAla             | Added missing information and corrected typos  |
+| 1.3        | 2025-06-17        |TAla             | Corrected typos                                |
 </details>
 
 <details> 
