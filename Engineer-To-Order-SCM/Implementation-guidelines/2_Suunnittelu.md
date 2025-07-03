@@ -98,7 +98,7 @@ Elementin tyyppi, kuvaus (Sokkelipalkki jne)
 </td>
         </tr>
         <tr>
-            <td rowspan="67">Sallitut arvot</td>
+            <td rowspan="3">Sallitut arvot</td>
             <td><code>A</code></td>
             <td>Anturaelementti</td>
         </tr>
@@ -106,32 +106,9 @@ Elementin tyyppi, kuvaus (Sokkelipalkki jne)
             <td>PH</td>
             <td>Pilariholkkielementti</td>
         </tr>
-       <tr>
-            <td>3 = GS1 GCP of 9 digits and 4 digits in item number + indicator</td>
-        </tr>
-       <tr>
-            <td>4 = GS1 GCP of 8 digits and 5 digits in item number + indicator</td>
-        </tr>
-        <tr>
-            <td>5 = GS1 GCP of 7 digits and 6 digits in item number + indicator</td>
-        </tr>
-        <tr>
-            <td> 6 = GS1 GCP of 6 digits and 7 digits in item number + indicator</td>
-        </tr>
-         <tr>
-          <td>GS1 Company Prefix (GS1 GCP)</td>
-          <td><code>N…11</code></td>
-          <td>GS1 GCP: 6,7,8,9,10 or 11 digits</td>
-         </tr>
-        <tr>
-          <td>Item number</td>
-          <td><code>N…7</code></td>
-          <td>Depending on the number of digits in GS1 GCP. 1–7 digits</td>
-        </tr>
-         <tr>
-          <td>Serial number </td>
-          <td><code>N…12</code></td>
-          <td>Up to 12 digits (hiqhest allowable value = 274 877 906 943) A fixed number of digits is chosen for serial number, it must not be 12 digits. You choose as many as needed. Leading zero is not allowed</td>
+      <tr>
+            <td>AN</td>
+            <td>Sokkelielementti (ei-kantava)</td>
         </tr>
     </tbody>
 </table>
