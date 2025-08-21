@@ -2,7 +2,7 @@
 
 **Tilauksesta suunniteltavat rakennustuotteet**  
 >Julkaisija: Rakennusteollisuus ry\
->Päivämäärä: 4.7.2025  
+>Päivämäärä: 21.8.2025  
 Versio: 1.3  
 Status: Luonnos
 
@@ -17,7 +17,7 @@ Status: Luonnos
 | 0.1        | 2024-12-30        |TAla             | Asiakirjan luonnos                             |
 | 0.2        | 2025-02-25        |anpekk           | Tekstiosuuksia täydennetty                     |
 | 0.3        | 2025-01-09        |anpekk           | Tekstiosuuksia täydennetty                     |
-| 0.4        | 2025-06-17        |anpekk           | NCC ja Consoliksen kommentit huomioitu         |
+| 0.4        | 2025-06-17        |anpekk           | YIT, NCC ja Consoliksen kommentit huomioitu    |
 </details>
 
 <details> 
@@ -123,17 +123,229 @@ Raudoitustietokentästä valitaan elementtityypin raudoitustyyppitieto. Descript
 #### 3.1.4 Pintakäsittely
 Pintakäsittely-tietokenttään merkitään tarjousvaiheessa elementin ulkokuoren pintakäsit-tely. Jos samassa elementissä useampaa pintakäsittelyä käytetään tarvittaessa arvoja PK2, PK3 tarkentamaan tyypitystä. Toteutusvaiheessa käytetään BY40 mukaista koodausta, ks. kohta 4. 
 
+<html>
+<body>
+  <table>
+     <thead>
+      <tr>
+        <th scope="row">Tietosisältötarve</th>
+        <td colspan="2">PINTAKÄSITTELY</td>
+      </tr>
+      <tr>
+        <th scope="row">Rajaukset</th>
+        <td colspan="2">–</td>
+      </tr>
+      <tr>
+        <th scope="row">PropertySet</th>
+        <td colspan="2">BETK-Hankinta</td>
+      </tr>
+      <tr>
+        <th scope="row">Property</th>
+        <td colspan="2">Pintakäsittely</td>
+      </tr>
+          <th rowspan="30">Sallitut arvot<br>(Option list)</th>
+      <td colspan="2">PK1</td>
+     </tr>
+    <tr>
+      <td rowspan="9">(Enumerated options if selected)</td>
+      <td>01 Muottia vasten valettu pinta, harmaa</td>
+    </tr>
+       <tr>
+         <td>02 Valkoinen väribetonipinta</td>
+         </tr>
+      <tr>
+         <td>03 Tiililaattapinta (poltetut tiilet)</td>
+         </tr>
+      <tr>
+         <td>04 Hienopesty pinta</td>
+         </tr>
+      <tr>
+         <td>05 Valukalvon päälle valettu pesubetonipinta</td>
+         </tr>
+      <tr>
+         <td>06 Musta väribetonipinta</td>
+         </tr>
+      <tr>
+         <td>07 Punainen väribetonipinta</td>
+         </tr>
+      <tr>
+         <td>08 Uritettu pinta</td>
+         </tr>
+      <tr>
+         <td>09 Muu pinta</td>
+         </tr>
+      <tr>
+      <td colspan="2">PK2</td>
+      </tr>
+          <td rowspan="9">(Enumerated options if selected)</td>
+      <td>01 Muottia vasten valettu pinta, harmaa</td>
+    </tr>
+       <tr>
+         <td>02 Valkoinen väribetonipinta</td>
+         </tr>
+      <tr>
+         <td>03 Tiililaattapinta (poltetut tiilet)</td>
+         </tr>
+      <tr>
+         <td>04 Hienopesty pinta</td>
+         </tr>
+      <tr>
+         <td>05 Valukalvon päälle valettu pesubetonipinta</td>
+         </tr>
+      <tr>
+         <td>06 Musta väribetonipinta</td>
+         </tr>
+      <tr>
+         <td>07 Punainen väribetonipinta</td>
+         </tr>
+      <tr>
+         <td>08 Uritettu pinta</td>
+         </tr>
+      <tr>
+         <td>09 Muu pinta</td>
+         </tr>
+       <tr>
+      <td colspan="2">PK3 - 9 (jos tarvetta)</td>
+      </tr>
+          <td rowspan="9">(Enumerated options if selected)</td>
+      <td>01 Muottia vasten valettu pinta, harmaa</td>
+    </tr>
+       <tr>
+         <td>02 Valkoinen väribetonipinta</td>
+         </tr>
+      <tr>
+         <td>03 Tiililaattapinta (poltetut tiilet)</td>
+         </tr>
+      <tr>
+         <td>04 Hienopesty pinta</td>
+         </tr>
+      <tr>
+         <td>05 Valukalvon päälle valettu pesubetonipinta</td>
+         </tr>
+      <tr>
+         <td>06 Musta väribetonipinta</td>
+         </tr>
+      <tr>
+         <td>07 Punainen väribetonipinta</td>
+         </tr>
+      <tr>
+         <td>08 Uritettu pinta</td>
+         </tr>
+      <tr>
+         <td>09 Muu pinta</td>
+         </tr>
+    </tbody>
+  </table>
+</body>
+</html>
+
 #### 3.1.5 Vähähiilinen
 Vähähiilinen-tiedon avulla mahdollista erotella tarjousvaiheessa vähähiiliseksi ajattelut tuotteet Kyllä/Ei-valinnalla.
+
+<html>
+<body>
+  <table>
+     <thead>
+      <tr>
+        <th scope="row">Tietosisältötarve</th>
+        <td colspan="2">VÄHÄHIILINEN</td>
+      </tr>
+      <tr>
+        <th scope="row">Rajaukset</th>
+        <td colspan="2">–</td>
+      </tr>
+      <tr>
+        <th scope="row">PropertySet</th>
+        <td colspan="2">BETK-Hankinta</td>
+      </tr>
+      <tr>
+        <th scope="row">Property</th>
+        <td colspan="2">Vähähiilinen</td>
+      </tr>
+          <th rowspan="2">Sallitut arvot<br>(String)</th>
+      <td colspan="2">Ei</td>
+     </tr>
+    <tr>
+      <td>Kyllä</td>
+      <td>Description </td>
+    </tr>
+    </tbody>
+  </table>
+</body>
+</html>
 
 #### 3.1.6 Tyyppielementti
 Kyllä/-Ei-tieto elementistä, joka on varusteltu tietomallissa toteutusta vastaavaksi tyyp-pielementiksi.
 
+<html>
+<body>
+  <table>
+     <thead>
+      <tr>
+        <th scope="row">Tietosisältötarve</th>
+        <td colspan="2">TYYPPIELEMENTTI</td>
+      </tr>
+      <tr>
+        <th scope="row">Rajaukset</th>
+        <td colspan="2">–</td>
+      </tr>
+      <tr>
+        <th scope="row">PropertySet</th>
+        <td colspan="2">BETK-Hankinta</td>
+      </tr>
+      <tr>
+        <th scope="row">Property</th>
+        <td colspan="2">Tyyppielementti</td>
+      </tr>
+          <th rowspan="2">Sallitut arvot<br>(Boolean)</th>
+      <td colspan="2">Ei</td>
+     </tr>
+    <tr>
+      <td>Kyllä</td>
+      <td>Description (piirustustiedosto)</td>
+    </tr>
+    </tbody>
+  </table>
+</body>
+</html>
+      
 #### 3.1.7	Työmaalla käännettävä elementti
 Tieto työmaalla käännettävästä elementistä. Asennustyön hinnoittelua varten tarvittava tieto. Jos ei ole tietoa asennustavasta niin kenttä jätetään tyhjäksi.
 
+<html>
+<body>
+  <table>
+     <thead>
+      <tr>
+        <th scope="row">Tietosisältötarve</th>
+        <td colspan="2">KÄÄNTÖKIVI</td>
+      </tr>
+      <tr>
+        <th scope="row">Rajaukset</th>
+        <td colspan="2">–</td>
+      </tr>
+      <tr>
+        <th scope="row">PropertySet</th>
+        <td colspan="2">BETK-Hankinta</td>
+      </tr>
+      <tr>
+        <th scope="row">Property</th>
+        <td colspan="2">Kääntökivi</td>
+      </tr>
+          <th rowspan="2">Sallitut arvot<br>(Boolean)</th>
+      <td colspan="2">Ei</td>
+     </tr>
+    <tr>
+      <td>Kyllä</td>
+      <td>Description</td>
+    </tr>
+    </tbody>
+  </table>
+</body>
+</html>
+
 ## 4	Rakentamiskohteen informaatiomallin tuotetiedot
-Tähän toimitusketjun tuottamat tiedot jotka halutaan tuoda tietomalliin toteutusvaihees-sa.   
+Tähän toimitusketjun tuottamat tiedot jotka halutaan tuoda tietomalliin toteutusvaiheessa.   
 
 ## 5	Toimintaohjeita hankkeisiin  
 **Numerointi**   
@@ -147,105 +359,49 @@ Lohko- ja kerrostiedosta erillinen ohje
 **Toimintaohje elementtien revisiointiin**  
 
 
-## Terms and definitions
+## Lyhenteet ja terminologia
 
 <html>
 <table>
     <tbody>
         <tr>            
-          <td>Applicator</td>
-          <td>A device that prints and applies an RFID tag to a product</td>
+          <td>Alkuperäisformaatti</td>
+          <td>Mallinnusohjelman oma tallennusformaatti. Alan julkaisuissa käytetään tälle synonyyminä käsitteitä natiivimalli tai natiiviformaatti.</td>
         </tr>
         <tr>
-           <td>Electronic Product Code, EPC</td>
-          <td>See EPC Tag Data Standard ISO/IEC 15962 <sup>[7]</sup></td>
+           <td>BIM</td>
+          <td>Rakennuskohteen tietomalli tai tietomallinnus, lyhenne englanninkielisestä käsitteestä Building Information Modeling <sup>[1]</sup></td>
         </tr>
         <tr>
-          <td>EPC-memory</td>
-          <td>The memory of an RFID tag where the EPC is written, serving as the tag's primary memory</td>
+          <td>IFC</td>
+          <td>Rakennusten mallinnuksessa käytetty tuotetietojen siirron kansainvälinen standardi, lyhenne englanninkielisestä käsitteestä Industry Foundation Classes. </td>
         </tr>
          <tr>
-          <td>Engineer-To-Order, ETO </td>
-          <td>Engineer-To-Order (ETO) refers to a manufacturing logic where products are designed and engineered to meet specific customer orders</td>
+          <td>UDA</td>
+          <td>Suunnitteluohjelmistoissa mallin objekteille talletettavaa liitännäistietoa (metatieto), lyhenne englanninkielisestä käsitteestä User Defined Attribute.</td>
         </tr>
         <tr>
-          <td>GS1 DataMatrix</td>
-          <td>A GS1-compliant 2D code that can encode more information than a traditional EAN barcode. Complies with ISO/IEC 16022</td>
+          <td>PropertySet</td>
+          <td>Rakentamisalalla on yleisesti käytössä ”Property Set” -termi. Tässä dokumentissa käytetään termiä ”Ominaisuusryhmä”, jotta termi on helpommin ymmärrettävissä ja päästään eroon vieraskielisestä termistä. Ominaisuusryhmien tarkka määrittäminen mahdollistaa ominaisuuksien ryhmittelyn ihmiselle sopiviin kokonaisuuksiin. Usealla ominaisuusryhmällä vältetään myös ominaisuuksien pitkä listaus yhdessä ”kaiken kattavassa” ominaisuusryhmässä. </td>
         </tr>
            <tr>
-          <td>GS1 Application Identifier, AI</td>
-          <td>GS1 Application Identifiers (AI) are 2- to 4-digit codes used in GS1-128, GS1 DataMatrix, and GS1 DataBar barcodes, as well as in EPC/RFID tags</td>
-        </tr>
-         <tr>
-          <td>Global Trade Item Number, GTIN</td>
-          <td>Global Trade Item Number (GTIN) is a GS1 product identification standard. <sup>[8]</sup> <sup>[9]</sup></td>
-        </tr>
-        <tr>
-          <td>GUID</td>
-          <td>Globally Unique Identifier (GUID) is a unique identifier assigned to each part by a modeling program or generated by other means. It is also known as a Universally Unique Identifier (UUID). <sup>[10]</sup> <sup>[11]</sup></td>
-        </tr>
-           <tr>
-          <td>Make-To-Order, MTO</td>
-          <td>Make-To-Order or Made-To-Order (MTO) refers to demand-driven production where products are manufactured based on customer orders, using predefined product designs</td>
-        </tr>
-         <tr>
-          <td>Radio Frequency Identificatio, RFID</td>
-          <td>Automatic Identification and Data Capture (AIDC) carrier that consists of a microchip, which stores and processes data, and an antenna, which transmits and receives signals</td>
-        </tr>
-        <tr>
-          <td>Serial Global Trade Item Number, SGTIN</td>
-          <td>A combination of a GTIN code and a serial number that allows identical product units to be distinguished from one another</td>
-        </tr>
-     <tr>
-          <td>User memory</td>
-          <td>A section of an RFID tag's memory that can be used to store additional, user-defined data beyond the standard identification information. This memory is typically writable and customizable to meet specific application needs</td>
-        </tr>
-     <tr>
-          <td>UHF Tag</td>
-          <td>Ultra-high-frequency RFID tag operating within the 850–960 MHz range, commonly used for longrange and high-speed data transfer applications</td>
-        </tr>
-     <tr>
-          <td>Uniform Resource Identifier, URI</td>
-          <td>is an identifier for information located on a network. A URL is always a URI, but a URI is not necessarily a URL. For example: <code>https://rt.fi</code> tai <code>urn:ISBN:952-9842-34-1</code></td>
-        </tr>
-     <tr>
-          <td>Uniform Resource Locator, URL</td>
-          <td>URL  includes the necessary information for retrieving the resource, such as the protocol (e.g., HTTPS) and the server. For example: <code>https://rt.fi</code></td>
-        </tr>
-     <tr>
-          <td>Domain Name</td>
-          <td>A domain name is a string of characters that is mapped to a specific IP address or server on the internet. For example: <code>www.iso.org</code></td>
+          <td>Property</td>
+          <td>Rakentamisalalle on vakiintunut ”Property” -termin käyttö. Tässä dokumentissa käytetään termiä ”Ominaisuus”, jotta termi on helpommin ymmärrettävissä ja päästään eroon vieraskielisestä termistä. Ominaisuuksien tarkka määrittäminen mahdollistaa vakioidun tietorakenteen. </td>
         </tr>
     </tbody>
 </table>
 </html>
 
 
-## References
+## Viittaukset
 **[1]** GS1 (2022), Recommendation for the use of EPC and ISO RFID symbols   
 
 **[2]** ISO/IEC 29160:2020, Information technology — Radio frequency identification. Available: https://www.iso.org  
 
-**[3]** ISO 7000-3010:2020, RFID-tag. Available: https://www.iso.org/obp/ui#iso:grs:7000:3010 
 
-**[4]** GS1 (2023), GTIN Management Guideline for Construction Products. Available: https://www.gs1.org/standards/gtin-management-guideline-construction-products/current-standard#2-GTIN-Management-Rule-examples-for-construction-products+2-2-Declared-formulation-or-functionality.  
-
-**[5]** GS1 (2024), GS1 Application Identifiers. Available: https://ref.gs1.org/ai/. 
-
-**[6]** GS1 Norway (2018), Guideline for Unique identification of products with SGTIN (serialized GTIN). Labelling with GS1Datamatrix barcode and tagging with EPC / RFID Gen 2 UHF RFID tags. 
-
-**[7]** ISO/IEC 15962:2022, EPC Tag Data Standard. Available: https://ref.gs1.org/ai/. 
-
-**[8]** ISO/IEC 15459-6:2014 - Unique identification
-
-**[9]** ISO/IEC 6523-1:2023: - Information technology – Structure for the identification of organizations and organization parts
-
-**[10]** ISO/IEC 11578:1996 Information technology - Open Systems Interconnection - Remote Procedure Call (RPC)
-
-**[11]** ISO/IEC 9834-8:2014 - Information technology
 
 ## Annex 1
-![RFID asemointi eng_3](https://github.com/user-attachments/assets/28703611-f01b-4721-930a-d60a53179d4a)
+
 
 
 
