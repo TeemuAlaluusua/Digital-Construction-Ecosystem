@@ -433,99 +433,52 @@ Raudoitustietokentästä valitaan elementtityypin raudoitustyyppitieto. Descript
       </tr>
       <tr>
         <th scope="row">Property</th>
-        <td colspan="2"><b>Raudoitus 1, koodi<br>Raudoitus 1, kuvaus<br>Raudoitus 2, koodi</b><br>Raudoitus 2, kuvaus</b></td>
+        <td colspan="2"><b>Raudoitus 1, koodi<br>Raudoitus 1, kuvaus<br>Raudoitus 2, koodi<br>Raudoitus 2, kuvaus</b></td>
       </tr>
-          <th rowspan="30">Sallitut arvot<br>(Option list)</th>
-      <td colspan="2">PK1</td>
+          <th rowspan="10">Sallitut arvot<br>(Option list/String UDA)</th>
+      <td>R1</td>
+      <td>Description</td>
      </tr>
     <tr>
-      <td rowspan="9">(Enumerated options if selected)</td>
-      <td>01 Muottia vasten valettu pinta, harmaa</td>
-    </tr>
-       <tr>
-         <td>02 Valkoinen väribetonipinta</td>
-         </tr>
-      <tr>
-         <td>03 Tiililaattapinta (poltetut tiilet)</td>
-         </tr>
-      <tr>
-         <td>04 Hienopesty pinta</td>
-         </tr>
-      <tr>
-         <td>05 Valukalvon päälle valettu pesubetonipinta</td>
-         </tr>
-      <tr>
-         <td>06 Musta väribetonipinta</td>
-         </tr>
-      <tr>
-         <td>07 Punainen väribetonipinta</td>
-         </tr>
-      <tr>
-         <td>08 Uritettu pinta</td>
-         </tr>
-      <tr>
-         <td>09 Muu pinta</td>
-         </tr>
-      <tr>
-      <td colspan="2">PK2</td>
-      </tr>
-          <td rowspan="9">(Enumerated options if selected)</td>
-      <td>01 Muottia vasten valettu pinta, harmaa</td>
-    </tr>
-       <tr>
-         <td>02 Valkoinen väribetonipinta</td>
-         </tr>
-      <tr>
-         <td>03 Tiililaattapinta (poltetut tiilet)</td>
-         </tr>
-      <tr>
-         <td>04 Hienopesty pinta</td>
-         </tr>
-      <tr>
-         <td>05 Valukalvon päälle valettu pesubetonipinta</td>
-         </tr>
-      <tr>
-         <td>06 Musta väribetonipinta</td>
-         </tr>
-      <tr>
-         <td>07 Punainen väribetonipinta</td>
-         </tr>
-      <tr>
-         <td>08 Uritettu pinta</td>
-         </tr>
-      <tr>
-         <td>09 Muu pinta</td>
-         </tr>
-       <tr>
-      <td colspan="2">PK3 - 9 (jos tarvetta)</td>
-      </tr>
-          <td rowspan="9">(Enumerated options if selected)</td>
-      <td>01 Muottia vasten valettu pinta, harmaa</td>
-    </tr>
-       <tr>
-         <td>02 Valkoinen väribetonipinta</td>
-         </tr>
-      <tr>
-         <td>03 Tiililaattapinta (poltetut tiilet)</td>
-         </tr>
-      <tr>
-         <td>04 Hienopesty pinta</td>
-         </tr>
-      <tr>
-         <td>05 Valukalvon päälle valettu pesubetonipinta</td>
-         </tr>
-      <tr>
-         <td>06 Musta väribetonipinta</td>
-         </tr>
-      <tr>
-         <td>07 Punainen väribetonipinta</td>
-         </tr>
-      <tr>
-         <td>08 Uritettu pinta</td>
-         </tr>
-      <tr>
-         <td>09 Muu pinta</td>
-         </tr>
+        <td>R1</td>
+      <td>Description</td>
+     </tr>
+        <tr>
+        <td>R2</td>
+      <td>Description</td>
+     </tr>
+        <tr>
+        <td>R3</td>
+      <td>Description</td>
+     </tr>
+        <tr>
+        <td>R4</td>
+      <td>Description</td>
+     </tr>
+        <tr>
+        <td>R5</td>
+      <td>Description</td>
+     </tr>
+        <tr>
+        <td>R6</td>
+      <td>Description</td>
+     </tr>
+        <tr>
+        <td>R7</td>
+      <td>Description</td>
+     </tr>
+        <tr>
+        <td>R8</td>
+      <td>Description</td>
+     </tr>
+        <tr>
+        <td>R9</td>
+      <td>Description</td>
+     </tr>
+        <tr>
+        <td>Ei asetettu</td>
+        <td></td>
+     </tr>
     </tbody>
   </table>
 </body>
