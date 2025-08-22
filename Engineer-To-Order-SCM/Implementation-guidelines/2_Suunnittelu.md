@@ -142,7 +142,7 @@ Elementin tyyppi, kuvaus (Sokkelipalkki jne)
 </td>
         </tr>
         <tr>
-            <td rowspan="3">Sallitut arvot</td>
+            <td rowspan="3">Sallitut arvot<br>(Enumerated options)</td>
             <td><code>A</code></td>
             <td>Anturaelementti</td>
         </tr>
@@ -153,6 +153,14 @@ Elementin tyyppi, kuvaus (Sokkelipalkki jne)
       <tr>
             <td>AN</td>
             <td>Sokkelielementti (ei-kantava)</td>
+        </tr>
+     <tr>
+            <td>AS</td>
+            <td>Sokkelielementti (kantava)</td>
+        </tr>
+      <tr>
+            <td>AS</td>
+            <td>Sokkelielementti (kantava)</td>
         </tr>
     </tbody>
 </table>
