@@ -435,7 +435,7 @@ Raudoitustietokentästä valitaan elementtityypin raudoitustyyppitieto. Descript
         <th scope="row">Property</th>
         <td colspan="2"><b>Raudoitus 1, koodi<br>Raudoitus 1, kuvaus<br>Raudoitus 2, koodi<br>Raudoitus 2, kuvaus</b></td>
       </tr>
-          <th rowspan="10">Sallitut arvot<br>(Option list/String UDA)</th>
+          <th rowspan="11">Sallitut arvot<br>(Option list/String UDA)</th>
       <td>R1</td>
       <td>Description</td>
      </tr>
