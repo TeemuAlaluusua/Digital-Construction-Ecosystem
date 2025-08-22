@@ -71,47 +71,42 @@ Betonielementtien erottamiseen tietomallin muista objekteista voi käyttää Kok
 ###### Taulukko 1.
 
 <html>
-<table>
-    <thead>
-        <tr>             
-         <th colspan="3">IFC tietokentät</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><b>Tietosisältötarve</b></td>
-            <td colspan="2"><b>Elementtityyppi</b></td>
-        </tr>
-          <tr>
-            <td>Rajaukset</td>
-            <td colspan="2">-</td>
-        </tr>
-        <tr>
-            <td>Propertyset</td>
-            <td colspan="2">BETK-hankinta</td>
-        </tr>
-         <tr>
-            <td>Property Attribute</td>
-            <td colspan="2">Sallitut arvot jaetaan kahteen ominaisuuskenttään:  
-Elementin tyyppi, koodi ( AK jne)
-Elementin tyyppi, kuvaus (Sokkelipalkki jne)
-</td>
-        </tr>
-        <tr>
-            <td rowspan="3">Sallitut arvot</td>
-            <td><code>A</code></td>
-            <td>Anturaelementti</td>
-        </tr>
-        <tr>
-            <td>PH</td>
-            <td>Pilariholkkielementti</td>
-        </tr>
+<body>
+  <table>
+     <thead>
       <tr>
-            <td>AN</td>
-            <td>Sokkelielementti (ei-kantava)</td>
-        </tr>
+        <th scope="row">Tietosisältötarve</th>
+        <td>KOKOONPANON TYYPPI</td>
+      </tr>
+      <tr>
+        <th scope="row">Rajaukset</th>
+        <td>–</td>
+      </tr>
+      <tr>
+        <th scope="row">PropertySet</th>
+        <td>BETK</td>
+      </tr>
+      <tr>
+        <th scope="row">Property<br>Attribute</th>
+        <td>Tyyppielementti</td>
+      </tr>
+          <th rowspan="5">Sallitut arvot</th>
+      <td>BETONIELEMENTTI</td>
+     </tr>
+    <tr>
+      <td>PAIKALLAVALU</td>
+     <tr>
+      <td>PUUKOKOONPANO</td>
+      </tr>
+      <tr>
+      <td>TERÄSKOKOONPANO</td>
+       </tr>
+      <tr>
+      <td>EI ASETETTU</td>
+    </tr>
     </tbody>
-</table>
+  </table>
+</body>
 </html>
 
 #### 3.1.2 Elementtityyppi
