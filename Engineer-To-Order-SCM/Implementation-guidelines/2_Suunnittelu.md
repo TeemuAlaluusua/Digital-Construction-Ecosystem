@@ -142,7 +142,7 @@ Elementin tyyppi, kuvaus (Sokkelipalkki jne)
 </td>
         </tr>
         <tr>
-            <td rowspan="60">Sallitut arvot<br>(Enumerated options)</td>
+            <td rowspan="67">Sallitut arvot<br>(Enumerated options)</td>
             <td><code>A</code></td>
             <td>Anturaelementti</td>
         </tr>
