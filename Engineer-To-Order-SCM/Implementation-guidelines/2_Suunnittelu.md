@@ -413,8 +413,128 @@ Elementin tyyppi, kuvaus (Sokkelipalkki jne)
 #### 3.1.3 Raudoitus
 Raudoitustietokentästä valitaan elementtityypin raudoitustyyppitieto. Description-kentässä tarkempi kuvaus. Esim R1 ja 2T10 ymp tai R2 ja 2T10 ymp , #10-200 mp. Tarvittaessa hankkeessa käytetyt raudoituskoodit voi tarkentaa erillisessä mallin mukana toimitettavassa dokumentissa. Esimerkkitaulukot raudoitustiedosta tarjousvaiheessa ohjeen lopussa. 
 
+###### Taulukko 3. 
+
+<html>
+<body>
+  <table>
+     <thead>
+      <tr>
+        <th scope="row">Tietosisältötarve</th>
+        <td colspan="2">RAUDOITUS</td>
+      </tr>
+      <tr>
+        <th scope="row">Rajaukset</th>
+        <td colspan="2">–</td>
+      </tr>
+      <tr>
+        <th scope="row">PropertySet</th>
+        <td colspan="2">BETK-Hankinta</td>
+      </tr>
+      <tr>
+        <th scope="row">Property</th>
+        <td colspan="2"><b>Raudoitus 1, koodi<br>Raudoitus 1, kuvaus<br>Raudoitus 2, koodi</b><br>Raudoitus 2, kuvaus</b></td>
+      </tr>
+          <th rowspan="30">Sallitut arvot<br>(Option list)</th>
+      <td colspan="2">PK1</td>
+     </tr>
+    <tr>
+      <td rowspan="9">(Enumerated options if selected)</td>
+      <td>01 Muottia vasten valettu pinta, harmaa</td>
+    </tr>
+       <tr>
+         <td>02 Valkoinen väribetonipinta</td>
+         </tr>
+      <tr>
+         <td>03 Tiililaattapinta (poltetut tiilet)</td>
+         </tr>
+      <tr>
+         <td>04 Hienopesty pinta</td>
+         </tr>
+      <tr>
+         <td>05 Valukalvon päälle valettu pesubetonipinta</td>
+         </tr>
+      <tr>
+         <td>06 Musta väribetonipinta</td>
+         </tr>
+      <tr>
+         <td>07 Punainen väribetonipinta</td>
+         </tr>
+      <tr>
+         <td>08 Uritettu pinta</td>
+         </tr>
+      <tr>
+         <td>09 Muu pinta</td>
+         </tr>
+      <tr>
+      <td colspan="2">PK2</td>
+      </tr>
+          <td rowspan="9">(Enumerated options if selected)</td>
+      <td>01 Muottia vasten valettu pinta, harmaa</td>
+    </tr>
+       <tr>
+         <td>02 Valkoinen väribetonipinta</td>
+         </tr>
+      <tr>
+         <td>03 Tiililaattapinta (poltetut tiilet)</td>
+         </tr>
+      <tr>
+         <td>04 Hienopesty pinta</td>
+         </tr>
+      <tr>
+         <td>05 Valukalvon päälle valettu pesubetonipinta</td>
+         </tr>
+      <tr>
+         <td>06 Musta väribetonipinta</td>
+         </tr>
+      <tr>
+         <td>07 Punainen väribetonipinta</td>
+         </tr>
+      <tr>
+         <td>08 Uritettu pinta</td>
+         </tr>
+      <tr>
+         <td>09 Muu pinta</td>
+         </tr>
+       <tr>
+      <td colspan="2">PK3 - 9 (jos tarvetta)</td>
+      </tr>
+          <td rowspan="9">(Enumerated options if selected)</td>
+      <td>01 Muottia vasten valettu pinta, harmaa</td>
+    </tr>
+       <tr>
+         <td>02 Valkoinen väribetonipinta</td>
+         </tr>
+      <tr>
+         <td>03 Tiililaattapinta (poltetut tiilet)</td>
+         </tr>
+      <tr>
+         <td>04 Hienopesty pinta</td>
+         </tr>
+      <tr>
+         <td>05 Valukalvon päälle valettu pesubetonipinta</td>
+         </tr>
+      <tr>
+         <td>06 Musta väribetonipinta</td>
+         </tr>
+      <tr>
+         <td>07 Punainen väribetonipinta</td>
+         </tr>
+      <tr>
+         <td>08 Uritettu pinta</td>
+         </tr>
+      <tr>
+         <td>09 Muu pinta</td>
+         </tr>
+    </tbody>
+  </table>
+</body>
+</html>
+
 #### 3.1.4 Pintakäsittely
 Pintakäsittely-tietokenttään merkitään tarjousvaiheessa elementin ulkokuoren pintakäsit-tely. Jos samassa elementissä useampaa pintakäsittelyä käytetään tarvittaessa arvoja PK2, PK3 tarkentamaan tyypitystä. Toteutusvaiheessa käytetään BY40 mukaista koodausta, ks. kohta 4. 
+
+###### Taulukko 4.
 
 <html>
 <body>
@@ -535,6 +655,8 @@ Pintakäsittely-tietokenttään merkitään tarjousvaiheessa elementin ulkokuore
 #### 3.1.5 Vähähiilinen
 Vähähiilinen-tiedon avulla mahdollista erotella tarjousvaiheessa vähähiiliseksi ajattelut tuotteet Kyllä/Ei-valinnalla.
 
+###### Taulukko 5. 
+
 <html>
 <body>
   <table>
@@ -570,6 +692,8 @@ Vähähiilinen-tiedon avulla mahdollista erotella tarjousvaiheessa vähähiilise
 #### 3.1.6 Tyyppielementti
 Kyllä/-Ei-tieto elementistä, joka on varusteltu tietomallissa toteutusta vastaavaksi tyyp-pielementiksi.
 
+###### Taulukko 6. 
+
 <html>
 <body>
   <table>
@@ -604,6 +728,8 @@ Kyllä/-Ei-tieto elementistä, joka on varusteltu tietomallissa toteutusta vasta
       
 #### 3.1.7	Työmaalla käännettävä elementti
 Tieto työmaalla käännettävästä elementistä. Asennustyön hinnoittelua varten tarvittava tieto. Jos ei ole tietoa asennustavasta niin kenttä jätetään tyhjäksi.
+
+###### Taulukko 7. 
 
 <html>
 <body>
