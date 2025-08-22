@@ -45,7 +45,7 @@ Tällä hetkellä rakennushankkeen tietomallit ovat yleinen osa hankkeen tarjous
 
 IFC-tietomallistandardissa rakenneosien tunnistamiseksi objekteille voidaan määrittää IFC-luokkia, kuten esimerkiksi ifcwall. Useilla IFC-luokilla on lisäksi PredefinedType-ominaisuus, joka tarkentaa luokan tyyppiä. Esimerkiksi ifcwall-luokka voi sisältää Predefi-nedType-arvoja, kuten "standard" tai "movable". Standardissa määriteltyjen luokittelui-den tarkkuustaso riittää karkeaan luokitteluun, mutta ei mahdollista riittävän tarkkaa tunnistamista määrä- ja kustannuslaskentaa varten. Tämän vuoksi tarvitaan lisäattribuut-teja, jotta tietomallin avulla saavutetaan vaadittava tarkkuustaso. Ohjeessa kuvattu rat-kaisusta on tehty myös esimerkki malli Tekla Structures-ohjelmassa ja mallista IFC-tiedosto, eli ratkaisu on myös toteuttamiskelpoinen nykyisillä ohjelmistoilla.
 
-Tämä soveltamisohje on tehty osana Rakennusteollisuus RT:n tuotetiedon ja toimitusket-jun digitalisoinnin kehityshanketta, BETK-työryhmän toimesta. Kehityshankkeen ensisijai-nen tavoite on edistää rakennusalan tuotteiden toimitusketjun hallinnan menetelmien siirtymistä manuaalisesta ja rakenteettomasta tiedonvaihdosta täysin rakenteelliseen ja koneluettavaan tiedonvaihtoon. Asiakirja on jatkuvasti päivittyvä ja sitä kehitetään edel-leen Rakennusteollisuus RT:n kehityshankkeen havaintojen perusteella. Tätä ohjetta täy-dentävät muut BETK-hankkeen julkaisut:
+Tämä soveltamisohje on tehty osana Rakennusteollisuus RT:n tuotetiedon ja toimitusket-jun digitalisoinnin kehityshanketta, BETK-työryhmän toimesta. Kehityshankkeen ensisijai-nen tavoite on edistää rakennusalan tuotteiden toimitusketjun hallinnan menetelmien siirtymistä manuaalisesta ja rakenteettomasta tiedonvaihdosta täysin rakenteelliseen ja koneluettavaan tiedonvaihtoon. Asiakirja on jatkuvasti päivittyvä ja sitä kehitetään edel-leen Rakennusteollisuus RT:n kehityshankkeen havaintojen perusteella. Tätä ohjetta täydentävät muut BETK-hankkeen julkaisut:
 
 •	BETK Soveltamisohje_Tuoteyksilöinti ja -tunnistaminen[1]
 
@@ -57,10 +57,10 @@ Tämä soveltamisohje on tehty osana Rakennusteollisuus RT:n tuotetiedon ja toim
 
 
 ## 2 Soveltamisohjeen tarkoitus ja rajaukset
-Soveltamisohje keskittyy suunnittelijan tuottaman tietomallin sisällön vakiointiin tarjousvaiheessa. Samalla BEC2012-tietokenttien nimeämistä on tarkennettu ja IFC-malliin kirjoitettavia ominaisuuk-sia määritetty elementtityyppikohtaiseksi tiedonsiirron laadun parantamiseksi ja samalla on tieto-kenttien nimeämisessä pyritty huomioimaan mahdollisesti tulevaisuudessa kehitettävää muiden ra-kenneosien ja materiaalien tunnistamista ja vakiointia. Tiedonsiirron vakiointia on myös kehitetty li-säämällä sallittujen arvojen listauksia tietokenttiin joissa se mahdollista tehdä. Tietokentissä on huomioitu myös tietomallin rikastamista toteutusvaiheessa toimitusketjulta tulevilla tiedoilla.  So-veltamisohjetta täydentävät erillinen taulukko tietokentistä joissa mm. elementtien mittatiedot ja esimerkkitietomalli. Tätä soveltamisohjetta täydentää myös erillinen ohje elementtien yksilöinnistä toimitusketjussa  [1] ja esimerkki malli IFC-muodossa. Tätä soveltamisohjetta voidaan päivittää myöhemmin standardoinnin edetessä. Tämä soveltamisohje ei ota kantaa muuhun tarjouspyyntö aineistoon. 
+Soveltamisohje keskittyy suunnittelijan tuottaman tietomallin sisällön vakiointiin tarjousvaiheessa. Samalla BEC2012-tietokenttien nimeämistä on tarkennettu ja IFC-malliin kirjoitettavia ominaisuuksia määritetty elementtityyppikohtaiseksi tiedonsiirron laadun parantamiseksi ja samalla on tietokenttien nimeämisessä pyritty huomioimaan mahdollisesti tulevaisuudessa kehitettävää muiden rakenneosien ja materiaalien tunnistamista ja vakiointia. Tiedonsiirron vakiointia on myös kehitetty lisäämällä sallittujen arvojen listauksia tietokenttiin joissa se mahdollista tehdä. Tietokentissä on huomioitu myös tietomallin rikastamista toteutusvaiheessa toimitusketjulta tulevilla tiedoilla.  So-veltamisohjetta täydentävät erillinen taulukko tietokentistä joissa mm. elementtien mittatiedot ja esimerkkitietomalli. Tätä soveltamisohjetta täydentää myös erillinen ohje elementtien yksilöinnistä toimitusketjussa  [1] ja esimerkki malli IFC-muodossa. Tätä soveltamisohjetta voidaan päivittää myöhemmin standardoinnin edetessä. Tämä soveltamisohje ei ota kantaa muuhun tarjouspyyntö aineistoon. 
 
 ## 3 Rakentamiskohteen tietomallin tietosisällöt tarjousvaiheessa
-Tarjousvaiheessa tietomallissa käytettävät tietokentät elementtityyppien tunnistamiseen on kuvat-tu alla olevissa taulukoissa. Taulukoiden arvojen lisäksi hankintavaiheessa tarvittavat mitta- ja pin-ta-alojen tietokentät kuvattu erillisessä excel-taulukossa[2]. Excel-taulukossa on myös muita toteu-tusvaiheessa tarvittavia tietokenttiä sallittuine arvoineen
+Tarjousvaiheessa tietomallissa käytettävät tietokentät elementtityyppien tunnistamiseen on kuvattu alla olevissa taulukoissa. Taulukoiden arvojen lisäksi hankintavaiheessa tarvittavat mitta- ja pinta-alojen tietokentät kuvattu erillisessä excel-taulukossa[2]. Excel-taulukossa on myös muita toteu-tusvaiheessa tarvittavia tietokenttiä sallittuine arvoineen
 
 ### 3.1 Elementin tuotetiedot tarjousvaiheessa
 
@@ -68,7 +68,7 @@ Tarjousvaiheessa tietomallissa käytettävät tietokentät elementtityyppien tun
 Betonielementtien erottamiseen tietomallin muista objekteista voi käyttää Kokoonpanon-tyyppi kenttää. 
 
 
-###### Table 10. Applicable Method: SGTIN-96. The SGTIN-96 encoding method is commonly used. However, the TDS 2.1 (EPC Tag Data Standard) also includes other encoding methods, such as SGTIN-198, which can be utilized if there is a need for longer serial numbers or serial numbers that include both letters and numbers.
+###### Taulukko 1.
 
 <html>
 <table>
@@ -116,6 +116,52 @@ Elementin tyyppi, kuvaus (Sokkelipalkki jne)
 
 #### 3.1.2 Elementtityyppi
 Elementtityyppi-tietokenttä tunnistaa mallin eri elementit. Tiedot syötetään tarjouksen yhteydessä ja päivitetään tarvittaessa toteutuksessa, jotta loppuselvityksessä voidaan tehdä tarvittaessa määrälaskenta.
+
+###### Taulukko 2. 
+
+<html>
+<table>
+    <thead>
+        <tr>             
+         <th colspan="3">IFC tietokentät</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><b>Tietosisältötarve</b></td>
+            <td colspan="2"><b>Elementtityyppi</b></td>
+        </tr>
+          <tr>
+            <td>Rajaukset</td>
+            <td colspan="2">-</td>
+        </tr>
+        <tr>
+            <td>Propertyset</td>
+            <td colspan="2">BETK-hankinta</td>
+        </tr>
+         <tr>
+            <td>Property Attribute</td>
+            <td colspan="2">Sallitut arvot jaetaan kahteen ominaisuuskenttään:  
+Elementin tyyppi, koodi ( AK jne)
+Elementin tyyppi, kuvaus (Sokkelipalkki jne)
+</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Sallitut arvot</td>
+            <td><code>A</code></td>
+            <td>Anturaelementti</td>
+        </tr>
+        <tr>
+            <td>PH</td>
+            <td>Pilariholkkielementti</td>
+        </tr>
+      <tr>
+            <td>AN</td>
+            <td>Sokkelielementti (ei-kantava)</td>
+        </tr>
+    </tbody>
+</table>
+</html>
 
 #### 3.1.3 Raudoitus
 Raudoitustietokentästä valitaan elementtityypin raudoitustyyppitieto. Description-kentässä tarkempi kuvaus. Esim R1 ja 2T10 ymp tai R2 ja 2T10 ymp , #10-200 mp. Tarvit-taessa hankkeessa käytetyt raudoituskoodit voi tarkentaa erillisessä mallin mukana toimi-tettavassa dokumentissa   . Esimerkkitaulukot raudoitustiedosta tarjous-vaiheessa ohjeen lopussa. 
