@@ -411,7 +411,7 @@ Elementin tyyppi, kuvaus (Sokkelipalkki jne)
 </html>
 
 #### 3.1.3 Raudoitus
-Raudoitustietokentästä valitaan elementtityypin raudoitustyyppitieto. Description-kentässä tarkempi kuvaus. Esim R1 ja 2T10 ymp tai R2 ja 2T10 ymp , #10-200 mp. Tarvit-taessa hankkeessa käytetyt raudoituskoodit voi tarkentaa erillisessä mallin mukana toimi-tettavassa dokumentissa. Esimerkkitaulukot raudoitustiedosta tarjous-vaiheessa ohjeen lopussa. 
+Raudoitustietokentästä valitaan elementtityypin raudoitustyyppitieto. Description-kentässä tarkempi kuvaus. Esim R1 ja 2T10 ymp tai R2 ja 2T10 ymp , #10-200 mp. Tarvittaessa hankkeessa käytetyt raudoituskoodit voi tarkentaa erillisessä mallin mukana toimitettavassa dokumentissa. Esimerkkitaulukot raudoitustiedosta tarjousvaiheessa ohjeen lopussa. 
 
 #### 3.1.4 Pintakäsittely
 Pintakäsittely-tietokenttään merkitään tarjousvaiheessa elementin ulkokuoren pintakäsit-tely. Jos samassa elementissä useampaa pintakäsittelyä käytetään tarvittaessa arvoja PK2, PK3 tarkentamaan tyypitystä. Toteutusvaiheessa käytetään BY40 mukaista koodausta, ks. kohta 4. 
