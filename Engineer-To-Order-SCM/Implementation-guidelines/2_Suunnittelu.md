@@ -772,8 +772,8 @@ Lohko- ja kerrostiedosta erillinen ohje
 
 
 
-## Annex 1
+## Liite 1
 
-
+### Esimerkkejä raudoitustiedosta betonielementti tehtaan tarjouslaskennassa
 
 
